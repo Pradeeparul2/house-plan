@@ -123,6 +123,7 @@ HomeConstruction.FCStd (Master Document: 612 Objects, 0 Errors)
 c:\Users\prade\OneDrive\Desktop\home plan\
 ├── HomeConstruction.FCStd          # Master FreeCAD 3D parametric BIM model (612 objects)
 ├── walkthrough.md                  # Master Architectural Documentation & 72 Construction Schedules
+├── CONSTRUCTION_COPILOT_SPEC.md    # Construction AI Copilot & Knowledge Base (KB) Master Architecture
 ├── README.md                       # Project overview, methodology & quick start guide
 │
 ├── renders/                        # High-resolution 3D renders & orthographic projections
@@ -150,6 +151,7 @@ c:\Users\prade\OneDrive\Desktop\home plan\
    - Use the **Spacebar** in the Tree View on any master group or sub-group (e.g., `Ground_Floor_Group` or `Master_Plumbing_Network_Group`) to isolate and inspect specific disciplines.
    - Switch to the **TechDraw Workbench** and double-click `Page_Ground_Floor_Plan` to view the fully dimensioned 2D architectural blueprint.
 4. **Consult Specifications:** Refer to [`walkthrough.md`](walkthrough.md) for complete bill-of-quantities (BOQ), conduit coordinate logs, sanitary pipe slope schedules, and structural rebar details.
+5. **AI Construction Copilot & Knowledge Base:** Refer to [`CONSTRUCTION_COPILOT_SPEC.md`](CONSTRUCTION_COPILOT_SPEC.md) for the complete architecture of the mobile-accessible, 24/7 AI site agent, work velocity tracking, and cost prediction engine.
 
 ---
 

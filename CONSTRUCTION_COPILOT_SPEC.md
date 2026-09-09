@@ -17,7 +17,8 @@ The **Construction AI Copilot** is a specialized, zero-hallucination artificial 
 2. **Zero-Hallucination Engineering Accuracy:** Guarantee that critical dimensions (such as the **$186.65\text{ mm}$** staircase risers, **$150\text{ mm}$** toilet sunken floor, and **$3,888\text{ L}$** underground sump) are retrieved deterministically from exact CAD metadata rather than approximated by generative models.
 3. **Multi-Modal Visual Verification:** Complement quantitative answers with high-resolution 3D renders, 2D TechDraw drawings, and isometric cutaways so site personnel can visually verify how assemblies fit together.
 4. **Parametric Cost Estimation & BOQ Engine:** Dynamically calculate material quantities (concrete volume, steel tonnage, brickwork area, pipe lengths) and estimate phase-wise construction costs using customizable local market rates.
-5. **24/7 Cloud Availability with Zero Hosting Costs:** Deploy as a secure, fast, mobile-friendly web application hosted for free on Streamlit Community Cloud, accessible via a laminated QR code at the construction site.
+5. **Private Owner Command Center (Confidential):** Provide password/PIN-protected modules exclusively for the homeowner for daily progress tracking, work velocity prediction, expense logging, and budget overrun forecasts.
+6. **24/7 Cloud Availability with Zero Hosting Costs:** Deploy as a secure, fast, mobile-friendly web application hosted for free on Streamlit Community Cloud, accessible via a laminated QR code at the construction site.
 
 ---
 
@@ -162,41 +163,33 @@ The Copilot runs using **Google Gemini 2.0 / 1.5 Flash** equipped with dynamic t
 
 ---
 
-## 5. Streamlit Application Architecture & UI Layout
+## 5. Role-Based Streamlit Application Architecture & UI Layout
 
-The frontend is a clean, modern **Streamlit Web Application** designed for high usability on mobile phones under outdoor sunlight:
+To ensure confidential financial and schedule data is kept completely private from site workers, the application is bifurcated into **Public Site View** and **Private Owner Command Center**:
 
 ```
 +-----------------------------------------------------------------------------------+
-| 🏗️ HOME CONSTRUCTION AI COPILOT  |  Model: 612 Solids | NBC 2016 Compliant        |
+| 🏗️ RESIDENTIAL CONSTRUCTION COPILOT & PM  | Model: 612 Solids | NBC 2016 Compliant|
 +-----------------------------------------------------------------------------------+
-|  SIDEBAR                |  MAIN NAVIGATION TABS:                                  |
-|  - PIN Security Lock    |  [ 💬 Site Copilot ]        [ 📊 BOQ & Quantities ]     |
-|  - Zone Selector        |  [ 📐 Visual Blueprints ]   [ 📜 Standards & Codes ]    |
-|    • Substructure       |---------------------------------------------------------|
-|    • Ground Floor       |  💬 CHAT INTERFACE:                                     |
-|    • First Floor        |  User: "What is the riser height and tread depth of the |
-|    • Plumbing / MEP     |         staircase? Does it meet building codes?"        |
-|                         |                                                         |
-|  - One-Tap Presets:     |  Copilot:                                               |
-|    • "Column Grid"      |  "The staircase features 17 uniform risers of exactly   |
-|    • "Sump & Septic"    |   186.65 mm (ΔR = 0.0 mm) and a tread going of          |
-|    • "Stair Cadence"    |   224.25 mm (expanded to 276.5–284 mm walkline at the   |
-|    • "Conduit Network"  |   4-winder turnaround). Fully compliant with NBC 2016." |
-|                         |                                                         |
-|  - Project Status:      |  [ 📸 Attached: winder_stairs_steps_detail.png ]        |
-|    612 Solids | Valid   |  [ 🔍 Source: Walkthrough Sec 71 | Object: Stair_Flight ]|
+|  SIDEBAR                |  PUBLIC SITE TABS (Engineers & Contractors):            |
+|  - Role Selector:       |  [ 💬 Site Copilot ]        [ 📊 CAD Object Inventory ] |
+|    • Site Worker (Open) |  [ 📐 Visual Blueprints ]   [ 📜 Standards & Codes ]    |
+|    • Owner Mode (PIN)   |  [ 👷 Daily Site Work Logger ]                          |
+|                         |---------------------------------------------------------|
+|  - One-Tap Presets:     |  PRIVATE OWNER COMMAND TABS (PIN Required):             |
+|    • "Column Grid"      |  [ 💰 Cost Tracking & Ledger ]                          |
+|    • "Sump & Septic"    |  [ ⏱️ Work Velocity & Delay Tracker ]                   |
+|    • "Stair Cadence"    |  [ 🔮 Cost Overrun & Milestone Predictions ]            |
+|    • "Conduit Network"  |  [ 📸 Pre-Plaster As-Built Wall Inspector ]             |
+|                         |---------------------------------------------------------|
+|  - Model Health:        |  💬 ACTIVE CHAT INTERFACE:                              |
+|    612 Solids | Valid   |  User: "What is the riser height and tread depth?"      |
+|    0 Collision | IS 456 |  Copilot: "17 uniform risers of 186.65 mm (ΔR = 0.0mm)  |
+|                         |  with 224.25 mm straight tread going (NBC 2016)."       |
 |-------------------------+---------------------------------------------------------|
 |                         |  [ 🎤 Speak or type site question...           ] [Send] |
 +-----------------------------------------------------------------------------------+
 ```
-
-### Key UI Features:
-1. **💬 Site Copilot (Chat):** Conversational assistant with streaming text, collapsible source inspection drawers, and pinch-to-zoom image attachments.
-2. **📊 BOQ & Quantities Explorer:** Interactive, filterable table of all 612 structural, plumbing, and electrical objects with CSV export and volume calculators.
-3. **📐 Visual Blueprint & Gallery:** High-resolution viewing portal for full-building renders, isometric cuts, and 2D dimensioned floor plans.
-4. **💰 Dynamic Cost Estimator:** Interactive rate sliders (Cement ₹/bag, Rebar ₹/kg, Concrete ₹/m³, SS 304 ₹/R.m) that instantly update total house construction budgets.
-5. **📜 Standards & Site Checklists:** Ready-reckoner cards for IS 456, IS 1742, IS 4326, and NBC 2016 guidelines.
 
 ---
 
@@ -257,11 +250,6 @@ To make the system instantly accessible to engineers on site:
 └────────────────────────────────────────────────────────┘
 ```
 
-### Operational Safeguards:
-1. **PIN Gatekeeper:** A lightweight 4-digit PIN (e.g. `2026`) stops unauthenticated public traffic from exhausting your API quota.
-2. **Offline-Resilient Caching:** All CAD tables and schedules are cached in local browser memory (`@st.cache_data`) for instant loading even in poor network zones.
-3. **Voice Input Support:** Engineers can use native mobile speech-to-text to dictate inquiries hands-free while wearing construction gloves.
-
 ---
 
 ## 8. Benchmark Q&A Test Scenarios
@@ -278,24 +266,140 @@ The system is tested against complex, multi-disciplinary construction queries:
 
 ---
 
-## 9. Phased Implementation Roadmap (Ready for Execution)
+## 9. Private Owner Security & Access Control (RBAC)
+
+To guarantee that confidential finances, contractor dispute logs, and schedule slippage predictions remain strictly visible only to the homeowner:
+
+```
+                            ┌────────────────────────────────────────┐
+                            │      Access Control Gatekeeper         │
+                            └───────────────────┬────────────────────┘
+                                                │
+                       ┌────────────────────────┴────────────────────────┐
+                       ▼                                                 ▼
+        ┌──────────────────────────────┐                 ┌──────────────────────────────┐
+        │       SITE WORKER MODE       │                 │     PRIVATE OWNER CENTER     │
+        │     (PIN: 1111 - Site Team)  │                 │    (Admin Key / PIN: 9876)   │
+        ├──────────────────────────────┤                 ├──────────────────────────────┤
+        │ • 3D CAD Dimensions & Spans  │                 │ • 💰 Financial Ledger & Cash │
+        │ • 72 Chapter Specs & Standards│                │ • 📈 Cost Overrun Prediction │
+        │ • 2D Blueprints & 3D Renders │                 │ • ⏱️ Work Velocity & Delays  │
+        │ • Daily Progress Log Input   │                 │ • 👷 Contractor Productivity │
+        │ • Quality Checklists (IS 456)│                 │ • 🛒 Material Purchase Alert │
+        └──────────────────────────────┘                 └──────────────────────────────┘
+```
+
+1. **Owner Session Token:** Owner unlocks the dashboard via a 4-digit master PIN stored in Streamlit Encrypted Secrets (`st.secrets["OWNER_PIN"]`).
+2. **Local Storage Persistence:** Once unlocked on your personal smartphone or laptop browser, session state persists so you don't have to retype the PIN every visit.
+3. **Redacted Exports:** When generating reports for contractors or banks, all private profit margins, wage rates, and contingency allowances are automatically stripped.
+
+---
+
+## 10. Day-to-Day Work Tracking & Velocity Prediction Engine
+
+Traditional construction projects suffer from "silent delays" where tasks slowly fall behind unnoticed until milestone deadlines fail. The Copilot solves this with **Critical Path Velocity Tracking**:
+
+### 10.1 Daily Work Logging (Site Input)
+A simple 30-second mobile form allows the site supervisor or homeowner to submit daily updates:
+- **Date & Day Number:** (e.g. Day 18)
+- **Workforce on Site:** 2 Head Masons, 3 Helpers, 2 Bar Benders
+- **Work Completed Today:** *“Completed 4 courses of 9-inch exterior brickwork on South wall ($65\text{ sq.ft}$). Shuttered Plinth Beam PB1.”*
+- **Material Inflow:** *“Received 50 bags of Ultratech 53-grade cement.”*
+- **Photo Upload:** Attach 1–3 daily site progress photos.
+
+### 10.2 Predictive Schedule Forecasting
+The AI computes daily burn rate and dynamically forecasts completion dates:
+- **Progress Velocity Metric:** If the mason team lays $60\text{ sq.ft/day}$ against a baseline of $90\text{ sq.ft/day}$, the AI calculates:
+  $$\text{Delay} = \frac{\text{Remaining Area}}{\text{Observed Velocity}} - \text{Planned Days}$$
+  *“Warning: Ground Floor brickwork is progressing at 66% expected speed. Projected delay to Ground Floor Roof Slab shuttering: **+4 days (April 3 vs. March 30)**.”*
+- **IS 456 Mandatory Curing Gatekeeper:**
+  *“Plinth beams were cast yesterday. Structural curing protocol requires **minimum 7 days of continuous wet burlap curing** (10 days if blended cement). AI restricts starting heavy masonry on top until Day 8 to prevent shear cracking.”*
+- **Weather / Seasonal Risk Alerts:**
+  *“Heavy monsoon rain predicted in 5 days. Urgent action: Cast temporary mortar bund around open underground sump pit and cover staircase mid-landing cutout with tarpaulin.”*
+
+---
+
+## 11. Private Cost Tracking, Budget Variance & Earned Value Analysis (EVA)
+
+The Copilot protects your bank account by tracking every rupee spent and predicting total project cost before budget blowouts occur.
+
+### 11.1 Expense Logging Ledger
+- **Category 1 (Materials):** Cement, Steel rebar, M-sand, P-sand, Coarse Aggregate 20mm, Red bricks/AAC blocks, CPVC pipes, Electrical pot boxes.
+- **Category 2 (Labor Wages):** Masonry gang, bar benders, shuttering carpenters, daily wage helpers.
+- **Category 3 (Plant & Tools):** Concrete mixer rental, needle vibrator rental, scaffolding props.
+- **Category 4 (Govt & Approvals):** EB temporary power connection, municipal water connection fee.
+
+### 11.2 Real-Time Earned Value & Overrun Predictor
+The AI calculates standard construction finance metrics:
+- **Budget at Completion (BAC):** ₹18,00,000 (Target Budget)
+- **Actual Cost of Work Performed (ACWP):** Total money spent to date
+- **Budgeted Cost of Work Performed (BCWP / Earned Value):** Market value of physical work completed
+- **Cost Performance Index ($CPI = \frac{EV}{AC}$):**
+  - If $CPI < 1.0$: You are overspending.
+  - If $CPI > 1.0$: You are saving money.
+- **Estimate at Completion ($EAC = \frac{BAC}{CPI}$):**
+  *“Substructure foundation costs exceeded baseline by ₹28,000 due to deeper rock excavation. Steel cutting wastage is currently 6.2% (Target: 3.5%).  
+  **PROJECTED FINAL COST:** ₹18.64 Lakhs (+₹64,000 / +3.5% overrun).  
+  **CORRECTIVE ACTION:** Optimize rebar cutting lengths on upcoming roof beams to recover ₹22,000.”*
+
+---
+
+## 12. Strategic Site Execution & Quality Assurance Protocols
+
+Based on the compact urban footprint ($16'\text{-}6" \times 25'\text{-}0"$) and multi-discipline model design, the Copilot enforces **6 high-impact site execution strategies**:
+
+### 1. The "Zero-Rework" Pre-Plaster Photo Protocol
+- **Problem:** Plumbers and electricians drill into walls after plastering, accidentally cutting conduits or CPVC pipes.
+- **Protocol:** Site engineer must upload room-by-room photos of all chased walls and pot boxes *before* plastering begins. The Copilot links these photos to room coordinates so the owner can "see through walls" at any point in the future.
+
+### 2. Bar Bending Schedule (BBS) Scrap Minimization
+- **Problem:** Cutting random steel rebar lengths on site creates $8\% - 12\%$ useless cut-piece scrap.
+- **Protocol:** The Copilot calculates cutting layouts from standard 12-meter commercial rebar bundles for the 14 columns ($3,048\text{ mm}$) and 21 beams, reducing scrap waste to **$<3\%$**, saving ₹35,000 – ₹50,000 in steel costs.
+
+### 3. Milestone-Based Contractor Payments (Never Pay Upfront)
+Payments are disbursed strictly upon verified physical milestones:
+- **Milestone 1 (15%):** Footings, Pedestals & Sump/Septic Tanks cast.
+- **Milestone 2 (15%):** Plinth Beams cast, earth backfill compacted, anti-termite done.
+- **Milestone 3 (25%):** 14 Columns to roof level, exterior/interior brickwork to lintel band.
+- **Milestone 4 (25%):** Roof slab shuttering, rebar binding, concealed conduits verified & slab cast.
+- **Milestone 5 (15%):** Internal/external plastering, plumbing hydro-tested at 5 bar pressure.
+- **Milestone 6 (5%):** Tile flooring, paint finish, fixtures installed & final handover.
+
+### 4. Mandatory Concrete Quality & Curing Safeguards
+- **Mechanical Vibration:** Mandatory needle vibrator on all column and beam pours to eliminate structural air voids and honeycombing.
+- **Roof Slab Ponding:** Continuous 14-day water ponding (*pundi*) on the $125\text{ mm}$ roof slab.
+- **Slump Control:** Maintain $75 - 100\text{ mm}$ slump for M25 concrete (prevent workers from adding excess water, which degrades structural strength).
+
+### 5. Dual-Layer Waterproofing Verification
+- **Sunken Wet Shower Area ($150\text{ mm}$ drop) & Sump Tank:**
+  - Apply 2 coats of elastomeric polymer slurry (Dr. Fixit Fastflex or equivalent) with $150\text{ mm}$ perimeter vertical cove fillets.
+  - **Mandatory 48-Hour Ponding Test:** Fill with water for 48 hours to verify zero leakage *before* laying tiles or backfilling.
+
+### 6. Just-In-Time (JIT) Material Staging
+- Due to the compact $16'\text{-}6"$ road frontage, delivery of large material loads blocks access and ruins cement via humidity.
+- Order cement in **50-bag fresh batches** and sand/aggregates in mini-tipper loads scheduled 24 hours prior to casting days.
+
+---
+
+## 13. Phased Implementation Roadmap
 
 ```
 Phase 1: Knowledge Extraction & Database Compilation
-├── Run Python extraction script on `HomeConstruction.FCStd`
+├── Run FreeCAD Python extraction on `HomeConstruction.FCStd`
 ├── Generate `cad_database.sqlite` (612 parametric solid objects)
 ├── Compile `specs_database.json` (72 chapters & BOQ tables)
 └── Optimize visual renders in `renders/`
 
-Phase 2: Core Agent Engine & Tool Development
+Phase 2: Core Agent Engine & Role-Based Logic
 ├── Implement Hybrid Retriever (Deterministic SQL + Semantic Spec Search)
 ├── Configure Gemini 2.0 Flash reasoning agent with tool calling
-└── Integrate dynamic BOQ and Cost Calculation engine
+├── Build Daily Work Velocity and Progress Tracker
+└── Build Expense Ledger & Earned Value Cost Prediction Engine
 
 Phase 3: Streamlit Web & Mobile Application
-├── Develop tabbed UI (`app.py`) with chat, BOQ explorer, and render viewer
-├── Add PIN security protection and mobile responsiveness
-└── Test all 5 benchmark construction queries locally
+├── Develop public site tabs (Chat, Dimensions, Blueprints, Daily Log)
+├── Develop private owner tabs (PIN protected: Costs, Schedules, Predictions)
+└── Test all 5 benchmark queries and financial formulas
 
 Phase 4: Cloud Deployment & Site Rollout
 ├── Push repository to private GitHub repository
@@ -305,4 +409,4 @@ Phase 4: Cloud Deployment & Site Rollout
 
 ---
 
-*This document serves as the complete technical specification for the Construction AI Copilot system.*
+*This document serves as the complete technical specification for the Construction AI Copilot & Project Management system.*
