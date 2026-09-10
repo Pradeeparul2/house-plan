@@ -17,6 +17,7 @@ import logging
 import os
 import re
 import sqlite3
+import time
 from pathlib import Path
 from typing import Any
 
@@ -38,7 +39,9 @@ _RUNTIME_STATUS: dict[str, Any] = {
     "gemini_sdk_available": genai is not None,
     "gemini_model": None,
     "last_error": None,
+    "cooldown_seconds": 0,
 }
+_GEMINI_COOLDOWN_UNTIL = 0.0
 
 
 def project_root() -> Path:
@@ -68,11 +71,25 @@ def gemini_available() -> bool:
     _RUNTIME_STATUS["gemini_configured"] = configured
     _RUNTIME_STATUS["gemini_sdk_available"] = genai is not None
     _RUNTIME_STATUS["gemini_model"] = gemini_model_name() if configured else None
+    remaining = max(0, int(_GEMINI_COOLDOWN_UNTIL - time.time()))
+    _RUNTIME_STATUS["cooldown_seconds"] = remaining
+    if remaining:
+        return False
     if not configured:
         LOGGER.warning("Gemini unavailable: GEMINI_API_KEY is not configured")
     elif genai is None:
         LOGGER.error("Gemini unavailable: google.genai SDK could not be imported")
     return configured and genai is not None
+
+
+def mark_gemini_quota_cooldown(error: Exception) -> None:
+    """Pause remote calls briefly after a quota/rate-limit response."""
+    global _GEMINI_COOLDOWN_UNTIL
+    message = str(error)
+    if "429" in message or "RESOURCE_EXHAUSTED" in message or "quota" in message.lower():
+        _GEMINI_COOLDOWN_UNTIL = time.time() + 60
+        _RUNTIME_STATUS["cooldown_seconds"] = 60
+        LOGGER.warning("Gemini quota limit detected; local fallback enabled for 60 seconds")
 
 
 def runtime_status() -> dict[str, Any]:
@@ -84,7 +101,7 @@ def runtime_status() -> dict[str, Any]:
 def gemini_model_name() -> str:
     """Return the configured Gemini model, with a current default."""
     load_project_env()
-    return os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
+    return os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
 
 
 def build_gemini_prompt(query: str, evidence: dict[str, Any]) -> str:
@@ -238,6 +255,7 @@ def choose_search_plan(query: str, context: str = "") -> dict[str, Any]:
             _RUNTIME_STATUS["last_error"] = "Gemini planner returned invalid JSON"
             LOGGER.warning("Gemini planner returned invalid JSON; using local planner")
         except Exception as exc:
+            mark_gemini_quota_cooldown(exc)
             _RUNTIME_STATUS["last_error"] = f"planner {type(exc).__name__}: {str(exc)[:240]}"
             LOGGER.warning("Gemini planner failed (%s: %s); using local planner", type(exc).__name__, str(exc)[:240])
 
@@ -268,6 +286,7 @@ def summarize_answer(query: str, evidence: dict[str, Any]) -> str:
                 return answer
             LOGGER.warning("Gemini returned an empty answer; using local fallback")
         except Exception as exc:
+            mark_gemini_quota_cooldown(exc)
             _RUNTIME_STATUS["last_error"] = f"answer {type(exc).__name__}: {str(exc)[:240]}"
             LOGGER.warning("Gemini answer failed (%s: %s); using local fallback", type(exc).__name__, str(exc)[:240])
 
@@ -355,14 +374,22 @@ def summarize_answer(query: str, evidence: dict[str, Any]) -> str:
         ] or specs
         section = max(
             substantive_specs,
-            key=lambda item: sum(
-                marker in instructional_text(item).lower()
-                for marker in ("safeguard", "pedestal", "waterproof", "valve", "overflow", "install")
+            key=lambda item: (
+                sum(
+                    marker in (item.get("title") or "").lower()
+                    for marker in ("installation", "safeguard", "procedure", "construction")
+                ) * 10
+                + sum(
+                    marker in instructional_text(item).lower()
+                    for marker in ("safeguard", "pedestal", "waterproof", "valve", "overflow", "install")
+                )
+                + len(re.findall(r"(?m)^\s*\d+\.\s+", instructional_text(item)))
             ),
         )
         raw_lines = instructional_text(section).splitlines()
         formatted_lines = []
         safeguard_count = 0
+        numbered_content = any(re.match(r"^\s*\d+\.\s+", line) for line in raw_lines)
         for raw_line in raw_lines:
             line = raw_line.strip()
             if not line or line.startswith("```") or line.startswith(">"):
@@ -371,7 +398,9 @@ def summarize_answer(query: str, evidence: dict[str, Any]) -> str:
                 safeguard_count += 1
                 if safeguard_count > 4:
                     break
-            if safeguard_count == 0:
+            if numbered_content and safeguard_count == 0:
+                continue
+            if not numbered_content and not (line.startswith("*") or line.startswith("-") or "|" in line):
                 continue
             line = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", line)
             line = line.replace("`", "").replace("$", "")
@@ -383,7 +412,11 @@ def summarize_answer(query: str, evidence: dict[str, Any]) -> str:
                 formatted_lines.append(line)
 
         if not formatted_lines:
-            formatted_lines = ["The walkthrough contains installation guidance, but no readable step list was extracted."]
+            content = " ".join(instructional_text(section).split())
+            content = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", content).replace("`", "")
+            content = re.sub(r"\s+", " ", content).strip()
+            sentences = re.split(r"(?<=[.!?])\s+", content)
+            formatted_lines = [sentence.strip() for sentence in sentences[:5] if sentence.strip()]
         return (
             f"### Installation guidance\n\n"
             f"Follow **{section.get('title')}** for this project:\n\n"

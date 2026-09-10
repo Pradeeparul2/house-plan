@@ -69,7 +69,10 @@ with st.sidebar:
 
     status = runtime_status()
     if status["gemini_configured"] and status["gemini_sdk_available"]:
-        st.success(f"Gemini: configured ({status['gemini_model']})")
+        if status.get("cooldown_seconds", 0):
+            st.warning(f"Gemini: quota cooldown ({status['cooldown_seconds']}s); using local answers")
+        else:
+            st.success(f"Gemini: configured ({status['gemini_model']})")
     elif status["gemini_sdk_available"]:
         st.warning("Gemini: API key not configured; using local fallback")
     else:

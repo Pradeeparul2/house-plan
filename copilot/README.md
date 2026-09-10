@@ -100,7 +100,7 @@ For Streamlit Cloud, add this secret in **App settings > Secrets**:
 
 ```toml
 GEMINI_API_KEY = "your_gemini_api_key"
-GEMINI_MODEL = "gemini-3.6-flash"
+GEMINI_MODEL = "gemini-1.5-flash"
 ```
 
 If the sidebar shows Gemini as configured but the response status is `local`, check the Cloud logs for `RESOURCE_EXHAUSTED`, `401`, `403`, `404`, or timeout messages. `429 RESOURCE_EXHAUSTED` means the API key has no available quota or has exceeded its rate limit; it is not a retrieval failure, and the local fallback is being used intentionally.
