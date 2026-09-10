@@ -16,7 +16,7 @@
 ## 🌟 Project Highlights
 
 - **Natural Language Construction:** Every single element—from substructure isolated footings to rooftop telecom cowls—was designed, modeled, parameterized, positioned, and debugged purely via natural language dialogue with **Google Gemini**.
-- **Model Health & Fidelity:** **612 parametric solid objects**, 86 functional assembly groups, **0 recompute errors**, **0 non-manifold warnings**, and **100% collision-free geometry**.
+- **Model Health & Fidelity:** **618 parametric solid objects**, 86 functional assembly groups, **0 recompute errors**, **0 non-manifold warnings**, and **100% collision-free geometry**.
 - **Dual-Phased Architecture:**
   - **Ground Floor (Phase 1):** Fully detailed active residence with Sitout, Living Room, Master Bedroom, Kitchen with Breakfast Counter, Toilet with sunken shower, Under-stair Laundry/Pump station, and Entrance Steps.
   - **First Floor (Phase 2):** Complete 1:1 modular expansion ready for vertical construction, featuring a cantilevered Balcony (*Palkani*), independent Electricity Board (EB) distribution, and symmetrical room layouts.
@@ -78,7 +78,7 @@
 The 612 model objects in [`HomeConstruction.FCStd`](HomeConstruction.FCStd) are structured into **5 Master Assembly Containers** and **1 TechDraw Page**:
 
 ```
-HomeConstruction.FCStd (Master Document: 612 Objects, 0 Errors)
+HomeConstruction.FCStd (Master Document: 618 Objects, 0 Errors)
 ├── 1. Substructure_Foundation_Group (Substructure & Foundation: Ground to -1.6m)
 │   ├── PCC_Blinding_Layer_Group (8 Footing Blinding Pads - 100mm M7.5)
 │   ├── Isolated_Footings_Group (8 RCC Isolated Footings - 400mm M25)
