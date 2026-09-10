@@ -88,7 +88,6 @@ def parse_sections(markdown_text: str) -> list[dict[str, Any]]:
             else "No section content extracted."
         )
         section["content_length"] = len(section["content"])
-        section.pop("content", None)
 
     return sections
 

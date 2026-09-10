@@ -3,9 +3,12 @@ from pathlib import Path
 
 from copilot.ai.reasoning_engine import (
     build_gemini_prompt,
+    answer_query,
+    cad_term_matches,
     deterministic_search_plan,
     gemini_available,
     parse_search_plan,
+    search_spec_sections,
     summarize_answer,
 )
 
@@ -37,9 +40,30 @@ def test_summarize_answer_falls_back_to_local_summary(monkeypatch):
 
 def test_parse_search_plan_accepts_only_known_sources():
     plan = parse_search_plan('{"searches":["cad","unknown","specs"],"category":"staircase"}')
-    assert plan == {"searches": ["cad", "specs"], "category": "staircase"}
+    assert plan["searches"] == ["cad", "specs"]
+    assert plan["category"] == "staircase"
+    assert plan["answer_type"] == "general"
 
 
 def test_deterministic_search_plan_selects_visuals_for_plan_request():
     plan = deterministic_search_plan("show the floor plan")
     assert plan["searches"] == ["visuals"]
+
+
+def test_spec_results_include_walkthrough_content():
+    results = search_spec_sections("overhead water tank mandatory construction safeguards", limit=1)
+    assert results
+    assert len(results[0]["content"]) > len(results[0]["summary"])
+    assert "Governing Standards" in results[0]["content"]
+
+
+def test_shared_alias_matching_supports_model_abbreviations():
+    assert cad_term_matches("columns", "Col_NW_Corner")
+    assert cad_term_matches("fans", "Ceiling Fan Hook Box")
+    assert cad_term_matches("switchboards", "FF_SB-6 Kitchen Working Countertop")
+
+
+def test_answer_query_returns_structured_evidence_status():
+    result = answer_query("query with no likely project subject", limit=1)
+    assert result["evidence_status"] in {"found", "not_found"}
+    assert result["has_evidence"] is (result["evidence_status"] == "found")

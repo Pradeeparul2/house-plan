@@ -110,34 +110,26 @@ if st.session_state.user_input:
         with st.chat_message("user"):
             st.markdown(prompt)
 
+        recent_user_context = "\n".join(
+            message["content"]
+            for message in st.session_state.chat_history[-6:-1]
+            if message.get("role") == "user"
+        )
         with st.spinner("Checking CAD, specs, and visuals..."):
-            result = answer_query(prompt, limit=5)
+            result = answer_query(prompt, limit=5, context=recent_user_context)
 
         answer = result["summary"]
         cad_items = result["cad_results"]
         spec_items = result["spec_results"]
         visual_items = result["visual_results"]
-        has_no_matching_evidence = answer_has_no_matching_evidence(answer)
-        if has_no_matching_evidence:
+        if result.get("evidence_status") == "not_found":
             cad_items = []
             spec_items = []
             visual_items = []
 
         response_blocks = [answer]
-
-        if cad_items:
-            response_blocks.append("\n\nCAD matches:\n")
-            for item in cad_items[:3]:
-                label = item.get("label") or item.get("id") or "Unknown"
-                response_blocks.append(f"- {label} | {item.get('object_type')} | Floor: {item.get('floor_level')} | Zone: {item.get('room_zone')}")
-
-        if spec_items:
-            response_blocks.append("\n\nRelevant construction sections:\n")
-            for item in spec_items[:2]:
-                response_blocks.append(f"- {item.get('title')} ({', '.join(item.get('categories', []))})")
-
         if visual_items:
-            response_blocks.append("\n\nVisual evidence is shown below.")
+            response_blocks.append("\n\nI’ve included the relevant visual reference below.")
 
         assistant_response = "\n".join(response_blocks)
         st.session_state.chat_history.append({
