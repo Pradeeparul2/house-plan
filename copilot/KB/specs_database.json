@@ -1,0 +1,4488 @@
+{
+  "project": "construction-copilot",
+  "source_file": "walkthrough.md",
+  "generated_at": "2026-09-09T16:59:50.421433+00:00",
+  "total_sections": 332,
+  "sections": [
+    {
+      "title": "Master Architectural Project Documentation & Technical Specifications Manual",
+      "level": 1,
+      "slug": "master-architectural-project-documentation-technical-specifications-manual",
+      "start_line": 1,
+      "categories": [
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **Project Title:** Residential Single-Family Home (Ground Floor Active, G+1 Expansion Ready) > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstru",
+      "content_length": 826
+    },
+    {
+      "title": "Table of Contents",
+      "level": 2,
+      "slug": "table-of-contents",
+      "start_line": 13,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. [Executive Architectural Summary](#1-executive-architectural-summary) 2. [Visual Renderings Portfolio](#2-visual-renderings-portfolio) 3. [3D Architectural & Structural Component Overview](#3-3d-architectural--structu",
+      "content_length": 11495
+    },
+    {
+      "title": "1. Executive Architectural Summary",
+      "level": 2,
+      "slug": "1-executive-architectural-summary",
+      "start_line": 93,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "This project encompasses a contemporary, climate-responsive South Indian residential design configured on a compact footprint ($5.03\\text{ m} \\times 7.62\\text{ m}$ / $16'\\text{-}6\" \\times 25'\\text{-}0\"$). The building is",
+      "content_length": 2095
+    },
+    {
+      "title": "2. Visual Renderings Portfolio",
+      "level": 2,
+      "slug": "2-visual-renderings-portfolio",
+      "start_line": 118,
+      "categories": [
+        "general"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "Ground Floor Primary Elevations & Perspectives",
+      "level": 3,
+      "slug": "ground-floor-primary-elevations-perspectives",
+      "start_line": 120,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "```carousel ![Ground Floor Front Elevation](C:\\Users\\prade\\.gemini\\antigravity\\brain\\102a4231-65f5-4ac9-bae0-88dae5a0acab\\gf_elev_front_cropped.png) <!-- slide --> ![Ground Floor Southeast Perspective](C:\\Users\\prade\\.ge",
+      "content_length": 925
+    },
+    {
+      "title": "Utility Integration & Multi-Storey (G+1) Expansion Views",
+      "level": 3,
+      "slug": "utility-integration-multi-storey-g-1-expansion-views",
+      "start_line": 136,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "```carousel ![Staircase Utility Bay Overview](C:\\Users\\prade\\.gemini\\antigravity\\brain\\102a4231-65f5-4ac9-bae0-88dae5a0acab\\utility_stair_overview.png) <!-- slide --> ![Front-Load Washing Machine Detail](C:\\Users\\prade\\.",
+      "content_length": 909
+    },
+    {
+      "title": "Electrical MEP, CCTV Surveillance, Wi-Fi, West TV Unit & Rooftop Dish TV Pipeline",
+      "level": 3,
+      "slug": "electrical-mep-cctv-surveillance-wi-fi-west-tv-unit-rooftop-dish-tv-pipeline",
+      "start_line": 152,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "```carousel ![Multi-Storey Rooftop-to-TV Conduit Pipeline Riser](C:\\Users\\prade\\.gemini\\antigravity\\brain\\102a4231-65f5-4ac9-bae0-88dae5a0acab\\roof_to_tv_vertical_pipeline.png) <!-- slide --> ![Rooftop DTH Satellite Dish",
+      "content_length": 2376
+    },
+    {
+      "title": "100% Solid Architectural Walls & Building Enclosure (Full Opacity)",
+      "level": 3,
+      "slug": "100-solid-architectural-walls-building-enclosure-full-opacity",
+      "start_line": 182,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "```carousel ![Complete Building Isometric (100% Solid Architectural Walls)](C:\\Users\\prade\\.gemini\\antigravity\\brain\\102a4231-65f5-4ac9-bae0-88dae5a0acab\\isometric_walls_100_visible.png) <!-- slide --> ![Front North Elev",
+      "content_length": 765
+    },
+    {
+      "title": "3. 3D Architectural & Structural Component Overview",
+      "level": 2,
+      "slug": "3-3d-architectural-structural-component-overview",
+      "start_line": 196,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "Per user instructions, all temporary 2D cross-section cutting planes (`Cross_Sections_3D`) have been completely removed from the FreeCAD document. The model is now maintained as a pure, lightweight, and high-performance",
+      "content_length": 244
+    },
+    {
+      "title": "3.1 Model Structural Integrity & Clarity",
+      "level": 3,
+      "slug": "3-1-model-structural-integrity-clarity",
+      "start_line": 200,
+      "categories": [
+        "structural",
+        "electrical"
+      ],
+      "summary": "* **Pure Solid Representation:** The building is modeled as 100% solid, water-tight parametric components (612 objects total, 0 errors, 100% valid manifold solids) across substructure, Ground Floor, First Floor, and Roof",
+      "content_length": 656
+    },
+    {
+      "title": "4. Site, Substructure & Underground Utilities",
+      "level": 2,
+      "slug": "4-site-substructure-underground-utilities",
+      "start_line": 206,
+      "categories": [
+        "site_work"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "4.1 Substructure Datum Levels",
+      "level": 3,
+      "slug": "4-1-substructure-datum-levels",
+      "start_line": 208,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "- **Road Level (Ground Zero):** $Z \\in [0.0, 30.48\\text{ mm}]$ ($1\"$). Wide asphalt road profile ($12000 \\times 4572\\text{ mm}$) at the front. - **Plinth Beam Level:** $Z = 914.4\\text{ mm}$ ($3'\\text{-}0\"$ above road lev",
+      "content_length": 420
+    },
+    {
+      "title": "4.2 Underground Utility Infrastructure",
+      "level": 3,
+      "slug": "4-2-underground-utility-infrastructure",
+      "start_line": 214,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **Construction Update (Refer to Sections 60, 61 & 62):** Both the Underground Sump and Septic Tank have been vertically aligned up to the finished plinth level ($Z = +914.4 ext{ mm}$) with airtight flush stai",
+      "content_length": 2668
+    },
+    {
+      "title": "5. Structural Column Grid & Floor Levels",
+      "level": 2,
+      "slug": "5-structural-column-grid-floor-levels",
+      "start_line": 252,
+      "categories": [
+        "structural",
+        "plumbing",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "The building is structured on a robust **14-column Reinforced Cement Concrete (RCC) frame** designed for seismic resistance and two-storey vertical load transmission. ``` X = 0 X = 1714.5 X = 3695.7 X = 5029.2 Y=7620 [C1",
+      "content_length": 978
+    },
+    {
+      "title": "5.1 Structural Column Schedule",
+      "level": 3,
+      "slug": "5-1-structural-column-schedule",
+      "start_line": 270,
+      "categories": [
+        "structural",
+        "plumbing"
+      ],
+      "summary": "| Col ID | FreeCAD Object Name | X Coordinate (mm) | Y Coordinate (mm) | Cross Section | Vertical Span (Z) | | :------ | :-------------------------- | :-------------------------- | :-------------------------- | :--------",
+      "content_length": 3055
+    },
+    {
+      "title": "5.2 Structural Beams Network (21 Beams Modeled in 3D)",
+      "level": 3,
+      "slug": "5-2-structural-beams-network-21-beams-modeled-in-3d",
+      "start_line": 289,
+      "categories": [
+        "structural",
+        "site_work"
+      ],
+      "summary": "A complete framed beam system conforming to **IS 456:2000** has been modeled directly into [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) under `GF_Plinth_Beams` an",
+      "content_length": 238
+    },
+    {
+      "title": "A. Plinth Beams (Z = 614.4 to 914.4 mm | Depth = 300 mm | Finished Plinth +0.914m)",
+      "level": 4,
+      "slug": "a-plinth-beams-z-614-4-to-914-4-mm-depth-300-mm-finished-plinth-0-914m",
+      "start_line": 293,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "- **Perimeter Ring Beams (PB1 — 230 x 300 mm):** - `PB1_Front_North`: Front road facade spanning C1 to C4 ($L = 5029.2\\text{ mm}$). Supports entrance steps, sitout safety gate, and front toilet wall. - `PB1_Rear_South`:",
+      "content_length": 1558
+    },
+    {
+      "title": "B. Roof Slab Downstand Beams (Z = 3662.4 to 3962.4 mm | Depth = 350 mm total)",
+      "level": 4,
+      "slug": "b-roof-slab-downstand-beams-z-3662-4-to-3962-4-mm-depth-350-mm-total",
+      "start_line": 308,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "- **Perimeter Roof Frame Beams (RB1 — 230 x 350 mm):** - `RB1_Front_North`, `RB1_Rear_South`, `RB1_East_Flank`, `RB1_West_Flank`: 4 continuous boundary beams forming a monolithic perimeter ring that frames the $125\\text{",
+      "content_length": 784
+    },
+    {
+      "title": "C. Staircase Mid-Landing Beam (Z = 2138.4 to 2438.4 mm | Depth = 300 mm)",
+      "level": 4,
+      "slug": "c-staircase-mid-landing-beam-z-2138-4-to-2438-4-mm-depth-300-mm",
+      "start_line": 317,
+      "categories": [
+        "structural",
+        "staircase"
+      ],
+      "summary": "- **`MLB_Staircase_Mid_Landing` (230 x 300 mm):** - Spans between Column C6 and Column C7 at $Z = 2438.4\\text{ mm}$ ($+1.524\\text{ m}$ above plinth). - Crucial structural role: Directly carries the waist slab turnaround",
+      "content_length": 264
+    },
+    {
+      "title": "6. Ground Floor Spatial Program & Room Schedules",
+      "level": 2,
+      "slug": "6-ground-floor-spatial-program-room-schedules",
+      "start_line": 325,
+      "categories": [
+        "plumbing",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "``` +-------------------------------------------------------------------------+ | KITCHEN | BEDROOM | | 6'-0\" x 7'-0\" (E) | 10'-0\" x 10'-0\" (W) | | Counters, Sink, Hob, Lofts, Exhaust | Bed, 3-Door Wardrobe, Lofts | +---",
+      "content_length": 995
+    },
+    {
+      "title": "6.1 Room Dimensional & Fitting Schedule",
+      "level": 3,
+      "slug": "6-1-room-dimensional-fitting-schedule",
+      "start_line": 343,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "| Room | Carpet Dimensions | Clear Area | Key Architectural Features & Fittings | | :-------------------- | :---------------------------------------------------------------------- | :-------------------------------------",
+      "content_length": 3002
+    },
+    {
+      "title": "6.2 Bedroom North Door (D2) Integration in Existing Placeholder",
+      "level": 3,
+      "slug": "6-2-bedroom-north-door-d2-integration-in-existing-placeholder",
+      "start_line": 353,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "The bedroom access door has been built directly inside the pre-existing architectural wall cutout in `Bedroom_Wall_North` ($Y \\in [4572.0, 4673.5\\text{ mm}]$): - **Opening Geometry:** $X \\in [3657.6, 4572.0\\text{ mm}]$,",
+      "content_length": 1209
+    },
+    {
+      "title": "7. Staircase Bay & Integrated Utility Area",
+      "level": 2,
+      "slug": "7-staircase-bay-integrated-utility-area",
+      "start_line": 372,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "> [!IMPORTANT] > **Ergonomic Staircase Overhaul Executed (Refer to Sections 71 & 72):** Following the NBC 2016 audit, the staircase was completely upgraded to an ergonomic **4-winder turnaround landing** with **17 unifor",
+      "content_length": 1571
+    },
+    {
+      "title": "7.1 Integrated Equipment Specifications",
+      "level": 3,
+      "slug": "7-1-integrated-equipment-specifications",
+      "start_line": 394,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "1. **Front-Load Washing Machine (`Washing_Machine_Group`)**: - **Position:** Under the Stair Mid-Landing ($X \\in [3180, 3780\\text{ mm}]$, $Y \\in [1090, 1690\\text{ mm}]$). - **Dimensions:** $600\\text{ mm}$ (W) $\\times 600",
+      "content_length": 1851
+    },
+    {
+      "title": "8. Staircase Ergonomic & NBC Compliance Audit",
+      "level": 2,
+      "slug": "8-staircase-ergonomic-nbc-compliance-audit",
+      "start_line": 412,
+      "categories": [
+        "staircase"
+      ],
+      "summary": "A comprehensive technical audit was conducted to evaluate the staircase's comfort, stride cadence, and compliance with the **National Building Code of India (NBC 2016 Part 3, Group A Residential)**: ``` Pitch Angle (Curr",
+      "content_length": 633
+    },
+    {
+      "title": "8.1 Detailed Ergonomic Comparison Table",
+      "level": 3,
+      "slug": "8-1-detailed-ergonomic-comparison-table",
+      "start_line": 430,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Parameter | Current Model Value | NBC 2016 / International Standard | Audit Findings & Comfort Impact | | :------------------------------- | :-------------------------------------------- | :----------------------------",
+      "content_length": 3139
+    },
+    {
+      "title": "8.2 Actionable Recommendations for Final Execution",
+      "level": 3,
+      "slug": "8-2-actionable-recommendations-for-final-execution",
+      "start_line": 443,
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "summary": "1. **Incorporate Winder Steps on the Landing (Recommended):** As originally sketched in [`IMG_0373.PNG`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/references/IMG_0373.PNG), splitting the $180^\\circ$ landing int",
+      "content_length": 754
+    },
+    {
+      "title": "9. Front Facade & Exterior Elevation Design",
+      "level": 2,
+      "slug": "9-front-facade-exterior-elevation-design",
+      "start_line": 451,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "The front elevation faithfully reproduces the high-contrast, modern architectural language of [`IMG_0379.JPG`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/references/IMG_0379.JPG): ``` +--------------------------",
+      "content_length": 1577
+    },
+    {
+      "title": "9.1 Detailed Facade Features Schedule",
+      "level": 3,
+      "slug": "9-1-detailed-facade-features-schedule",
+      "start_line": 477,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Feature | FreeCAD Object Name | Dimensions | Material / Color | Architectural Significance | | :--------------------------- | :------------------------------------------------------- | :--------------------------------",
+      "content_length": 4256
+    },
+    {
+      "title": "9.2 Enhanced Contemporary Elevation & Feature Architecture",
+      "level": 3,
+      "slug": "9-2-enhanced-contemporary-elevation-feature-architecture",
+      "start_line": 491,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "To match the refined contemporary architectural aesthetic of [`IMG_0379.JPG`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/references/IMG_0379.JPG), five major elevation features were integrated into the 3D model:",
+      "content_length": 4645
+    },
+    {
+      "title": "10. First Floor (G+1) Modular Expansion Design",
+      "level": 2,
+      "slug": "10-first-floor-g-1-modular-expansion-design",
+      "start_line": 507,
+      "categories": [
+        "general"
+      ],
+      "summary": "The complete First Floor model is fully constructed and stored inside [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) under [`First Floor (Complete)`](file:///c:/Use",
+      "content_length": 282
+    },
+    {
+      "title": "10.1 Vertical Datum Translation",
+      "level": 3,
+      "slug": "10-1-vertical-datum-translation",
+      "start_line": 511,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "- **Ground Floor FFL:** $Z = 914.4\\text{ mm}$ - **Intermediate Slab Underside:** $Z = 3962.4\\text{ mm}$ ($10'\\text{-}0\"$ ceiling clearance) - **First Floor FFL:** $Z = 4087.4\\text{ mm}$ ($125\\text{ mm}$ slab) - **Vertica",
+      "content_length": 413
+    },
+    {
+      "title": "10.2 First Floor Component Hierarchy",
+      "level": 3,
+      "slug": "10-2-first-floor-component-hierarchy",
+      "start_line": 520,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "- `FF_Columns`: 14 RCC columns ($228.6 \\times 228.6\\text{ mm}$, $Z \\in [4087.4, 7135.4\\text{ mm}]$). - `FF_Bedroom`: $10'\\text{-}0\" \\times 10'\\text{-}0\"$ with 3-door wardrobe and RCC lofts. - `FF_Kitchen`: $6'\\text{-}0\"",
+      "content_length": 1350
+    },
+    {
+      "title": "11. Electrical & ELV Surveillance Engineering Specifications",
+      "level": 2,
+      "slug": "11-electrical-elv-surveillance-engineering-specifications",
+      "start_line": 538,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "Per user instructions, all 2D TechDraw drawing sheets and 2D diagrams have been deleted from the FreeCAD model and workspace, focusing the project on the active 3D parametric BIM model. The comprehensive ceiling slab con",
+      "content_length": 298
+    },
+    {
+      "title": "11.1 Ceiling Slab Conduit & Direct Light Point Layout (Direct Slab)",
+      "level": 3,
+      "slug": "11-1-ceiling-slab-conduit-direct-light-point-layout-direct-slab",
+      "start_line": 542,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "To preserve maximum vertical headroom and avoid the thermal and maintenance drawbacks of false ceilings, the electrical distribution is engineered for **Direct Concrete Slab Installation**. All conduit piping, fan hook b",
+      "content_length": 337
+    },
+    {
+      "title": "A. Ceiling Fixture Coordinate Schedule (Datum: Grid 1-A / North-East Column Interior Corner)",
+      "level": 4,
+      "slug": "a-ceiling-fixture-coordinate-schedule-datum-grid-1-a-north-east-column-interior-corner",
+      "start_line": 546,
+      "categories": [
+        "structural",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "| Fixture Tag | Fixture Description | Room / Zone | Center X (mm) | Center Y (mm) | Slab Z (mm) | Fixture Type & Wattage | | :--- | :--- | :--- | :--- | :--- | :--- | :--- | | **FB-1** | Heavy-Duty Ceiling Fan Hook Box |",
+      "content_length": 2866
+    },
+    {
+      "title": "B. Vertical Wall Drop Conduit Elbows (Slab to Masonry Switch Chases)",
+      "level": 4,
+      "slug": "b-vertical-wall-drop-conduit-elbows-slab-to-masonry-switch-chases",
+      "start_line": 566,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **WD-1 (Living Main Entry):** Drop to SB-2 at $X = 228.6\\text{ mm}$, $Y = 914.4\\text{ mm}$. * **WD-2 (Living TV / Entertainment Console):** Drop to SB-3 at $X = 1485.9\\text{ mm}$, $Y = 2500.0\\text{ mm}$. * **WD-3 (Bedr",
+      "content_length": 2322
+    },
+    {
+      "title": "11.2 Ground Floor Ergonomic Switchboard & Distribution Board Schedule",
+      "level": 3,
+      "slug": "11-2-ground-floor-ergonomic-switchboard-distribution-board-schedule",
+      "start_line": 583,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Every switchboard is modeled in FreeCAD under `Electrical_Switchboards_Group` with precise ergonomically verified mounting heights in accordance with **IS 732: Code of Practice for Electrical Wiring Installations**: | Bo",
+      "content_length": 4219
+    },
+    {
+      "title": "11.3 CCTV Surveillance System Provision & Wiring Layout (Site-Adapted)",
+      "level": 3,
+      "slug": "11-3-cctv-surveillance-system-provision-wiring-layout-site-adapted",
+      "start_line": 609,
+      "categories": [
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "The residential surveillance network has been custom engineered to accommodate the site's boundary conditions: **the West boundary ($X = 5029.2\\text{ mm}$) and South/Rear boundary ($Y = 7620.0\\text{ mm}$) are shared COMM",
+      "content_length": 576
+    },
+    {
+      "title": "A. Camera Placement & Coverage Schedule",
+      "level": 4,
+      "slug": "a-camera-placement-coverage-schedule",
+      "start_line": 615,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Camera Tag | Camera Form Factor & Lens | Mounting Substrate & Orientation | Coordinates $(X, Y, Z)$ (mm) | Height AFF (mm) | Targeted Security Zone | | :--- | :--- | :--- | :--- | :--- | :--- | | **CAM-01** | 4MP IP Tu",
+      "content_length": 1659
+    },
+    {
+      "title": "B. Wiring Architecture & Infrastructure Specifications",
+      "level": 4,
+      "slug": "b-wiring-architecture-infrastructure-specifications",
+      "start_line": 626,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Power over Ethernet (PoE - IEEE 802.3af/at):** * Every camera receives both gigabit IP digital video and 48V DC power over a single **Cat6 UTP solid bare copper cable**. * Completely eliminates 230V AC wiring or out",
+      "content_length": 4369
+    },
+    {
+      "title": "C. 100% Concealed Wiring & Zero Surface Exposure Construction Details",
+      "level": 4,
+      "slug": "c-100-concealed-wiring-zero-surface-exposure-construction-details",
+      "start_line": 655,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "To preserve the pristine modern facade and prevent vandalism or weather deterioration, **zero conduits, wires, or surface casings are exposed on any exterior wall or ceiling**: ``` [ CONCRETE SLAB CORE (Z = 4025 mm) ] <=",
+      "content_length": 3754
+    },
+    {
+      "title": "D. Rooftop DTH Dish TV Antenna, Weatherproof Service Cowl & Continuous Vertical Conduit Pipeline",
+      "level": 4,
+      "slug": "d-rooftop-dth-dish-tv-antenna-weatherproof-service-cowl-continuous-vertical-conduit-pipeline",
+      "start_line": 687,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "To fulfill the user requirement for **uninterrupted Dish TV satellite television and high-speed FTTH optical fiber internet connectivity without visible cables or exterior wall penetration on the common boundary**, a ded",
+      "content_length": 6187
+    },
+    {
+      "title": "12. Material, Color & Finish Schedule",
+      "level": 2,
+      "slug": "12-material-color-finish-schedule",
+      "start_line": 739,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "| Material Name | Hex Code | RGB Vector (0-1) | Applied Locations | | :---------------------------------- | :-------- | :------------------- | :----------------------------------------------------------------------------",
+      "content_length": 5861
+    },
+    {
+      "title": "13. FreeCAD Document Hierarchy & Tree Structure",
+      "level": 2,
+      "slug": "13-freecad-document-hierarchy-tree-structure",
+      "start_line": 779,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "The document tree in [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) is strictly organized into **3 pristine top-level master groups** (420 objects total, 0 cyclic d",
+      "content_length": 5644
+    },
+    {
+      "title": "14. Workspace File Organization",
+      "level": 2,
+      "slug": "14-workspace-file-organization",
+      "start_line": 858,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "The project workspace directory [`c:\\Users\\prade\\OneDrive\\Desktop\\home plan`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan) is strictly organized into clean, dedicated directories: ``` c:\\Users\\prade\\OneDrive\\Desk",
+      "content_length": 2313
+    },
+    {
+      "title": "15. Verification & File Status",
+      "level": 2,
+      "slug": "15-verification-file-status",
+      "start_line": 895,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Recomputation Status:** Clean execution across all 612 parametric solid objects (0 errors, 0 invalid shapes). Zero cyclic dependency loops, zero broken links, zero non-manifold edge warnings. 2. **File Integrity:**",
+      "content_length": 2532
+    },
+    {
+      "title": "16. Structural Continuous Full-Width 360° Closed-Loop RCC Lintel & Seismic Ring Beam Schedule (IS 4326 & IS 456 / NBC Compliance)",
+      "level": 2,
+      "slug": "16-structural-continuous-full-width-360-closed-loop-rcc-lintel-seismic-ring-beam-schedule-is-4326-is-456-nbc-compliance",
+      "start_line": 907,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "To achieve maximum earthquake resistance, lateral out-of-plane buckling restraint, and complete crack prevention in strict accordance with Indian Building Codes (**IS 4326: 2013 - Earthquake Resistant Design and Construc",
+      "content_length": 2552
+    },
+    {
+      "title": "16.1 Engineering Rationale for 360 Closed Perimeter Ring Beams",
+      "level": 3,
+      "slug": "16-1-engineering-rationale-for-360-closed-perimeter-ring-beams",
+      "start_line": 936,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "1. **Unbroken 360° Seismic Diaphragm (IS 4326 Section 8.4):** - In traditional masonry construction, lintels are skipped on walls without openings (such as the blind South and West common boundary walls). This leaves the",
+      "content_length": 1658
+    },
+    {
+      "title": "16.2 Master Schedule of Continuous 360° Closed-Loop RCC Bands (24 Members)",
+      "level": 3,
+      "slug": "16-2-master-schedule-of-continuous-360-closed-loop-rcc-bands-24-members",
+      "start_line": 950,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "| Object Name | FreeCAD Label | Floor | Wall Run / Location | Wall Length ($L$) | Wall Width ($T$) | Band Depth ($D$) | Elevation Range ($Z_{min} - Z_{max}$) | Structural Action | |:---|:---|:---|:---|:---:|:---:|:---:|:",
+      "content_length": 7829
+    },
+    {
+      "title": "16.3 Visual Structural & Architectural Renderings",
+      "level": 3,
+      "slug": "16-3-visual-structural-architectural-renderings",
+      "start_line": 983,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "```carousel ![360-Degree Continuous Closed-Loop Seismic Ring Beam Isometric View](C:\\Users\\prade\\.gemini\\antigravity\\brain\\102a4231-65f5-4ac9-bae0-88dae5a0acab\\seismic_ring_360_isometric.png) <!-- slide --> ![Pure RCC St",
+      "content_length": 1032
+    },
+    {
+      "title": "17. First Floor North Facade Optimization: Dust Prevention & Staircase Isolation",
+      "level": 2,
+      "slug": "17-first-floor-north-facade-optimization-dust-prevention-staircase-isolation",
+      "start_line": 999,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "Following client design review, the architectural layout of the First Floor North zone was optimized to prevent outdoor dust, debris, and stair foot-traffic dirt from entering the living quarters:",
+      "content_length": 196
+    },
+    {
+      "title": "17.1 Problem & Engineering Evaluation",
+      "level": 3,
+      "slug": "17-1-problem-engineering-evaluation",
+      "start_line": 1003,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "* **Previous State:** A $900 \\times 1300\\text{ mm}$ ($3'\\text{-}0\" \\times 4'\\text{-}3\"$) feature window (`FF_Front_Window_Frame`) was situated on the North partition wall at $Y = 1714.5\\text{ mm}$ (Grid B), directly over",
+      "content_length": 650
+    },
+    {
+      "title": "17.2 Architectural Resolution Implemented",
+      "level": 3,
+      "slug": "17-2-architectural-resolution-implemented",
+      "start_line": 1008,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "1. **Window Removal & Solid Wall Enclosure:** - Both the window frame (`FF_Front_Window_Frame`) and glazing (`FF_Front_Window_Glass`) have been **completely removed**. - The wall between Column C2 and Column C3 (`FF_Wall",
+      "content_length": 2378
+    },
+    {
+      "title": "18. Rooftop Staircase Headroom (Mumty) Structural Frame Integration",
+      "level": 2,
+      "slug": "18-rooftop-staircase-headroom-mumty-structural-frame-integration",
+      "start_line": 1029,
+      "categories": [
+        "structural",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "Following client observation of missing roof columns during skeletal frame inspection, the structural column and roof beam frame for the rooftop rain protection enclosure was fully modeled:",
+      "content_length": 189
+    },
+    {
+      "title": "18.1 Structural Audit & Findings",
+      "level": 3,
+      "slug": "18-1-structural-audit-findings",
+      "start_line": 1033,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "* **Identified Gap:** The First Floor staircase columns terminated at the roof slab level ($Z = 7135.4\\text{ mm}$). While the Mumty masonry walls, lintel bands, and concrete roof slab ($Z = 9460.4\\text{ mm}$) existed in",
+      "content_length": 1455
+    },
+    {
+      "title": "19. First Floor Independent Electricity Board (EB) Service & Electrical Infrastructure (IS 732 & NBC 2016 Compliance)",
+      "level": 2,
+      "slug": "19-first-floor-independent-electricity-board-eb-service-electrical-infrastructure-is-732-nbc-2016-compliance",
+      "start_line": 1050,
+      "categories": [
+        "electrical"
+      ],
+      "summary": "In accordance with municipal building standards and Indian Electricity Rules (IS 732: Code of Practice for Electrical Wiring Installations), the **First Floor is configured with a 100% independent Electricity Board (EB)",
+      "content_length": 360
+    },
+    {
+      "title": "19.1 Independent EB Service Architecture",
+      "level": 3,
+      "slug": "19-1-independent-eb-service-architecture",
+      "start_line": 1054,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Dual Energy Meter Board at Ground Plinth:** The ground floor electrical panel accommodates two separate tariff meters: **Meter 1 (Ground Floor)** and **Meter 2 (First Floor)**. * **Dedicated 32mm Armored Mains Riser",
+      "content_length": 1417
+    },
+    {
+      "title": "19.2 First Floor Ceiling Slab Conduit & Lighting Layout",
+      "level": 3,
+      "slug": "19-2-first-floor-ceiling-slab-conduit-lighting-layout",
+      "start_line": 1069,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Ceiling Fan Hook Boxes (`FF_Electrical_Slab_Fan_Boxes`):** 3 heavy-duty octagonal boxes with integrated MS anchor hooks ($Z = 7135.4 - 7200.4\\text{ mm}$) at Living Room center ($X = 2514.6, Y = 3257.4$), Bedroom cent",
+      "content_length": 2008
+    },
+    {
+      "title": "19.3 Perfect Vertical Stacking & Alignment of GF & FF Distribution Boards",
+      "level": 3,
+      "slug": "19-3-perfect-vertical-stacking-alignment-of-gf-ff-distribution-boards",
+      "start_line": 1085,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Following client instruction, the **Ground Floor Main Distribution Board (`GF_MDB`) was repositioned** from its previous location ($X \\in [400, 700\\text{ mm}]$) to align in **100% plumb vertical symmetry with the First F",
+      "content_length": 2198
+    },
+    {
+      "title": "20. First Floor Dedicated Uninterruptible Power Supply (UPS) System & Utility Loft",
+      "level": 2,
+      "slug": "20-first-floor-dedicated-uninterruptible-power-supply-ups-system-utility-loft",
+      "start_line": 1109,
+      "categories": [
+        "electrical",
+        "site_work"
+      ],
+      "summary": "To guarantee 100% independent emergency backup power during grid power failures without sharing or cross-feeding from the Ground Floor EB connection, a **dedicated First Floor UPS Inverter and Battery system** has been f",
+      "content_length": 236
+    },
+    {
+      "title": "20.1 Structural & Architectural Accommodation",
+      "level": 3,
+      "slug": "20-1-structural-architectural-accommodation",
+      "start_line": 1113,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Monolithic RCC East Utility Loft (`FF_Living_Room_Loft_East`):** - **Location:** Spans the East wall of the First Floor Living Room ($X \\in [152.4, 752.4\\text{ mm}]$, $Y \\in [1943.1, 5067.3\\text{ mm}]$). - **Dimensio",
+      "content_length": 786
+    },
+    {
+      "title": "20.2 UPS Equipment & Electrical Integration",
+      "level": 3,
+      "slug": "20-2-ups-equipment-electrical-integration",
+      "start_line": 1120,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **1.1kVA Pure Sine Wave Inverter (`FF_UPS_Power_Backup_Model`):** - High-efficiency inverter chassis ($286 \\times 300 \\times 130\\text{ mm}$) finished in Metallic Blue (`#1B4F72`), delivering clean pure sine wave AC pow",
+      "content_length": 1363
+    },
+    {
+      "title": "20.3 Connected First Floor Emergency Backup Load Schedule",
+      "level": 3,
+      "slug": "20-3-connected-first-floor-emergency-backup-load-schedule",
+      "start_line": 1134,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "| Room | Connected Backup Loads | Watts (Avg) | | :--- | :--- | :---: | | **Living Room** | 1 $\\times$ BLDC Ceiling Fan + 2 $\\times$ 9W LED Downlights | $48\\text{ W}$ | | **Living Room TV / Tech** | Wi-Fi 6 Router + Fibe",
+      "content_length": 1161
+    },
+    {
+      "title": "20.4 Dedicated First Floor UPS Modular Switch Box (`FF_SB_UPS`)",
+      "level": 3,
+      "slug": "20-4-dedicated-first-floor-ups-modular-switch-box-ffsbups",
+      "start_line": 1151,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "To complete the electrical power connection for the inverter, a **dedicated modular UPS switch box (`FF_SB_UPS`)** was modeled directly on the East wall adjacent to the inverter unit: * **Location & Elevation:** - **Wall",
+      "content_length": 1740
+    },
+    {
+      "title": "21. Continuous Vertical Wall Conduit Network into Modular Switch Boxes & Distribution Boards",
+      "level": 2,
+      "slug": "21-continuous-vertical-wall-conduit-network-into-modular-switch-boxes-distribution-boards",
+      "start_line": 1172,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "In residential electrical engineering and construction practice, electrical conduits are installed across two distinct phases: 1. **Ceiling Slab Conduit Pour Phase (Pre-Casting):** Heavy-duty rigid PVC conduits ($25\\text",
+      "content_length": 2018
+    },
+    {
+      "title": "21.1 First Floor Vertical Wall Conduit Schedule (`FF_Electrical_Slab_Wall_Drops`)",
+      "level": 3,
+      "slug": "21-1-first-floor-vertical-wall-conduit-schedule-ffelectricalslabwalldrops",
+      "start_line": 1190,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "All 12 switchboxes and distribution boards on the First Floor are connected via continuous heavy-gauge $25\\text{ mm}$ rigid PVC conduits in **Emerald Green (`#10AC84`)**: | Switch Box / Board ID | Description & Functiona",
+      "content_length": 2275
+    },
+    {
+      "title": "21.2 Ground Floor Vertical Wall Conduit Schedule (`Electrical_Slab_Wall_Drops`)",
+      "level": 3,
+      "slug": "21-2-ground-floor-vertical-wall-conduit-schedule-electricalslabwalldrops",
+      "start_line": 1208,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "All 18 switchboxes and distribution boards on the Ground Floor are connected via continuous heavy-gauge $25\\text{ mm}$ rigid PVC conduits in **Emerald Green (`#10AC84`)**: | Switch Box / Board ID | Description & Function",
+      "content_length": 3130
+    },
+    {
+      "title": "21.3 Ceiling Slab Network Continuity & Interconnections",
+      "level": 3,
+      "slug": "21-3-ceiling-slab-network-continuity-interconnections",
+      "start_line": 1232,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "To complete unbroken circuit paths from the rooftop solar/EB mains, downlight pots, and ceiling fan boxes into each vertical drop: * **First Floor Slab Network (`FF_Electrical_Slab_Conduit_Network`):** 8 connecting branc",
+      "content_length": 620
+    },
+    {
+      "title": "21.4 Visual Coding Standards",
+      "level": 3,
+      "slug": "21-4-visual-coding-standards",
+      "start_line": 1237,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "The 3D model maintains clear, high-contrast visual differentiation across all electrical layers: * **Horizontal Slab Conduits:** Safety Orange (`#FF7675` / `(1.0, 0.45, 0.0)`) embedded inside the RCC slab core. * **Verti",
+      "content_length": 667
+    },
+    {
+      "title": "22. Complete 1:1 Duplicate Electrical System Alignment (Ground Floor to First Floor)",
+      "level": 2,
+      "slug": "22-complete-1-1-duplicate-electrical-system-alignment-ground-floor-to-first-floor",
+      "start_line": 1248,
+      "categories": [
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Following the comprehensive deviation audit, the First Floor electrical infrastructure was updated to be an **exact 1:1 vertical duplicate** of the Ground Floor design, elevated by exactly the structural floor-to-floor h",
+      "content_length": 1144
+    },
+    {
+      "title": "22.1 Synchronized Electrical Component Schedules",
+      "level": 3,
+      "slug": "22-1-synchronized-electrical-component-schedules",
+      "start_line": 1262,
+      "categories": [
+        "electrical"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "A. Ceiling Fan Boxes (`FF_Electrical_Slab_Fan_Boxes` - 3 Units)",
+      "level": 4,
+      "slug": "a-ceiling-fan-boxes-ffelectricalslabfanboxes-3-units",
+      "start_line": 1264,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Identical $(X, Y)$ coordinates to Ground Floor, elevated to Roof Slab Soffit ($Z = 7167.9\\text{ mm}$): 1. **Living Room Fan:** $(2514.6, 3257.4\\text{ mm})$ 2. **Master Bedroom Fan:** $(3480.0, 6070.0\\text{ mm})$ 3. **Kit",
+      "content_length": 260
+    },
+    {
+      "title": "B. Ceiling Slab Downlights (`FF_Electrical_Slab_Light_Pots` - 12 Units)",
+      "level": 4,
+      "slug": "b-ceiling-slab-downlights-ffelectricalslablightpots-12-units",
+      "start_line": 1270,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Identical $(X, Y)$ coordinates to Ground Floor, elevated to Roof Slab Soffit ($Z = 7165.4\\text{ mm}$): * **Living Room (4 Downlights):** $(1200, 2500)$, $(3800, 2500)$, $(1200, 4000)$, $(3800, 4000\\text{ mm})$ * **Master",
+      "content_length": 512
+    },
+    {
+      "title": "C. Modular Concealed Switchboards (`FF_Electrical_Switchboard_Plates` - 18 Units)",
+      "level": 4,
+      "slug": "c-modular-concealed-switchboards-ffelectricalswitchboardplates-18-units",
+      "start_line": 1278,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "All 18 Ground Floor switchboard plates duplicated at $\\Delta Z = +3173.0\\text{ mm}$: 1. **`FF_MDB`** (8-Way SPN Main DB): $(1600.0, 1930.0\\text{ mm})$, $Z = 5427.4 - 5747.4\\text{ mm}$ 2. **`FF_SB-0`** (Living Room Main S",
+      "content_length": 1899
+    },
+    {
+      "title": "D. Vertical Wall Conduits (`FF_Electrical_Slab_Wall_Drops` - 19 Runs)",
+      "level": 4,
+      "slug": "d-vertical-wall-conduits-ffelectricalslabwalldrops-19-runs",
+      "start_line": 1299,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "All 19 continuous vertical rigid PVC wall conduit pipe runs dropping from the ceiling slab ($Z = 7193.0\\text{ mm}$) into each switchbox knockout on the First Floor, exactly matching the Ground Floor vertical drops ($Z =",
+      "content_length": 239
+    },
+    {
+      "title": "E. Ceiling Slab Conduit Network (`FF_Electrical_Slab_Conduit_Network` - 15 Runs)",
+      "level": 4,
+      "slug": "e-ceiling-slab-conduit-network-ffelectricalslabconduitnetwork-15-runs",
+      "start_line": 1302,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "The 15 ceiling slab conduit runs on the First Floor roof slab are an exact $Z$-shifted duplicate ($\\Delta Z = +3173.0\\text{ mm}$) of the Ground Floor slab network.",
+      "content_length": 163
+    },
+    {
+      "title": "F. Independent First Floor Services Preserved",
+      "level": 4,
+      "slug": "f-independent-first-floor-services-preserved",
+      "start_line": 1305,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Dedicated EB Service Mains Riser (`FF_EB_Service_Mains_Riser`):** Preserved in Safety Magenta, supplying the First Floor MDB directly from the outdoor meter board via Column C2. * **Dedicated First Floor UPS System (",
+      "content_length": 475
+    },
+    {
+      "title": "23. Sitout & Entrance Verandah Lighting and Conduit Integration",
+      "level": 2,
+      "slug": "23-sitout-entrance-verandah-lighting-and-conduit-integration",
+      "start_line": 1312,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Following user inspection, the previously missing **Sitout / Entrance Verandah ceiling downlight and electrical conduit connections** were designed and integrated across both floors (**Ground Floor Sitout** and **First F",
+      "content_length": 700
+    },
+    {
+      "title": "23.1 Sitout Light Pot Specifications",
+      "level": 3,
+      "slug": "23-1-sitout-light-pot-specifications",
+      "start_line": 1322,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Geometric Location:** Center of the $6'\\text{-}0\" \\times 6'\\text{-}0\"$ entrance sitout/balcony slab: - Coordinates: $(X = 857.0\\text{ mm}, Y = 857.0\\text{ mm})$ - **Ground Floor Sitout Ceiling:** $Z = 3962.4 - 4022.4",
+      "content_length": 667
+    },
+    {
+      "title": "23.2 Tri-Conduit Circuit Routing",
+      "level": 3,
+      "slug": "23-2-tri-conduit-circuit-routing",
+      "start_line": 1329,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "To ensure robust switching control and circuit continuity, 3 dedicated $25\\text{ mm}$ rigid PVC conduits were added to the slab networks (`Electrical_Slab_Conduit_Network` and `FF_Electrical_Slab_Conduit_Network`): 1. **",
+      "content_length": 1089
+    },
+    {
+      "title": "24. Staircase Luminaire Relocation to East Wall of Toilet",
+      "level": 2,
+      "slug": "24-staircase-luminaire-relocation-to-east-wall-of-toilet",
+      "start_line": 1348,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "In response to the user's request, the staircase lighting system has been relocated and mounted directly onto the **East side wall of the toilet** (`Toilet_Wall_East`), serving both the Ground Floor and First Floor stair",
+      "content_length": 968
+    },
+    {
+      "title": "24.1 Architectural & Functional Rationale",
+      "level": 3,
+      "slug": "24-1-architectural-functional-rationale",
+      "start_line": 1360,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "1. **Uninterrupted Solid Masonry Host:** - The toilet East wall (`Toilet_Wall_East` spanning $X \\in [3810, 3924.3\\text{ mm}]$, $Y \\in [0, 1828.8\\text{ mm}]$) is a continuous, solid $114.3\\text{ mm}$ (4.5\") brick wall wit",
+      "content_length": 1549
+    },
+    {
+      "title": "24.2 Fixture Specifications & Geometric Coordinates",
+      "level": 3,
+      "slug": "24-2-fixture-specifications-geometric-coordinates",
+      "start_line": 1371,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "* **Ground Floor Staircase Luminaire (`Staircase_Wall_Light_Fixture`):** - **Group:** `Ground_Floor_Group` - **Mounting Face:** Flush on outer plaster face of `Toilet_Wall_East` ($X = 3810.0\\text{ mm}$) - **Center Coordi",
+      "content_length": 860
+    },
+    {
+      "title": "24.3 Continuous Electrical Conduit Infrastructure",
+      "level": 3,
+      "slug": "24-3-continuous-electrical-conduit-infrastructure",
+      "start_line": 1382,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "1. **Ceiling Slab Conduit Feeds (`Electrical_Slab_Conduit_Network` & `FF_Electrical_Slab_Conduit_Network`):** - Expanded to **19 solid pipe runs** on each floor. - Routes a $25\\text{ mm}$ rigid PVC conduit from the toile",
+      "content_length": 981
+    },
+    {
+      "title": "24.4 Quality & Structural Validation",
+      "level": 3,
+      "slug": "24-4-quality-structural-validation",
+      "start_line": 1392,
+      "categories": [
+        "electrical"
+      ],
+      "summary": "* **Master Document:** `HomeConstruction.FCStd` * **Total Object Count:** 422 objects. * **Hierarchical Tree Integrity:** Strictly 3 master root groups (`Ground_Floor_Group`, `First_Floor_Group`, `Master_Rooftop_Terrace_",
+      "content_length": 345
+    },
+    {
+      "title": "25. Direct Switchbox-to-Luminaire Staircase Wall Lighting & Slab Infrastructure De-Cluttering",
+      "level": 2,
+      "slug": "25-direct-switchbox-to-luminaire-staircase-wall-lighting-slab-infrastructure-de-cluttering",
+      "start_line": 1401,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "Following client direction, the staircase electrical topology was optimized by routing the wall luminaire **directly from the staircase switchbox** and **completely clearing all slab conduits and ceiling downlight pots**",
+      "content_length": 1022
+    },
+    {
+      "title": "25.1 Removal of Ceiling Slab Conduits & Downlight Pot Boxes",
+      "level": 3,
+      "slug": "25-1-removal-of-ceiling-slab-conduits-downlight-pot-boxes",
+      "start_line": 1413,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Slab Deep PVC Downlight & Pendant Pot Boxes (Blue) Removed:** * **Ground Floor (`Electrical_Slab_Light_Pots`):** Removed Solid 9 centered at $(X = 3435.0\\text{ mm}, Y = 950.0\\text{ mm}, Z = 3992.4\\text{ mm})$. Solid",
+      "content_length": 1485
+    },
+    {
+      "title": "25.2 Direct Wall-Chased Conduit from Staircase Switchbox",
+      "level": 3,
+      "slug": "25-2-direct-wall-chased-conduit-from-staircase-switchbox",
+      "start_line": 1428,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "Instead of dropping down from the ceiling slab, the staircase wall light now receives its power and switching circuit directly from the dedicated **Staircase Ground Entry Switchboard (`SB_STAIR1` / Plate 14)**: * **Condu",
+      "content_length": 1683
+    },
+    {
+      "title": "25.3 Model Verification & Document Health",
+      "level": 3,
+      "slug": "25-3-model-verification-document-health",
+      "start_line": 1444,
+      "categories": [
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **Master CAD File:** `HomeConstruction.FCStd` * **Total Objects:** **422 objects** (unchanged, zero loose objects). * **Root Hierarchy:** Strictly 3 master root groups (`Ground_Floor_Group`, `First_Floor_Group`, `Maste",
+      "content_length": 328
+    },
+    {
+      "title": "26. Under-Stair Utility Switchboard (SB-UTIL) Proper Repositioning",
+      "level": 2,
+      "slug": "26-under-stair-utility-switchboard-sb-util-proper-repositioning",
+      "start_line": 1453,
+      "categories": [
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "During user inspection of the staircase electrical network, it was identified that the under-stair utility switchboard (`SB-UTIL`) was previously mislocated at $(X = 2275.0\\text{ mm}, Y = 797.5\\text{ mm}, Z = 2151.9\\text",
+      "content_length": 966
+    },
+    {
+      "title": "26.1 Technical Specification of Repositioned SB-UTIL",
+      "level": 3,
+      "slug": "26-1-technical-specification-of-repositioned-sb-util",
+      "start_line": 1465,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Host Wall:** `Wall_Stair_SE_SW` (Ground Floor) & `FF_Wall_Stair_SE_SW` (First Floor). A $228.6\\text{ mm}$ (9\") solid brick load-bearing wall dividing the Living Room from the Staircase utility bay. * **Mounting Face:",
+      "content_length": 1449
+    },
+    {
+      "title": "26.2 Continuous Wall-Chased Conduit Drop",
+      "level": 3,
+      "slug": "26-2-continuous-wall-chased-conduit-drop",
+      "start_line": 1475,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "* **Vertical Chase Drop:** A $25\\text{ mm}$ rigid PVC conduit in **Emerald Green (`#10AC84`)** chased vertically inside `Wall_Stair_SE_SW` from the ceiling slab ($Z = 4020.0\\text{ mm}$) down into the top knockout of `SB-",
+      "content_length": 717
+    },
+    {
+      "title": "27. De-scoping and Removal of Utility Switchboard (SB-UTIL) from First Floor",
+      "level": 2,
+      "slug": "27-de-scoping-and-removal-of-utility-switchboard-sb-util-from-first-floor",
+      "start_line": 1483,
+      "categories": [
+        "electrical",
+        "site_work"
+      ],
+      "summary": "Per client instruction (*\"SB-UTIL not needed on FF\"*), the under-stair utility power board and its associated conduit feeds were completely removed from the **First Floor** while remaining fully operational on the **Grou",
+      "content_length": 689
+    },
+    {
+      "title": "27.1 Engineering Rationale",
+      "level": 3,
+      "slug": "27-1-engineering-rationale",
+      "start_line": 1493,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **Equipment Zoning:** The under-stair wet-utility zone (Automatic Washing Machine and Submersible Sump Pump) is strictly localized to the **Ground Floor** substructure. The First Floor stairwell leads upward to the ope",
+      "content_length": 558
+    },
+    {
+      "title": "27.2 Components Removed from First Floor",
+      "level": 3,
+      "slug": "27-2-components-removed-from-first-floor",
+      "start_line": 1497,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Modular Switchboard Faceplate (`FF_Electrical_Switchboard_Plates`):** - Removed `FF_SB-UTIL` 4-Module plate from $(X = 3050.0\\text{ mm}, Y = 1707.5\\text{ mm}, Z = 5160.5\\text{ mm})$. - Streamlined from 18 to **17 mo",
+      "content_length": 1000
+    },
+    {
+      "title": "27.3 Ground Floor Service Retained",
+      "level": 3,
+      "slug": "27-3-ground-floor-service-retained",
+      "start_line": 1511,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "* **`SB-UTIL` Ground Floor Status:** 100% active and preserved at $(X = 3050.0\\text{ mm}, Y = 1714.5\\text{ mm}, Z = 1987.5\\text{ mm})$ on `Wall_Stair_SE_SW`, complete with its $2 \\times 16\\text{A}$ dedicated sockets, ver",
+      "content_length": 310
+    },
+    {
+      "title": "27.4 Master Model Validation",
+      "level": 3,
+      "slug": "27-4-master-model-validation",
+      "start_line": 1514,
+      "categories": [
+        "electrical"
+      ],
+      "summary": "* **Master Document:** `HomeConstruction.FCStd` * **Object Count:** 422 objects (strictly 3 root groups, zero orphan features). * **Errors:** 0 cyclic dependencies, 0 null shapes, 0 invalid objects. ---",
+      "content_length": 203
+    },
+    {
+      "title": "28. Relocation of Staircase Light Switchbox to South Staircase Wall",
+      "level": 2,
+      "slug": "28-relocation-of-staircase-light-switchbox-to-south-staircase-wall",
+      "start_line": 1521,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "In accordance with user requirements (*\"can we keep staiscase light switchbox on south staircase wall\"*), the primary staircase lighting switchbox (`SB_STAIR1`) and its First Floor twin (`FF_SB_STAIR1`) have been relocat",
+      "content_length": 1038
+    },
+    {
+      "title": "28.1 Architectural & Ergonomic Rationale",
+      "level": 3,
+      "slug": "28-1-architectural-ergonomic-rationale",
+      "start_line": 1533,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Direct Entrance Ergonomics:** - Previously, placing the switchbox on `Wall_Stair_North` ($Y = 228.6\\text{ mm}$) required a person entering the staircase from the living room to walk past the first 3 steps into the f",
+      "content_length": 1331
+    },
+    {
+      "title": "28.2 Technical Coordinates & Component Schedule",
+      "level": 3,
+      "slug": "28-2-technical-coordinates-component-schedule",
+      "start_line": 1544,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "* **Ground Floor Switchboard (`SB_STAIR1`):** - **Host Wall:** `Wall_Stair_SE_SW` (Inner face at $Y = 1714.5\\text{ mm}$) - **Coordinates:** Centered at $(X = 2017.5\\text{ mm}, Y = 1707.5\\text{ mm}, Z = 2151.9\\text{ mm})$",
+      "content_length": 1520
+    },
+    {
+      "title": "28.3 Master Model Verification",
+      "level": 3,
+      "slug": "28-3-master-model-verification",
+      "start_line": 1560,
+      "categories": [
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **CAD Master File:** `HomeConstruction.FCStd` * **Object Count:** **422 objects** (100% stable). * **Hierarchical Tree:** Strictly 3 master root groups (`Ground_Floor_Group`, `First_Floor_Group`, `Master_Rooftop_Terrac",
+      "content_length": 316
+    },
+    {
+      "title": "29. Sitout Area Electrical Pipelines Completion & Full Electrical Network Visualization (Walls Hidden)",
+      "level": 2,
+      "slug": "29-sitout-area-electrical-pipelines-completion-full-electrical-network-visualization-walls-hidden",
+      "start_line": 1568,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Per user directive (*\"wait first complete the electical wrining pipe lines one by one rooms first start with sitout area, hide other walls show the all electical pipe lines\"*), the electrical conduit infrastructure for t",
+      "content_length": 1569
+    },
+    {
+      "title": "29.1 Sitout Area Electrical Components Added",
+      "level": 3,
+      "slug": "29-1-sitout-area-electrical-components-added",
+      "start_line": 1582,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Sitout Entrance Switchboard (`SB-1`):** - **Host Substrate:** Solid brick masonry pier on `Living_Room_Wall_Main_Door` (outer face facing Sitout verandah at $Y = 1714.5\\text{ mm}$), positioned right of the main entr",
+      "content_length": 3528
+    },
+    {
+      "title": "29.2 Complete Building Electrical Network Visibility Status",
+      "level": 3,
+      "slug": "29-2-complete-building-electrical-network-visibility-status",
+      "start_line": 1611,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "* **Walls Hidden:** 69 opaque brick masonry and partition walls across Ground Floor, First Floor, and Mumty Tower hidden (`Visibility = False`). * **Slabs Optimized:** Monolithic intermediate and rooftop slabs hidden fro",
+      "content_length": 890
+    },
+    {
+      "title": "30. Integration of Deep PVC Pendant Pot Boxes at All Conduit Pipe Crossings & Multi-Branch Junctions",
+      "level": 2,
+      "slug": "30-integration-of-deep-pvc-pendant-pot-boxes-at-all-conduit-pipe-crossings-multi-branch-junctions",
+      "start_line": 1622,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "In strict compliance with the client's directive (*\"whenever pipe crossing happen add Pendant Pot Boxes\"*) and Indian electrical standard **IS 732 / NBC Part 8**, deep PVC circular pendant pot boxes ($\\varnothing 85\\text",
+      "content_length": 1021
+    },
+    {
+      "title": "30.1 Engineering Rationale & Benefits of Crossing Pot Boxes",
+      "level": 3,
+      "slug": "30-1-engineering-rationale-benefits-of-crossing-pot-boxes",
+      "start_line": 1634,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "1. **Zero Slab Conduit Overlap & Flattening:** - In RCC monolithic slabs ($125\\text{ mm}$ thickness), running $25\\text{ mm}$ conduits over or under each other consumes $50\\text{ mm} + \\text{clearance}$, which severely de",
+      "content_length": 891
+    },
+    {
+      "title": "30.2 Newly Integrated Crossing & Multi-Branch Pot Boxes",
+      "level": 3,
+      "slug": "30-2-newly-integrated-crossing-multi-branch-pot-boxes",
+      "start_line": 1644,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Five critical crossing and convergence hubs have been upgraded with dedicated Pendant Pot Boxes across both Ground and First Floors: | Pot Box ID | Room / Zone | Coordinates $(X, Y)$ (mm) | Slab Elevation ($Z$) | Interse",
+      "content_length": 1845
+    },
+    {
+      "title": "30.3 Component Schedule Audit",
+      "level": 3,
+      "slug": "30-3-component-schedule-audit",
+      "start_line": 1656,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **`Electrical_Slab_Light_Pots` (Ground Floor):** Expanded from 12 to **17 solid pot units** (12 room downlights + 5 crossing/multi-branch pendant boxes). * **`FF_Electrical_Slab_Light_Pots` (First Floor):** Expanded fr",
+      "content_length": 585
+    },
+    {
+      "title": "31. Relocation of Ground Floor Staircase Wall Luminaire to Low-Level Landing Elevation",
+      "level": 2,
+      "slug": "31-relocation-of-ground-floor-staircase-wall-luminaire-to-low-level-landing-elevation",
+      "start_line": 1665,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "Following client direction (*\"can we move the gf stairs wall light to below 2feet from second flight\"*), the Ground Floor staircase wall luminaire (`Staircase_Wall_Light_Fixture`) and its chased wall conduit feed were mo",
+      "content_length": 768
+    },
+    {
+      "title": "31.1 Geometric Translation & Architectural Details",
+      "level": 3,
+      "slug": "31-1-geometric-translation-architectural-details",
+      "start_line": 1675,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "* **Previous Position:** Mounted at $Z \\in [3200.0, 3400.0\\text{ mm}]$ (center $Z = 3300.0\\text{ mm}$, $+861.6\\text{ mm}$ above mid-landing). * **New Lowered Position:** Lowered by exactly $610.0\\text{ mm}$ ($2'\\text{-}0",
+      "content_length": 996
+    },
+    {
+      "title": "31.2 Continuous Masonry Wall Conduit Adaptation",
+      "level": 3,
+      "slug": "31-2-continuous-masonry-wall-conduit-adaptation",
+      "start_line": 1686,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "* **Host Solid:** `Electrical_Slab_Wall_Drops` (Solid 19). * **Conduit Specification:** $25\\text{ mm}$ OD rigid PVC in **Emerald Green (`#10AC84`)**. * **Routing Path:** 1. Starts at `SB_STAIR1` top knockout at $(X = 201",
+      "content_length": 747
+    },
+    {
+      "title": "31.3 Document Health & Verification",
+      "level": 3,
+      "slug": "31-3-document-health-verification",
+      "start_line": 1697,
+      "categories": [
+        "site_work"
+      ],
+      "summary": "* **Master Model:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) saved. * **Geometric Validation:** 0 cyclic dependencies, 0 null shapes, 0 recompute errors. ---",
+      "content_length": 220
+    },
+    {
+      "title": "32. FreeCAD GUI Direct Visualization & Tree Node Separation for Staircase Lighting and Switchbox (`SB_STAIR1`)",
+      "level": 2,
+      "slug": "32-freecad-gui-direct-visualization-tree-node-separation-for-staircase-lighting-and-switchbox-sbstair1",
+      "start_line": 1704,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "To address the client's notification (*\"i dont see stairs light and switchbox on FreeCAD\"*), targeted diagnostic and visual optimization steps were performed directly in the active FreeCAD document: ```carousel ![Annotat",
+      "content_length": 783
+    },
+    {
+      "title": "32.1 Root Cause of Initial GUI Invisibility",
+      "level": 3,
+      "slug": "32-1-root-cause-of-initial-gui-invisibility",
+      "start_line": 1716,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "1. **Camera Position & Viewport Scale:** The active FreeCAD 3D camera was left at an axonometric full-building scale ($>15\\text{ m}$ away), making small $75\\text{ mm}$ switchplates and $65\\text{ mm}$ wall luminaires visu",
+      "content_length": 882
+    },
+    {
+      "title": "32.2 Enhancements Applied",
+      "level": 3,
+      "slug": "32-2-enhancements-applied",
+      "start_line": 1722,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Dedicated Tree Objects Created:** - **Ground Floor:** Separated Solid 14 into an independent feature: `Staircase_Switchboard_SB_STAIR1` (Label: `Staircase Switchboard SB-STAIR1 (South Wall)`), located directly insid",
+      "content_length": 1048
+    },
+    {
+      "title": "33. Relocation of GF Staircase Wall Luminaire to 2 Feet Below FF Stair Mid-Landing Slab",
+      "level": 2,
+      "slug": "33-relocation-of-gf-staircase-wall-luminaire-to-2-feet-below-ff-stair-mid-landing-slab",
+      "start_line": 1735,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "Per user instruction (*\"can we move the GF staircase wall light to 2feet below the FF Stair Mid-Landing Slab\"*), the Ground Floor staircase wall luminaire (`Staircase_Wall_Light_Fixture`) and its chased wall conduit feed",
+      "content_length": 805
+    },
+    {
+      "title": "33.1 Elevation & Ergonomic Rationale",
+      "level": 3,
+      "slug": "33-1-elevation-ergonomic-rationale",
+      "start_line": 1745,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Vertical Circulation Geometry:** - **FF Stair Mid-Landing Slab (`FF_Stair_Mid_Landing`):** - Bottom Soffit Level: $Z = 5486.4\\text{ mm}$ ($+1.399\\text{ m}$ above FF floor datum $Z = 4087.4\\text{ mm}$). - Top Slab Le",
+      "content_length": 1173
+    },
+    {
+      "title": "33.2 Concealed Masonry Wall Conduit Realignment",
+      "level": 3,
+      "slug": "33-2-concealed-masonry-wall-conduit-realignment",
+      "start_line": 1761,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "* **Host Component:** `Electrical_Slab_Wall_Drops` (Solid 19). * **Conduit Specification:** $25\\text{ mm}$ OD heavy-duty rigid PVC in **Safety Emerald Green (`#10AC84`)**. * **Path Routing:** 1. Ascends vertically from `",
+      "content_length": 673
+    },
+    {
+      "title": "33.3 Master CAD Model Status",
+      "level": 3,
+      "slug": "33-3-master-cad-model-status",
+      "start_line": 1770,
+      "categories": [
+        "general"
+      ],
+      "summary": "* **CAD Master File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Object Count:** 424 objects (100% valid solids, 0 cyclic errors). ---",
+      "content_length": 200
+    },
+    {
+      "title": "34. First Floor Staircase Wall Luminaire Relocation: 2 Feet Below Rain Protection Canopy Slab",
+      "level": 2,
+      "slug": "34-first-floor-staircase-wall-luminaire-relocation-2-feet-below-rain-protection-canopy-slab",
+      "start_line": 1776,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "Following client directive (*\"same like change the FF wall light adjustment it will move to rain protection area\"*), the First Floor staircase wall luminaire (`FF_Staircase_Wall_Light_Fixture`) and its chased wall condui",
+      "content_length": 924
+    },
+    {
+      "title": "34.1 Mathematical Elevation Alignment",
+      "level": 3,
+      "slug": "34-1-mathematical-elevation-alignment",
+      "start_line": 1786,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "1. **Overhead Rain Protection Ceiling Level:** - **Canopy / Terrace Roof Slab Soffit:** $Z_{\\text{soffit}} = 7135.4\\text{ mm}$ (`FF_Stair_North_Canopy_Slab` & `Terrace_Roof_Slab`). 2. **Exact 2-Foot ($609.6\\text{ mm}$) D",
+      "content_length": 864
+    },
+    {
+      "title": "34.2 Concealed Masonry Conduit Run (`FF_Electrical_Slab_Wall_Drops`)",
+      "level": 3,
+      "slug": "34-2-concealed-masonry-conduit-run-ffelectricalslabwalldrops",
+      "start_line": 1799,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "* **Host Solid:** Solid 18 of `FF_Electrical_Slab_Wall_Drops`. * **Conduit Specification:** $25\\text{ mm}$ OD heavy-duty rigid PVC in **Safety Emerald Green (`#10AC84`)**. * **Routing:** 1. Branches from the roof slab co",
+      "content_length": 532
+    },
+    {
+      "title": "34.3 Symmetrical Multi-Storey Staircase Lighting Standard",
+      "level": 3,
+      "slug": "34-3-symmetrical-multi-storey-staircase-lighting-standard",
+      "start_line": 1807,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "With both modifications applied, the two-storey building achieves 100% structural and electrical symmetry: * **Ground Floor:** Luminaire centered at $Z = 4876.8\\text{ mm}$ (exactly $2'\\text{-}0\"$ below FF Stair Mid-Landi",
+      "content_length": 560
+    },
+    {
+      "title": "35. First Floor Staircase Wall Luminaire Relocation: Headroom Weatherproof Wall (2 Feet Below Headroom Roof Slab)",
+      "level": 2,
+      "slug": "35-first-floor-staircase-wall-luminaire-relocation-headroom-weatherproof-wall-2-feet-below-headroom-roof-slab",
+      "start_line": 1814,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "Following client directive (*\"same like change the FF wall light adjustment it will move to Headroom Weatherproof Wall\"*), the First Floor staircase luminaire (`FF_Staircase_Wall_Light_Fixture`) and its chased wall condu",
+      "content_length": 902
+    },
+    {
+      "title": "35.1 Mathematical Elevation & Coordinate Alignment",
+      "level": 3,
+      "slug": "35-1-mathematical-elevation-coordinate-alignment",
+      "start_line": 1824,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "1. **Headroom Structure & Roof Level:** - **Headroom Wall Enclosure:** $X \\in [1714.5, 3810.0]$, $Y \\in [0, 1866.9]$, $Z \\in [7260.4, 9460.4\\text{ mm}]$ ($2.2\\text{ m}$ height). - **Headroom Roof Slab Soffit:** $Z_{\\text",
+      "content_length": 1252
+    },
+    {
+      "title": "35.2 Concealed Masonry Conduit Run (`FF_Electrical_Slab_Wall_Drops`)",
+      "level": 3,
+      "slug": "35-2-concealed-masonry-conduit-run-ffelectricalslabwalldrops",
+      "start_line": 1839,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "* **Host Solid:** Solid 18 of `FF_Electrical_Slab_Wall_Drops`. * **Conduit Specification:** $25\\text{ mm}$ OD heavy-duty rigid PVC in **Safety Emerald Green (`#10AC84`)**. * **Path Routing:** 1. Branches from the Terrace",
+      "content_length": 574
+    },
+    {
+      "title": "35.3 Multi-Storey Electrical Architecture Summary",
+      "level": 3,
+      "slug": "35-3-multi-storey-electrical-architecture-summary",
+      "start_line": 1847,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "* **Ground Floor Staircase Luminaire:** Centered at $Z = 4876.8\\text{ mm}$ ($2'\\text{-}0\"$ below `FF_Stair_Mid_Landing` soffit). * **Headroom Staircase Luminaire:** Centered at $Z = 8850.8\\text{ mm}$ ($2'\\text{-}0\"$ belo",
+      "content_length": 426
+    },
+    {
+      "title": "36. Under-Stair Sump Water Pump Motor Switch Integrated into Utility Switchboard (SB-UTIL)",
+      "level": 2,
+      "slug": "36-under-stair-sump-water-pump-motor-switch-integrated-into-utility-switchboard-sb-util",
+      "start_line": 1853,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "Following client directive (*\"can we have motor switch on Stair util box instead of seperate pipeline\"*), the electrical design was streamlined by eliminating the redundant external pipeline and standalone starter enclos",
+      "content_length": 849
+    },
+    {
+      "title": "36.1 Streamlined Electrical Architecture",
+      "level": 3,
+      "slug": "36-1-streamlined-electrical-architecture",
+      "start_line": 1863,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "1. **Consolidated Utility Control Point:** - **Switchboard ID:** `Staircase_Switchboard_SB_UTIL` (dedicated tree object in `Electrical_Switchboards_Group`, Electric Cyan `#00D2FF`). - **Host Wall:** Solid masonry partiti",
+      "content_length": 1127
+    },
+    {
+      "title": "36.2 Direct Feed Conduit Run (`Pump_Motor_Supply_Conduit`)",
+      "level": 3,
+      "slug": "36-2-direct-feed-conduit-run-pumpmotorsupplyconduit",
+      "start_line": 1875,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "* **Host Component:** Added as dedicated parametric object `Pump_Motor_Supply_Conduit` in `Sump_Motor_Group`. * **Conduit Specification:** $20\\text{ mm}$ OD heavy-duty rigid PVC in **Safety Emerald Green (`#10AC84`)**. *",
+      "content_length": 967
+    },
+    {
+      "title": "36.3 Master CAD Model Status",
+      "level": 3,
+      "slug": "36-3-master-cad-model-status",
+      "start_line": 1885,
+      "categories": [
+        "general"
+      ],
+      "summary": "* **CAD Master File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Integrity:** 425 objects, 0 cyclic errors, 100% valid manifold solids. ---",
+      "content_length": 204
+    },
+    {
+      "title": "37. Ground Floor Living Room: Isolated MEP Electrical & Wiring Pipeline Architecture",
+      "level": 2,
+      "slug": "37-ground-floor-living-room-isolated-mep-electrical-wiring-pipeline-architecture",
+      "start_line": 1890,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Per user directive (*\"lets move to living room hide all other areas show the living room and wiring pipelines\"*), all external areas (First Floor, Terrace Mumty, Bedroom, Kitchen, Toilet, Sitout, and Stairwell) have been",
+      "content_length": 788
+    },
+    {
+      "title": "37.1 Architectural Envelope & Boundary Definition",
+      "level": 3,
+      "slug": "37-1-architectural-envelope-boundary-definition",
+      "start_line": 1900,
+      "categories": [
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Room Footprint:** $X \\in [0.0, 5029.2\\text{ mm}]$ ($16'\\text{-}6\"$), $Y \\in [1714.5, 5181.6\\text{ mm}]$ ($11'\\text{-}4\"$), $Z \\in [914.4, 4087.4\\text{ mm}]$ ($10'\\text{-}0\"$ ceiling clearance). Total area $\\approx 18",
+      "content_length": 784
+    },
+    {
+      "title": "37.2 Ceiling Slab Lighting & Fan Infrastructure",
+      "level": 3,
+      "slug": "37-2-ceiling-slab-lighting-fan-infrastructure",
+      "start_line": 1908,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Central Fan Box (`FB-1`):** Parametric galvanized octagonal fan box with integrated hook at $(X = 2514.6, Y = 3257.4, Z = 4020.0\\text{ mm})$, centered in the ceiling. * **4-Point Recessed Downlight Grid (`DL-1` to `D",
+      "content_length": 796
+    },
+    {
+      "title": "37.3 Concealed Wall Chases & Modular Switchboards (`Living_Slab_Wall_Drops`)",
+      "level": 3,
+      "slug": "37-3-concealed-wall-chases-modular-switchboards-livingslabwalldrops",
+      "start_line": 1919,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "All drops utilize $25\\text{ mm}$ rigid PVC pipe in **Safety Emerald Green (`#10AC84`)**: 1. **Main Distribution Board (MDB):** - Location: North Foyer Wall at $(X = 1600.0, Y = 1930.0, Z = 2254.4 - 2574.4\\text{ mm})$. -",
+      "content_length": 1161
+    },
+    {
+      "title": "37.4 Master CAD Model State",
+      "level": 3,
+      "slug": "37-4-master-cad-model-state",
+      "start_line": 1934,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **CAD Master File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Isolated Display Objects:** `Living_Slab_Conduit_Network`, `Living_Slab_Wall_Drops`, `Livi",
+      "content_length": 337
+    },
+    {
+      "title": "37.5 Switchboard Model Consolidation: Plates & Switches Unified",
+      "level": 3,
+      "slug": "37-5-switchboard-model-consolidation-plates-switches-unified",
+      "start_line": 1938,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "In response to user feedback (*\"why we have seperate boxes, is it possible to make it single\"*), the switchboards were merged: * **Previous Split Reason:** In CAD, plates (polycarbonate white) and rockers/sockets (charco",
+      "content_length": 667
+    },
+    {
+      "title": "37.6 Living Room North Entrance MEP Consolidation: Combined Console & Single Pipeline",
+      "level": 3,
+      "slug": "37-6-living-room-north-entrance-mep-consolidation-combined-console-single-pipeline",
+      "start_line": 1944,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Per user request (*\"Living Room Switchboards (MDB, SB-2, SB-3, SB-16 - Unified) make it compaine and single pipe line now i can see two pipe lines\"*), the North entrance wall electrical infrastructure was completely re-a",
+      "content_length": 736
+    },
+    {
+      "title": "1. Combined Architectural Console (MDB + SB-2 Unified Enclosure)",
+      "level": 4,
+      "slug": "1-combined-architectural-console-mdb-sb-2-unified-enclosure",
+      "start_line": 1953,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Previous State:** Two separate boxes were stacked vertically—the 12-way Main Distribution Board (`MDB`) at $+1340\\text{ to }+1660\\text{ mm}$ AFF and the 8-module Room Switchboard (`SB-2`) at $+1200\\text{ mm}$ AFF, li",
+      "content_length": 1029
+    },
+    {
+      "title": "2. Single Pipeline Vertical Conduit Drop",
+      "level": 4,
+      "slug": "2-single-pipeline-vertical-conduit-drop",
+      "start_line": 1961,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Eliminated Clutter:** - Removed Drop 1 (secondary $25\\text{ mm}$ drop at $X = 1700\\text{ mm}$). - Removed Drop 11 (horizontal interlink pipe at $Z = 2300\\text{ mm}$). - Removed Slab Solid 2 (ceiling slab lateral conn",
+      "content_length": 741
+    },
+    {
+      "title": "37.7 Living Room Architectural MEP Reconfiguration: MCB Behind Inward Door Swing",
+      "level": 3,
+      "slug": "37-7-living-room-architectural-mep-reconfiguration-mcb-behind-inward-door-swing",
+      "start_line": 1971,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "Per user directive (*\"1. revert the last changes, 2. move the MCB console to East side wall, change door handle west side while door open the MCP console will be behaind the door\"*): ```carousel ![Living Room Architectur",
+      "content_length": 443
+    },
+    {
+      "title": "1. Door Leaf Swing & Handle Reconfiguration",
+      "level": 4,
+      "slug": "1-door-leaf-swing-handle-reconfiguration",
+      "start_line": 1978,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "* **Previous State:** Door handle was situated on the East jamb ($X \\approx 646\\text{ mm}$), causing the door to swing inward toward the West. * **New Configuration:** - **Door Handle (`GF_Main_Door_Handle`):** Repositio",
+      "content_length": 574
+    },
+    {
+      "title": "2. MCB Distribution Console Relocated to East Wall (Concealed Behind Door)",
+      "level": 4,
+      "slug": "2-mcb-distribution-console-relocated-to-east-wall-concealed-behind-door",
+      "start_line": 1985,
+      "categories": [
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Location:** Mounted flush into `Living_Room_Wall_East` ($X = 228.6\\text{ mm}$): - **$X$-Coordinates:** $X \\in [165.0, 236.0\\text{ mm}]$ (recessed into solid 9\" brickwork with $5\\text{ mm}$ architectural projection).",
+      "content_length": 810
+    },
+    {
+      "title": "3. Room Switchboard `SB-2` Maintained at Entrance Jamb",
+      "level": 4,
+      "slug": "3-room-switchboard-sb-2-maintained-at-entrance-jamb",
+      "start_line": 1992,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Location:** North entrance wall beside the door opening at $(X = 1700.0\\text{ mm}, Y = 1937.0\\text{ mm}, Z = 2114.4\\text{ to }2189.4\\text{ mm})$. * **Ergonomics:** As someone pushes the door open with their left hand",
+      "content_length": 567
+    },
+    {
+      "title": "37.8 Global Electrical Cleanup: Strictly 1 Switchboard & 1 Pipeline on North Wall",
+      "level": 3,
+      "slug": "37-8-global-electrical-cleanup-strictly-1-switchboard-1-pipeline-on-north-wall",
+      "start_line": 1997,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "In response to user feedback (*\"i see two pipe lines and two switch boxs on north side wall near the main door\"*), a comprehensive audit and cleanup across **both global and localized MEP objects** was executed: ```carou",
+      "content_length": 445
+    },
+    {
+      "title": "1. Root Cause of the Second Box and Pipeline",
+      "level": 4,
+      "slug": "1-root-cause-of-the-second-box-and-pipeline",
+      "start_line": 2004,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* In FreeCAD, legacy global compounds (`Electrical_Switchboard_Plates`, `Electrical_Switchboard_Rocker_Switches`, and `Electrical_Slab_Wall_Drops`) still retained the old North wall MDB box ($X = 1600\\text{ mm}$), its to",
+      "content_length": 475
+    },
+    {
+      "title": "2. Comprehensive Multi-Object Remediation",
+      "level": 4,
+      "slug": "2-comprehensive-multi-object-remediation",
+      "start_line": 2008,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Deleted from All Objects:** - Old MDB distribution box at $(X = 1600.0, Y = 1930.0, Z = 2414.4\\text{ mm})$. - Old North MDB drop pipeline at $(X = 1600.0, Y = 1930.0\\text{ mm})$. - Old horizontal interlink conduit at",
+      "content_length": 958
+    },
+    {
+      "title": "37.9 Precision Wall Attachment & Alignment Audit for `SB-2`",
+      "level": 3,
+      "slug": "37-9-precision-wall-attachment-alignment-audit-for-sb-2",
+      "start_line": 2021,
+      "categories": [
+        "electrical"
+      ],
+      "summary": "Per user inquiry (*\"check SB-2 position is it attached to wall?\"*), a detailed spatial audit of `SB-2` and its mounting wall was conducted: ```carousel ![SB-2 Precision Wall Attachment and Alignment Verified Showing Perf",
+      "content_length": 365
+    },
+    {
+      "title": "1. Issues Identified in Previous State",
+      "level": 4,
+      "slug": "1-issues-identified-in-previous-state",
+      "start_line": 2028,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Overhang Past Wall Corner:** `Living_Room_Wall_Main_Door` terminates at $X = 1714.5\\text{ mm}$. The legacy `SB-2` box was placed at $X \\in [1600.0, 1800.0\\text{ mm}]$, meaning $85.5\\text{ mm}$ of the box was overhang",
+      "content_length": 388
+    },
+    {
+      "title": "2. Millimeter-Accurate Wall Attachment Implementation",
+      "level": 4,
+      "slug": "2-millimeter-accurate-wall-attachment-implementation",
+      "start_line": 2032,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Wall Pier Dimensions:** - Door Frame East edge: $X = 1496.55\\text{ mm}$ - Wall Corner edge: $X = 1714.50\\text{ mm}$ - Available Clear Brick Pier: $217.95\\text{ mm}$ - South Plaster Surface: $Y = 1943.10\\text{ mm}$ *",
+      "content_length": 1363
+    },
+    {
+      "title": "37.10 Relocation of `SB-2` Next to the Pillar (`Col_Stair_SE`)",
+      "level": 3,
+      "slug": "37-10-relocation-of-sb-2-next-to-the-pillar-colstairse",
+      "start_line": 2050,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Per user directive (*\"can we move the SB-2 to the next to the piller\"*), the room light/fan switchboard was repositioned past the structural pillar onto the main partition wall: ```carousel ![SB-2 Relocated Next to the P",
+      "content_length": 382
+    },
+    {
+      "title": "1. Rationale & Structural Protection",
+      "level": 4,
+      "slug": "1-rationale-structural-protection",
+      "start_line": 2057,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Structural Column Preservation:** `Col_Stair_SE` ($X \\in [1714.5, 1943.1\\text{ mm}]$, $Y \\in [1714.5, 1943.1\\text{ mm}]$) is a primary RCC load-bearing pillar (Column C2). Chasing conduits or embedding electrical box",
+      "content_length": 477
+    },
+    {
+      "title": "2. Technical Position on `Wall_Stair_SE_SW`",
+      "level": 4,
+      "slug": "2-technical-position-on-wallstairsesw",
+      "start_line": 2061,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Wall Mounting:** Mounted on the South room-facing surface of `Wall_Stair_SE_SW` at $Y = 1943.1\\text{ mm}$. * **$X$-Coordinates:** Centered at $X = 2050.0\\text{ mm}$ ($X \\in [1960.0, 2140.0\\text{ mm}]$, width $180.0\\t",
+      "content_length": 872
+    },
+    {
+      "title": "37.11 Structural Integrity Rule: Strict Column-Clearance Audit (Zero Switchboards on Pillars)",
+      "level": 3,
+      "slug": "37-11-structural-integrity-rule-strict-column-clearance-audit-zero-switchboards-on-pillars",
+      "start_line": 2070,
+      "categories": [
+        "structural",
+        "electrical"
+      ],
+      "summary": "Per user requirement (*\"keep in mind we don't need to place any switch box on the pillers\"*), a comprehensive 3D collision detection audit was performed across all **32 structural RCC columns** in the building:",
+      "content_length": 210
+    },
+    {
+      "title": "1. Engineering Rationale",
+      "level": 4,
+      "slug": "1-engineering-rationale",
+      "start_line": 2073,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "* **Structural Safety Code:** Reinforced Cement Concrete (RCC) columns/pillars carry primary axial and lateral structural loads of the two-storey residence. * **Chasing Prohibited:** Chasing, chiseling, or embedding back",
+      "content_length": 602
+    },
+    {
+      "title": "2. Building-Wide Audit & Spatial Clearances",
+      "level": 4,
+      "slug": "2-building-wide-audit-spatial-clearances",
+      "start_line": 2078,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **`SB-2` (Living Room Main Switchboard):** - Mounted on: `Wall_Stair_SE_SW` at $X = 2100.0\\text{ mm}$ ($X \\in [2010.0, 2190.0\\text{ mm}]$). - Clearance from Pillar `Col_Stair_SE` ($X = 1943.1\\text{ mm}$): **$66.9\\text{",
+      "content_length": 1151
+    },
+    {
+      "title": "38. Kitchen Exhaust Fan Relocation to East Side Wall (Over Sink Bay)",
+      "level": 2,
+      "slug": "38-kitchen-exhaust-fan-relocation-to-east-side-wall-over-sink-bay",
+      "start_line": 2092,
+      "categories": [
+        "electrical"
+      ],
+      "summary": "Following client directive (*\"move exhaust fan east side wall since south side wall common wall\"*), the kitchen exhaust fan has been relocated to the **East exterior wall directly adjacent to the sink bay**, completely a",
+      "content_length": 501
+    },
+    {
+      "title": "38.1 Site Boundary Rationale & Engineering Coordinates",
+      "level": 3,
+      "slug": "38-1-site-boundary-rationale-engineering-coordinates",
+      "start_line": 2100,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Boundary Wall Protection (South Wall as Solid Common Wall):** * The South exterior wall (`Kitchen_Wall_South`, $Y \\in [7467.6, 7620.0\\text{ mm}]$) is a shared common wall / zero-setback boundary abutting the neighbo",
+      "content_length": 2404
+    },
+    {
+      "title": "38.2 Tubelight Pipe Centering & Kitchen Pipeline Simplification",
+      "level": 3,
+      "slug": "38-2-tubelight-pipe-centering-kitchen-pipeline-simplification",
+      "start_line": 2121,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Following client audit (*\"check the tubelight pipe posotion and simplify the pipelines on kitchen\"*), the kitchen electrical pipeline network was completely restructured from radial diagonal runs into a clean, profession",
+      "content_length": 2782
+    },
+    {
+      "title": "39. Master Bedroom Electrical Pipeline Optimization",
+      "level": 2,
+      "slug": "39-master-bedroom-electrical-pipeline-optimization",
+      "start_line": 2147,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Following client directive (*\"optimize the bedroom pipeliens\"*), the Master Bedroom electrical conduit network has been completely restructured from legacy diagonal runs into a streamlined, high-efficiency **Orthogonal S",
+      "content_length": 601
+    },
+    {
+      "title": "39.1 Legacy Issues Resolved",
+      "level": 3,
+      "slug": "39-1-legacy-issues-resolved",
+      "start_line": 2157,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "1. **Elimination of Diagonal Criss-Crosses:** * Previously, four diagonal conduits radiated outward from the central ceiling fan box `FB-2` ($(X=3480, Y=6070)$) like an \"X\" across the bedroom floor/slab: - Diagonal NW to",
+      "content_length": 1036
+    },
+    {
+      "title": "39.2 Optimized Orthogonal Pipeline Grid",
+      "level": 3,
+      "slug": "39-2-optimized-orthogonal-pipeline-grid",
+      "start_line": 2173,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "1. **Central Spine Trunk Line (North-South along $X = 3500.0 ext{ mm}$):** * A single, continuous straight conduit runs down the center of the bedroom: $$ ext{Entrance SB-9 Drop } (Y=4650) \\longleftrightarrow ext{Downlig",
+      "content_length": 1720
+    },
+    {
+      "title": "39.3 Quantitative Optimization Summary",
+      "level": 3,
+      "slug": "39-3-quantitative-optimization-summary",
+      "start_line": 2193,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "| Metric | Legacy Radial Layout | Optimized Orthogonal Grid | Improvement | | :--- | :--- | :--- | :--- | | **Grid Geometry** | Multiple diagonal angles ($45^\\circ, 60^\\circ$) | **Strictly $90^\\circ$ Orthogonal (E-W & N-",
+      "content_length": 830
+    },
+    {
+      "title": "39.4 First Floor (G+1) Synchronization",
+      "level": 3,
+      "slug": "39-4-first-floor-g-1-synchronization",
+      "start_line": 2206,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* All bedroom optimizations (`FF_Electrical_Slab_Conduit_Network`, `FF_Bedroom_Tubelight_Conduit_Drop`, `FF_Electrical_Slab_Light_Pots`) have been mirrored in 1:1 lockstep at $\\Delta Z = +3173.0 ext{ mm}$. ---",
+      "content_length": 211
+    },
+    {
+      "title": "40. Ground Floor Toilet (4'-0\" x 6'-0\") Architectural, MEP & Plumbing Pipeline System",
+      "level": 2,
+      "slug": "40-ground-floor-toilet-4-0-x-6-0-architectural-mep-plumbing-pipeline-system",
+      "start_line": 2212,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Following client directive (*\"show toilet and pipelines\"*), the complete architectural, MEP electrical conduit network, and sanitary plumbing infrastructure of the Ground Floor Toilet ($4'-0\" \\times 6'-0\"$) has been full",
+      "content_length": 617
+    },
+    {
+      "title": "40.1 Spatial Envelope & Dropped Ceiling Loft",
+      "level": 3,
+      "slug": "40-1-spatial-envelope-dropped-ceiling-loft",
+      "start_line": 2222,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Clear Internal Dimensions:** * Width (East-West): $4'-0\"\\ (1219.2\\text{ mm})$ between inside wall faces ($X = 3810.0\\text{ mm}$ to $4876.8\\text{ mm}$, excluding West column offset). * Length (North-South): $6'-0\"\\ (",
+      "content_length": 1277
+    },
+    {
+      "title": "40.2 Electrical Network & Safety Segregation (IS 732 Compliance)",
+      "level": 3,
+      "slug": "40-2-electrical-network-safety-segregation-is-732-compliance",
+      "start_line": 2237,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Water splash and moisture are rigorously segregated from electrical switches in accordance with IS 732 / IEC 60364 bathroom zoning: 1. **Entrance Control Console (`SB-7` on Outside Lobby Wall):** * **Mounting:** Outer lo",
+      "content_length": 1931
+    },
+    {
+      "title": "40.3 Plumbing & Sanitary Pipeline Infrastructure",
+      "level": 3,
+      "slug": "40-3-plumbing-sanitary-pipeline-infrastructure",
+      "start_line": 2263,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "1. **Underground Soil Drainage to Septic Tank:** * **Fixture:** Vitreous china Indian WC pan (`Toilet_Indian_WC`) with slip-resistant integrated footrests, positioned at $X \\in [4170, 4876], Y \\in [152, 940], Z = 914.4\\t",
+      "content_length": 2234
+    },
+    {
+      "title": "40.4 Quantitative Technical Schedule",
+      "level": 3,
+      "slug": "40-4-quantitative-technical-schedule",
+      "start_line": 2286,
+      "categories": [
+        "structural",
+        "plumbing",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Component | Tag / Name | Location / Wall | Elevation (AFF) | Absolute Z | Specification | | :--- | :--- | :--- | :--- | :--- | :--- | | **Entrance Console** | `SB-7` | South / Lobby Wall | $+1200\\text{ mm}$ | $2114.4\\t",
+      "content_length": 1837
+    },
+    {
+      "title": "40.5 First Floor (G+1) Lockstep Synchronization",
+      "level": 3,
+      "slug": "40-5-first-floor-g-1-lockstep-synchronization",
+      "start_line": 2304,
+      "categories": [
+        "plumbing",
+        "staircase"
+      ],
+      "summary": "* The identical configuration has been established for the First Floor Toilet (`FF_Toilet_Group`) at vertical translation $\\Delta Z = +3173.0\\text{ mm}$, ensuring absolute vertical alignment of the sanitary shaft, CPVC r",
+      "content_length": 252
+    },
+    {
+      "title": "41. Living Room Slab Conduit Optimization",
+      "level": 2,
+      "slug": "41-living-room-slab-conduit-optimization",
+      "start_line": 2310,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "slug": "summary",
+      "start_line": 2312,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Optimized the **Living Room** roof-slab conduit network (`Living_Slab_Conduit_Network`) from a radial \"spider-web\" pattern into a clean **orthogonal spine-and-header grid**.",
+      "content_length": 173
+    },
+    {
+      "title": "Problem: Radial Star Pattern",
+      "level": 3,
+      "slug": "problem-radial-star-pattern",
+      "start_line": 2315,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "The original conduits had all 20 solid segments radiating diagonally from the central ceiling fan box — a classic \"star topology\" anti-pattern: - Multiple diagonal runs crossing the full room width - Redundant overlappin",
+      "content_length": 492
+    },
+    {
+      "title": "Solution: Orthogonal Grid Architecture",
+      "level": 3,
+      "slug": "solution-orthogonal-grid-architecture",
+      "start_line": 2323,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Replaced all diagonal runs with a 9-segment orthogonal grid: | Segment | Route | Purpose | |---------|-------|---------| | N-S Spine | X=2514.6mm, Y: 1925→4925 | Central backbone through room | | E-W Header FRONT | Y=250",
+      "content_length": 787
+    },
+    {
+      "title": "Results",
+      "level": 3,
+      "slug": "results",
+      "start_line": 2338,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "| Metric | Before | After | Reduction | |--------|--------|-------|-----------| | Slab conduit segments | 20 solids | 9 clean pipes | 55% fewer | | Slab conduit volume | 10,239,165 mm³ | 7,836,114 mm³ | **23.5% less** |",
+      "content_length": 366
+    },
+    {
+      "title": "Fixtures Preserved",
+      "level": 3,
+      "slug": "fixtures-preserved",
+      "start_line": 2346,
+      "categories": [
+        "structural",
+        "electrical"
+      ],
+      "summary": "- **Living_Slab_Fan_Box** — Ceiling fan junction box at (2514.6, 3257.4) — unchanged - **Living_Slab_Light_Pots** — 4× downlights at corners: (1200,2500), (3800,2500), (1200,4000), (3800,4000) - **8 switchboard wall drop",
+      "content_length": 289
+    },
+    {
+      "title": "First Floor Sync",
+      "level": 3,
+      "slug": "first-floor-sync",
+      "start_line": 2351,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "All changes mirrored to `FF_Electrical_Slab_Conduit_Network`, `FF_Electrical_Slab_Wall_Drops`, and `FF_Electrical_Slab_Light_Pots` at ΔZ=+3173mm (First Floor offset).",
+      "content_length": 166
+    },
+    {
+      "title": "Files Modified",
+      "level": 3,
+      "slug": "files-modified",
+      "start_line": 2354,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "- `HomeConstruction.FCStd` — `Living_Slab_Conduit_Network`, `Living_Slab_Wall_Drops`, `Living_Slab_Light_Pots`, `Living_Slab_Fan_Box` updated and saved. ---",
+      "content_length": 158
+    },
+    {
+      "title": "42. Master Bedroom Ceiling Fan Provision (`FB-BED`)",
+      "level": 2,
+      "slug": "42-master-bedroom-ceiling-fan-provision-fb-bed",
+      "start_line": 2360,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "slug": "summary",
+      "start_line": 2362,
+      "categories": [
+        "structural",
+        "architectural"
+      ],
+      "summary": "Added explicit, dedicated Master Bedroom Ceiling Fan Hook Box (`Bedroom_Slab_Fan_Box`) and synchronized to First Floor (`FF_Bedroom_Slab_Fan_Box`).",
+      "content_length": 147
+    },
+    {
+      "title": "Fan Box Specifications",
+      "level": 3,
+      "slug": "fan-box-specifications",
+      "start_line": 2365,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "- **Object Name**: `Bedroom_Slab_Fan_Box` (GF) & `FF_Bedroom_Slab_Fan_Box` (FF) - **Position**: Dead center of Master Bedroom $(X = 3505.0\\, ext{mm},\\, Y = 6096.0\\, ext{mm},\\, Z = 3962.4\\, ext{mm})$ - **Dimensions**: $12",
+      "content_length": 751
+    },
+    {
+      "title": "43. Complete Living Room Ceiling Electrical Pipeline Optimization & De-duplication",
+      "level": 2,
+      "slug": "43-complete-living-room-ceiling-electrical-pipeline-optimization-de-duplication",
+      "start_line": 2375,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "slug": "summary",
+      "start_line": 2377,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Completely cleaned, de-duplicated, and optimized the **Living Room ceiling slab conduit network** (`Living_Slab_Conduit_Network`) and wall drops (`Living_Slab_Wall_Drops`): - **Excised 8.56M mm³ of lingering diagonal con",
+      "content_length": 677
+    },
+    {
+      "title": "Living Room Ceiling Architecture",
+      "level": 3,
+      "slug": "living-room-ceiling-architecture",
+      "start_line": 2384,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "1. **Central N-S Backbone**: $X = 2514.6\\, ext{mm}$ running straight through the room from $Y = 1925.0\\, ext{mm}$ to $Y = 4925.0\\, ext{mm}$. 2. **Ceiling Fan Hook Box (`FB-LR`)**: Positioned at room center $(X = 2514.6\\,",
+      "content_length": 814
+    },
+    {
+      "title": "44. Breakfast Counter Spotlight MEP Pipeline Connection (`DL-BC`)",
+      "level": 2,
+      "slug": "44-breakfast-counter-spotlight-mep-pipeline-connection-dl-bc",
+      "start_line": 2394,
+      "categories": [
+        "plumbing"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "Problem Identification",
+      "level": 3,
+      "slug": "problem-identification",
+      "start_line": 2396,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "Following client audit (*\"there is no pipeline connection on the breakfast counter spot light\"*), a detailed 3D geometric audit revealed: 1. The deep PVC spotlight pot box (`DL-BC` / Pot 8) positioned at $(X = 750.0\\text",
+      "content_length": 953
+    },
+    {
+      "title": "Orthogonal Pipeline Architecture Implemented",
+      "level": 3,
+      "slug": "orthogonal-pipeline-architecture-implemented",
+      "start_line": 2406,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "A 100% code-compliant, orthogonal **T-Junction & Header Pipeline Grid** was engineered and integrated: 1. **East-West Spotlight Header ($Y = 4750.0\\text{ mm}$):** - A straight $25\\text{ mm}$ heavy-duty rigid PVC conduit",
+      "content_length": 1804
+    },
+    {
+      "title": "44.1 Ground Floor Master Bedroom (Room 2/5) Pipeline Recheck & Full Restoration",
+      "level": 2,
+      "slug": "44-1-ground-floor-master-bedroom-room-2-5-pipeline-recheck-full-restoration",
+      "start_line": 2429,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Following client inspection (*\"something happen on bedroom pipes could you please recheck\"*), a thorough audit of the 3D MEP model revealed that the Master Bedroom electrical conduit network had been partially severed an",
+      "content_length": 641
+    },
+    {
+      "title": "44.1 Root Cause Diagnostics",
+      "level": 3,
+      "slug": "44-1-root-cause-diagnostics",
+      "start_line": 2439,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Living Room Boundary Cut Overlap:** During the excision of diagonal conduits in the Living Room across $Y \\in [1828.8, 5181.6\\text{ mm}]$, the cut boundary overlapped the southern $609.6\\text{ mm}$ of the Master Bedr",
+      "content_length": 709
+    },
+    {
+      "title": "44.2 Restored Modular MEP Architecture",
+      "level": 3,
+      "slug": "44-2-restored-modular-mep-architecture",
+      "start_line": 2448,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "To prevent future cross-room boundary conflicts, the bedroom MEP infrastructure was isolated into dedicated, self-contained features: 1. **`Bedroom_Slab_Conduit_Network` (Dedicated Feature — $3,355,908\\text{ mm}^3$):** *",
+      "content_length": 2552
+    },
+    {
+      "title": "44.3 Quantitative Verification Matrix",
+      "level": 3,
+      "slug": "44-3-quantitative-verification-matrix",
+      "start_line": 2470,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "| Component / Room | Pre-Fix Status | Restored Status | Geometric / Electrical Verification | | :--- | :--- | :--- | :--- | | **Central N-S Spine ($X=3500$)** | Severed at $Y = 5181.6\\text{ mm}$ | **Fully Continuous ($Y",
+      "content_length": 1035
+    },
+    {
+      "title": "45. Master Bedroom Wardrobe Zone — De-Cluttering & Redundant MEP Excision",
+      "level": 2,
+      "slug": "45-master-bedroom-wardrobe-zone-de-cluttering-redundant-mep-excision",
+      "start_line": 2483,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Following client directive (*\"on the 3d model i see wardrope siwtch box and behaind the wardrop horizonal slap switch box both need to be remove on 3d model\"*), the Master Bedroom wardrobe zone ($X \\in [2082.7, 2997.1\\te",
+      "content_length": 779
+    },
+    {
+      "title": "45.1 Excised Conflicting MEP Elements",
+      "level": 3,
+      "slug": "45-1-excised-conflicting-mep-elements",
+      "start_line": 2493,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Excised Wardrobe Switchbox (`GF SB 11` / Drop 7):** * **Location:** $X = 2937.5\\text{ mm}, Y = 4692.5\\text{ mm}$. * **Issue:** Positioned directly against the outer side panel of the wooden wardrobe unit, creating c",
+      "content_length": 1581
+    },
+    {
+      "title": "45.2 Streamlined Continuous Feeder Architecture",
+      "level": 3,
+      "slug": "45-2-streamlined-continuous-feeder-architecture",
+      "start_line": 2513,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Continuous Direct Header ($Y = 4673.5\\text{ mm}$):** $$\\text{Corridor Spine } (X=2514.6) \\xrightarrow{\\text{Direct Wall Header}} \\text{Door Console SB-9 } (X=3325.0) \\xrightarrow{\\text{Central Header}} \\text{Central",
+      "content_length": 829
+    },
+    {
+      "title": "46. Kitchen Entrance — Removal of North-Facing Switchbox",
+      "level": 2,
+      "slug": "46-kitchen-entrance-removal-of-north-facing-switchbox",
+      "start_line": 2526,
+      "categories": [
+        "electrical"
+      ],
+      "summary": "Following client directive (*\"kitchen entrance i see 2 switch boxes in 3d model remove the one which is facing north side\"*), the dual-switchbox configuration on the Kitchen entrance partition wall has been streamlined i",
+      "content_length": 437
+    },
+    {
+      "title": "46.1 Analysis of the Two Switchboxes at Kitchen Entrance",
+      "level": 3,
+      "slug": "46-1-analysis-of-the-two-switchboxes-at-kitchen-entrance",
+      "start_line": 2534,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Prior to this change, the partition wall dividing the Kitchen from the Living/Corridor had two adjacent switchboxes: 1. **North-Facing Switchbox (Excised):** * **Location:** $X = 1925.0\\text{ mm}, Y = 4697.5\\text{ mm}$ (",
+      "content_length": 1229
+    },
+    {
+      "title": "46.2 Result & First Floor Synchronization",
+      "level": 3,
+      "slug": "46-2-result-first-floor-synchronization",
+      "start_line": 2550,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **Clean Partition Wall:** The north face of the kitchen partition wall is now completely flush and clear. * **FF Synchronization:** Mirrored updates to `FF_Living_Slab_Conduit_Network` and `FF_Living_Slab_Wall_Drops` a",
+      "content_length": 353
+    },
+    {
+      "title": "47. Kitchen & Living Room Pipelines Reconnected — Seamless Orthogonal Conduit Loop",
+      "level": 2,
+      "slug": "47-kitchen-living-room-pipelines-reconnected-seamless-orthogonal-conduit-loop",
+      "start_line": 2557,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Following client observation (*\"Kichen pipelines seems like disconnected from living room pipeline\"*), the electrical conduit link bridging the Living Room ceiling grid to the Kitchen ceiling network has been fully resto",
+      "content_length": 667
+    },
+    {
+      "title": "47.1 Root Cause of Disconnection",
+      "level": 3,
+      "slug": "47-1-root-cause-of-disconnection",
+      "start_line": 2567,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* When the north-facing entrance switchbox branch (`Net 4` along $Y = 4697.5\\text{ mm}$) and the behind-wardrobe horizontal pipe (`Net 6` along $Y = 4925.0\\text{ mm}$) were removed per user instructions, the link between",
+      "content_length": 564
+    },
+    {
+      "title": "47.2 Dual-Feeder Orthogonal Connection Design",
+      "level": 3,
+      "slug": "47-2-dual-feeder-orthogonal-connection-design",
+      "start_line": 2571,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "To reconnect the networks cleanly without traversing or touching the Master Bedroom wardrobe zone ($X \\in [2082.7, 2997.1]\\text{ mm}, Y \\in [4673.5, 5283.1]\\text{ mm}$), two dedicated North-South $25\\text{ mm}$ PVC condu",
+      "content_length": 1302
+    },
+    {
+      "title": "47.3 Electrical Layout Continuity Summary",
+      "level": 3,
+      "slug": "47-3-electrical-layout-continuity-summary",
+      "start_line": 2583,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Full Network Connectivity:** Main DB at $(200, 2150\\text{ mm}) \\to$ Corridor Spine $(2514.6\\text{ mm}) \\to$ Living Room Rear Header $(Y = 4000\\text{ mm}) \\to$ Dual Kitchen Feeders $(X = 1200\\text{ mm}, 1867.5\\text{ m",
+      "content_length": 740
+    },
+    {
+      "title": "48. Sitout Electrical Pipelines Checked & Optimized — 100% Orthogonal Grid",
+      "level": 2,
+      "slug": "48-sitout-electrical-pipelines-checked-optimized-100-orthogonal-grid",
+      "start_line": 2591,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Following client instruction (*\"now check and optimize the sitout pipelines\"*), a thorough diagnostic and re-engineering of the Ground Floor Sitout (Front Porch / Verandah) electrical conduit layout was performed in `Hom",
+      "content_length": 786
+    },
+    {
+      "title": "48.1 Diagnostics of Legacy Sitout Layout",
+      "level": 3,
+      "slug": "48-1-diagnostics-of-legacy-sitout-layout",
+      "start_line": 2603,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "Inspection of `Electrical_Slab_Conduit_Network` (Solids 0, 1, and 2) identified severe legacy defects originating from the original front-wall MDB design: 1. **Dangling South Pipe ($1157\\text{ mm}$):** Protruded past the",
+      "content_length": 972
+    },
+    {
+      "title": "48.2 Re-Engineered Orthogonal Conduit Network ($25\\text{ mm}$ PVC, $R = 12.5\\text{ mm}, Z = 4020.0\\text{ mm}$)",
+      "level": 3,
+      "slug": "48-2-re-engineered-orthogonal-conduit-network-25-text-mm-pvc-r-12-5-text-mm-z-4020-0-text-mm",
+      "start_line": 2611,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "All diagonal and dangling conduits were excised and replaced by a four-branch orthogonal tee-grid embedded within the structural lintel beam and ceiling slab: 1. **Run A — Entrance Beam Header ($Y = 1720.0\\text{ mm}$):**",
+      "content_length": 1555
+    },
+    {
+      "title": "48.3 Verification & Quality Metrics",
+      "level": 3,
+      "slug": "48-3-verification-quality-metrics",
+      "start_line": 2627,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **Boundary Confinement:** All conduits strictly bounded within $X \\in [150.1, 3810.0]\\text{ mm}$ and $Y \\in [228.6, 7469.3]\\text{ mm}$; zero mid-air overhangs ($0.0\\text{ mm}$ beyond perimeter). * **Strict Orthogonalit",
+      "content_length": 549
+    },
+    {
+      "title": "49. Ground Floor Electrical Pipelines — Unified Tree Grouping",
+      "level": 2,
+      "slug": "49-ground-floor-electrical-pipelines-unified-tree-grouping",
+      "start_line": 2635,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "Following client directive (*\"now group the GF pipelines\"*), all Ground Floor electrical conduit networks and wall chased drops have been structured into a dedicated, hierarchical grouping inside `HomeConstruction.FCStd`",
+      "content_length": 405
+    },
+    {
+      "title": "49.1 Group Hierarchy Architecture",
+      "level": 3,
+      "slug": "49-1-group-hierarchy-architecture",
+      "start_line": 2643,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "Inside `Electrical_Slab_Conduit_and_Lighting_Group`, a dedicated master container was created to separate physical pipelines from lighting fixtures (pots & fan boxes): * **Master Group:** `GF_Electrical_Pipelines_Group`",
+      "content_length": 489
+    },
+    {
+      "title": "49.2 Functional Subgroups",
+      "level": 3,
+      "slug": "49-2-functional-subgroups",
+      "start_line": 2650,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **`GF_Slab_Conduits_Group` (Ceiling Slab 25mm PVC Conduit Networks):** * `Living_Slab_Conduit_Network` (8 solids: Central corridor spine, front & rear headers, south cross-bar, AC feeder, Main DB feed, and dual kitche",
+      "content_length": 1369
+    },
+    {
+      "title": "49.3 Benefits & FreeCAD Tree View State",
+      "level": 3,
+      "slug": "49-3-benefits-freecad-tree-view-state",
+      "start_line": 2665,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **No Loose Objects:** Previously unparented objects (`Toilet_Electrical_Conduits`, `Bedroom_Tubelight_Conduit_Drop`) are now properly organized. * **Separation of Fixtures & Piping:** Ceiling downlight pots (`Electrica",
+      "content_length": 503
+    },
+    {
+      "title": "50. First Floor Electrical Pipelines — Identical Grouping Parity",
+      "level": 2,
+      "slug": "50-first-floor-electrical-pipelines-identical-grouping-parity",
+      "start_line": 2672,
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "Following client directive (*\"same like group the FF electrical pipelines it should same like GF\"*), the exact same hierarchical group architecture has been replicated for the First Floor (FF) electrical pipelines in `Ho",
+      "content_length": 242
+    },
+    {
+      "title": "50.1 First Floor Group Hierarchy Architecture",
+      "level": 3,
+      "slug": "50-1-first-floor-group-hierarchy-architecture",
+      "start_line": 2676,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "Inside `FF_Electrical_Slab_Conduit_and_Lighting_Group`, physical pipelines are now cleanly separated from ceiling fixtures: * **Master Group:** `FF_Electrical_Pipelines_Group` * **Label:** `First Floor Electrical Pipelin",
+      "content_length": 445
+    },
+    {
+      "title": "50.2 Functional Subgroups (1:1 GF Parity)",
+      "level": 3,
+      "slug": "50-2-functional-subgroups-1-1-gf-parity",
+      "start_line": 2683,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **`FF_Slab_Conduits_Group` (FF Ceiling Slab 25mm PVC Conduit Networks — 4 Objects):** * `FF_Living_Slab_Conduit_Network` (First Floor Living Room slab conduits & dual kitchen feeder loop). * `FF_Bedroom_Slab_Conduit_N",
+      "content_length": 1222
+    },
+    {
+      "title": "50.3 Full Floor-to-Floor Parity Table",
+      "level": 3,
+      "slug": "50-3-full-floor-to-floor-parity-table",
+      "start_line": 2698,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "| Category | Ground Floor Group & Contents | First Floor Group & Contents | | :--- | :--- | :--- | | **Master Container** | `GF_Electrical_Pipelines_Group` | `FF_Electrical_Pipelines_Group` | | **Slab Conduits Subgroup**",
+      "content_length": 634
+    },
+    {
+      "title": "51. First Floor Stairs Wall Light Pipeline — Seamless Jointing (Gap Elimination)",
+      "level": 2,
+      "slug": "51-first-floor-stairs-wall-light-pipeline-seamless-jointing-gap-elimination",
+      "start_line": 2711,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "Following client observation (*\"First floor stairs wall light not jointed with the pipeline i see some gap\"*), the vertical chased wall drop conduit feeding the First Floor stairs mid-landing wall light was inspected, le",
+      "content_length": 662
+    },
+    {
+      "title": "51.1 Root Cause of the 801mm Gap",
+      "level": 3,
+      "slug": "51-1-root-cause-of-the-801mm-gap",
+      "start_line": 2721,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "* **Fixture Location:** The First Floor stairs wall light fixture (`FF_Staircase_Wall_Light_Fixture`) is mounted on the east wall of the Headroom (Mumty) tower at $Z = [8750.8, 8950.8]\\text{ mm}$ ($+3139.4\\text{ mm}$ abo",
+      "content_length": 670
+    },
+    {
+      "title": "51.2 Re-Engineered Conduit Geometry",
+      "level": 3,
+      "slug": "51-2-re-engineered-conduit-geometry",
+      "start_line": 2726,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "Solid 4 in `FF_Electrical_Slab_Wall_Drops` (located inside `FF_Wall_Drops_Group`) was regenerated with full-height vertical extrusion: * **Conduit Specification:** $25\\text{ mm}$ rigid heavy-duty PVC ($R = 12.5\\text{ mm}",
+      "content_length": 686
+    },
+    {
+      "title": "51.3 Quality Verification",
+      "level": 3,
+      "slug": "51-3-quality-verification",
+      "start_line": 2735,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **Shape Integrity:** Validated `s.isValid() = True` on all solids of `FF_Electrical_Slab_Wall_Drops`. * **Visual Verification:** Rendered from the same perspective and confirmed continuous physical jointing. * **Docume",
+      "content_length": 301
+    },
+    {
+      "title": "52. First Floor MCB Distribution Board (MDB) & Main Door Handle — 100% Ground Floor Parity",
+      "level": 2,
+      "slug": "52-first-floor-mcb-distribution-board-mdb-main-door-handle-100-ground-floor-parity",
+      "start_line": 2742,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Following client directive (*\"FF MCB box not same like GF check FF main door handle position as well it should same like GF\"*), a comprehensive spatial audit and geometric re-engineering of the First Floor entrance door",
+      "content_length": 718
+    },
+    {
+      "title": "52.1 First Floor Main Door Handle Alignment (1:1 GF Parity)",
+      "level": 3,
+      "slug": "52-1-first-floor-main-door-handle-alignment-1-1-gf-parity",
+      "start_line": 2752,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "1. Diagnostic Findings",
+      "level": 4,
+      "slug": "1-diagnostic-findings",
+      "start_line": 2754,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Ground Floor Reference (`GF_Main_Door_Handle`):** * Bounding Box: $X \\in [1226.55, 1367.55]\\text{ mm}$, $Y \\in [1690.05, 1729.50]\\text{ mm}$, $Z \\in [1790.40, 2010.40]\\text{ mm}$. * Positioned on the **Right / Latch",
+      "content_length": 669
+    },
+    {
+      "title": "2. Re-Engineered Handle Placement",
+      "level": 4,
+      "slug": "2-re-engineered-handle-placement",
+      "start_line": 2762,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* Replaced `FF_Main_Door_Handles.Shape` with the exact Ground Floor handle geometry translated by the standard vertical floor-to-floor offset ($\\Delta Z = +3173.0\\text{ mm}$): * **New First Floor Coordinates:** $X \\in [1",
+      "content_length": 545
+    },
+    {
+      "title": "52.2 First Floor MCB Distribution Board (MDB) Alignment",
+      "level": 3,
+      "slug": "52-2-first-floor-mcb-distribution-board-mdb-alignment",
+      "start_line": 2770,
+      "categories": [
+        "general"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "1. Diagnostic Findings of Previous FF Discrepancies",
+      "level": 4,
+      "slug": "1-diagnostic-findings-of-previous-ff-discrepancies",
+      "start_line": 2772,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "1. **Wrong Enclosure Size & Orientation:** Solid 11 in `FF_Electrical_Switchboard_Plates` was sized $240\\text{ mm} \\times 60\\text{ mm} \\times 320\\text{ mm}$ centered at $Z = 5587.4\\text{ mm}$ (rotated 90°), whereas Groun",
+      "content_length": 1026
+    },
+    {
+      "title": "2. Re-Engineered First Floor MDB Geometry",
+      "level": 4,
+      "slug": "2-re-engineered-first-floor-mdb-geometry",
+      "start_line": 2778,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "* **Host Component:** Solid 11 of `FF_Electrical_Switchboard_Plates`. * **Dimensions:** $300.0\\text{ mm}\\text{ (W)} \\times 400.0\\text{ mm}\\text{ (H)} \\times 70.0\\text{ mm}\\text{ (D)}$. * **Bounding Box:** $X \\in [165.0,",
+      "content_length": 1722
+    },
+    {
+      "title": "52.3 Floor-to-Floor Symmetry & Audit Summary",
+      "level": 3,
+      "slug": "52-3-floor-to-floor-symmetry-audit-summary",
+      "start_line": 2797,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Parameter | Ground Floor Reference | First Floor Re-Engineered | Parity Status | | :--- | :--- | :--- | :--- | | **Door Handle X-Span** | $X \\in [1226.55, 1367.55]\\text{ mm}$ | $X \\in [1226.55, 1367.55]\\text{ mm}$ | **",
+      "content_length": 1263
+    },
+    {
+      "title": "53. Outdoor Switchboard (SB-1) Consolidation into Staircase Switchboard (SB_STAIR1)",
+      "level": 2,
+      "slug": "53-outdoor-switchboard-sb-1-consolidation-into-staircase-switchboard-sbstair1",
+      "start_line": 2814,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "Following client directive (*\"SB-1 can we merge into the stairs wall light switch box - yes proceed\"*), the outdoor front entrance switchboard (`SB-1`) and its associated vertical drop conduit have been removed from the",
+      "content_length": 590
+    },
+    {
+      "title": "53.1 Architectural & Engineering Rationale",
+      "level": 3,
+      "slug": "53-1-architectural-engineering-rationale",
+      "start_line": 2822,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "1. **Pristine Front Entrance Portico:** * Removing `SB-1` and its chased wall conduit drop from the South entrance wall ($X = 370.0\\text{ mm}$) leaves the Main Entrance Door and its teak architectural surround completely",
+      "content_length": 783
+    },
+    {
+      "title": "53.2 Re-Engineered Component Architecture",
+      "level": 3,
+      "slug": "53-2-re-engineered-component-architecture",
+      "start_line": 2833,
+      "categories": [
+        "general"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "1. Ground Floor Modifications",
+      "level": 4,
+      "slug": "1-ground-floor-modifications",
+      "start_line": 2835,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Excised Components at $X = 370.0\\text{ mm}$:** * `Electrical_Switchboard_Plates`: Removed Solid 10 (4-module switchplate at $X = 370.0, Y = 1707.0\\text{ mm}$). * `Electrical_Switchboard_Rocker_Switches`: Removed Soli",
+      "content_length": 1888
+    },
+    {
+      "title": "2. First Floor Modifications (1:1 Symmetry)",
+      "level": 4,
+      "slug": "2-first-floor-modifications-1-1-symmetry",
+      "start_line": 2854,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "* **Excised Components at $X = 370.0\\text{ mm}$:** * `FF_Electrical_Switchboard_Plates`: Removed Solid 14. * `FF_Electrical_Switchboard_Rocker_Switches`: Removed Solids 30 through 33. * `FF_Electrical_Slab_Wall_Drops`: R",
+      "content_length": 757
+    },
+    {
+      "title": "53.3 Verification & Document Integrity",
+      "level": 3,
+      "slug": "53-3-verification-document-integrity",
+      "start_line": 2867,
+      "categories": [
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "| Metric | Before Consolidation | After Consolidation | Net Change | | :--- | :---: | :---: | :--- | | **Front Porch Switchboards** | 2 (`SB-1` GF & FF) | **0** | Clean front door wall | | **Porch Wall Chased Drops** | 2",
+      "content_length": 869
+    },
+    {
+      "title": "54. Full-Building Model Tree Hierarchy & Object Grouping Audit",
+      "level": 2,
+      "slug": "54-full-building-model-tree-hierarchy-object-grouping-audit",
+      "start_line": 2882,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "Following client directive (*\"some of the object not grouped please group the respective floors\"*), a comprehensive structural audit of the FreeCAD document tree was conducted. All loose, unparented root-level objects we",
+      "content_length": 377
+    },
+    {
+      "title": "54.1 Tree Audit Findings & Initial Root Clutter",
+      "level": 3,
+      "slug": "54-1-tree-audit-findings-initial-root-clutter",
+      "start_line": 2886,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Prior to this intervention, an automated graph audit detected **13 unparented objects** floating at the root level alongside the 3 master floor groups: * **Ground Floor Objects (5 unparented items):** 1. `Bedroom_Slab_Fa",
+      "content_length": 686
+    },
+    {
+      "title": "54.2 Grouping & Architectural Assignment Schedule",
+      "level": 3,
+      "slug": "54-2-grouping-architectural-assignment-schedule",
+      "start_line": 2907,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "All 13 objects were mapped to their precise parent assemblies to preserve functional encapsulation and visual layer toggling: | Floor | Object Name | Target Assembly Container | Functional Rationale | | :--- | :--- | :--",
+      "content_length": 1958
+    },
+    {
+      "title": "54.3 Final Model Tree Verification",
+      "level": 3,
+      "slug": "54-3-final-model-tree-verification",
+      "start_line": 2929,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "A post-execution audit confirmed that **strictly 3 root container groups** now exist at the root level of `HomeConstruction.FCStd`: ``` HomeConstruction (Document: 470 objects, 0 errors) ├── [Ground_Floor_Group] (14 chil",
+      "content_length": 2120
+    },
+    {
+      "title": "55. Under-Stair Utility Switchboard (SB-UTIL) Pipeline Connectivity Resolution",
+      "level": 2,
+      "slug": "55-under-stair-utility-switchboard-sb-util-pipeline-connectivity-resolution",
+      "start_line": 2979,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "Following client directive (*\"SB-utls seems like disconnected\"*), a forensic geometric inspection of the electrical pipeline feeding the Under-Stair Utility Switchboard (`SB-UTIL`) and its sump water pump circuit was con",
+      "content_length": 449
+    },
+    {
+      "title": "55.1 Diagnostic Findings: Root Causes of Disconnection",
+      "level": 3,
+      "slug": "55-1-diagnostic-findings-root-causes-of-disconnection",
+      "start_line": 2987,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "1. **Truncated Slab Distribution Conduit (Ground Floor):** * Solid 0 in `Electrical_Slab_Conduit_Network` previously spanned from $(3045.4, 1731.6, 4020.0)\\text{ mm}$ to $(3290.7, 1828.8, 4020.0)\\text{ mm}$ with an extru",
+      "content_length": 1446
+    },
+    {
+      "title": "55.2 Engineering Revisions & Physical Continuity",
+      "level": 3,
+      "slug": "55-2-engineering-revisions-physical-continuity",
+      "start_line": 3001,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "1. **Continuous Sealed Slab Conduit (`Electrical_Slab_Conduit_Network Solid 0`):** * Replaced with a continuous $25\\text{ mm}$ rigid PVC pipe ($R = 12.5\\text{ mm}$) spanning from $(3050.0, 1707.5, 4020.0)\\text{ mm}$ stra",
+      "content_length": 1430
+    },
+    {
+      "title": "55.3 Complete Chain Verification Audit",
+      "level": 3,
+      "slug": "55-3-complete-chain-verification-audit",
+      "start_line": 3016,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "| Connection Interface | Starting Point $(X, Y, Z)$ | Ending Point $(X, Y, Z)$ | Physical Gap | Continuity Status | | :--- | :--- | :--- | :---: | :---: | | **Slab Pot 12 $\\to$ Ceiling Conduit** | $(3580.0, 1930.0, 4020.",
+      "content_length": 1403
+    },
+    {
+      "title": "56. Bedroom East Wall: Loft Removal & Split AC Electrical Provision Integration",
+      "level": 2,
+      "slug": "56-bedroom-east-wall-loft-removal-split-ac-electrical-provision-integration",
+      "start_line": 3033,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Following client directive (*\"remove betroom east side loft, and AC provistion on East side wall\"*), structural and MEP modifications were executed across the Bedroom zones in `HomeConstruction.FCStd` on both Ground and",
+      "content_length": 428
+    },
+    {
+      "title": "56.1 Architectural & Structural Modifications",
+      "level": 3,
+      "slug": "56-1-architectural-structural-modifications",
+      "start_line": 3041,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "1. **Excised East Side Lofts:** * **Ground Floor (`Bedroom_Loft_East`):** Removed the 2-foot wide ($609.6\\text{ mm}$) concrete slab spanning $X \\in [2082.7, 2692.3\\text{ mm}]$, $Y \\in [4572.0, 7620.0\\text{ mm}]$ at $Z \\i",
+      "content_length": 881
+    },
+    {
+      "title": "56.2 Air Conditioning & Electrical Infrastructure",
+      "level": 3,
+      "slug": "56-2-air-conditioning-electrical-infrastructure",
+      "start_line": 3051,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **1.5 Ton Inverter Split AC Indoor Units:** * **Ground Floor (`Bedroom_AC_Indoor_Unit`):** Modern high-wall indoor evaporator unit ($850 \\times 220 \\times 300\\text{ mm}$) mounted flush against the East wall ($X \\in [2",
+      "content_length": 1937
+    },
+    {
+      "title": "56.3 Verification Audit Summary",
+      "level": 3,
+      "slug": "56-3-verification-audit-summary",
+      "start_line": 3065,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "| Component | Coordinates / Elevation | Parent Container | Status | | :--- | :--- | :--- | :---: | | **`Bedroom_Loft_East`** | GF East Wall ($Z = 3048\\text{ mm}$) | `Bedroom` | **REMOVED** | | **`FF_Bedroom_Loft_East`**",
+      "content_length": 1112
+    },
+    {
+      "title": "57. Split AC Outdoor Unit (ODU) East Elevation Implementation (Option 2)",
+      "level": 2,
+      "slug": "57-split-ac-outdoor-unit-odu-east-elevation-implementation-option-2",
+      "start_line": 3082,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "Following client approval of the most cost-effective approach (**Option 2: East Exterior Wall Cantilever Mounting**), dedicated outdoor condensing units (ODU), galvanized cantilever support brackets, vibration isolation",
+      "content_length": 1227
+    },
+    {
+      "title": "57.1 Architectural & Boundary Wall Design Rationale",
+      "level": 3,
+      "slug": "57-1-architectural-boundary-wall-design-rationale",
+      "start_line": 3096,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "* **Zero-Setback Party Walls Respected:** West and South walls are boundary party walls with zero setback. By mounting the indoor unit on `Bedroom_Wall_East` and routing through the adjacent Kitchen South loft, **zero co",
+      "content_length": 2178
+    },
+    {
+      "title": "57.2 Mechanical & HVAC Detailed Specifications",
+      "level": 3,
+      "slug": "57-2-mechanical-hvac-detailed-specifications",
+      "start_line": 3115,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "1. **1.5 Ton Split AC Condensing Units (ODU):** * **Dimensions:** $800\\text{ mm}$ wide (in $Y: 6000.0\\text{ to }6800.0\\text{ mm}$), $300\\text{ mm}$ deep (in $X: -360.0\\text{ to }-60.0\\text{ mm}$), $550\\text{ mm}$ high. *",
+      "content_length": 1786
+    },
+    {
+      "title": "57.3 Component Inventory & Group Hierarchy",
+      "level": 3,
+      "slug": "57-3-component-inventory-group-hierarchy",
+      "start_line": 3134,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "| Component Name | Display Label | Elevation ($Z$) | Parent Container | Status | | :--- | :--- | :--- | :--- | :---: | | **`Bedroom_AC_Outdoor_Unit_Group`** | GF Bedroom AC Split AC Outdoor Unit (ODU) | $Z \\in [2688, 374",
+      "content_length": 3216
+    },
+    {
+      "title": "58. Detailed 2D Ground Floor Plan with Dimensions (From 3D Model)",
+      "level": 2,
+      "slug": "58-detailed-2d-ground-floor-plan-with-dimensions-from-3d-model",
+      "start_line": 3162,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **Plan Type:** Architectural 2D Working Floor Plan with Comprehensive Dual-Unit Dimensions > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruct",
+      "content_length": 967
+    },
+    {
+      "title": "58.1 Visual Floor Plan Rendering",
+      "level": 3,
+      "slug": "58-1-visual-floor-plan-rendering",
+      "start_line": 3174,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "![Detailed Ground Floor Architectural 2D Plan](C:\\Users\\prade\\.gemini\\antigravity\\brain\\103ec5ef-95bc-449b-a775-259d610d4bca\\ground_floor_plan_2d_preview.png) ---",
+      "content_length": 163
+    },
+    {
+      "title": "58.2 Ground Floor Spatial & Carpet Dimension Schedule (From 3D Model)",
+      "level": 3,
+      "slug": "58-2-ground-floor-spatial-carpet-dimension-schedule-from-3d-model",
+      "start_line": 3180,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "All values below reflect the exact geometry extracted from the 3D BIM model [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd): | Room / Functional Area | Clear Interio",
+      "content_length": 2966
+    },
+    {
+      "title": "58.3 Structural Column Grid Schedule (14 RCC Columns — 228.6 x 228.6 mm)",
+      "level": 3,
+      "slug": "58-3-structural-column-grid-schedule-14-rcc-columns-228-6-x-228-6-mm",
+      "start_line": 3196,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Column Tag | 3D Object Name in Model | Model Center $(X, Y)$ Coordinates (mm) | Grid Intersection | Structural Function | | :--- | :--- | :--- | :--- | :--- | | **C9** | `Col_NE_Corner` | $(114.3, 114.3)$ | Grid A / Gr",
+      "content_length": 1770
+    },
+    {
+      "title": "58.4 Opening Schedule (Doors, Windows & Ventilators)",
+      "level": 3,
+      "slug": "58-4-opening-schedule-doors-windows-ventilators",
+      "start_line": 3217,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Mark | Type & Description | Masonry Opening ($W \\times H$) | Sill Level | Lintel Level | Shutter Profile & Material | | :--- | :--- | :--- | :--- | :--- | :--- | | **D1** | Main Entrance Door | $1050 \\times 2100\\text{",
+      "content_length": 2096
+    },
+    {
+      "title": "58.5 FreeCAD TechDraw Integration",
+      "level": 3,
+      "slug": "58-5-freecad-techdraw-integration",
+      "start_line": 3232,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "1. **Native Drawing Sheet:** A dedicated drawing sheet named [`Page_Ground_Floor_Plan`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) is established in the FreeCAD document hierarchy with st",
+      "content_length": 1034
+    },
+    {
+      "title": "59. Substructure Isolated Footings, Column Pedestals & Plinth Beam System (BOQ & Construction Detailing)",
+      "level": 2,
+      "slug": "59-substructure-isolated-footings-column-pedestals-plinth-beam-system-boq-construction-detailing",
+      "start_line": 3244,
+      "categories": [
+        "structural",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **System Title:** Foundation & Substructure Structural System (Ground Level to $-1.60\\text{ m}$) > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeCon",
+      "content_length": 636
+    },
+    {
+      "title": "59.1 Substructure Visual Portfolio",
+      "level": 3,
+      "slug": "59-1-substructure-visual-portfolio",
+      "start_line": 3253,
+      "categories": [
+        "structural",
+        "architectural"
+      ],
+      "summary": "```carousel ![Substructure Structural Skeleton & Isolated Footings](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\substructure_isolated_isometric.png) <!-- slide --> ![Substructure Front Elevation Depth Profile](c:\\U",
+      "content_length": 610
+    },
+    {
+      "title": "59.2 Substructure Component Inventory (42 Objects)",
+      "level": 3,
+      "slug": "59-2-substructure-component-inventory-42-objects",
+      "start_line": 3267,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "All 14 column locations are reinforced with dedicated three-tier load transfer elements: 1. **PCC Blinding Beds (`PCC_Blinding_Layer_Group`):** * 14 Plain Cement Concrete (1:4:8, M7.5) pads ($100\\text{ mm}$ thickness, $Z",
+      "content_length": 1258
+    },
+    {
+      "title": "59.3 Contractor Bill of Quantities (BOQ) Schedule (Calculated from 3D Geometry)",
+      "level": 3,
+      "slug": "59-3-contractor-bill-of-quantities-boq-schedule-calculated-from-3d-geometry",
+      "start_line": 3287,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "| Item No. | Work Description | Mix / Grade | Geometric Volume ($\\text{m}^3$) | Imperial Volume ($\\text{cu.ft}$) | Standard Billing Unit | | :---: | :--- | :---: | :---: | :---: | :---: | | **1.0** | **Earthwork Excavati",
+      "content_length": 1245
+    },
+    {
+      "title": "59.4 Document Verification & Integrity",
+      "level": 3,
+      "slug": "59-4-document-verification-integrity",
+      "start_line": 3300,
+      "categories": [
+        "structural",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **Master Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Objects in Document:** 537 objects (42 new substructure elements), 0 errors, 100%",
+      "content_length": 639
+    },
+    {
+      "title": "60. Underground Sump Vertical Alignment to Plinth Floor & Sitout Manhole Integration",
+      "level": 2,
+      "slug": "60-underground-sump-vertical-alignment-to-plinth-floor-sitout-manhole-integration",
+      "start_line": 3309,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **System Title:** Sump Tank Elevation Optimization & Floor Access Maintenance Detail > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FC",
+      "content_length": 453
+    },
+    {
+      "title": "60.1 Sump Optimization Portfolio",
+      "level": 3,
+      "slug": "60-1-sump-optimization-portfolio",
+      "start_line": 3317,
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "summary": "```carousel ![Raised Sump Substructure Isometric](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\sump_raised_isolated_iso.png) <!-- slide --> ![Raised Sump Front Elevation Depth Continuity](c:\\Users\\prade\\OneDrive\\Des",
+      "content_length": 422
+    },
+    {
+      "title": "60.2 Problem Statement & Resolution",
+      "level": 3,
+      "slug": "60-2-problem-statement-resolution",
+      "start_line": 3329,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "* **Previous Discrepancy:** The underground water sump was previously modeled between $Z = -2133.6\\text{ mm}$ and $Z = 0.0\\text{ mm}$ (Natural Ground Level). Because the finished plinth beam and Sitout floor sit at $Z =",
+      "content_length": 2094
+    },
+    {
+      "title": "60.3 Verification & Object Status",
+      "level": 3,
+      "slug": "60-3-verification-object-status",
+      "start_line": 3341,
+      "categories": [
+        "site_work"
+      ],
+      "summary": "* **Total Objects in Document:** 541 objects, 0 errors, 100% valid manifold solids. * **Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd). ---",
+      "content_length": 210
+    },
+    {
+      "title": "61. Septic Tank Vertical Alignment to Plinth Floor & Airtight Inspection Manhole Integration",
+      "level": 2,
+      "slug": "61-septic-tank-vertical-alignment-to-plinth-floor-airtight-inspection-manhole-integration",
+      "start_line": 3348,
+      "categories": [
+        "structural",
+        "plumbing",
+        "architectural"
+      ],
+      "summary": "> [!NOTE] > **System Title:** Septic Tank Elevation Alignment & Airtight Sewer Maintenance Detail > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.F",
+      "content_length": 442
+    },
+    {
+      "title": "61.1 Symmetrical Substructure Portfolio (Both Tanks Raised)",
+      "level": 3,
+      "slug": "61-1-symmetrical-substructure-portfolio-both-tanks-raised",
+      "start_line": 3356,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "```carousel ![Both Underground Tanks Raised to Plinth Level Isometric](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\substructure_both_tanks_raised_iso.png) <!-- slide --> ![Both Tanks Front Elevation Symmetrical Ali",
+      "content_length": 326
+    },
+    {
+      "title": "61.2 Engineering Implementation & Features",
+      "level": 3,
+      "slug": "61-2-engineering-implementation-features",
+      "start_line": 3366,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "1. **Zero-Gap Vertical Continuity:** * `Septic_Tank` raised from its previous $Z = 0.0\\text{ mm}$ cap up to $Z = +914.4\\text{ mm}$ ($+3'\\text{-}0\"$), with its base resting at the foundation footing datum $Z = -1500.0\\tex",
+      "content_length": 1386
+    },
+    {
+      "title": "61.3 Verification & Object Status",
+      "level": 3,
+      "slug": "61-3-verification-object-status",
+      "start_line": 3381,
+      "categories": [
+        "site_work"
+      ],
+      "summary": "* **Total Objects in Document:** 543 objects, 0 errors, 100% valid manifold solids. * **Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd). ---",
+      "content_length": 210
+    },
+    {
+      "title": "62. Substructure Spatial Collision Elimination: Raft Foundations & Exact Bay-Fitted Tanks",
+      "level": 2,
+      "slug": "62-substructure-spatial-collision-elimination-raft-foundations-exact-bay-fitted-tanks",
+      "start_line": 3388,
+      "categories": [
+        "structural",
+        "electrical"
+      ],
+      "summary": "> [!NOTE] > **System Title:** Foundation & Substructure Collision Resolution & Mat Raft Foundation Architecture > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/Home",
+      "content_length": 428
+    },
+    {
+      "title": "62.1 Zero-Collision Substructure Portfolio",
+      "level": 3,
+      "slug": "62-1-zero-collision-substructure-portfolio",
+      "start_line": 3396,
+      "categories": [
+        "structural",
+        "architectural"
+      ],
+      "summary": "```carousel ![Zero Collision Substructure & Raft Foundations](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\substructure_zero_collision_iso.png) <!-- slide --> ![Zero Collision Front Elevation Depth Profile](c:\\Users",
+      "content_length": 309
+    },
+    {
+      "title": "62.2 Spatial Conflict Identification & Civil Engineering Resolution",
+      "level": 3,
+      "slug": "62-2-spatial-conflict-identification-civil-engineering-resolution",
+      "start_line": 3406,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "1. **The Conflict Identified:** * A geometric overlap test revealed that the previous generic tank footprints intersected the RCC column pedestals, the plinth beams, and the isolated footing pads. * In standard construct",
+      "content_length": 1966
+    },
+    {
+      "title": "62.3 Updated Substructure Contractor BOQ Schedule",
+      "level": 3,
+      "slug": "62-3-updated-substructure-contractor-boq-schedule",
+      "start_line": 3421,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "| Item No. | Work Description | Mix / Grade | Geometric Volume ($\\text{m}^3$) | Imperial Volume ($\\text{cu.ft}$) | Standard Billing Unit | | :---: | :--- | :---: | :---: | :---: | :---: | | **1.0** | **Earthwork Excavati",
+      "content_length": 1609
+    },
+    {
+      "title": "62.4 Verification & Object Status",
+      "level": 3,
+      "slug": "62-4-verification-object-status",
+      "start_line": 3436,
+      "categories": [
+        "site_work"
+      ],
+      "summary": "* **Total Objects in Document:** 531 objects, 0 errors, 100% valid manifold solids. * **Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd). ---",
+      "content_length": 210
+    },
+    {
+      "title": "63. Complete 3D Architectural Building Visualization (All Storeys & Facades Active)",
+      "level": 2,
+      "slug": "63-complete-3d-architectural-building-visualization-all-storeys-facades-active",
+      "start_line": 3443,
+      "categories": [
+        "structural",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "> [!NOTE] > **Visualization Phase:** Full-Building Integrated Multi-Storey Exterior Architectural Presentation > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeC",
+      "content_length": 540
+    },
+    {
+      "title": "63.1 Architectural Exterior Renderings Portfolio",
+      "level": 3,
+      "slug": "63-1-architectural-exterior-renderings-portfolio",
+      "start_line": 3451,
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "summary": "```carousel ![Complete Building Solid Southeast Axonometric View](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\full_building_solid_axonometric.png) <!-- slide --> ![Complete Building Solid Front Street Elevation](c:",
+      "content_length": 621
+    },
+    {
+      "title": "63.2 Comprehensive Storey-by-Storey Architectural Breakdown",
+      "level": 3,
+      "slug": "63-2-comprehensive-storey-by-storey-architectural-breakdown",
+      "start_line": 3465,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "1. **Substructure & Utilities ($-1.60\\text{ m}$ to $+0.914\\text{ m}$):** * Sump combined raft foundation slab and septic combined raft foundation slab on $100\\text{ mm}$ PCC blinding beds. * Raised $4,670\\text{ L}$ under",
+      "content_length": 1860
+    },
+    {
+      "title": "63.3 Document Health & File Status",
+      "level": 3,
+      "slug": "63-3-document-health-file-status",
+      "start_line": 3488,
+      "categories": [
+        "architectural"
+      ],
+      "summary": "* **Master Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Objects in Document:** 531 objects, 0 errors, 100% valid manifold solids. * **All",
+      "content_length": 338
+    },
+    {
+      "title": "64. Municipal Water Inflow Pipeline, Dual-Tap Kitchen Sink & Underground Sump Integration",
+      "level": 2,
+      "slug": "64-municipal-water-inflow-pipeline-dual-tap-kitchen-sink-underground-sump-integration",
+      "start_line": 3496,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **System Title:** Municipal Service Connection, Dual-Tap Kitchen Verification & Sump Automation Network > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/",
+      "content_length": 596
+    },
+    {
+      "title": "64.1 Municipal to Sump Pipeline Visual Portfolio",
+      "level": 3,
+      "slug": "64-1-municipal-to-sump-pipeline-visual-portfolio",
+      "start_line": 3505,
+      "categories": [
+        "plumbing"
+      ],
+      "summary": "```carousel ![GF Kitchen Sink Dual Taps - Municipal Potable Tap & OHT Faucet](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\gf_kitchen_sink_dual_taps_and_valve.png) <!-- slide --> ![Under-Sink Intermediate Shut-Off V",
+      "content_length": 680
+    },
+    {
+      "title": "64.2 Engineering Architecture & Operational Workflow",
+      "level": 3,
+      "slug": "64-2-engineering-architecture-operational-workflow",
+      "start_line": 3519,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "To fulfill the user requirement for **immediate verification of municipal water arrival** while preserving clean water storage in the underground sump, a specialized **Dual-Tap Direct Municipal Verification & Flow Routin",
+      "content_length": 1487
+    },
+    {
+      "title": "64.3 3D MEP Component Schedule",
+      "level": 3,
+      "slug": "64-3-3d-mep-component-schedule",
+      "start_line": 3550,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "| Object Name | FreeCAD Label | Location / Coordinates (mm) | Material / Specifications | Function & Engineering Purpose | | :--- | :--- | :--- | :--- | :--- | | `Municipal_Water_Meter` | Municipal Water Meter (25mm Bras",
+      "content_length": 2879
+    },
+    {
+      "title": "64.4 Verification & Document Status",
+      "level": 3,
+      "slug": "64-4-verification-document-status",
+      "start_line": 3567,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **Master Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Objects in Document:** 540 objects, 0 errors, 100% valid manifold solids. * **Reco",
+      "content_length": 510
+    },
+    {
+      "title": "65. Overhead Water Tank (OHT) on Mumty Headroom Roof & Mandatory Construction Safeguards",
+      "level": 2,
+      "slug": "65-overhead-water-tank-oht-on-mumty-headroom-roof-mandatory-construction-safeguards",
+      "start_line": 3576,
+      "categories": [
+        "structural",
+        "plumbing",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **System Title:** Overhead Water Tank (OHT) Headroom Roof Assembly & Structural Plumbing Safeguards > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/Home",
+      "content_length": 720
+    },
+    {
+      "title": "65.1 Overhead Water Tank & Rooftop Assembly Portfolio",
+      "level": 3,
+      "slug": "65-1-overhead-water-tank-rooftop-assembly-portfolio",
+      "start_line": 3586,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "```carousel ![OHT on Mumty Headroom Roof - Isometric Overview](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\oht_headroom_roof_iso_overview.png) <!-- slide --> ![OHT Raised Concrete Pedestal, Master Valve & Scour Dra",
+      "content_length": 646
+    },
+    {
+      "title": "65.2 Engineering Justification & Hydraulic Pressure Analysis",
+      "level": 3,
+      "slug": "65-2-engineering-justification-hydraulic-pressure-analysis",
+      "start_line": 3600,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "Placing the $1,000\\text{ L}$ Overhead Water Tank on the monolithic RCC roof slab of the Staircase Headroom (Mumty) at $Z = 9585.4\\text{ mm}$ provides critical hydraulic, structural, and spatial advantages over placing it",
+      "content_length": 1811
+    },
+    {
+      "title": "65.3 The 4 Mandatory Construction Safeguards",
+      "level": 3,
+      "slug": "65-3-the-4-mandatory-construction-safeguards",
+      "start_line": 3613,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "To ensure structural longevity, leak-free waterproofing, and effortless maintenance, four mandatory civil and MEP safeguards have been engineered into the model: ``` [OHT Airtight Threaded Lid (450mm)] │ [1\" UPVC Overflo",
+      "content_length": 3281
+    },
+    {
+      "title": "65.4 3D Rooftop Component Schedule",
+      "level": 3,
+      "slug": "65-4-3d-rooftop-component-schedule",
+      "start_line": 3650,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "| Object Name | FreeCAD Label | Location / Coordinates (mm) | Material / Specifications | Function & Engineering Purpose | | :--- | :--- | :--- | :--- | :--- | | `OHT_RCC_Pedestal_Plinth` | OHT Raised Concrete Plinth Ped",
+      "content_length": 2347
+    },
+    {
+      "title": "65.5 Verification & Document Status",
+      "level": 3,
+      "slug": "65-5-verification-document-status",
+      "start_line": 3665,
+      "categories": [
+        "structural",
+        "site_work"
+      ],
+      "summary": "* **Master Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Objects in Document:** 548 objects, 0 errors, 100% valid manifold solids. * **Stru",
+      "content_length": 419
+    },
+    {
+      "title": "66. Closed-Loop Water Distribution Network: Gravity Down-take Risers & Zonal Leak Isolation System",
+      "level": 2,
+      "slug": "66-closed-loop-water-distribution-network-gravity-down-take-risers-zonal-leak-isolation-system",
+      "start_line": 3675,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **System Title:** Complete Residential Gravity Water Distribution Network & Zonal Isolation Infrastructure > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20pl",
+      "content_length": 918
+    },
+    {
+      "title": "66.1 Water Distribution & Zonal Isolation Visual Portfolio",
+      "level": 4,
+      "slug": "66-1-water-distribution-zonal-isolation-visual-portfolio",
+      "start_line": 3689,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "```carousel ![Ground Floor Utility Washing Machine & Wall Tap (100% Zero Overlap Resolved)](C:\\Users\\prade\\.gemini\\antigravity\\brain\\dc4c642c-f5ba-4e83-a3e7-82f97e79c178\\gf_utility_wm_overlap_resolved.png) <!-- slide -->",
+      "content_length": 1574
+    },
+    {
+      "title": "66.2 System Architecture & Closed-Loop Flow Diagram",
+      "level": 3,
+      "slug": "66-2-system-architecture-closed-loop-flow-diagram",
+      "start_line": 3711,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "The complete residential water infrastructure operates as an integrated closed loop designed for **zero facade interference**, **independent leak containment**, **100% clean terrace floor**, and **zero structural column/",
+      "content_length": 3228
+    },
+    {
+      "title": "66.3 The 6 Independent Zonal Isolation Shut-Off Valves",
+      "level": 3,
+      "slug": "66-3-the-6-independent-zonal-isolation-shut-off-valves",
+      "start_line": 3768,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "| Valve Identifier | Zone / Location | Mounting Height & Position | Emergency Operational Scenario | | :--- | :--- | :--- | :--- | | `Valve_FF_Toilet_Isolate` | **First Floor Toilet** | $Z = 5000\\text{ mm}$ on Toilet **E",
+      "content_length": 1598
+    },
+    {
+      "title": "66.4 Structural Safeguards & Architectural Refinements",
+      "level": 3,
+      "slug": "66-4-structural-safeguards-architectural-refinements",
+      "start_line": 3781,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Washing Machine & Inlet Pipe Placement (100% Zero Overlap)**: - Top of washing machine: $Z = 1794.9\\text{ mm}$ ($850\\text{ mm}$ above finished floor level). - Dual-Spout Brass Bibcock (`GF_Utility_Washing_Machine_Bi",
+      "content_length": 1985
+    },
+    {
+      "title": "66.5 Complete Down-take & Zonal Isolation Component Schedule",
+      "level": 3,
+      "slug": "66-5-complete-down-take-zonal-isolation-component-schedule",
+      "start_line": 3805,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "| Object Identifier | FreeCAD Label | Geometric Coordinates (mm) | Material / Dimensions | Engineering Function | | :--- | :--- | :--- | :--- | :--- | | `Rooftop_Gravity_Distribution_Manifold` | Rooftop Gravity Distribut",
+      "content_length": 3691
+    },
+    {
+      "title": "66.6 Final System Verification & Document Status",
+      "level": 3,
+      "slug": "66-6-final-system-verification-document-status",
+      "start_line": 3826,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Master Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Objects in Document:** 574 objects, 0 errors, 100% valid manifold solids. * **Plum",
+      "content_length": 560
+    },
+    {
+      "title": "67. Kitchen Sink Plumbing Re-Orientation: East-Side Tap Relocation & Direct Chase Feed",
+      "level": 2,
+      "slug": "67-kitchen-sink-plumbing-re-orientation-east-side-tap-relocation-direct-chase-feed",
+      "start_line": 3837,
+      "categories": [
+        "plumbing",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **System Modification:** Kitchen Sink Tap Relocation from South Side to East Side > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd",
+      "content_length": 1055
+    },
+    {
+      "title": "67.1 Visual Portfolio: East-Side Kitchen Tap Layout",
+      "level": 3,
+      "slug": "67-1-visual-portfolio-east-side-kitchen-tap-layout",
+      "start_line": 3855,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "```carousel ![Close-Up 3D View: Kitchen Sink Dual Taps Mounted on East Counter Deck](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\kitchen_sink_east_taps_closeup.png) <!-- slide --> ![Top-Down Plan View: Taps on East",
+      "content_length": 548
+    },
+    {
+      "title": "67.2 Engineering Rationale & Architectural Benefits",
+      "level": 3,
+      "slug": "67-2-engineering-rationale-architectural-benefits",
+      "start_line": 3867,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "1. **Natural Ergonomic Alignment for the User**: - The kitchen sink is recessed into the granite countertop along the East wall ($X \\in [270, 720]\\text{ mm}$, $Y \\in [6940, 7370]\\text{ mm}$). - The user stands on the Wes",
+      "content_length": 1845
+    },
+    {
+      "title": "67.3 Updated Kitchen Plumbing Geometric Coordinates",
+      "level": 3,
+      "slug": "67-3-updated-kitchen-plumbing-geometric-coordinates",
+      "start_line": 3886,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "| Component Name | Description | Placement Coordinates (mm) | Spout / Flow Direction | Function | | :--- | :--- | :--- | :--- | :--- | | `Kitchen_Faucet` | GF OHT Domestic Faucet | Base: $(215, 7190, 1784)$, Top: $Z = 20",
+      "content_length": 1861
+    },
+    {
+      "title": "67.4 Verification & Document Status",
+      "level": 3,
+      "slug": "67-4-verification-document-status",
+      "start_line": 3902,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "* **Document File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Objects in Document:** 574 objects, 0 errors, 100% valid manifold solids. * **Structur",
+      "content_length": 465
+    },
+    {
+      "title": "68. Building Drainage Network: Kitchen Greywater Drainage System & North Road Outfall",
+      "level": 2,
+      "slug": "68-building-drainage-network-kitchen-greywater-drainage-system-north-road-outfall",
+      "start_line": 3912,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "> [!NOTE] > **System Classification:** Building Drainage Network (Phase 1: Kitchen Sullage & Greywater Conveyance) > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/H",
+      "content_length": 835
+    },
+    {
+      "title": "68.1 Kitchen Drainage System Visual Portfolio",
+      "level": 3,
+      "slug": "68-1-kitchen-drainage-system-visual-portfolio",
+      "start_line": 3924,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "```carousel ![East Setback Profile: Continuous 1:50 Gravity Slope to North Road Drain](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\kitchen_drainage_east_profile_slope.png) <!-- slide --> ![Close-Up: External Masonr",
+      "content_length": 765
+    },
+    {
+      "title": "68.2 Sanitary Architecture & Closed-Loop Flow Mechanism",
+      "level": 3,
+      "slug": "68-2-sanitary-architecture-closed-loop-flow-mechanism",
+      "start_line": 3938,
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "Kitchen wastewater is grease- and detergent-laden sullage. Under **IS 1742**, kitchen sullage must be intercepted by a water-sealed gully trap prior to entering the main drainage line, and vertical stacks must be continu",
+      "content_length": 1965
+    },
+    {
+      "title": "68.3 Technical & Structural Safeguards",
+      "level": 3,
+      "slug": "68-3-technical-structural-safeguards",
+      "start_line": 3976,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "1. **Grease & Odor Containment (Gully Trap GT-1)**: - Formed as a $320 \\times 320\\text{ mm}$ masonry chamber housing a cast-iron P-trap water seal ($50\\text{ mm}$ minimum seal depth). - Fitted with a removable stainless",
+      "content_length": 2031
+    },
+    {
+      "title": "68.4 Complete Kitchen Drainage Component Schedule",
+      "level": 3,
+      "slug": "68-4-complete-kitchen-drainage-component-schedule",
+      "start_line": 4000,
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "summary": "| Object Identifier | FreeCAD Label | Coordinates $(X, Y, Z)$ (mm) | Material / Dimensions | Engineering Function | | :--- | :--- | :--- | :--- | :--- | | `GF_Kitchen_Sink_Bottle_Trap` | GF Kitchen Sink Bottle Trap | $X",
+      "content_length": 2453
+    },
+    {
+      "title": "68.5 Final System Audit & Document Status",
+      "level": 3,
+      "slug": "68-5-final-system-audit-document-status",
+      "start_line": 4017,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **Master Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Objects in Document:** 584 objects, 0 errors, 100% valid manifold solids. * **Drai",
+      "content_length": 541
+    },
+    {
+      "title": "69. Dual-Stream Toilet Wastewater & Sullage Segregation System (IS 1742 & IS 2470 Compliant)",
+      "level": 2,
+      "slug": "69-dual-stream-toilet-wastewater-sullage-segregation-system-is-1742-is-2470-compliant",
+      "start_line": 4028,
+      "categories": [
+        "plumbing"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "69.1 Architectural & Sanitary Design Philosophy",
+      "level": 3,
+      "slug": "69-1-architectural-sanitary-design-philosophy",
+      "start_line": 4030,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "In accordance with user requirements (*\"toilet bath water should go to drainage and toilet should go to septic tank\"*) and Indian Standard Sanitary Codes (**IS 1742: Code of Practice for Building Drainage** and **IS 2470",
+      "content_length": 4067
+    },
+    {
+      "title": "69.2 Structural Core Protection & Clash-Free Geometry",
+      "level": 3,
+      "slug": "69-2-structural-core-protection-clash-free-geometry",
+      "start_line": 4052,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "Rigorous collision detection was executed across all 54 structural RCC members, electrical conduit runs, and potable water lines: - **Subgrade Beam Clearance**: `PB2_Stair_West` occupies $Z \\in [614.4, 914.4\\text{ mm}]$.",
+      "content_length": 1058
+    },
+    {
+      "title": "69.3 Visual Documentation of Dual-Stream System",
+      "level": 3,
+      "slug": "69-3-visual-documentation-of-dual-stream-system",
+      "start_line": 4062,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "````carousel ![Under-Stair GT-2 Gully Trap, Laundry Standpipe & Bath Stack](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\toilet_gt2_laundry_standpipe_closeup.png) <!-- slide --> ![North Roadside Frontage Showing Bot",
+      "content_length": 765
+    },
+    {
+      "title": "69.4 Complete Toilet Wastewater & Sullage Component Schedule",
+      "level": 3,
+      "slug": "69-4-complete-toilet-wastewater-sullage-component-schedule",
+      "start_line": 4076,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "| Object Identifier | FreeCAD Label | Location $(X, Y, Z)$ (mm) | Material / Dimensions | Engineering Function | | :--- | :--- | :--- | :--- | :--- | | `GF_Toilet_Bath_Floor_Trap` | GF Toilet Bath Floor Trap | $X = 4100,",
+      "content_length": 3751
+    },
+    {
+      "title": "69.5 System Verification & Quality Certification",
+      "level": 3,
+      "slug": "69-5-system-verification-quality-certification",
+      "start_line": 4098,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "site_work"
+      ],
+      "summary": "* **Master Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Building Objects:** 599 objects, 0 errors, 100% valid manifold solids. * **Sullage",
+      "content_length": 551
+    },
+    {
+      "title": "70. Toilet Sunken Wet Area (15 cm Drop Below Surface) Architectural & Sanitary Detailing",
+      "level": 2,
+      "slug": "70-toilet-sunken-wet-area-15-cm-drop-below-surface-architectural-sanitary-detailing",
+      "start_line": 4109,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "summary": "No section content extracted.",
+      "content_length": 0
+    },
+    {
+      "title": "70.1 Architectural Zoning & Sunken Slab Philosophy",
+      "level": 3,
+      "slug": "70-1-architectural-zoning-sunken-slab-philosophy",
+      "start_line": 4111,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "In direct response to client requirements (*\"on toilet keep wet area 15cm blow the surface\"*), both Ground Floor and First Floor toilets have been precision-engineered with a **15 cm (150 mm) sunken bathing wet zone**: 1",
+      "content_length": 2873
+    },
+    {
+      "title": "70.2 Visual Documentation",
+      "level": 3,
+      "slug": "70-2-visual-documentation",
+      "start_line": 4141,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "````carousel ![Ground Floor Toilet Cross-Section Showing 15cm Sunken Wet Floor, Riser Step & Dry WC Platform](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\toilet_gf_sunken_wet_area_closeup.png) <!-- slide --> ![3D I",
+      "content_length": 558
+    },
+    {
+      "title": "70.3 Quantitative Component Schedule",
+      "level": 3,
+      "slug": "70-3-quantitative-component-schedule",
+      "start_line": 4153,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Object Identifier | FreeCAD Label | Elevation $Z$ (mm) | Thickness / Dimensions | Material / Specification | | :--- | :--- | :--- | :--- | :--- | | `GF_Toilet_Dry_Area_Floor` | GF Toilet Dry Area Floor Platform | $Z =",
+      "content_length": 2044
+    },
+    {
+      "title": "70.4 Quality Certification & Structural Safety",
+      "level": 3,
+      "slug": "70-4-quality-certification-structural-safety",
+      "start_line": 4170,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "* **Zero Structural Clashes:** $100\\%$ verified across all RCC beams, columns, pedestals, and footings. * **Zero Fixture Clashes:** Clean separation between dry WC pan, step riser, conduits, and piping. * **Master CAD Mo",
+      "content_length": 347
+    },
+    {
+      "title": "71. Ergonomic Staircase Overhaul: 4-Winder Turnaround Landing & 17 Uniform 186.65 mm Risers (NBC 2016 Compliant)",
+      "level": 2,
+      "slug": "71-ergonomic-staircase-overhaul-4-winder-turnaround-landing-17-uniform-186-65-mm-risers-nbc-2016-compliant",
+      "start_line": 4178,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "> [!NOTE] > **System Classification:** Vertical Circulation Infrastructure (Staircase Ergonomics & Safety Modernization) > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20",
+      "content_length": 1041
+    },
+    {
+      "title": "71.1 Visual Portfolio of Optimized Winder Staircase",
+      "level": 3,
+      "slug": "71-1-visual-portfolio-of-optimized-winder-staircase",
+      "start_line": 4191,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "```carousel ![Elevated Axonometric View: 4-Winder Landing, Washing Machine Clearance & Sump Motor Pedestal](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\winder_stairs_steps_detail.png) <!-- slide --> ![Front North E",
+      "content_length": 562
+    },
+    {
+      "title": "71.2 Ergonomic & Safety Transformation Analysis",
+      "level": 3,
+      "slug": "71-2-ergonomic-safety-transformation-analysis",
+      "start_line": 4203,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "``` BEFORE OPTIMIZATION: AFTER OPTIMIZATION (NBC 2016 COMPLIANT): - Flat 180° mid-landing - 4-Winder radial stepped turnaround landing - Riser = 190.5 mm (upper limit) - Riser = 186.65 mm (UNIFORM across all 17 steps) -",
+      "content_length": 2161
+    },
+    {
+      "title": "71.3 Mathematical & Geometric Construction of the 4-Winder Turnaround Landing (`Stair_Mid_Landing`)",
+      "level": 3,
+      "slug": "71-3-mathematical-geometric-construction-of-the-4-winder-turnaround-landing-stairmidlanding",
+      "start_line": 4228,
+      "categories": [
+        "staircase"
+      ],
+      "summary": "The mid-landing occupies the entire eastern turnaround bay between $X = 3060.0\\text{ mm}$ and $X = 3810.0\\text{ mm}$ ($750.0\\text{ mm}$ width) and $Y = 230.0\\text{ mm}$ to $Y = 1710.0\\text{ mm}$ ($1480.0\\text{ mm}$ total",
+      "content_length": 1983
+    },
+    {
+      "title": "Detailed Winder Sector Step-by-Step Geometry",
+      "level": 4,
+      "slug": "detailed-winder-sector-step-by-step-geometry",
+      "start_line": 4257,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "* **Pivot Origin:** $(X_0, Y_0) = (3060.0\\text{ mm}, 970.0\\text{ mm})$. The dividing line between Flight 1 ($Y \\in [230, 950]$) and Flight 2 ($Y \\in [990, 1690]$) centers at $Y = 970.0\\text{ mm}$, leaving a $40\\text{ mm}",
+      "content_length": 2672
+    },
+    {
+      "title": "71.4 NBC 2016 Statutory Geometric Compliance Audit",
+      "level": 3,
+      "slug": "71-4-nbc-2016-statutory-geometric-compliance-audit",
+      "start_line": 4289,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Ergonomic / Safety Parameter | NBC 2016 Clause 4.4.2 Requirement | As-Built Winder Staircase Design | Margin / Compliance Status | | :--- | :--- | :--- | :--- | | **Maximum Riser Height ($R$)** | Max $190.0\\text{ mm}$",
+      "content_length": 1712
+    },
+    {
+      "title": "71.5 Integrated MEP Service Chase & Plumbing Penetration",
+      "level": 3,
+      "slug": "71-5-integrated-mep-service-chase-plumbing-penetration",
+      "start_line": 4304,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "summary": "To prevent clashing with primary vertical building services, `Stair_Mid_Landing` incorporates an integrated vertical duct penetration: * **Plan Location:** $X \\in [3475.0, 3625.0\\text{ mm}]$, $Y \\in [1543.0, 1700.0\\text{",
+      "content_length": 970
+    },
+    {
+      "title": "71.6 Master 17-Step Vertical Elevation & Cadence Schedule",
+      "level": 3,
+      "slug": "71-6-master-17-step-vertical-elevation-cadence-schedule",
+      "start_line": 4316,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Step No. | Flight / Component | Direction | Plan Extents $(X, Y)$ (mm) | Top FFL Elevation $Z$ (mm) | Riser $R$ (mm) | Tread Going $T$ (mm) | Net Headroom (mm) | | :---: | :--- | :---: | :--- | :---: | :---: | :---: |",
+      "content_length": 2810
+    },
+    {
+      "title": "71.7 Under-Stair Spatial Multi-Tasking & Clearance Matrix",
+      "level": 3,
+      "slug": "71-7-under-stair-spatial-multi-tasking-clearance-matrix",
+      "start_line": 4341,
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "``` Z = 2780 mm [Winder Step 10 Soffit: Z = 2655 mm] \\ \\ HEADROOM ABOVE WASHER = 518.2 mm (Lid opens freely) \\ +-----------------------------+ \\ | WASHING MACHINE (850mm H) | \\ | X: 3180-3780, Y: 1060-1690 | \\|==========",
+      "content_length": 1921
+    },
+    {
+      "title": "71.8 First Floor & Rooftop Terrace Modular Duplication",
+      "level": 3,
+      "slug": "71-8-first-floor-rooftop-terrace-modular-duplication",
+      "start_line": 4370,
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "summary": "The entire ergonomic staircase geometry has been cloned and vertically translated by $\\Delta Z = \\mathbf{+3173.0\\text{ mm}}$ for the First Floor vertical circulation core: * **`FF_Stair_Flight_1`:** $Z = 4087.40\\text{ mm",
+      "content_length": 605
+    },
+    {
+      "title": "71.9 Quality Certification & Model Hygiene",
+      "level": 3,
+      "slug": "71-9-quality-certification-model-hygiene",
+      "start_line": 4379,
+      "categories": [
+        "structural",
+        "electrical"
+      ],
+      "summary": "* **Master Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Objects in Document:** **612 objects, 0 errors, 100% valid manifold solids.** * **",
+      "content_length": 560
+    },
+    {
+      "title": "72. Comprehensive Staircase Safety Railings & Void Guardrail System (NBC 2016 Compliant)",
+      "level": 2,
+      "slug": "72-comprehensive-staircase-safety-railings-void-guardrail-system-nbc-2016-compliant",
+      "start_line": 4390,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "> [!NOTE] > **System Classification:** Architectural Safety & Fall Protection Infrastructure > **Source Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd)",
+      "content_length": 792
+    },
+    {
+      "title": "72.1 Audit of Required Railing Locations",
+      "level": 3,
+      "slug": "72-1-audit-of-required-railing-locations",
+      "start_line": 4402,
+      "categories": [
+        "structural",
+        "electrical",
+        "staircase",
+        "architectural",
+        "site_work"
+      ],
+      "summary": "A complete life-safety audit of the 2-storey vertical circulation core identified **5 critical fall-risk zones** requiring dedicated balustrades: ``` +---------------------------------------------------------------------",
+      "content_length": 2811
+    },
+    {
+      "title": "72.2 Visual Documentation of Complete Railing Network",
+      "level": 3,
+      "slug": "72-2-visual-documentation-of-complete-railing-network",
+      "start_line": 4437,
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "site_work"
+      ],
+      "summary": "```carousel ![Full Building Isometric: Complete SS 304 Railings & Guardrails Active (Glowing Green)](c:\\Users\\prade\\OneDrive\\Desktop\\home plan\\renders\\all_staircase_railings_complete.png) <!-- slide --> ![Elevated Axonom",
+      "content_length": 389
+    },
+    {
+      "title": "72.3 Complete Safety Railings Quantitative Schedule",
+      "level": 3,
+      "slug": "72-3-complete-safety-railings-quantitative-schedule",
+      "start_line": 4447,
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "summary": "| Object Identifier | FreeCAD Label | Elevation Span $Z$ (mm) | Plan Location $(X, Y)$ (mm) | Description & Safety Function | | :--- | :--- | :--- | :--- | :--- | | `Stair_Railing_Flight_1` | Stair Railing Flight 1 (SS)",
+      "content_length": 1742
+    },
+    {
+      "title": "72.4 Quality Certification & Model Hygiene",
+      "level": 3,
+      "slug": "72-4-quality-certification-model-hygiene",
+      "start_line": 4462,
+      "categories": [
+        "structural",
+        "electrical"
+      ],
+      "summary": "* **Master Model File:** [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) * **Total Objects in Document:** **612 objects, 0 errors, 100% valid manifold solids.** * **",
+      "content_length": 430
+    }
+  ]
+}

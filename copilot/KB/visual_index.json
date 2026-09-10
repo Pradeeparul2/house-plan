@@ -1,0 +1,7631 @@
+{
+  "project": "construction-copilot",
+  "generated_at": "2026-09-09T17:02:25.489271+00:00",
+  "asset_count": 392,
+  "assets": [
+    {
+      "file_name": "3d_axonometric_model.png",
+      "relative_path": "renders\\3d_axonometric_model.png",
+      "extension": "png",
+      "keywords": [
+        "3d",
+        "axonometric",
+        "model"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "3d_bedroom_door_closeup.png",
+      "relative_path": "renders\\3d_bedroom_door_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "3d",
+        "bedroom",
+        "door",
+        "closeup"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "3d_bedroom_door_selection.png",
+      "relative_path": "renders\\3d_bedroom_door_selection.png",
+      "extension": "png",
+      "keywords": [
+        "3d",
+        "bedroom",
+        "door",
+        "selection"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "3d_bedroom_door_view.png",
+      "relative_path": "renders\\3d_bedroom_door_view.png",
+      "extension": "png",
+      "keywords": [
+        "3d",
+        "bedroom",
+        "door",
+        "view"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "3d_bedroom_door_wall_view.png",
+      "relative_path": "renders\\3d_bedroom_door_wall_view.png",
+      "extension": "png",
+      "keywords": [
+        "3d",
+        "bedroom",
+        "door",
+        "wall",
+        "view"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "3d_toilet_door_view.png",
+      "relative_path": "renders\\3d_toilet_door_view.png",
+      "extension": "png",
+      "keywords": [
+        "3d",
+        "toilet",
+        "door",
+        "view"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "all_electrical_pipelines_full_view.png",
+      "relative_path": "renders\\all_electrical_pipelines_full_view.png",
+      "extension": "png",
+      "keywords": [
+        "all",
+        "electrical",
+        "pipelines",
+        "full",
+        "view"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "all_electrical_pipelines_iso_no_walls.png",
+      "relative_path": "renders\\all_electrical_pipelines_iso_no_walls.png",
+      "extension": "png",
+      "keywords": [
+        "all",
+        "electrical",
+        "pipelines",
+        "iso",
+        "no",
+        "walls"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "all_electrical_pipelines_top_plan_no_walls.png",
+      "relative_path": "renders\\all_electrical_pipelines_top_plan_no_walls.png",
+      "extension": "png",
+      "keywords": [
+        "all",
+        "electrical",
+        "pipelines",
+        "top",
+        "plan",
+        "no",
+        "walls"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "all_objects_visible_front.png",
+      "relative_path": "renders\\all_objects_visible_front.png",
+      "extension": "png",
+      "keywords": [
+        "all",
+        "objects",
+        "visible",
+        "front"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "all_objects_visible_isometric.png",
+      "relative_path": "renders\\all_objects_visible_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "all",
+        "objects",
+        "visible",
+        "isometric"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "all_staircase_railings_complete.png",
+      "relative_path": "renders\\all_staircase_railings_complete.png",
+      "extension": "png",
+      "keywords": [
+        "all",
+        "staircase",
+        "railings",
+        "complete"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "axonometric_fit_selection.png",
+      "relative_path": "renders\\axonometric_fit_selection.png",
+      "extension": "png",
+      "keywords": [
+        "axonometric",
+        "fit",
+        "selection"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "axonometric_southeast_plumbing.png",
+      "relative_path": "renders\\axonometric_southeast_plumbing.png",
+      "extension": "png",
+      "keywords": [
+        "axonometric",
+        "southeast",
+        "plumbing"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "bedroom_pipelines_and_switchboxes_annotated.png",
+      "relative_path": "renders\\bedroom_pipelines_and_switchboxes_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "bedroom",
+        "pipelines",
+        "and",
+        "switchboxes",
+        "annotated"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "bedroom_windows_both_floors.png",
+      "relative_path": "renders\\bedroom_windows_both_floors.png",
+      "extension": "png",
+      "keywords": [
+        "bedroom",
+        "windows",
+        "both",
+        "floors"
+      ],
+      "categories": [
+        "architectural",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "floor_plan",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "both_staircases_visible.png",
+      "relative_path": "renders\\both_staircases_visible.png",
+      "extension": "png",
+      "keywords": [
+        "both",
+        "staircases",
+        "visible"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "breakfast_counter_spotlight_pipeline_verified.png",
+      "relative_path": "renders\\breakfast_counter_spotlight_pipeline_verified.png",
+      "extension": "png",
+      "keywords": [
+        "breakfast",
+        "counter",
+        "spotlight",
+        "pipeline",
+        "verified"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "building_isometric_east_kitchen_taps.png",
+      "relative_path": "renders\\building_isometric_east_kitchen_taps.png",
+      "extension": "png",
+      "keywords": [
+        "building",
+        "isometric",
+        "east",
+        "kitchen",
+        "taps"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "building_isometric_full_drainage_network.png",
+      "relative_path": "renders\\building_isometric_full_drainage_network.png",
+      "extension": "png",
+      "keywords": [
+        "building",
+        "isometric",
+        "full",
+        "drainage",
+        "network"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "building_isometric_kitchen_counter_visible.png",
+      "relative_path": "renders\\building_isometric_kitchen_counter_visible.png",
+      "extension": "png",
+      "keywords": [
+        "building",
+        "isometric",
+        "kitchen",
+        "counter",
+        "visible"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "building_walls_50_opacity_east.png",
+      "relative_path": "renders\\building_walls_50_opacity_east.png",
+      "extension": "png",
+      "keywords": [
+        "building",
+        "walls",
+        "50",
+        "opacity",
+        "east"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "building_walls_50_opacity_front.png",
+      "relative_path": "renders\\building_walls_50_opacity_front.png",
+      "extension": "png",
+      "keywords": [
+        "building",
+        "walls",
+        "50",
+        "opacity",
+        "front"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "building_walls_50_opacity_isometric.png",
+      "relative_path": "renders\\building_walls_50_opacity_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "building",
+        "walls",
+        "50",
+        "opacity",
+        "isometric"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "building_walls_50_opacity_rear.png",
+      "relative_path": "renders\\building_walls_50_opacity_rear.png",
+      "extension": "png",
+      "keywords": [
+        "building",
+        "walls",
+        "50",
+        "opacity",
+        "rear"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "building_walls_50_opacity_southeast.png",
+      "relative_path": "renders\\building_walls_50_opacity_southeast.png",
+      "extension": "png",
+      "keywords": [
+        "building",
+        "walls",
+        "50",
+        "opacity",
+        "southeast"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cam01_entrance_closeup.png",
+      "relative_path": "renders\\cam01_entrance_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "cam01",
+        "entrance",
+        "closeup"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cam03_east_closeup.png",
+      "relative_path": "renders\\cam03_east_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "cam03",
+        "east",
+        "closeup"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cam03_east_portico_recessed.png",
+      "relative_path": "renders\\cam03_east_portico_recessed.png",
+      "extension": "png",
+      "keywords": [
+        "cam03",
+        "east",
+        "portico",
+        "recessed"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cam04_balcony_closeup.png",
+      "relative_path": "renders\\cam04_balcony_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "cam04",
+        "balcony",
+        "closeup"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cam05_mumty_closeup.png",
+      "relative_path": "renders\\cam05_mumty_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "cam05",
+        "mumty",
+        "closeup"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cam05_mumty_terrace_view.png",
+      "relative_path": "renders\\cam05_mumty_terrace_view.png",
+      "extension": "png",
+      "keywords": [
+        "cam05",
+        "mumty",
+        "terrace",
+        "view"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_cameras_focused_front.png",
+      "relative_path": "renders\\cctv_cameras_focused_front.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "cameras",
+        "focused",
+        "front"
+      ],
+      "categories": [
+        "electrical",
+        "architectural",
+        "cctv"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_cameras_focused_iso.png",
+      "relative_path": "renders\\cctv_cameras_focused_iso.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "cameras",
+        "focused",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_complete_3storey_xray.png",
+      "relative_path": "renders\\cctv_complete_3storey_xray.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "complete",
+        "3storey",
+        "xray"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_east_facade_concealed.png",
+      "relative_path": "renders\\cctv_east_facade_concealed.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "east",
+        "facade",
+        "concealed"
+      ],
+      "categories": [
+        "electrical",
+        "architectural",
+        "cctv"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_facade_iso.png",
+      "relative_path": "renders\\cctv_facade_iso.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "facade",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "architectural",
+        "cctv"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_front_canopy_soffits.png",
+      "relative_path": "renders\\cctv_front_canopy_soffits.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "front",
+        "canopy",
+        "soffits"
+      ],
+      "categories": [
+        "electrical",
+        "architectural",
+        "cctv"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_isolated_mep_iso.png",
+      "relative_path": "renders\\cctv_isolated_mep_iso.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "isolated",
+        "mep",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_isolated_network_iso.png",
+      "relative_path": "renders\\cctv_isolated_network_iso.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "isolated",
+        "network",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_loft_wiring_schematic.png",
+      "relative_path": "renders\\cctv_loft_wiring_schematic.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "loft",
+        "wiring",
+        "schematic"
+      ],
+      "categories": [
+        "structural",
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_network_zoomed_focus.png",
+      "relative_path": "renders\\cctv_network_zoomed_focus.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "network",
+        "zoomed",
+        "focus"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_only_schematic_3d.png",
+      "relative_path": "renders\\cctv_only_schematic_3d.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "only",
+        "schematic",
+        "3d"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_ortho_iso.png",
+      "relative_path": "renders\\cctv_ortho_iso.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "ortho",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_visible_network_iso.png",
+      "relative_path": "renders\\cctv_visible_network_iso.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "visible",
+        "network",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_wifi_conduit_full_schematic.png",
+      "relative_path": "renders\\cctv_wifi_conduit_full_schematic.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "wifi",
+        "conduit",
+        "full",
+        "schematic"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_wiring_schematic_3d.png",
+      "relative_path": "renders\\cctv_wiring_schematic_3d.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "wiring",
+        "schematic",
+        "3d"
+      ],
+      "categories": [
+        "structural",
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_with_floor_plates.png",
+      "relative_path": "renders\\cctv_with_floor_plates.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "with",
+        "floor",
+        "plates"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "cctv_xray_isometric.png",
+      "relative_path": "renders\\cctv_xray_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "cctv",
+        "xray",
+        "isometric"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "concealed_cctv_east.png",
+      "relative_path": "renders\\concealed_cctv_east.png",
+      "extension": "png",
+      "keywords": [
+        "concealed",
+        "cctv",
+        "east"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "concealed_cctv_front.png",
+      "relative_path": "renders\\concealed_cctv_front.png",
+      "extension": "png",
+      "keywords": [
+        "concealed",
+        "cctv",
+        "front"
+      ],
+      "categories": [
+        "electrical",
+        "architectural",
+        "cctv"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "concealed_cctv_iso.png",
+      "relative_path": "renders\\concealed_cctv_iso.png",
+      "extension": "png",
+      "keywords": [
+        "concealed",
+        "cctv",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "continuous_bands_east_elevation.png",
+      "relative_path": "renders\\continuous_bands_east_elevation.png",
+      "extension": "png",
+      "keywords": [
+        "continuous",
+        "bands",
+        "east",
+        "elevation"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "continuous_bands_front_elevation.png",
+      "relative_path": "renders\\continuous_bands_front_elevation.png",
+      "extension": "png",
+      "keywords": [
+        "continuous",
+        "bands",
+        "front",
+        "elevation"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "continuous_bands_isometric_solid.png",
+      "relative_path": "renders\\continuous_bands_isometric_solid.png",
+      "extension": "png",
+      "keywords": [
+        "continuous",
+        "bands",
+        "isometric",
+        "solid"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "continuous_bands_pure_skeleton.png",
+      "relative_path": "renders\\continuous_bands_pure_skeleton.png",
+      "extension": "png",
+      "keywords": [
+        "continuous",
+        "bands",
+        "pure",
+        "skeleton"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "crop_entry_area.png",
+      "relative_path": "renders\\crop_entry_area.png",
+      "extension": "png",
+      "keywords": [
+        "crop",
+        "entry",
+        "area"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "crop_ff_light_rain_protection.png",
+      "relative_path": "renders\\crop_ff_light_rain_protection.png",
+      "extension": "png",
+      "keywords": [
+        "crop",
+        "ff",
+        "light",
+        "rain",
+        "protection"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "crop_headroom_wall_light.png",
+      "relative_path": "renders\\crop_headroom_wall_light.png",
+      "extension": "png",
+      "keywords": [
+        "crop",
+        "headroom",
+        "wall",
+        "light"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "crop_light_2ft_below_ff_landing.png",
+      "relative_path": "renders\\crop_light_2ft_below_ff_landing.png",
+      "extension": "png",
+      "keywords": [
+        "crop",
+        "light",
+        "2ft",
+        "below",
+        "ff",
+        "landing"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "crop_light_fixture.png",
+      "relative_path": "renders\\crop_light_fixture.png",
+      "extension": "png",
+      "keywords": [
+        "crop",
+        "light",
+        "fixture"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "crop_south_wall.png",
+      "relative_path": "renders\\crop_south_wall.png",
+      "extension": "png",
+      "keywords": [
+        "crop",
+        "south",
+        "wall"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "crop_under_stair_pump_power.png",
+      "relative_path": "renders\\crop_under_stair_pump_power.png",
+      "extension": "png",
+      "keywords": [
+        "crop",
+        "under",
+        "stair",
+        "pump",
+        "power"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "sanitary_and_plumbing",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "current_freecad_view.png",
+      "relative_path": "renders\\current_freecad_view.png",
+      "extension": "png",
+      "keywords": [
+        "current",
+        "freecad",
+        "view"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "dining_bedroom_crossing_closeup.png",
+      "relative_path": "renders\\dining_bedroom_crossing_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "dining",
+        "bedroom",
+        "crossing",
+        "closeup"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "dual_drainage_road_outfall_north.png",
+      "relative_path": "renders\\dual_drainage_road_outfall_north.png",
+      "extension": "png",
+      "keywords": [
+        "dual",
+        "drainage",
+        "road",
+        "outfall",
+        "north"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "dual_ups_two_storey_overview.png",
+      "relative_path": "renders\\dual_ups_two_storey_overview.png",
+      "extension": "png",
+      "keywords": [
+        "dual",
+        "ups",
+        "two",
+        "storey",
+        "overview"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "east_elevation_lintels_sills.png",
+      "relative_path": "renders\\east_elevation_lintels_sills.png",
+      "extension": "png",
+      "keywords": [
+        "east",
+        "elevation",
+        "lintels",
+        "sills"
+      ],
+      "categories": [
+        "structural",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "east_elevation_true.png",
+      "relative_path": "renders\\east_elevation_true.png",
+      "extension": "png",
+      "keywords": [
+        "east",
+        "elevation",
+        "true"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "east_loft_cctv_ups_closeup.png",
+      "relative_path": "renders\\east_loft_cctv_ups_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "east",
+        "loft",
+        "cctv",
+        "ups",
+        "closeup"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "east_outer_parapet_pipeline.png",
+      "relative_path": "renders\\east_outer_parapet_pipeline.png",
+      "extension": "png",
+      "keywords": [
+        "east",
+        "outer",
+        "parapet",
+        "pipeline"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "east_parapet_kitchen_pipeline.png",
+      "relative_path": "renders\\east_parapet_kitchen_pipeline.png",
+      "extension": "png",
+      "keywords": [
+        "east",
+        "parapet",
+        "kitchen",
+        "pipeline"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "east_side_switchbox_orange_pipe_explained.png",
+      "relative_path": "renders\\east_side_switchbox_orange_pipe_explained.png",
+      "extension": "png",
+      "keywords": [
+        "east",
+        "side",
+        "switchbox",
+        "orange",
+        "pipe",
+        "explained"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_conduit_iso_tight.png",
+      "relative_path": "renders\\electrical_conduit_iso_tight.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "conduit",
+        "iso",
+        "tight"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_conduit_plan_tight.png",
+      "relative_path": "renders\\electrical_conduit_plan_tight.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "conduit",
+        "plan",
+        "tight"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_conduit_zoom_tight.png",
+      "relative_path": "renders\\electrical_conduit_zoom_tight.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "conduit",
+        "zoom",
+        "tight"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_conduits_to_switchboxes_overview.png",
+      "relative_path": "renders\\electrical_conduits_to_switchboxes_overview.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "conduits",
+        "to",
+        "switchboxes",
+        "overview"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_conduits_two_storey_full.png",
+      "relative_path": "renders\\electrical_conduits_two_storey_full.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "conduits",
+        "two",
+        "storey",
+        "full"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_front_view_all_conduits.png",
+      "relative_path": "renders\\electrical_front_view_all_conduits.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "front",
+        "view",
+        "all",
+        "conduits"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_isometric_view_all_conduits.png",
+      "relative_path": "renders\\electrical_isometric_view_all_conduits.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "isometric",
+        "view",
+        "all",
+        "conduits"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_pipelines_front_drops.png",
+      "relative_path": "renders\\electrical_pipelines_front_drops.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "pipelines",
+        "front",
+        "drops"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_pipelines_front_elevation_ghost.png",
+      "relative_path": "renders\\electrical_pipelines_front_elevation_ghost.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "pipelines",
+        "front",
+        "elevation",
+        "ghost"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_pipelines_slab_closeup.png",
+      "relative_path": "renders\\electrical_pipelines_slab_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "pipelines",
+        "slab",
+        "closeup"
+      ],
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_pipelines_structural_ghost.png",
+      "relative_path": "renders\\electrical_pipelines_structural_ghost.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "pipelines",
+        "structural",
+        "ghost"
+      ],
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_pipelines_structural_ghost_iso.png",
+      "relative_path": "renders\\electrical_pipelines_structural_ghost_iso.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "pipelines",
+        "structural",
+        "ghost",
+        "iso"
+      ],
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_pipelines_top_plan_ghost.png",
+      "relative_path": "renders\\electrical_pipelines_top_plan_ghost.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "pipelines",
+        "top",
+        "plan",
+        "ghost"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_right_view_all_conduits.png",
+      "relative_path": "renders\\electrical_right_view_all_conduits.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "right",
+        "view",
+        "all",
+        "conduits"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "electrical_top_view_all_conduits.png",
+      "relative_path": "renders\\electrical_top_view_all_conduits.png",
+      "extension": "png",
+      "keywords": [
+        "electrical",
+        "top",
+        "view",
+        "all",
+        "conduits"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_axonometric_overall.png",
+      "relative_path": "renders\\ff_axonometric_overall.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "axonometric",
+        "overall"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_conduits_isometric_closeup.png",
+      "relative_path": "renders\\ff_conduits_isometric_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "conduits",
+        "isometric",
+        "closeup"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_conduits_to_switchboxes_closeup.png",
+      "relative_path": "renders\\ff_conduits_to_switchboxes_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "conduits",
+        "to",
+        "switchboxes",
+        "closeup"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_electrical_plan_final_duplicate.png",
+      "relative_path": "renders\\ff_electrical_plan_final_duplicate.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "electrical",
+        "plan",
+        "final",
+        "duplicate"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_electrical_plan_top_view.png",
+      "relative_path": "renders\\ff_electrical_plan_top_view.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "electrical",
+        "plan",
+        "top",
+        "view"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_final_front.png",
+      "relative_path": "renders\\ff_final_front.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "final",
+        "front"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_final_persp.png",
+      "relative_path": "renders\\ff_final_persp.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "final",
+        "persp"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_gf_door_handles_aligned_annotated.png",
+      "relative_path": "renders\\ff_gf_door_handles_aligned_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "gf",
+        "door",
+        "handles",
+        "aligned",
+        "annotated"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_gf_mcb_boxes_aligned_annotated.png",
+      "relative_path": "renders\\ff_gf_mcb_boxes_aligned_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "gf",
+        "mcb",
+        "boxes",
+        "aligned",
+        "annotated"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_living_room_north_wall_solid.png",
+      "relative_path": "renders\\ff_living_room_north_wall_solid.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "living",
+        "room",
+        "north",
+        "wall",
+        "solid"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_north_no_window_balcony_stair.png",
+      "relative_path": "renders\\ff_north_no_window_balcony_stair.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "north",
+        "no",
+        "window",
+        "balcony",
+        "stair"
+      ],
+      "categories": [
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_north_no_window_elevation.png",
+      "relative_path": "renders\\ff_north_no_window_elevation.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "north",
+        "no",
+        "window",
+        "elevation"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_rear_bedroom_kitchen_conduits.png",
+      "relative_path": "renders\\ff_rear_bedroom_kitchen_conduits.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "rear",
+        "bedroom",
+        "kitchen",
+        "conduits"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_sitout_light_top_view.png",
+      "relative_path": "renders\\ff_sitout_light_top_view.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "sitout",
+        "light",
+        "top",
+        "view"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_stair_light_rain_protection_annotated.png",
+      "relative_path": "renders\\ff_stair_light_rain_protection_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "stair",
+        "light",
+        "rain",
+        "protection",
+        "annotated"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_true_east_elevation.png",
+      "relative_path": "renders\\ff_true_east_elevation.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "true",
+        "east",
+        "elevation"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_under_stair_clean_no_sb_util.png",
+      "relative_path": "renders\\ff_under_stair_clean_no_sb_util.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "under",
+        "stair",
+        "clean",
+        "no",
+        "sb",
+        "util"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_ups_switchbox_closeup.png",
+      "relative_path": "renders\\ff_ups_switchbox_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "ups",
+        "switchbox",
+        "closeup"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ff_ups_switchbox_perspective.png",
+      "relative_path": "renders\\ff_ups_switchbox_perspective.png",
+      "extension": "png",
+      "keywords": [
+        "ff",
+        "ups",
+        "switchbox",
+        "perspective"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "first_floor_electrical_closeup.png",
+      "relative_path": "renders\\first_floor_electrical_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "first",
+        "floor",
+        "electrical",
+        "closeup"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "first_floor_north_axonometric.png",
+      "relative_path": "renders\\first_floor_north_axonometric.png",
+      "extension": "png",
+      "keywords": [
+        "first",
+        "floor",
+        "north",
+        "axonometric"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "first_floor_north_closeup.png",
+      "relative_path": "renders\\first_floor_north_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "first",
+        "floor",
+        "north",
+        "closeup"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "first_floor_north_elevation.png",
+      "relative_path": "renders\\first_floor_north_elevation.png",
+      "extension": "png",
+      "keywords": [
+        "first",
+        "floor",
+        "north",
+        "elevation"
+      ],
+      "categories": [
+        "architectural",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "first_floor_ups_closeup.png",
+      "relative_path": "renders\\first_floor_ups_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "first",
+        "floor",
+        "ups",
+        "closeup"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_columns_and_beams_only.png",
+      "relative_path": "renders\\freecad_columns_and_beams_only.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "columns",
+        "and",
+        "beams",
+        "only"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_360_seismic_ring.png",
+      "relative_path": "renders\\freecad_gui_360_seismic_ring.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "360",
+        "seismic",
+        "ring"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_cctv_centered.png",
+      "relative_path": "renders\\freecad_gui_cctv_centered.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "cctv",
+        "centered"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_cctv_loft_active.png",
+      "relative_path": "renders\\freecad_gui_cctv_loft_active.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "cctv",
+        "loft",
+        "active"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_cctv_tree_scrolled.png",
+      "relative_path": "renders\\freecad_gui_cctv_tree_scrolled.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "cctv",
+        "tree",
+        "scrolled"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_columns_beams_only.png",
+      "relative_path": "renders\\freecad_gui_columns_beams_only.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "columns",
+        "beams",
+        "only"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_continuous_bands.png",
+      "relative_path": "renders\\freecad_gui_continuous_bands.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "continuous",
+        "bands"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_dish_pipeline.png",
+      "relative_path": "renders\\freecad_gui_dish_pipeline.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "dish",
+        "pipeline"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_lintels_sills.png",
+      "relative_path": "renders\\freecad_gui_lintels_sills.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "lintels",
+        "sills"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_lintels_sills_active.png",
+      "relative_path": "renders\\freecad_gui_lintels_sills_active.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "lintels",
+        "sills",
+        "active"
+      ],
+      "categories": [
+        "structural",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_single_door.png",
+      "relative_path": "renders\\freecad_gui_single_door.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "single",
+        "door"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_gui_walls_100.png",
+      "relative_path": "renders\\freecad_gui_walls_100.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "gui",
+        "walls",
+        "100"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_mainwindow_active.png",
+      "relative_path": "renders\\freecad_mainwindow_active.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "mainwindow",
+        "active"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_structural_frame_east.png",
+      "relative_path": "renders\\freecad_structural_frame_east.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "structural",
+        "frame",
+        "east"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_structural_frame_front.png",
+      "relative_path": "renders\\freecad_structural_frame_front.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "structural",
+        "frame",
+        "front"
+      ],
+      "categories": [
+        "structural",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "freecad_structural_frame_styled.png",
+      "relative_path": "renders\\freecad_structural_frame_styled.png",
+      "extension": "png",
+      "keywords": [
+        "freecad",
+        "structural",
+        "frame",
+        "styled"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "front_elevation_lintels_sills.png",
+      "relative_path": "renders\\front_elevation_lintels_sills.png",
+      "extension": "png",
+      "keywords": [
+        "front",
+        "elevation",
+        "lintels",
+        "sills"
+      ],
+      "categories": [
+        "structural",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "front_elevation_single_door.png",
+      "relative_path": "renders\\front_elevation_single_door.png",
+      "extension": "png",
+      "keywords": [
+        "front",
+        "elevation",
+        "single",
+        "door"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "front_elevation_walls_100_visible.png",
+      "relative_path": "renders\\front_elevation_walls_100_visible.png",
+      "extension": "png",
+      "keywords": [
+        "front",
+        "elevation",
+        "walls",
+        "100",
+        "visible"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "front_elevation_zero_pipe_verification.png",
+      "relative_path": "renders\\front_elevation_zero_pipe_verification.png",
+      "extension": "png",
+      "keywords": [
+        "front",
+        "elevation",
+        "zero",
+        "pipe",
+        "verification"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_building_electrical_pipelines_iso.png",
+      "relative_path": "renders\\full_building_electrical_pipelines_iso.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "building",
+        "electrical",
+        "pipelines",
+        "iso"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_building_electrical_pipelines_top.png",
+      "relative_path": "renders\\full_building_electrical_pipelines_top.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "building",
+        "electrical",
+        "pipelines",
+        "top"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_building_isometric_se.png",
+      "relative_path": "renders\\full_building_isometric_se.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "building",
+        "isometric",
+        "se"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_building_northeast_iso.png",
+      "relative_path": "renders\\full_building_northeast_iso.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "building",
+        "northeast",
+        "iso"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_building_solid_axonometric.png",
+      "relative_path": "renders\\full_building_solid_axonometric.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "building",
+        "solid",
+        "axonometric"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_building_solid_east.png",
+      "relative_path": "renders\\full_building_solid_east.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "building",
+        "solid",
+        "east"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_building_solid_east_true.png",
+      "relative_path": "renders\\full_building_solid_east_true.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "building",
+        "solid",
+        "east",
+        "true"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_building_solid_front.png",
+      "relative_path": "renders\\full_building_solid_front.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "building",
+        "solid",
+        "front"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_width_east_loft_perspective.png",
+      "relative_path": "renders\\full_width_east_loft_perspective.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "width",
+        "east",
+        "loft",
+        "perspective"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "full_width_east_loft_zoom.png",
+      "relative_path": "renders\\full_width_east_loft_zoom.png",
+      "extension": "png",
+      "keywords": [
+        "full",
+        "width",
+        "east",
+        "loft",
+        "zoom"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gate_closeup_front.png",
+      "relative_path": "renders\\gate_closeup_front.png",
+      "extension": "png",
+      "keywords": [
+        "gate",
+        "closeup",
+        "front"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_bedroom_window_closeup.png",
+      "relative_path": "renders\\gf_bedroom_window_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "bedroom",
+        "window",
+        "closeup"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_conduits_to_switchboxes_closeup.png",
+      "relative_path": "renders\\gf_conduits_to_switchboxes_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "conduits",
+        "to",
+        "switchboxes",
+        "closeup"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_electrical_conduit_iso_tight.png",
+      "relative_path": "renders\\gf_electrical_conduit_iso_tight.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "electrical",
+        "conduit",
+        "iso",
+        "tight"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_electrical_conduit_plan_tight.png",
+      "relative_path": "renders\\gf_electrical_conduit_plan_tight.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "electrical",
+        "conduit",
+        "plan",
+        "tight"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_electrical_conduit_zoom_tight.png",
+      "relative_path": "renders\\gf_electrical_conduit_zoom_tight.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "electrical",
+        "conduit",
+        "zoom",
+        "tight"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_electrical_plan_final_duplicate.png",
+      "relative_path": "renders\\gf_electrical_plan_final_duplicate.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "electrical",
+        "plan",
+        "final",
+        "duplicate"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_electrical_plan_top_view.png",
+      "relative_path": "renders\\gf_electrical_plan_top_view.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "electrical",
+        "plan",
+        "top",
+        "view"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_elev_front_cropped.png",
+      "relative_path": "renders\\gf_elev_front_cropped.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "elev",
+        "front",
+        "cropped"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_elev_persp_cropped.png",
+      "relative_path": "renders\\gf_elev_persp_cropped.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "elev",
+        "persp",
+        "cropped"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "GF_Floor_Plan_Architectural.pdf",
+      "relative_path": "renders\\GF_Floor_Plan_Architectural.pdf",
+      "extension": "pdf",
+      "keywords": [
+        "gf",
+        "floor",
+        "plan",
+        "architectural"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "drawing"
+    },
+    {
+      "file_name": "GF_Floor_Plan_Architectural.svg",
+      "relative_path": "renders\\GF_Floor_Plan_Architectural.svg",
+      "extension": "svg",
+      "keywords": [
+        "gf",
+        "floor",
+        "plan",
+        "architectural"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "drawing"
+    },
+    {
+      "file_name": "gf_interior_cutaway_cropped.png",
+      "relative_path": "renders\\gf_interior_cutaway_cropped.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "interior",
+        "cutaway",
+        "cropped"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_kitchen_sink_dual_taps_and_valve.png",
+      "relative_path": "renders\\gf_kitchen_sink_dual_taps_and_valve.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "kitchen",
+        "sink",
+        "dual",
+        "taps",
+        "and",
+        "valve"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_kitchen_under_sink_valve_xray.png",
+      "relative_path": "renders\\gf_kitchen_under_sink_valve_xray.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "kitchen",
+        "under",
+        "sink",
+        "valve",
+        "xray"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_louvers_closeup_cropped.png",
+      "relative_path": "renders\\gf_louvers_closeup_cropped.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "louvers",
+        "closeup",
+        "cropped"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_sitout_light_top_view.png",
+      "relative_path": "renders\\gf_sitout_light_top_view.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "sitout",
+        "light",
+        "top",
+        "view"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_toilet_interior_plumbing_view.png",
+      "relative_path": "renders\\gf_toilet_interior_plumbing_view.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "toilet",
+        "interior",
+        "plumbing",
+        "view"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_toilet_wm_front_view.png",
+      "relative_path": "renders\\gf_toilet_wm_front_view.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "toilet",
+        "wm",
+        "front",
+        "view"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_utility_wm_and_toilet_closeup.png",
+      "relative_path": "renders\\gf_utility_wm_and_toilet_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "utility",
+        "wm",
+        "and",
+        "toilet",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "gf_utility_wm_overlap_resolved.png",
+      "relative_path": "renders\\gf_utility_wm_overlap_resolved.png",
+      "extension": "png",
+      "keywords": [
+        "gf",
+        "utility",
+        "wm",
+        "overlap",
+        "resolved"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ground_floor_plan_2d.png",
+      "relative_path": "renders\\ground_floor_plan_2d.png",
+      "extension": "png",
+      "keywords": [
+        "ground",
+        "floor",
+        "plan",
+        "2d"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "ground_floor_plan_2d.svg",
+      "relative_path": "renders\\ground_floor_plan_2d.svg",
+      "extension": "svg",
+      "keywords": [
+        "ground",
+        "floor",
+        "plan",
+        "2d"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "drawing"
+    },
+    {
+      "file_name": "ground_floor_plan_2d_preview.png",
+      "relative_path": "renders\\ground_floor_plan_2d_preview.png",
+      "extension": "png",
+      "keywords": [
+        "ground",
+        "floor",
+        "plan",
+        "2d",
+        "preview"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "headroom_light_full_raw.png",
+      "relative_path": "renders\\headroom_light_full_raw.png",
+      "extension": "png",
+      "keywords": [
+        "headroom",
+        "light",
+        "full",
+        "raw"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "headroom_weatherproof_wall_light_annotated.png",
+      "relative_path": "renders\\headroom_weatherproof_wall_light_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "headroom",
+        "weatherproof",
+        "wall",
+        "light",
+        "annotated"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "isometric_lintels_sills_solid.png",
+      "relative_path": "renders\\isometric_lintels_sills_solid.png",
+      "extension": "png",
+      "keywords": [
+        "isometric",
+        "lintels",
+        "sills",
+        "solid"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "isometric_view_single_door.png",
+      "relative_path": "renders\\isometric_view_single_door.png",
+      "extension": "png",
+      "keywords": [
+        "isometric",
+        "view",
+        "single",
+        "door"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "isometric_walls_100_visible.png",
+      "relative_path": "renders\\isometric_walls_100_visible.png",
+      "extension": "png",
+      "keywords": [
+        "isometric",
+        "walls",
+        "100",
+        "visible"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "kitchen_counter_top_perspective.png",
+      "relative_path": "renders\\kitchen_counter_top_perspective.png",
+      "extension": "png",
+      "keywords": [
+        "kitchen",
+        "counter",
+        "top",
+        "perspective"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "kitchen_counter_top_plan.png",
+      "relative_path": "renders\\kitchen_counter_top_plan.png",
+      "extension": "png",
+      "keywords": [
+        "kitchen",
+        "counter",
+        "top",
+        "plan"
+      ],
+      "categories": [
+        "architectural",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "kitchen_drainage_building_isometric.png",
+      "relative_path": "renders\\kitchen_drainage_building_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "kitchen",
+        "drainage",
+        "building",
+        "isometric"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "kitchen_drainage_east_profile_slope.png",
+      "relative_path": "renders\\kitchen_drainage_east_profile_slope.png",
+      "extension": "png",
+      "keywords": [
+        "kitchen",
+        "drainage",
+        "east",
+        "profile",
+        "slope"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "kitchen_drainage_gully_trap_closeup.png",
+      "relative_path": "renders\\kitchen_drainage_gully_trap_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "kitchen",
+        "drainage",
+        "gully",
+        "trap",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "kitchen_drainage_ic1_road_outfall_closeup.png",
+      "relative_path": "renders\\kitchen_drainage_ic1_road_outfall_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "kitchen",
+        "drainage",
+        "ic1",
+        "road",
+        "outfall",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "kitchen_sink_east_taps_closeup.png",
+      "relative_path": "renders\\kitchen_sink_east_taps_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "kitchen",
+        "sink",
+        "east",
+        "taps",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "kitchen_sink_east_taps_top_plan.png",
+      "relative_path": "renders\\kitchen_sink_east_taps_top_plan.png",
+      "extension": "png",
+      "keywords": [
+        "kitchen",
+        "sink",
+        "east",
+        "taps",
+        "top",
+        "plan"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan",
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_mdb_north_wall.png",
+      "relative_path": "renders\\living_room_mdb_north_wall.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "mdb",
+        "north",
+        "wall"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_north_wall_mdb.png",
+      "relative_path": "renders\\living_room_north_wall_mdb.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "north",
+        "wall",
+        "mdb"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_perfect_fit.png",
+      "relative_path": "renders\\living_room_perfect_fit.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "perfect",
+        "fit"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_pipelines_annotated.png",
+      "relative_path": "renders\\living_room_pipelines_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "pipelines",
+        "annotated"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_pipelines_iso.png",
+      "relative_path": "renders\\living_room_pipelines_iso.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "pipelines",
+        "iso"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_tv_feature_wall.png",
+      "relative_path": "renders\\living_room_tv_feature_wall.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "tv",
+        "feature",
+        "wall"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_tv_wall_closeup.png",
+      "relative_path": "renders\\living_room_tv_wall_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "tv",
+        "wall",
+        "closeup"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_unified_switchboards.png",
+      "relative_path": "renders\\living_room_unified_switchboards.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "unified",
+        "switchboards"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_unified_switchboards_annotated.png",
+      "relative_path": "renders\\living_room_unified_switchboards_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "unified",
+        "switchboards",
+        "annotated"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_view1.png",
+      "relative_path": "renders\\living_room_view1.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "view1"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_view2.png",
+      "relative_path": "renders\\living_room_view2.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "view2"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_west_tv_perspective.png",
+      "relative_path": "renders\\living_room_west_tv_perspective.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "west",
+        "tv",
+        "perspective"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_wiring_pipelines_iso.png",
+      "relative_path": "renders\\living_room_wiring_pipelines_iso.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "wiring",
+        "pipelines",
+        "iso"
+      ],
+      "categories": [
+        "structural",
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "living_room_zoom_iso.png",
+      "relative_path": "renders\\living_room_zoom_iso.png",
+      "extension": "png",
+      "keywords": [
+        "living",
+        "room",
+        "zoom",
+        "iso"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "looking_at_main_door_from_inside.png",
+      "relative_path": "renders\\looking_at_main_door_from_inside.png",
+      "extension": "png",
+      "keywords": [
+        "looking",
+        "at",
+        "main",
+        "door",
+        "from",
+        "inside"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "main_door_east_pipeline_annotated.png",
+      "relative_path": "renders\\main_door_east_pipeline_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "main",
+        "door",
+        "east",
+        "pipeline",
+        "annotated"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "main_door_east_pipeline_closeup.png",
+      "relative_path": "renders\\main_door_east_pipeline_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "main",
+        "door",
+        "east",
+        "pipeline",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "mdb_front_elevation_alignment.png",
+      "relative_path": "renders\\mdb_front_elevation_alignment.png",
+      "extension": "png",
+      "keywords": [
+        "mdb",
+        "front",
+        "elevation",
+        "alignment"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "mdb_stack_conduit_connections.png",
+      "relative_path": "renders\\mdb_stack_conduit_connections.png",
+      "extension": "png",
+      "keywords": [
+        "mdb",
+        "stack",
+        "conduit",
+        "connections"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "mdb_vertical_stack_gf_ff.png",
+      "relative_path": "renders\\mdb_vertical_stack_gf_ff.png",
+      "extension": "png",
+      "keywords": [
+        "mdb",
+        "vertical",
+        "stack",
+        "gf",
+        "ff"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "municipal_east_to_sump_full_route.png",
+      "relative_path": "renders\\municipal_east_to_sump_full_route.png",
+      "extension": "png",
+      "keywords": [
+        "municipal",
+        "east",
+        "to",
+        "sump",
+        "full",
+        "route"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "municipal_east_water_meter_and_valve.png",
+      "relative_path": "renders\\municipal_east_water_meter_and_valve.png",
+      "extension": "png",
+      "keywords": [
+        "municipal",
+        "east",
+        "water",
+        "meter",
+        "and",
+        "valve"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "municipal_pipeline_to_sump_iso.png",
+      "relative_path": "renders\\municipal_pipeline_to_sump_iso.png",
+      "extension": "png",
+      "keywords": [
+        "municipal",
+        "pipeline",
+        "to",
+        "sump",
+        "iso"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "new_single_door_front_elevation.png",
+      "relative_path": "renders\\new_single_door_front_elevation.png",
+      "extension": "png",
+      "keywords": [
+        "new",
+        "single",
+        "door",
+        "front",
+        "elevation"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "new_single_door_isometric.png",
+      "relative_path": "renders\\new_single_door_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "new",
+        "single",
+        "door",
+        "isometric"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "north_road_drainage_front_overview.png",
+      "relative_path": "renders\\north_road_drainage_front_overview.png",
+      "extension": "png",
+      "keywords": [
+        "north",
+        "road",
+        "drainage",
+        "front",
+        "overview"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "oht_full_building_skyline_axonometric.png",
+      "relative_path": "renders\\oht_full_building_skyline_axonometric.png",
+      "extension": "png",
+      "keywords": [
+        "oht",
+        "full",
+        "building",
+        "skyline",
+        "axonometric"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "oht_headroom_roof_iso_overview.png",
+      "relative_path": "renders\\oht_headroom_roof_iso_overview.png",
+      "extension": "png",
+      "keywords": [
+        "oht",
+        "headroom",
+        "roof",
+        "iso",
+        "overview"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "oht_monkey_ladder_and_terrace_view.png",
+      "relative_path": "renders\\oht_monkey_ladder_and_terrace_view.png",
+      "extension": "png",
+      "keywords": [
+        "oht",
+        "monkey",
+        "ladder",
+        "and",
+        "terrace",
+        "view"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "oht_valves_and_pedestal_closeup.png",
+      "relative_path": "renders\\oht_valves_and_pedestal_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "oht",
+        "valves",
+        "and",
+        "pedestal",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pendant_pot_boxes_crossing_zoom.png",
+      "relative_path": "renders\\pendant_pot_boxes_crossing_zoom.png",
+      "extension": "png",
+      "keywords": [
+        "pendant",
+        "pot",
+        "boxes",
+        "crossing",
+        "zoom"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pendant_pot_boxes_crossings_iso.png",
+      "relative_path": "renders\\pendant_pot_boxes_crossings_iso.png",
+      "extension": "png",
+      "keywords": [
+        "pendant",
+        "pot",
+        "boxes",
+        "crossings",
+        "iso"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pendant_pot_boxes_top_view.png",
+      "relative_path": "renders\\pendant_pot_boxes_top_view.png",
+      "extension": "png",
+      "keywords": [
+        "pendant",
+        "pot",
+        "boxes",
+        "top",
+        "view"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pipeline_undersink_shutoff_valve_focus.png",
+      "relative_path": "renders\\pipeline_undersink_shutoff_valve_focus.png",
+      "extension": "png",
+      "keywords": [
+        "pipeline",
+        "undersink",
+        "shutoff",
+        "valve",
+        "focus"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pipeline_zero_beam_collision_east_elev.png",
+      "relative_path": "renders\\pipeline_zero_beam_collision_east_elev.png",
+      "extension": "png",
+      "keywords": [
+        "pipeline",
+        "zero",
+        "beam",
+        "collision",
+        "east",
+        "elev"
+      ],
+      "categories": [
+        "structural",
+        "plumbing"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pipeline_zero_beam_collision_iso.png",
+      "relative_path": "renders\\pipeline_zero_beam_collision_iso.png",
+      "extension": "png",
+      "keywords": [
+        "pipeline",
+        "zero",
+        "beam",
+        "collision",
+        "iso"
+      ],
+      "categories": [
+        "structural",
+        "plumbing"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_ff_kitchen_sink_tap.png",
+      "relative_path": "renders\\plumbing_ff_kitchen_sink_tap.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "ff",
+        "kitchen",
+        "sink",
+        "tap"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_ff_toilet_valve_interior.png",
+      "relative_path": "renders\\plumbing_ff_toilet_valve_interior.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "ff",
+        "toilet",
+        "valve",
+        "interior"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_front_elevation_zero_pipes.png",
+      "relative_path": "renders\\plumbing_front_elevation_zero_pipes.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "front",
+        "elevation",
+        "zero",
+        "pipes"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_full_system_xray.png",
+      "relative_path": "renders\\plumbing_full_system_xray.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "full",
+        "system",
+        "xray"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_gf_kitchen_dual_taps.png",
+      "relative_path": "renders\\plumbing_gf_kitchen_dual_taps.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "gf",
+        "kitchen",
+        "dual",
+        "taps"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_rooftop_manifold_oht.png",
+      "relative_path": "renders\\plumbing_rooftop_manifold_oht.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "rooftop",
+        "manifold",
+        "oht"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_sitout_outdoor_bibcock.png",
+      "relative_path": "renders\\plumbing_sitout_outdoor_bibcock.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "sitout",
+        "outdoor",
+        "bibcock"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_terrace_utility_tap.png",
+      "relative_path": "renders\\plumbing_terrace_utility_tap.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "terrace",
+        "utility",
+        "tap"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_toilet_east_wall_fixtures.png",
+      "relative_path": "renders\\plumbing_toilet_east_wall_fixtures.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "toilet",
+        "east",
+        "wall",
+        "fixtures"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_toilet_risers_and_valves.png",
+      "relative_path": "renders\\plumbing_toilet_risers_and_valves.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "toilet",
+        "risers",
+        "and",
+        "valves"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_utility_multipurpose_tap.png",
+      "relative_path": "renders\\plumbing_utility_multipurpose_tap.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "utility",
+        "multipurpose",
+        "tap"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_utility_wm_valve.png",
+      "relative_path": "renders\\plumbing_utility_wm_valve.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "utility",
+        "wm",
+        "valve"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "plumbing_washing_machine_utility.png",
+      "relative_path": "renders\\plumbing_washing_machine_utility.png",
+      "extension": "png",
+      "keywords": [
+        "plumbing",
+        "washing",
+        "machine",
+        "utility"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pump_power_close_up.png",
+      "relative_path": "renders\\pump_power_close_up.png",
+      "extension": "png",
+      "keywords": [
+        "pump",
+        "power",
+        "close",
+        "up"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pump_power_direct_view.png",
+      "relative_path": "renders\\pump_power_direct_view.png",
+      "extension": "png",
+      "keywords": [
+        "pump",
+        "power",
+        "direct",
+        "view"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pump_power_supply_annotated.png",
+      "relative_path": "renders\\pump_power_supply_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "pump",
+        "power",
+        "supply",
+        "annotated"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pump_power_supply_conduit_iso.png",
+      "relative_path": "renders\\pump_power_supply_conduit_iso.png",
+      "extension": "png",
+      "keywords": [
+        "pump",
+        "power",
+        "supply",
+        "conduit",
+        "iso"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pump_power_zoom.png",
+      "relative_path": "renders\\pump_power_zoom.png",
+      "extension": "png",
+      "keywords": [
+        "pump",
+        "power",
+        "zoom"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pump_view_from_inside.png",
+      "relative_path": "renders\\pump_view_from_inside.png",
+      "extension": "png",
+      "keywords": [
+        "pump",
+        "view",
+        "from",
+        "inside"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pure_cctv_isolated_network.png",
+      "relative_path": "renders\\pure_cctv_isolated_network.png",
+      "extension": "png",
+      "keywords": [
+        "pure",
+        "cctv",
+        "isolated",
+        "network"
+      ],
+      "categories": [
+        "electrical",
+        "cctv"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "pure_structural_rcc_skeleton.png",
+      "relative_path": "renders\\pure_structural_rcc_skeleton.png",
+      "extension": "png",
+      "keywords": [
+        "pure",
+        "structural",
+        "rcc",
+        "skeleton"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "rising_main_false_duct_staircase_view.png",
+      "relative_path": "renders\\rising_main_false_duct_staircase_view.png",
+      "extension": "png",
+      "keywords": [
+        "rising",
+        "main",
+        "false",
+        "duct",
+        "staircase",
+        "view"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "rising_main_oht_inlet_connection.png",
+      "relative_path": "renders\\rising_main_oht_inlet_connection.png",
+      "extension": "png",
+      "keywords": [
+        "rising",
+        "main",
+        "oht",
+        "inlet",
+        "connection"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "rising_main_understair_pump_connection.png",
+      "relative_path": "renders\\rising_main_understair_pump_connection.png",
+      "extension": "png",
+      "keywords": [
+        "rising",
+        "main",
+        "understair",
+        "pump",
+        "connection"
+      ],
+      "categories": [
+        "plumbing",
+        "staircase"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "roof_to_tv_vertical_pipeline.png",
+      "relative_path": "renders\\roof_to_tv_vertical_pipeline.png",
+      "extension": "png",
+      "keywords": [
+        "roof",
+        "to",
+        "tv",
+        "vertical",
+        "pipeline"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "rooftop_dish_tv_closeup.png",
+      "relative_path": "renders\\rooftop_dish_tv_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "rooftop",
+        "dish",
+        "tv",
+        "closeup"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "rooftop_dish_tv_terrace_view.png",
+      "relative_path": "renders\\rooftop_dish_tv_terrace_view.png",
+      "extension": "png",
+      "keywords": [
+        "rooftop",
+        "dish",
+        "tv",
+        "terrace",
+        "view"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sb1_merged_into_staircase_switchboard_annotated.png",
+      "relative_path": "renders\\sb1_merged_into_staircase_switchboard_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "sb1",
+        "merged",
+        "into",
+        "staircase",
+        "switchboard",
+        "annotated"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sb_stair_only_fit_selection.png",
+      "relative_path": "renders\\sb_stair_only_fit_selection.png",
+      "extension": "png",
+      "keywords": [
+        "sb",
+        "stair",
+        "only",
+        "fit",
+        "selection"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sb_util_integrated_pump_switch_annotated.png",
+      "relative_path": "renders\\sb_util_integrated_pump_switch_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "sb",
+        "util",
+        "integrated",
+        "pump",
+        "switch",
+        "annotated"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sb_util_integrated_pump_switch_overview.png",
+      "relative_path": "renders\\sb_util_integrated_pump_switch_overview.png",
+      "extension": "png",
+      "keywords": [
+        "sb",
+        "util",
+        "integrated",
+        "pump",
+        "switch",
+        "overview"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sb_util_motor_switch_iso.png",
+      "relative_path": "renders\\sb_util_motor_switch_iso.png",
+      "extension": "png",
+      "keywords": [
+        "sb",
+        "util",
+        "motor",
+        "switch",
+        "iso"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sb_util_properly_positioned_closeup.png",
+      "relative_path": "renders\\sb_util_properly_positioned_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "sb",
+        "util",
+        "properly",
+        "positioned",
+        "closeup"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sb_util_repositioned_annotated.png",
+      "relative_path": "renders\\sb_util_repositioned_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "sb",
+        "util",
+        "repositioned",
+        "annotated"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "seismic_ring_360_isometric.png",
+      "relative_path": "renders\\seismic_ring_360_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "seismic",
+        "ring",
+        "360",
+        "isometric"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "seismic_ring_360_skeleton.png",
+      "relative_path": "renders\\seismic_ring_360_skeleton.png",
+      "extension": "png",
+      "keywords": [
+        "seismic",
+        "ring",
+        "360",
+        "skeleton"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "seismic_ring_360_west_south.png",
+      "relative_path": "renders\\seismic_ring_360_west_south.png",
+      "extension": "png",
+      "keywords": [
+        "seismic",
+        "ring",
+        "360",
+        "west",
+        "south"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "shutoff_valve_east_boundary_closeup.png",
+      "relative_path": "renders\\shutoff_valve_east_boundary_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "shutoff",
+        "valve",
+        "east",
+        "boundary",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "shutoff_valve_sump_inlet_closeup.png",
+      "relative_path": "renders\\shutoff_valve_sump_inlet_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "shutoff",
+        "valve",
+        "sump",
+        "inlet",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "shutoff_valve_undersink_tight_closeup.png",
+      "relative_path": "renders\\shutoff_valve_undersink_tight_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "shutoff",
+        "valve",
+        "undersink",
+        "tight",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "single_door_closeup_crop.png",
+      "relative_path": "renders\\single_door_closeup_crop.png",
+      "extension": "png",
+      "keywords": [
+        "single",
+        "door",
+        "closeup",
+        "crop"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "single_door_ff_closeup.png",
+      "relative_path": "renders\\single_door_ff_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "single",
+        "door",
+        "ff",
+        "closeup"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "single_door_gf_closeup.png",
+      "relative_path": "renders\\single_door_gf_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "single",
+        "door",
+        "gf",
+        "closeup"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "single_door_gf_crop.png",
+      "relative_path": "renders\\single_door_gf_crop.png",
+      "extension": "png",
+      "keywords": [
+        "single",
+        "door",
+        "gf",
+        "crop"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "single_door_iso_perfect.png",
+      "relative_path": "renders\\single_door_iso_perfect.png",
+      "extension": "png",
+      "keywords": [
+        "single",
+        "door",
+        "iso",
+        "perfect"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "single_door_perfect_crop.png",
+      "relative_path": "renders\\single_door_perfect_crop.png",
+      "extension": "png",
+      "keywords": [
+        "single",
+        "door",
+        "perfect",
+        "crop"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "single_doors_both_floors.png",
+      "relative_path": "renders\\single_doors_both_floors.png",
+      "extension": "png",
+      "keywords": [
+        "single",
+        "doors",
+        "both",
+        "floors"
+      ],
+      "categories": [
+        "architectural",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "Site_Plan_Foundation_Layout.pdf",
+      "relative_path": "renders\\Site_Plan_Foundation_Layout.pdf",
+      "extension": "pdf",
+      "keywords": [
+        "site",
+        "plan",
+        "foundation",
+        "layout"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "drawing"
+    },
+    {
+      "file_name": "Site_Plan_Foundation_Layout.svg",
+      "relative_path": "renders\\Site_Plan_Foundation_Layout.svg",
+      "extension": "svg",
+      "keywords": [
+        "site",
+        "plan",
+        "foundation",
+        "layout"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "drawing"
+    },
+    {
+      "file_name": "sitout_balcony_sb1_explained.png",
+      "relative_path": "renders\\sitout_balcony_sb1_explained.png",
+      "extension": "png",
+      "keywords": [
+        "sitout",
+        "balcony",
+        "sb1",
+        "explained"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sitout_electrical_closeup_iso.png",
+      "relative_path": "renders\\sitout_electrical_closeup_iso.png",
+      "extension": "png",
+      "keywords": [
+        "sitout",
+        "electrical",
+        "closeup",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sitout_electrical_front_view.png",
+      "relative_path": "renders\\sitout_electrical_front_view.png",
+      "extension": "png",
+      "keywords": [
+        "sitout",
+        "electrical",
+        "front",
+        "view"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sitout_electrical_pipelines_closeup_focused.png",
+      "relative_path": "renders\\sitout_electrical_pipelines_closeup_focused.png",
+      "extension": "png",
+      "keywords": [
+        "sitout",
+        "electrical",
+        "pipelines",
+        "closeup",
+        "focused"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sitout_electrical_pipelines_closeup_perfect.png",
+      "relative_path": "renders\\sitout_electrical_pipelines_closeup_perfect.png",
+      "extension": "png",
+      "keywords": [
+        "sitout",
+        "electrical",
+        "pipelines",
+        "closeup",
+        "perfect"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sitout_electrical_pipelines_front.png",
+      "relative_path": "renders\\sitout_electrical_pipelines_front.png",
+      "extension": "png",
+      "keywords": [
+        "sitout",
+        "electrical",
+        "pipelines",
+        "front"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sitout_electrical_pipelines_front_perfect.png",
+      "relative_path": "renders\\sitout_electrical_pipelines_front_perfect.png",
+      "extension": "png",
+      "keywords": [
+        "sitout",
+        "electrical",
+        "pipelines",
+        "front",
+        "perfect"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sitout_electrical_pipelines_iso.png",
+      "relative_path": "renders\\sitout_electrical_pipelines_iso.png",
+      "extension": "png",
+      "keywords": [
+        "sitout",
+        "electrical",
+        "pipelines",
+        "iso"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sitout_light_connection_iso.png",
+      "relative_path": "renders\\sitout_light_connection_iso.png",
+      "extension": "png",
+      "keywords": [
+        "sitout",
+        "light",
+        "connection",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_all_switchboxes_repositioned_iso.png",
+      "relative_path": "renders\\staircase_all_switchboxes_repositioned_iso.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "all",
+        "switchboxes",
+        "repositioned",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_both_components_labeled_view.png",
+      "relative_path": "renders\\staircase_both_components_labeled_view.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "both",
+        "components",
+        "labeled",
+        "view"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_ceiling_slab_clean_top_view.png",
+      "relative_path": "renders\\staircase_ceiling_slab_clean_top_view.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "ceiling",
+        "slab",
+        "clean",
+        "top",
+        "view"
+      ],
+      "categories": [
+        "structural",
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_ceiling_slab_clear_top_closeup.png",
+      "relative_path": "renders\\staircase_ceiling_slab_clear_top_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "ceiling",
+        "slab",
+        "clear",
+        "top",
+        "closeup"
+      ],
+      "categories": [
+        "structural",
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_current_light_side.png",
+      "relative_path": "renders\\staircase_current_light_side.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "current",
+        "light",
+        "side"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_current_light_view.png",
+      "relative_path": "renders\\staircase_current_light_view.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "current",
+        "light",
+        "view"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_electrical_fit_selection.png",
+      "relative_path": "renders\\staircase_electrical_fit_selection.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "electrical",
+        "fit",
+        "selection"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_electrical_located_annotated.png",
+      "relative_path": "renders\\staircase_electrical_located_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "electrical",
+        "located",
+        "annotated"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_light_2ft_below_ff_landing_annotated.png",
+      "relative_path": "renders\\staircase_light_2ft_below_ff_landing_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "light",
+        "2ft",
+        "below",
+        "ff",
+        "landing",
+        "annotated"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_light_closeup.png",
+      "relative_path": "renders\\staircase_light_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "light",
+        "closeup"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_lowered_light_clean_front.png",
+      "relative_path": "renders\\staircase_lowered_light_clean_front.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "lowered",
+        "light",
+        "clean",
+        "front"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_lowered_light_clean_iso.png",
+      "relative_path": "renders\\staircase_lowered_light_clean_iso.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "lowered",
+        "light",
+        "clean",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_overview_light_and_switchbox.png",
+      "relative_path": "renders\\staircase_overview_light_and_switchbox.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "overview",
+        "light",
+        "and",
+        "switchbox"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_semi_transparent_aerial_view.png",
+      "relative_path": "renders\\staircase_semi_transparent_aerial_view.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "semi",
+        "transparent",
+        "aerial",
+        "view"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_south_wall_routing_iso.png",
+      "relative_path": "renders\\staircase_south_wall_routing_iso.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "south",
+        "wall",
+        "routing",
+        "iso"
+      ],
+      "categories": [
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_switchbox_closeup.png",
+      "relative_path": "renders\\staircase_switchbox_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "switchbox",
+        "closeup"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_switchbox_closeup_annotated.png",
+      "relative_path": "renders\\staircase_switchbox_closeup_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "switchbox",
+        "closeup",
+        "annotated"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_switchbox_south_wall_annotated.png",
+      "relative_path": "renders\\staircase_switchbox_south_wall_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "switchbox",
+        "south",
+        "wall",
+        "annotated"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_switchbox_south_wall_closeup.png",
+      "relative_path": "renders\\staircase_switchbox_south_wall_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "switchbox",
+        "south",
+        "wall",
+        "closeup"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_switchbox_to_wall_light_iso.png",
+      "relative_path": "renders\\staircase_switchbox_to_wall_light_iso.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "switchbox",
+        "to",
+        "wall",
+        "light",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_switchboxes_explained.png",
+      "relative_path": "renders\\staircase_switchboxes_explained.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "switchboxes",
+        "explained"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_toilet_east_wall_light_closeup.png",
+      "relative_path": "renders\\staircase_toilet_east_wall_light_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "toilet",
+        "east",
+        "wall",
+        "light",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "sanitary_and_plumbing",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_view_from_flight1_to_wall_light.png",
+      "relative_path": "renders\\staircase_view_from_flight1_to_wall_light.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "view",
+        "from",
+        "flight1",
+        "to",
+        "wall",
+        "light"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_wall_light_2ft_below_ff_landing.png",
+      "relative_path": "renders\\staircase_wall_light_2ft_below_ff_landing.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "wall",
+        "light",
+        "2ft",
+        "below",
+        "ff",
+        "landing"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_wall_light_2ft_below_ff_landing_fit.png",
+      "relative_path": "renders\\staircase_wall_light_2ft_below_ff_landing_fit.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "wall",
+        "light",
+        "2ft",
+        "below",
+        "ff",
+        "landing",
+        "fit"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_wall_light_closeup_annotated.png",
+      "relative_path": "renders\\staircase_wall_light_closeup_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "wall",
+        "light",
+        "closeup",
+        "annotated"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_wall_light_lowered_closeup.png",
+      "relative_path": "renders\\staircase_wall_light_lowered_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "wall",
+        "light",
+        "lowered",
+        "closeup"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_wall_light_lowered_flight2_perspective.png",
+      "relative_path": "renders\\staircase_wall_light_lowered_flight2_perspective.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "wall",
+        "light",
+        "lowered",
+        "flight2",
+        "perspective"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_wall_light_lowered_two_storey_iso.png",
+      "relative_path": "renders\\staircase_wall_light_lowered_two_storey_iso.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "wall",
+        "light",
+        "lowered",
+        "two",
+        "storey",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_wall_light_switchbox_connection.png",
+      "relative_path": "renders\\staircase_wall_light_switchbox_connection.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "wall",
+        "light",
+        "switchbox",
+        "connection"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_wall_lights_two_storey_front.png",
+      "relative_path": "renders\\staircase_wall_lights_two_storey_front.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "wall",
+        "lights",
+        "two",
+        "storey",
+        "front"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_wall_lights_two_storey_iso.png",
+      "relative_path": "renders\\staircase_wall_lights_two_storey_iso.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "wall",
+        "lights",
+        "two",
+        "storey",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "staircase_west_to_east_view.png",
+      "relative_path": "renders\\staircase_west_to_east_view.png",
+      "extension": "png",
+      "keywords": [
+        "staircase",
+        "west",
+        "to",
+        "east",
+        "view"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "stairs_entrance_clear_annotated.png",
+      "relative_path": "renders\\stairs_entrance_clear_annotated.png",
+      "extension": "png",
+      "keywords": [
+        "stairs",
+        "entrance",
+        "clear",
+        "annotated"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "stairs_entrance_clear_iso.png",
+      "relative_path": "renders\\stairs_entrance_clear_iso.png",
+      "extension": "png",
+      "keywords": [
+        "stairs",
+        "entrance",
+        "clear",
+        "iso"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_only_axonometric.png",
+      "relative_path": "renders\\structural_frame_only_axonometric.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "only",
+        "axonometric"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_only_front.png",
+      "relative_path": "renders\\structural_frame_only_front.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "only",
+        "front"
+      ],
+      "categories": [
+        "structural",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_plumbing_axonometric.png",
+      "relative_path": "renders\\structural_frame_plumbing_axonometric.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "plumbing",
+        "axonometric"
+      ],
+      "categories": [
+        "structural",
+        "plumbing"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_plumbing_east.png",
+      "relative_path": "renders\\structural_frame_plumbing_east.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "plumbing",
+        "east"
+      ],
+      "categories": [
+        "structural",
+        "plumbing"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_plumbing_front.png",
+      "relative_path": "renders\\structural_frame_plumbing_front.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "plumbing",
+        "front"
+      ],
+      "categories": [
+        "structural",
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_plumbing_isometric.png",
+      "relative_path": "renders\\structural_frame_plumbing_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "plumbing",
+        "isometric"
+      ],
+      "categories": [
+        "structural",
+        "plumbing"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_plumbing_updated.png",
+      "relative_path": "renders\\structural_frame_plumbing_updated.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "plumbing",
+        "updated"
+      ],
+      "categories": [
+        "structural",
+        "plumbing"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_pure_with_mumty.png",
+      "relative_path": "renders\\structural_frame_pure_with_mumty.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "pure",
+        "with",
+        "mumty"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_with_mumty_columns.png",
+      "relative_path": "renders\\structural_frame_with_mumty_columns.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "with",
+        "mumty",
+        "columns"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "structural_frame_with_mumty_columns_front.png",
+      "relative_path": "renders\\structural_frame_with_mumty_columns_front.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "frame",
+        "with",
+        "mumty",
+        "columns",
+        "front"
+      ],
+      "categories": [
+        "structural",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "Structural_Plan_Columns_Beams.pdf",
+      "relative_path": "renders\\Structural_Plan_Columns_Beams.pdf",
+      "extension": "pdf",
+      "keywords": [
+        "structural",
+        "plan",
+        "columns",
+        "beams"
+      ],
+      "categories": [
+        "structural",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan",
+        "structural_frame"
+      ],
+      "asset_type": "drawing"
+    },
+    {
+      "file_name": "Structural_Plan_Columns_Beams.svg",
+      "relative_path": "renders\\Structural_Plan_Columns_Beams.svg",
+      "extension": "svg",
+      "keywords": [
+        "structural",
+        "plan",
+        "columns",
+        "beams"
+      ],
+      "categories": [
+        "structural",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan",
+        "structural_frame"
+      ],
+      "asset_type": "drawing"
+    },
+    {
+      "file_name": "structural_skeleton_lintels_sills.png",
+      "relative_path": "renders\\structural_skeleton_lintels_sills.png",
+      "extension": "png",
+      "keywords": [
+        "structural",
+        "skeleton",
+        "lintels",
+        "sills"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "structural_frame"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "substructure_both_tanks_front_elev.png",
+      "relative_path": "renders\\substructure_both_tanks_front_elev.png",
+      "extension": "png",
+      "keywords": [
+        "substructure",
+        "both",
+        "tanks",
+        "front",
+        "elev"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "substructure_both_tanks_raised_iso.png",
+      "relative_path": "renders\\substructure_both_tanks_raised_iso.png",
+      "extension": "png",
+      "keywords": [
+        "substructure",
+        "both",
+        "tanks",
+        "raised",
+        "iso"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "substructure_footings_overview.png",
+      "relative_path": "renders\\substructure_footings_overview.png",
+      "extension": "png",
+      "keywords": [
+        "substructure",
+        "footings",
+        "overview"
+      ],
+      "categories": [
+        "structural"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "substructure_front_elevation.png",
+      "relative_path": "renders\\substructure_front_elevation.png",
+      "extension": "png",
+      "keywords": [
+        "substructure",
+        "front",
+        "elevation"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "substructure_full_building_xray.png",
+      "relative_path": "renders\\substructure_full_building_xray.png",
+      "extension": "png",
+      "keywords": [
+        "substructure",
+        "full",
+        "building",
+        "xray"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "substructure_ground_transition_closeup.png",
+      "relative_path": "renders\\substructure_ground_transition_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "substructure",
+        "ground",
+        "transition",
+        "closeup"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "substructure_isolated_isometric.png",
+      "relative_path": "renders\\substructure_isolated_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "substructure",
+        "isolated",
+        "isometric"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "substructure_zero_collision_front.png",
+      "relative_path": "renders\\substructure_zero_collision_front.png",
+      "extension": "png",
+      "keywords": [
+        "substructure",
+        "zero",
+        "collision",
+        "front"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "substructure_zero_collision_iso.png",
+      "relative_path": "renders\\substructure_zero_collision_iso.png",
+      "extension": "png",
+      "keywords": [
+        "substructure",
+        "zero",
+        "collision",
+        "iso"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sump_inflow_and_float_valve.png",
+      "relative_path": "renders\\sump_inflow_and_float_valve.png",
+      "extension": "png",
+      "keywords": [
+        "sump",
+        "inflow",
+        "and",
+        "float",
+        "valve"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sump_raised_front_elev.png",
+      "relative_path": "renders\\sump_raised_front_elev.png",
+      "extension": "png",
+      "keywords": [
+        "sump",
+        "raised",
+        "front",
+        "elev"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sump_raised_isolated_iso.png",
+      "relative_path": "renders\\sump_raised_isolated_iso.png",
+      "extension": "png",
+      "keywords": [
+        "sump",
+        "raised",
+        "isolated",
+        "iso"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "sump_raised_substructure_overview.png",
+      "relative_path": "renders\\sump_raised_substructure_overview.png",
+      "extension": "png",
+      "keywords": [
+        "sump",
+        "raised",
+        "substructure",
+        "overview"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "techdraw_gf_plan.pdf",
+      "relative_path": "renders\\techdraw_gf_plan.pdf",
+      "extension": "pdf",
+      "keywords": [
+        "techdraw",
+        "gf",
+        "plan"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "drawing"
+    },
+    {
+      "file_name": "techdraw_gf_plan.svg",
+      "relative_path": "renders\\techdraw_gf_plan.svg",
+      "extension": "svg",
+      "keywords": [
+        "techdraw",
+        "gf",
+        "plan"
+      ],
+      "categories": [
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "floor_plan"
+      ],
+      "asset_type": "drawing"
+    },
+    {
+      "file_name": "terrace_clean_floor_plan.png",
+      "relative_path": "renders\\terrace_clean_floor_plan.png",
+      "extension": "png",
+      "keywords": [
+        "terrace",
+        "clean",
+        "floor",
+        "plan"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "terrace_clean_top_plan.png",
+      "relative_path": "renders\\terrace_clean_top_plan.png",
+      "extension": "png",
+      "keywords": [
+        "terrace",
+        "clean",
+        "top",
+        "plan"
+      ],
+      "categories": [
+        "electrical",
+        "floor_plan"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "floor_plan"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "terrace_front_weatherhead_kitchen_pipe.png",
+      "relative_path": "renders\\terrace_front_weatherhead_kitchen_pipe.png",
+      "extension": "png",
+      "keywords": [
+        "terrace",
+        "front",
+        "weatherhead",
+        "kitchen",
+        "pipe"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "terrace_outside_parapet_pipeline.png",
+      "relative_path": "renders\\terrace_outside_parapet_pipeline.png",
+      "extension": "png",
+      "keywords": [
+        "terrace",
+        "outside",
+        "parapet",
+        "pipeline"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_ff_light_front.png",
+      "relative_path": "renders\\test_ff_light_front.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "ff",
+        "light",
+        "front"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_ff_light_left.png",
+      "relative_path": "renders\\test_ff_light_left.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "ff",
+        "light",
+        "left"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_ff_light_right.png",
+      "relative_path": "renders\\test_ff_light_right.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "ff",
+        "light",
+        "right"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_fit_selection_proper.png",
+      "relative_path": "renders\\test_fit_selection_proper.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "fit",
+        "selection",
+        "proper"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_fitall_iso.png",
+      "relative_path": "renders\\test_fitall_iso.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "fitall",
+        "iso"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_kitchen_counter.png",
+      "relative_path": "renders\\test_kitchen_counter.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "kitchen",
+        "counter"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_view_left.png",
+      "relative_path": "renders\\test_view_left.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "view",
+        "left"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_view_rear.png",
+      "relative_path": "renders\\test_view_rear.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "view",
+        "rear"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_view_right.png",
+      "relative_path": "renders\\test_view_right.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "view",
+        "right"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_walls_100_visible.png",
+      "relative_path": "renders\\test_walls_100_visible.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "walls",
+        "100",
+        "visible"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "test_zoom_iso.png",
+      "relative_path": "renders\\test_zoom_iso.png",
+      "extension": "png",
+      "keywords": [
+        "test",
+        "zoom",
+        "iso"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_bath_gt2_laundry_closeup.png",
+      "relative_path": "renders\\toilet_bath_gt2_laundry_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "bath",
+        "gt2",
+        "laundry",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_dual_stream_closeup.png",
+      "relative_path": "renders\\toilet_dual_stream_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "dual",
+        "stream",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_dual_stream_closeup_detail.png",
+      "relative_path": "renders\\toilet_dual_stream_closeup_detail.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "dual",
+        "stream",
+        "closeup",
+        "detail"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_dual_stream_segregation_perspective.png",
+      "relative_path": "renders\\toilet_dual_stream_segregation_perspective.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "dual",
+        "stream",
+        "segregation",
+        "perspective"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_east_wall_shower_and_tap.png",
+      "relative_path": "renders\\toilet_east_wall_shower_and_tap.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "east",
+        "wall",
+        "shower",
+        "and",
+        "tap"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural",
+        "waterproofing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_gf_sunken_wet_area_closeup.png",
+      "relative_path": "renders\\toilet_gf_sunken_wet_area_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "gf",
+        "sunken",
+        "wet",
+        "area",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing",
+        "waterproofing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_gt2_laundry_standpipe_closeup.png",
+      "relative_path": "renders\\toilet_gt2_laundry_standpipe_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "gt2",
+        "laundry",
+        "standpipe",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_septic_gt2_southwest_iso.png",
+      "relative_path": "renders\\toilet_septic_gt2_southwest_iso.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "septic",
+        "gt2",
+        "southwest",
+        "iso"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_septic_south_elevation.png",
+      "relative_path": "renders\\toilet_septic_south_elevation.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "septic",
+        "south",
+        "elevation"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_sunken_wet_area_isometric.png",
+      "relative_path": "renders\\toilet_sunken_wet_area_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "sunken",
+        "wet",
+        "area",
+        "isometric"
+      ],
+      "categories": [
+        "plumbing",
+        "waterproofing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_sunken_wet_area_plan_view.png",
+      "relative_path": "renders\\toilet_sunken_wet_area_plan_view.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "sunken",
+        "wet",
+        "area",
+        "plan",
+        "view"
+      ],
+      "categories": [
+        "plumbing",
+        "floor_plan",
+        "waterproofing"
+      ],
+      "relevant_components": [
+        "floor_plan",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_wall_translucent_closeup.png",
+      "relative_path": "renders\\toilet_wall_translucent_closeup.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "wall",
+        "translucent",
+        "closeup"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_wall_translucent_southwest_iso.png",
+      "relative_path": "renders\\toilet_wall_translucent_southwest_iso.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "wall",
+        "translucent",
+        "southwest",
+        "iso"
+      ],
+      "categories": [
+        "plumbing",
+        "architectural"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_walls_reduced_opacity_iso.png",
+      "relative_path": "renders\\toilet_walls_reduced_opacity_iso.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "walls",
+        "reduced",
+        "opacity",
+        "iso"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "toilet_west_profile.png",
+      "relative_path": "renders\\toilet_west_profile.png",
+      "extension": "png",
+      "keywords": [
+        "toilet",
+        "west",
+        "profile"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_electrical_1to1_duplicate_front.png",
+      "relative_path": "renders\\two_storey_electrical_1to1_duplicate_front.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "electrical",
+        "1to1",
+        "duplicate",
+        "front"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_electrical_1to1_duplicate_iso.png",
+      "relative_path": "renders\\two_storey_electrical_1to1_duplicate_iso.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "electrical",
+        "1to1",
+        "duplicate",
+        "iso"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_electrical_1to1_duplicate_right.png",
+      "relative_path": "renders\\two_storey_electrical_1to1_duplicate_right.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "electrical",
+        "1to1",
+        "duplicate",
+        "right"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_electrical_front.png",
+      "relative_path": "renders\\two_storey_electrical_front.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "electrical",
+        "front"
+      ],
+      "categories": [
+        "electrical",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_electrical_pipelines.png",
+      "relative_path": "renders\\two_storey_electrical_pipelines.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "electrical",
+        "pipelines"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_electrical_staircase_updated_full_iso.png",
+      "relative_path": "renders\\two_storey_electrical_staircase_updated_full_iso.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "electrical",
+        "staircase",
+        "updated",
+        "full",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_electrical_staircase_updated_iso.png",
+      "relative_path": "renders\\two_storey_electrical_staircase_updated_iso.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "electrical",
+        "staircase",
+        "updated",
+        "iso"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_electrical_with_aligned_mdb.png",
+      "relative_path": "renders\\two_storey_electrical_with_aligned_mdb.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "electrical",
+        "with",
+        "aligned",
+        "mdb"
+      ],
+      "categories": [
+        "electrical"
+      ],
+      "relevant_components": [
+        "electrical_mep"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_sb_util_gf_only_iso.png",
+      "relative_path": "renders\\two_storey_sb_util_gf_only_iso.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "sb",
+        "util",
+        "gf",
+        "only",
+        "iso"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_stair_lights_raw.png",
+      "relative_path": "renders\\two_storey_stair_lights_raw.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "stair",
+        "lights",
+        "raw"
+      ],
+      "categories": [
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "two_storey_staircase_south_wall_iso.png",
+      "relative_path": "renders\\two_storey_staircase_south_wall_iso.png",
+      "extension": "png",
+      "keywords": [
+        "two",
+        "storey",
+        "staircase",
+        "south",
+        "wall",
+        "iso"
+      ],
+      "categories": [
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "under_stair_pump_power_eyelevel.png",
+      "relative_path": "renders\\under_stair_pump_power_eyelevel.png",
+      "extension": "png",
+      "keywords": [
+        "under",
+        "stair",
+        "pump",
+        "power",
+        "eyelevel"
+      ],
+      "categories": [
+        "plumbing",
+        "electrical",
+        "staircase"
+      ],
+      "relevant_components": [
+        "electrical_mep",
+        "sanitary_and_plumbing",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "utility_alcove_pump_starter_close.png",
+      "relative_path": "renders\\utility_alcove_pump_starter_close.png",
+      "extension": "png",
+      "keywords": [
+        "utility",
+        "alcove",
+        "pump",
+        "starter",
+        "close"
+      ],
+      "categories": [
+        "plumbing"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "sanitary_and_plumbing"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "utility_stair_overview.png",
+      "relative_path": "renders\\utility_stair_overview.png",
+      "extension": "png",
+      "keywords": [
+        "utility",
+        "stair",
+        "overview"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "room_zone",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "west_elevation_bedroom_windows.png",
+      "relative_path": "renders\\west_elevation_bedroom_windows.png",
+      "extension": "png",
+      "keywords": [
+        "west",
+        "elevation",
+        "bedroom",
+        "windows"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "room_zone"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "west_elevation_walls_100_visible.png",
+      "relative_path": "renders\\west_elevation_walls_100_visible.png",
+      "extension": "png",
+      "keywords": [
+        "west",
+        "elevation",
+        "walls",
+        "100",
+        "visible"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "west_side_elevation.png",
+      "relative_path": "renders\\west_side_elevation.png",
+      "extension": "png",
+      "keywords": [
+        "west",
+        "side",
+        "elevation"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "west_wall_tv_unit_direct.png",
+      "relative_path": "renders\\west_wall_tv_unit_direct.png",
+      "extension": "png",
+      "keywords": [
+        "west",
+        "wall",
+        "tv",
+        "unit",
+        "direct"
+      ],
+      "categories": [
+        "architectural"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "winder_stairs_closeup_perspective.png",
+      "relative_path": "renders\\winder_stairs_closeup_perspective.png",
+      "extension": "png",
+      "keywords": [
+        "winder",
+        "stairs",
+        "closeup",
+        "perspective"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "winder_stairs_front_view.png",
+      "relative_path": "renders\\winder_stairs_front_view.png",
+      "extension": "png",
+      "keywords": [
+        "winder",
+        "stairs",
+        "front",
+        "view"
+      ],
+      "categories": [
+        "staircase",
+        "architectural"
+      ],
+      "relevant_components": [
+        "architectural_envelope",
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "winder_stairs_isometric.png",
+      "relative_path": "renders\\winder_stairs_isometric.png",
+      "extension": "png",
+      "keywords": [
+        "winder",
+        "stairs",
+        "isometric"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "winder_stairs_now_visible.png",
+      "relative_path": "renders\\winder_stairs_now_visible.png",
+      "extension": "png",
+      "keywords": [
+        "winder",
+        "stairs",
+        "now",
+        "visible"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "winder_stairs_selected_view.png",
+      "relative_path": "renders\\winder_stairs_selected_view.png",
+      "extension": "png",
+      "keywords": [
+        "winder",
+        "stairs",
+        "selected",
+        "view"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "winder_stairs_steps_detail.png",
+      "relative_path": "renders\\winder_stairs_steps_detail.png",
+      "extension": "png",
+      "keywords": [
+        "winder",
+        "stairs",
+        "steps",
+        "detail"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "winder_stairs_zoomed_detail.png",
+      "relative_path": "renders\\winder_stairs_zoomed_detail.png",
+      "extension": "png",
+      "keywords": [
+        "winder",
+        "stairs",
+        "zoomed",
+        "detail"
+      ],
+      "categories": [
+        "staircase"
+      ],
+      "relevant_components": [
+        "stairs_and_balustrades"
+      ],
+      "asset_type": "render"
+    },
+    {
+      "file_name": "wm_perspective_detail.png",
+      "relative_path": "renders\\wm_perspective_detail.png",
+      "extension": "png",
+      "keywords": [
+        "wm",
+        "perspective",
+        "detail"
+      ],
+      "categories": [
+        "general"
+      ],
+      "relevant_components": [
+        "general_project_view"
+      ],
+      "asset_type": "render"
+    }
+  ]
+}
