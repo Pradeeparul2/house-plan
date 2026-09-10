@@ -101,7 +101,7 @@ def runtime_status() -> dict[str, Any]:
 def gemini_model_name() -> str:
     """Return the configured Gemini model, with a current default."""
     load_project_env()
-    return os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+    return os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 
 def build_gemini_prompt(query: str, evidence: dict[str, Any]) -> str:
