@@ -13,6 +13,7 @@ while leaving a clear place to plug in Gemini or another model later.
 from __future__ import annotations
 
 import json
+import logging
 import os
 import re
 import sqlite3
@@ -23,6 +24,21 @@ try:
     from google import genai
 except Exception:  # pragma: no cover - optional dependency
     genai = None
+
+
+LOGGER = logging.getLogger("construction_copilot")
+if not LOGGER.handlers:
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s construction_copilot: %(message)s")
+
+_RUNTIME_STATUS: dict[str, Any] = {
+    "provider": "local",
+    "planner_provider": "not_run",
+    "answer_provider": "not_run",
+    "gemini_configured": False,
+    "gemini_sdk_available": genai is not None,
+    "gemini_model": None,
+    "last_error": None,
+}
 
 
 def project_root() -> Path:
@@ -48,7 +64,21 @@ def load_project_env() -> None:
 def gemini_available() -> bool:
     """Return True when the Gemini SDK and API key are both available."""
     load_project_env()
-    return bool(os.getenv("GEMINI_API_KEY")) and genai is not None
+    configured = bool(os.getenv("GEMINI_API_KEY"))
+    _RUNTIME_STATUS["gemini_configured"] = configured
+    _RUNTIME_STATUS["gemini_sdk_available"] = genai is not None
+    _RUNTIME_STATUS["gemini_model"] = gemini_model_name() if configured else None
+    if not configured:
+        LOGGER.warning("Gemini unavailable: GEMINI_API_KEY is not configured")
+    elif genai is None:
+        LOGGER.error("Gemini unavailable: google.genai SDK could not be imported")
+    return configured and genai is not None
+
+
+def runtime_status() -> dict[str, Any]:
+    """Return safe provider diagnostics suitable for logs and the UI."""
+    gemini_available()
+    return dict(_RUNTIME_STATUS)
 
 
 def gemini_model_name() -> str:
@@ -202,9 +232,14 @@ def choose_search_plan(query: str, context: str = "") -> dict[str, Any]:
             plan = parse_search_plan(getattr(response, "text", "") or "")
             if plan:
                 plan["planner"] = "gemini"
+                _RUNTIME_STATUS.update({"provider": "gemini", "planner_provider": "gemini", "last_error": None})
+                LOGGER.info("Gemini planner selected sources=%s answer_type=%s", plan["searches"], plan["answer_type"])
                 return plan
-        except Exception:
-            pass
+            _RUNTIME_STATUS["last_error"] = "Gemini planner returned invalid JSON"
+            LOGGER.warning("Gemini planner returned invalid JSON; using local planner")
+        except Exception as exc:
+            _RUNTIME_STATUS["last_error"] = f"planner {type(exc).__name__}: {str(exc)[:240]}"
+            LOGGER.warning("Gemini planner failed (%s: %s); using local planner", type(exc).__name__, str(exc)[:240])
 
     plan = deterministic_search_plan(query)
     focus_terms = plan.get("focus_terms", [])
@@ -212,6 +247,8 @@ def choose_search_plan(query: str, context: str = "") -> dict[str, Any]:
         focus_terms[:] = [term for term in focus_terms if term != "front"]
         focus_terms.append("entrance")
     plan["planner"] = "local_fallback"
+    _RUNTIME_STATUS.update({"provider": "local", "planner_provider": "local", "last_error": _RUNTIME_STATUS.get("last_error")})
+    LOGGER.info("Local planner selected sources=%s answer_type=%s", plan["searches"], plan["answer_type"])
     return plan
 
 
@@ -224,10 +261,18 @@ def summarize_answer(query: str, evidence: dict[str, Any]) -> str:
                 model=gemini_model_name(),
                 contents=build_gemini_prompt(query, evidence),
             )
-            return getattr(response, "text", None) or evidence.get("summary") or "No answer generated."
-        except Exception:
-            pass
+            answer = getattr(response, "text", None)
+            if answer:
+                _RUNTIME_STATUS.update({"provider": "gemini", "answer_provider": "gemini", "last_error": None})
+                LOGGER.info("Gemini answer generated successfully")
+                return answer
+            LOGGER.warning("Gemini returned an empty answer; using local fallback")
+        except Exception as exc:
+            _RUNTIME_STATUS["last_error"] = f"answer {type(exc).__name__}: {str(exc)[:240]}"
+            LOGGER.warning("Gemini answer failed (%s: %s); using local fallback", type(exc).__name__, str(exc)[:240])
 
+    _RUNTIME_STATUS.update({"provider": "local", "answer_provider": "local"})
+    LOGGER.info("Local answer formatter used")
     search_plan = evidence.get("search_plan") or {}
     specs = evidence.get("spec_results") or []
     cad = evidence.get("cad_results") or []
@@ -774,6 +819,14 @@ def answer_query(
     elif spec_results:
         summary_parts.append(f"Most relevant project guidance: {spec_results[0]['title']}.")
 
+    summary = summarize_answer(normalized, {
+        "cad_results": cad_results,
+        "spec_results": spec_results,
+        "visual_results": visual_results,
+        "search_plan": search_plan,
+        "summary": " ".join(summary_parts),
+    })
+
     return {
         "query": query,
         "category": category,
@@ -781,15 +834,10 @@ def answer_query(
         "spec_results": spec_results,
         "visual_results": visual_results,
         "search_plan": search_plan,
+        "runtime_status": runtime_status(),
         "has_evidence": bool(cad_results or spec_results or visual_results),
         "evidence_status": "found" if (cad_results or spec_results or visual_results) else "not_found",
-        "summary": summarize_answer(normalized, {
-            "cad_results": cad_results,
-            "spec_results": spec_results,
-            "visual_results": visual_results,
-            "search_plan": search_plan,
-            "summary": " ".join(summary_parts),
-        }),
+        "summary": summary,
     }
 
 

@@ -5,7 +5,7 @@ import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from copilot.ai.reasoning_engine import answer_query
+from copilot.ai.reasoning_engine import answer_query, runtime_status
 
 
 st.set_page_config(page_title="Construction Copilot", page_icon="🏗️", layout="wide")
@@ -67,6 +67,14 @@ with st.sidebar:
     st.write("Source model: HomeConstruction.FCStd")
     st.write("Data source: SQLite + KB JSON")
 
+    status = runtime_status()
+    if status["gemini_configured"] and status["gemini_sdk_available"]:
+        st.success(f"Gemini: configured ({status['gemini_model']})")
+    elif status["gemini_sdk_available"]:
+        st.warning("Gemini: API key not configured; using local fallback")
+    else:
+        st.error("Gemini: SDK unavailable; using local fallback")
+
     st.markdown("---")
     st.caption("Quick presets")
     for preset in [
@@ -119,6 +127,11 @@ if st.session_state.user_input:
             result = answer_query(prompt, limit=5, context=recent_user_context)
 
         answer = result["summary"]
+        provider_status = result.get("runtime_status", {})
+        st.caption(
+            f"Planner: {provider_status.get('planner_provider', 'unknown')} · "
+            f"Answer: {provider_status.get('answer_provider', 'unknown')}"
+        )
         cad_items = result["cad_results"]
         spec_items = result["spec_results"]
         visual_items = result["visual_results"]

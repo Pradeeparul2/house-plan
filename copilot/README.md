@@ -94,6 +94,17 @@ GEMINI_API_KEY=your_gemini_api_key
 
 The reasoning engine first retrieves local evidence from SQLite and the JSON indexes. When Gemini is configured, it receives that evidence in a controlled prompt and produces the conversational response. If the key is missing or the Gemini request fails, the app falls back to the deterministic local summary instead of stopping.
 
+The app logs provider diagnostics to the Streamlit runtime log and shows the current Gemini configuration in the sidebar. Each response also records whether the planner and answer came from `gemini` or `local`.
+
+For Streamlit Cloud, add this secret in **App settings > Secrets**:
+
+```toml
+GEMINI_API_KEY = "your_gemini_api_key"
+GEMINI_MODEL = "gemini-3.6-flash"
+```
+
+If the sidebar shows Gemini as configured but the response status is `local`, check the Cloud logs for `RESOURCE_EXHAUSTED`, `401`, `403`, `404`, or timeout messages. `429 RESOURCE_EXHAUSTED` means the API key has no available quota or has exceeded its rate limit; it is not a retrieval failure, and the local fallback is being used intentionally.
+
 ## Run the chat app
 
 From the project root, use the project virtual environment:
