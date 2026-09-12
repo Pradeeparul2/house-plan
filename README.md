@@ -9,7 +9,7 @@
 
 ![Isometric View of Completed Home](renders/all_objects_visible_isometric.png)
 
-*Full Multi-Storey 3D Isometric View: Substructure Footings, Plinth-Integrated Tanks, Ground Floor, First Floor Balcony, Contemporary Charcoal Facade, 4-Winder Circulation Core, Mumty Tower, and 1000L Overhead Water Tank (OHT).*
+_Full Multi-Storey 3D Isometric View: Substructure Footings, Plinth-Integrated Tanks, Ground Floor, First Floor Balcony, Contemporary Charcoal Facade, 4-Winder Circulation Core, Mumty Tower, and 1000L Overhead Water Tank (OHT)._
 
 ---
 
@@ -19,8 +19,8 @@
 - **Model Health & Fidelity:** **618 parametric solid objects**, 86 functional assembly groups, **0 recompute errors**, **0 non-manifold warnings**, and **100% collision-free geometry**.
 - **Dual-Phased Architecture:**
   - **Ground Floor (Phase 1):** Fully detailed active residence with Sitout, Living Room, Master Bedroom, Kitchen with Breakfast Counter, Toilet with sunken shower, Under-stair Laundry/Pump station, and Entrance Steps.
-  - **First Floor (Phase 2):** Complete 1:1 modular expansion ready for vertical construction, featuring a cantilevered Balcony (*Palkani*), independent Electricity Board (EB) distribution, and symmetrical room layouts.
-  - **Rooftop & Terrace:** Staircase Headroom (*Mumty*) tower, 1000L OHT on raised masonry saddle, DTH satellite dish antenna, and perimeter stainless steel safety balustrades.
+  - **First Floor (Phase 2):** Complete 1:1 modular expansion ready for vertical construction, featuring a cantilevered Balcony (_Palkani_), independent Electricity Board (EB) distribution, and symmetrical room layouts.
+  - **Rooftop & Terrace:** Staircase Headroom (_Mumty_) tower, 1000L OHT on raised masonry saddle, DTH satellite dish antenna, and perimeter stainless steel safety balustrades.
 
 ---
 
@@ -56,20 +56,20 @@
 
 ## 📐 Key Architectural & Structural Specifications
 
-| Discipline | Specification | Details / Standards Compliance |
-| :--- | :--- | :--- |
-| **Plot Footprint** | $5.03\text{ m} \times 7.62\text{ m}$ ($16'\text{-}6" \times 25'\text{-}0"$) | Compact, climate-responsive South Indian urban residential footprint |
-| **Floor Heights** | Ground Floor: $3.173\text{ m}$ ($10'\text{-}5"$) | Road ($Z=0$) $\to$ Plinth ($Z=914.4\text{ mm}$) $\to$ Roof Slab ($Z=4087.4\text{ mm}$) $\to$ FF Roof ($Z=7260.4\text{ mm}$) |
-| **Structural Frame** | 14 RCC Column Grid ($228.6 \times 228.6\text{ mm}$) | M25 concrete frame designed for two-storey vertical and seismic load transfer |
-| **Earthquake Bands** | 360° Closed-Loop Continuous Lintel & Sill Beams | Continuous RCC seismic ring beams compliant with **IS 4326** & **IS 456** |
-| **Foundations** | 8 Isolated Footings & Column Pedestals | 100mm PCC blinding + 400mm RCC footings with zero-collision tank recesses |
-| **Staircase Core** | 4-Winder Turnaround Landing + 17 Uniform Risers | **NBC 2016 Compliant:** $R = 186.65\text{ mm}$ ($\Delta R = 0.0\text{ mm}$), $249.25\text{ mm}$ tread going, $39.78^\circ$ pitch |
-| **Safety Railings** | Marine-Grade Stainless Steel (SS 304) | Full outer handrails, mid-landing rails, inner stairwell rails, and void guardrails |
-| **Toilet Sunken Floor**| 15 cm ($150\text{ mm}$) Sunken Wet Shower Area | Dry-wet segregation with black granite step riser and splash threshold curb |
-| **Air Conditioning** | 1.5 Ton Inverter Split AC (GF & FF) | Indoor units on East wall, dedicated 20A DP boards, outdoor units (ODU) on East wall cantilever brackets |
-| **Water Storage** | Dual-Tank Potable & Domestic System | 3,888L Plinth-level Underground Sump + 1,000L Rooftop Overhead Tank (OHT) |
-| **Drainage System** | Dual-Stream Segregated Gravity Outfall | **IS 1742 & IS 2470 Compliant:** Kitchen greywater (GT-1 / IC-1), toilet sullage (GT-2 / IC-2), and blackwater soil stack to 2,592L Septic Tank |
-| **Electrical / MEP** | 100% Concealed Orthogonal Grid | Ceiling slab conduits, chased wall drops, deep PVC pot boxes, 1.1kVA UPS backup, and 6-channel CCTV |
+| Discipline              | Specification                                                               | Details / Standards Compliance                                                                                                                  |
+| :---------------------- | :-------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Plot Footprint**      | $5.03\text{ m} \times 7.62\text{ m}$ ($16'\text{-}6" \times 25'\text{-}0"$) | Compact, climate-responsive South Indian urban residential footprint                                                                            |
+| **Floor Heights**       | Ground Floor: $3.173\text{ m}$ ($10'\text{-}5"$)                            | Road ($Z=0$) $\to$ Plinth ($Z=914.4\text{ mm}$) $\to$ Roof Slab ($Z=4087.4\text{ mm}$) $\to$ FF Roof ($Z=7260.4\text{ mm}$)                     |
+| **Structural Frame**    | 14 RCC Column Grid ($228.6 \times 228.6\text{ mm}$)                         | M25 concrete frame designed for two-storey vertical and seismic load transfer                                                                   |
+| **Earthquake Bands**    | 360° Closed-Loop Continuous Lintel & Sill Beams                             | Continuous RCC seismic ring beams compliant with **IS 4326** & **IS 456**                                                                       |
+| **Foundations**         | 8 Isolated Footings & Column Pedestals                                      | 100mm PCC blinding + 400mm RCC footings with zero-collision tank recesses                                                                       |
+| **Staircase Core**      | 4-Winder Turnaround Landing + 17 Uniform Risers                             | **NBC 2016 Compliant:** $R = 186.65\text{ mm}$ ($\Delta R = 0.0\text{ mm}$), $249.25\text{ mm}$ tread going, $39.78^\circ$ pitch                |
+| **Safety Railings**     | Marine-Grade Stainless Steel (SS 304)                                       | Full outer handrails, mid-landing rails, inner stairwell rails, and void guardrails                                                             |
+| **Toilet Sunken Floor** | 15 cm ($150\text{ mm}$) Sunken Wet Shower Area                              | Dry-wet segregation with black granite step riser and splash threshold curb                                                                     |
+| **Air Conditioning**    | 1.5 Ton Inverter Split AC (GF & FF)                                         | Indoor units on East wall, dedicated 20A DP boards, outdoor units (ODU) on East wall cantilever brackets                                        |
+| **Water Storage**       | Dual-Tank Potable & Domestic System                                         | 3,888L Plinth-level Underground Sump + 1,000L Rooftop Overhead Tank (OHT)                                                                       |
+| **Drainage System**     | Dual-Stream Segregated Gravity Outfall                                      | **IS 1742 & IS 2470 Compliant:** Kitchen greywater (GT-1 / IC-1), toilet sullage (GT-2 / IC-2), and blackwater soil stack to 2,592L Septic Tank |
+| **Electrical / MEP**    | 100% Concealed Orthogonal Grid                                              | Ceiling slab conduits, chased wall drops, deep PVC pot boxes, 1.1kVA UPS backup, and 6-channel CCTV                                             |
 
 ---
 
@@ -137,6 +137,17 @@ c:\Users\prade\OneDrive\Desktop\home plan\
 │   ├── IMG_0373.PNG                # Staircase winder turning detail sketch
 │   └── IMG_0379.JPG                # Contemporary front facade reference photo
 │
+├── tools/
+│   └── freecad_cache.py            # Agent cache helper (execute_python only)
+│
+├── .freecad-cache/                 # Auto-generated advisory cache (git-ignored)
+│   ├── state.json                  # Document fingerprint & object count
+│   ├── object-index.json           # 616-entry compact object summaries
+│   └── relationships.json          # Group/container hierarchy
+│
+├── .agents/skills/                 # AI agent skill instructions
+│   └── model-state-cache/SKILL.md  # Cache skill — read before any cache operation
+│
 └── backups/                        # Timestamped incremental backups and historical versions
 ```
 
@@ -155,4 +166,42 @@ c:\Users\prade\OneDrive\Desktop\home plan\
 
 ---
 
-*Engineered with precision using Gemini AI & FreeCAD Parametric Architecture.*
+## 🤖 Agent Cache System (Token Efficiency)
+
+The 616-object FreeCAD model uses a **project-side state cache** so agents never need to dump the full document tree into LLM context.
+
+| File                                        | Purpose                                             |
+| ------------------------------------------- | --------------------------------------------------- |
+| `.agents/skills/model-state-cache/SKILL.md` | **Read first** — skill instructions and token rules |
+| `tools/freecad_cache.py`                    | Cache helper — loaded via `execute_python` only     |
+| `.freecad-cache/state.json`                 | Document fingerprint + object count                 |
+| `.freecad-cache/object-index.json`          | 616-entry compact object summaries                  |
+| `.freecad-cache/relationships.json`         | Group/container hierarchy                           |
+
+### Bootstrap (inside `execute_python`)
+
+```python
+import FreeCAD as App
+from pathlib import Path
+doc = App.ActiveDocument
+root = Path(doc.FileName).resolve().parent
+ns = {}
+exec((root / "tools" / "freecad_cache.py").read_text(encoding="utf-8"), ns)
+
+ns["cache_status"]()             # freshness — run first every session
+ns["find"]("wall", 5)           # locate objects by name/label substring (limit N)
+ns["inspect"](["Object_Name"])  # compact summary for named objects
+ns["validate"](["Object_Name"]) # geometry validity check
+ns["refresh_objects"](names)    # update cache after edits (not refresh_all)
+```
+
+### Token discipline
+
+- **Never** read `.freecad-cache/*.json` directly into LLM context.
+- **Never** call `refresh_all()` for routine edits — use `refresh_objects(names)`.
+- Return only: `status`, `fingerprint`, `object_count`, `invalid`, and requested summaries.
+- FreeCAD is always authoritative; cache is advisory only.
+
+---
+
+_Engineered with precision using Gemini AI & FreeCAD Parametric Architecture._
