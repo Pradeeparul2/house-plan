@@ -202,6 +202,14 @@ ns["refresh_objects"](names)    # update cache after edits (not refresh_all)
 - Return only: `status`, `fingerprint`, `object_count`, `invalid`, and requested summaries.
 - FreeCAD is always authoritative; cache is advisory only.
 
+### 3D Model & Documentation Synchronization Rule
+
+Whenever any geometry, member dimension, or coordinate placement changes within `HomeConstruction.FCStd`:
+
+1. Identify the affected functional group (e.g., Substructure, Ground Floor, First Floor, Rooftop/Terrace, or MEP Network).
+2. Immediately update the corresponding specification, coordinate log, or construction schedule inside `walkthrough.md`.
+3. Never mark a 3D modeling task complete without committing the matching documentation diff.
+
 ---
 
 _Engineered with precision using Gemini AI & FreeCAD Parametric Architecture._
