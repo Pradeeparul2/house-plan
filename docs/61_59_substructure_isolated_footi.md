@@ -21,36 +21,36 @@
 
 ---
 
-### 59.2 Substructure Component Inventory (42 Objects)
+### 59.2 Substructure Component Inventory (8-Column Standardized System)
 
-All 14 column locations are reinforced with dedicated three-tier load transfer elements:
+All 8 active column locations (C1–C8) are reinforced with dedicated three-tier load transfer elements (Refer to Section 75):
 
 1. **PCC Blinding Beds (`PCC_Blinding_Layer_Group`):**
-   * 14 Plain Cement Concrete (1:4:8, M7.5) pads ($100\text{ mm}$ thickness, $Z \in [-1600, -1500]\text{ mm}$).
-   * Extends $75\text{ mm}$ beyond footing perimeter on all free faces.
+   * 8 Plain Cement Concrete (1:4:8, M7.5) pads ($100\text{ mm}$ thickness, $Z \in [-1600, -1500]\text{ mm}$).
+   * Standardized pad size: $1600 \times 1528 \times 100\text{ mm}$ (`PCC_N8_N8_C1` through `PCC_N8_N8_C12`), projecting $50\text{ mm}$ beyond footing perimeters.
 2. **RCC Isolated Footings (`Isolated_Footings_Group`):**
-   * 14 Reinforced Cement Concrete (M25) pads ($400\text{ mm}$ depth, $Z \in [-1500, -1100]\text{ mm}$).
-   * Boundary and corner footings (C9, C10, C11, C12, C5, C8, C13, C4, C1, C_SP, C2) configured within the plot envelope (eccentric flush edges).
-   * Core interior columns (C6, C7, C14) provided with concentric $1200 \times 1200\text{ mm}$ footings.
+   * 8 Reinforced Cement Concrete (M25) pads ($400\text{ mm}$ depth, $Z \in [-1500, -1100]\text{ mm}$).
+   * Standardized footing pad dimensions: $1500 \times 1428 \times 400\text{ mm}$ (`Footing_N8_C1` through `Footing_N8_C12`).
+   * Engineered for $SBC = 200\text{ kN/m}^2$, safely transmitting two-storey axial and bending moment loads.
 3. **RCC Column Pedestals (`Column_Pedestals_Group`):**
-   * 14 RCC column stubs ($230 \times 230\text{ mm}$, $1714.4\text{ mm}$ vertical span, $Z \in [-1100, +614.4]\text{ mm}$).
-   * Transmits vertical column forces directly from plinth beams to the footing pads.
+   * 8 RCC column pedestals ($230 \times 300\text{ mm}$ cross-section, $1814.4\text{ mm}$ vertical height, $Z \in [-1200, +614.4]\text{ mm}$).
+   * Pedestals `Pedestal_C1`, `Pedestal_C_SP`, `Pedestal_C2`, `Pedestal_C13`, `Pedestal_C4`, `Pedestal_C9`, `Pedestal_C10`, `Pedestal_C12`.
 4. **Plinth Beam Tie Network (`GF_Plinth_Beams`):**
-   * 10 interconnected RCC tie beams ($230 \times 300\text{ mm}$, $Z \in [614.4, 914.4]\text{ mm}$).
-   * Forms a monolithic closed-loop ring tying all 14 column tops at finished plinth level.
+   * 9 interconnected RCC tie beams ($230 \times 300\text{ mm}$ / $230 \times 375\text{ mm}$, $Z \in [614.4, 914.4]\text{ mm}$).
+   * Features `PB_LIVING_Primary` ($230 \times 300\text{ mm}$, $L = 5029.2\text{ mm}$) and upsized `PB1_Rear_South` ($230 \times 375\text{ mm}$).
 
 ---
 
-### 59.3 Contractor Bill of Quantities (BOQ) Schedule (Calculated from 3D Geometry)
+### 59.3 Contractor Bill of Quantities (BOQ) Schedule (8-Column Active Frame)
 
 | Item No. | Work Description | Mix / Grade | Geometric Volume ($\text{m}^3$) | Imperial Volume ($\text{cu.ft}$) | Standard Billing Unit |
 | :---: | :--- | :---: | :---: | :---: | :---: |
-| **1.0** | **Earthwork Excavation** in foundation trenches and pits down to $-1.6\text{ m}$, including sump ($2.2\text{m}$) and septic pits ($1.6\text{m}$) | Soil / Moorum | $52.06\text{ m}^3$ | $1,838.5\text{ cu.ft}$ | $18.38\text{ Brass}$ |
-| **2.0** | **PCC Blinding Bed** under 14 isolated footings ($100\text{ mm}$ thick) | PCC 1:4:8 (M7.5) | $1.885\text{ m}^3$ | $66.6\text{ cu.ft}$ | $1.89\text{ m}^3$ |
-| **3.0** | **RCC Isolated Footing Pads** ($400\text{ mm}$ depth, 14 units) | RCC M25 | $6.168\text{ m}^3$ | $217.8\text{ cu.ft}$ | $6.17\text{ m}^3$ |
-| **4.0** | **RCC Substructure Column Pedestals** ($230 \times 230\text{ mm}$, 14 stubs) | RCC M25 | $1.254\text{ m}^3$ | $44.3\text{ cu.ft}$ | $1.25\text{ m}^3$ |
-| **5.0** | **RCC Plinth Tie Beams (PB1 & PB2)** ($230 \times 300\text{ mm}$, 10 beams) | RCC M25 | $2.845\text{ m}^3$ | $100.5\text{ cu.ft}$ | $2.85\text{ m}^3$ |
-| **—** | **SUBTOTAL SUBSTRUCTURE RCC CONCRETE** (Items 3 + 4 + 5) | **RCC M25** | **$10.268\text{ m}^3$** | **$362.6\text{ cu.ft}$** | **$10.27\text{ m}^3$** |
+| **1.0** | **Earthwork Excavation** in 8 footing pits ($-1.6\text{ m}$), Sump ($2.1\text{ m}$), Septic pit ($2.1\text{ m}$) & pipe trench | Soil / Moorum | $55.55\text{ m}^3$ | $1,961.7\text{ cu.ft}$ | $19.62\text{ Brass}$ |
+| **2.0** | **PCC Blinding Bed** under 8 isolated footings ($1.96\text{ m}^3$) + Sump ($0.22\text{ m}^3$) + Septic ($0.14\text{ m}^3$) | PCC 1:4:8 (M7.5) | $2.32\text{ m}^3$ | $81.9\text{ cu.ft}$ | $2.32\text{ m}^3$ |
+| **3.0** | **RCC Isolated Footing Pads** ($1500 \times 1428 \times 400\text{ mm}$, 8 units) | RCC M25 | $6.86\text{ m}^3$ | $242.3\text{ cu.ft}$ | $6.86\text{ m}^3$ |
+| **4.0** | **RCC Substructure Column Pedestals** ($230 \times 300\text{ mm} \times 1814.4\text{ mm}$, 8 stubs) | RCC M25 | $1.00\text{ m}^3$ | $35.3\text{ cu.ft}$ | $1.00\text{ m}^3$ |
+| **5.0** | **RCC Plinth Tie Beams** (PB1 + `PB_LIVING_Primary` + PB2, 9 beams) | RCC M25 | $2.98\text{ m}^3$ | $105.2\text{ cu.ft}$ | $2.98\text{ m}^3$ |
+| **—** | **SUBTOTAL SUBSTRUCTURE RCC CONCRETE** (Items 3 + 4 + 5) | **RCC M25** | **$10.84\text{ m}^3$** | **$382.8\text{ cu.ft}$** | **$10.84\text{ m}^3$** |
 
 ---
 

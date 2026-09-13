@@ -1,0 +1,121 @@
+Item No,Level / Group,Member ID,Bar Mark,Description,Bending Shape,Bar Dia (mm),No. of Members,Bars Per Member,Total Bars,Cutting Length (m),Total Length (m),Unit Weight (kg/m),Total Weight (kg)
+1,Substructure (Z = -1500 to -1100 mm),"Footings (F1-F8, 8 Pads)",FTG-M12-01,Bottom Mat Primary Main Bar,U-Shape Mat Bar (2x90° hooks),12,8,10,80,1.952,156.16,0.888,138.67
+2,Substructure (Z = -1500 to -1100 mm),"Footings (F1-F8, 8 Pads)",FTG-M10-02,Bottom Mat Transverse Cross Bar,U-Shape Mat Bar (2x90° hooks),10,8,11,88,1.888,166.14,0.617,102.51
+3,Substructure Pedestals (Z = -1200 to +614.4 mm),"Pedestals C1, C2, C6, C7",PED-V16-01,Corner Starter Dowels (Footing Mat to GF Inflection),L-Shape Dowel (300mm 90° Foot Bend),16,4,4,16,4.006,64.10,1.578,101.14
+4,Substructure Pedestals (Z = -1200 to +614.4 mm),"Pedestals C1, C2, C6, C7",PED-V12-02,Flange/Web Starter Dowels (Footing Mat to GF Inflection),L-Shape Dowel (300mm 90° Foot Bend),12,4,2,8,4.014,32.11,0.888,28.52
+5,Substructure Pedestals (Z = -1200 to +614.4 mm),"Pedestals C3, C4, C5, C8",PED-V16-03,Longitudinal Starter Dowels (6#16mm per col),L-Shape Dowel (300mm 90° Foot Bend),16,4,6,24,4.006,96.14,1.578,151.72
+6,Substructure Pedestals (Z = -1200 to +614.4 mm),Pedestals C1 to C8 (8 Nos),PED-T8-04,"Confinement Ties (100mm c/c Lo, 150mm mid)",Rectangular Tie + 135° Seismic Hooks (10d),8,8,17,136,0.804,109.34,0.395,43.19
+7,Ground Floor (Z = +614.4 to +3962.4 mm),"GF Columns C1, C2, C6, C7",GFC-V16-01,Corner Longitudinal Rebar (GF to FF Mid Splice),Straight Splice Bar (incl. 50d lap),16,4,4,16,3.874,61.98,1.578,97.81
+8,Ground Floor (Z = +614.4 to +3962.4 mm),"GF Columns C1, C2, C6, C7",GFC-V12-02,Flange/Web Longitudinal Rebar (GF to FF Mid Splice),Straight Splice Bar (incl. 50d lap),12,4,2,8,3.674,29.39,0.888,26.10
+9,Ground Floor (Z = +614.4 to +3962.4 mm),"GF Columns C3, C4, C5, C8",GFC-V16-03,"Longitudinal Rebar (6#16mm, GF to FF Mid Splice)",Straight Splice Bar (incl. 50d lap),16,4,6,24,3.874,92.98,1.578,146.72
+10,Ground Floor (Z = +614.4 to +3962.4 mm),GF Columns C1 to C8 (8 Nos),GFC-T8-04,"Confinement Ties (100mm c/c Lo & Joint, 150mm mid)",Rectangular Tie + 135° Seismic Hooks (10d),8,8,27,216,0.804,173.66,0.395,68.60
+11,First Floor (Z = +3962.4 to +7135.4 mm),"FF Columns C1, C2, C6 (Terrace Term.)",FFC-V16-01,Corner Rebar (FF Mid Splice to Terrace Roof Anchor),L-Shape Bar (300mm 90° Roof Hook),16,3,4,12,2.841,34.09,1.578,53.80
+12,First Floor (Z = +3962.4 to +7135.4 mm),"FF Columns C1, C2, C6 (Terrace Term.)",FFC-V12-02,Flange/Web Rebar (FF Mid Splice to Terrace Roof Anchor),L-Shape Bar (300mm 90° Roof Hook),12,3,2,6,2.649,15.89,0.888,14.11
+13,First Floor (Z = +3962.4 to +7135.4 mm),"FF Columns C3, C4, C5 (Terrace Term.)",FFC-V16-03,"Longitudinal Rebar (6#16mm, Terrace Roof Anchor)",L-Shape Bar (300mm 90° Roof Hook),16,3,6,18,2.841,51.14,1.578,80.70
+14,First Floor (Z = +3962.4 to +7135.4 mm),FF Columns C1 to C8 (8 Nos),FFC-T8-04,"Confinement Ties (100mm c/c Lo & Joint, 150mm mid)",Rectangular Tie + 135° Seismic Hooks (10d),8,8,27,216,0.804,173.66,0.395,68.60
+15,Rooftop Mumty Tower (Z = +7135.4 to +9460.4 mm),Mumty Column C7 (1 No),MUM-V16-01,Corner Rebar (Continuous from FF to Mumty Roof Hook),L-Shape Bar (300mm 90° Mumty Roof Hook),16,1,4,4,5.166,20.66,1.578,32.61
+16,Rooftop Mumty Tower (Z = +7135.4 to +9460.4 mm),Mumty Column C7 (1 No),MUM-V12-02,Flange/Web Rebar (Continuous from FF to Mumty Roof Hook),L-Shape Bar (300mm 90° Mumty Roof Hook),12,1,2,2,4.974,9.95,0.888,8.83
+17,Rooftop Mumty Tower (Z = +7135.4 to +9460.4 mm),Mumty Column C8 (1 No),MUM-V16-03,"Longitudinal Rebar (6#16mm, Mumty Roof Hook)",L-Shape Bar (300mm 90° Mumty Roof Hook),16,1,6,6,5.166,31.00,1.578,48.91
+18,Rooftop Mumty Tower (Z = +7135.4 to +9460.4 mm),"Mumty Columns C7, C8 (2 Nos)",MUM-T8-04,"Confinement Ties (100mm c/c Lo, 150mm mid)",Rectangular Tie + 135° Seismic Hooks (10d),8,2,22,44,0.804,35.38,0.395,13.97
+19,GF Plinth Level (Z = +614.4 mm),"PB_LIVING_Primary (230x300, L=5.03m)",PB-LIV-T16,Top Continuous Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+20,GF Plinth Level (Z = +614.4 mm),"PB_LIVING_Primary (230x300, L=5.03m)",PB-LIV-B16,Bottom Continuous Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+21,GF Plinth Level (Z = +614.4 mm),"PB_LIVING_Primary (230x300, L=5.03m)",PB-LIV-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+22,GF Plinth Level (Z = +614.4 mm),"PB_LIVING_Primary (230x300, L=5.03m)",PB-LIV-S8,"2-Legged Shear Stirrups (100mm c/c ends, 150mm mid)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,0.924,39.73,0.395,15.69
+23,GF Plinth Level (Z = +614.4 mm),"PB1_Rear_South (230x375, L=5.03m)",PB-RS-T16,Top Continuous Perimeter Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 325mm),16,1,3,3,5.565,16.70,1.578,26.34
+24,GF Plinth Level (Z = +614.4 mm),"PB1_Rear_South (230x375, L=5.03m)",PB-RS-B16,Bottom Continuous Perimeter Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 325mm),16,1,3,3,5.565,16.70,1.578,26.34
+25,GF Plinth Level (Z = +614.4 mm),"PB1_Rear_South (230x375, L=5.03m)",PB-RS-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+26,GF Plinth Level (Z = +614.4 mm),"PB1_Rear_South (230x375, L=5.03m)",PB-RS-S8,"2-Legged Shear Stirrups (230x375mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,1.074,46.18,0.395,18.24
+27,GF Plinth Level (Z = +614.4 mm),"PB1_Front_North (230x300, L=5.03m)",PB-FN-T16,Top Continuous Perimeter Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+28,GF Plinth Level (Z = +614.4 mm),"PB1_Front_North (230x300, L=5.03m)",PB-FN-B16,Bottom Continuous Perimeter Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+29,GF Plinth Level (Z = +614.4 mm),"PB1_Front_North (230x300, L=5.03m)",PB-FN-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+30,GF Plinth Level (Z = +614.4 mm),"PB1_Front_North (230x300, L=5.03m)",PB-FN-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,0.924,39.73,0.395,15.69
+31,GF Plinth Level (Z = +614.4 mm),"PB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",PB-FL-T16,"Top Continuous Boundary Rebar (3#16mm, C1-C4-C6 / C3-C5-C8)",C-Shape Beam Bar (2x90° End Anchorage 250mm),16,2,3,6,8.006,48.04,1.578,75.80
+32,GF Plinth Level (Z = +614.4 mm),"PB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",PB-FL-B16,"Bottom Continuous Boundary Rebar (3#16mm, C1-C4-C6 / C3-C5-C8)",U-Shape Beam Bar (2x90° End Anchorage 250mm),16,2,3,6,8.006,48.04,1.578,75.80
+33,GF Plinth Level (Z = +614.4 mm),"PB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",PB-FL-C12,"Bottom Curtailment Rebar (4#12mm, 2 per span)",Straight Bar,12,2,4,8,2.800,22.40,0.888,19.89
+34,GF Plinth Level (Z = +614.4 mm),"PB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",PB-FL-S8,2-Legged Shear Stirrups (230x300mm across 2 spans),Rectangular Stirrup + 135° Hooks (10d),8,2,78,156,0.924,144.14,0.395,56.94
+35,GF Plinth Level (Z = +614.4 mm),"PB2_Core_GridB (230x300, L=5.03m)",PB-GB-T16,Top Continuous Transverse Header Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+36,GF Plinth Level (Z = +614.4 mm),"PB2_Core_GridB (230x300, L=5.03m)",PB-GB-B16,Bottom Continuous Transverse Header Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+37,GF Plinth Level (Z = +614.4 mm),"PB2_Core_GridB (230x300, L=5.03m)",PB-GB-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+38,GF Plinth Level (Z = +614.4 mm),"PB2_Core_GridB (230x300, L=5.03m)",PB-GB-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,0.924,39.73,0.395,15.69
+39,GF Plinth Level (Z = +614.4 mm),"PB2_Bedroom_Living (230x300, L=2.82m)",PB-BL-T16,Top Partition Divider Rebar (2#16mm) anchored into C5,C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,2,2,3.205,6.41,1.578,10.11
+40,GF Plinth Level (Z = +614.4 mm),"PB2_Bedroom_Living (230x300, L=2.82m)",PB-BL-B16,Bottom Partition Divider Rebar (2#16mm) anchored into C5,U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,2,2,3.205,6.41,1.578,10.11
+41,GF Plinth Level (Z = +614.4 mm),"PB2_Bedroom_Living (230x300, L=2.82m)",PB-BL-C12,"Bottom Curtailment Rebar (1#12mm, Central 0.75L)",Straight Bar,12,1,1,1,2.115,2.12,0.888,1.88
+42,GF Plinth Level (Z = +614.4 mm),"PB2_Bedroom_Living (230x300, L=2.82m)",PB-BL-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,23,23,0.924,21.25,0.395,8.39
+43,GF Plinth Level (Z = +614.4 mm),"PB2_Stair_East (300x300, L=1.71m)",PB-SE-V12,"Main Longitudinal Rebar (4#12mm: 2 top, 2 bot) into C7",C-Shape Beam Bar (2x90° End Anchorage 250mm),12,1,4,4,2.100,8.40,0.888,7.46
+44,GF Plinth Level (Z = +614.4 mm),"PB2_Stair_East (300x300, L=1.71m)",PB-SE-S8,2-Legged Shear Stirrups (300x300mm square tie @ 125mm c/c),Square Stirrup + 135° Hooks (10d),8,1,14,14,1.064,14.90,0.395,5.88
+45,GF Plinth Level (Z = +614.4 mm),"PB2_Stair_West (230x300, L=1.71m)",PB-SW-V12,"Main Longitudinal Rebar (4#12mm: 2 top, 2 bot)",C-Shape Beam Bar (2x90° End Anchorage 250mm),12,1,4,4,2.100,8.40,0.888,7.46
+46,GF Plinth Level (Z = +614.4 mm),"PB2_Stair_West (230x300, L=1.71m)",PB-SW-S8,2-Legged Shear Stirrups (230x300mm tie @ 125mm c/c),Rectangular Stirrup + 135° Hooks (10d),8,1,14,14,0.924,12.94,0.395,5.11
+47,GF Roof Beam (Z = +3662.4 mm),"RB_LIVING_Primary (230x350, L=5.03m)",RB-LIV-T16,Top Continuous Primary Cross-Beam Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 300mm),16,1,3,3,5.515,16.54,1.578,26.11
+48,GF Roof Beam (Z = +3662.4 mm),"RB_LIVING_Primary (230x350, L=5.03m)",RB-LIV-B16,Bottom Continuous Primary Cross-Beam Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 300mm),16,1,3,3,5.515,16.54,1.578,26.11
+49,GF Roof Beam (Z = +3662.4 mm),"RB_LIVING_Primary (230x350, L=5.03m)",RB-LIV-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+50,GF Roof Beam (Z = +3662.4 mm),"RB_LIVING_Primary (230x350, L=5.03m)",RB-LIV-S8,"2-Legged Shear Stirrups (230x350mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,1.024,44.03,0.395,17.39
+51,GF Roof Beam (Z = +3662.4 mm),"RB_LIVING_Primary (230x350, L=5.03m)",RB-LIV-HG8,Hanger Stirrups (8mm @ 75mm c/c at RB2 Secondary Junction),Rectangular Stirrup + 135° Hooks (10d),8,1,3,3,1.024,3.07,0.395,1.21
+52,GF Roof Beam (Z = +3662.4 mm),"RB1_Rear_South (230x375, L=5.03m)",RB-RS-T16,Top Continuous Perimeter Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 325mm),16,1,3,3,5.565,16.70,1.578,26.34
+53,GF Roof Beam (Z = +3662.4 mm),"RB1_Rear_South (230x375, L=5.03m)",RB-RS-B16,Bottom Continuous Perimeter Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 325mm),16,1,3,3,5.565,16.70,1.578,26.34
+54,GF Roof Beam (Z = +3662.4 mm),"RB1_Rear_South (230x375, L=5.03m)",RB-RS-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+55,GF Roof Beam (Z = +3662.4 mm),"RB1_Rear_South (230x375, L=5.03m)",RB-RS-S8,"2-Legged Shear Stirrups (230x375mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,1.074,46.18,0.395,18.24
+56,GF Roof Beam (Z = +3662.4 mm),"RB1_Front_North (230x300, L=5.03m)",RB-FN-T16,Top Continuous Perimeter Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+57,GF Roof Beam (Z = +3662.4 mm),"RB1_Front_North (230x300, L=5.03m)",RB-FN-B16,Bottom Continuous Perimeter Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+58,GF Roof Beam (Z = +3662.4 mm),"RB1_Front_North (230x300, L=5.03m)",RB-FN-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+59,GF Roof Beam (Z = +3662.4 mm),"RB1_Front_North (230x300, L=5.03m)",RB-FN-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,0.924,39.73,0.395,15.69
+60,GF Roof Beam (Z = +3662.4 mm),"RB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",RB-FL-T16,"Top Continuous Boundary Rebar (3#16mm, C1-C4-C6 / C3-C5-C8)",C-Shape Beam Bar (2x90° End Anchorage 250mm),16,2,3,6,8.006,48.04,1.578,75.80
+61,GF Roof Beam (Z = +3662.4 mm),"RB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",RB-FL-B16,"Bottom Continuous Boundary Rebar (3#16mm, C1-C4-C6 / C3-C5-C8)",U-Shape Beam Bar (2x90° End Anchorage 250mm),16,2,3,6,8.006,48.04,1.578,75.80
+62,GF Roof Beam (Z = +3662.4 mm),"RB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",RB-FL-C12,"Bottom Curtailment Rebar (4#12mm, 2 per span)",Straight Bar,12,2,4,8,2.800,22.40,0.888,19.89
+63,GF Roof Beam (Z = +3662.4 mm),"RB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",RB-FL-S8,2-Legged Shear Stirrups (230x300mm across 2 spans),Rectangular Stirrup + 135° Hooks (10d),8,2,78,156,0.924,144.14,0.395,56.94
+64,GF Roof Beam (Z = +3662.4 mm),"RB2_Core_GridB (230x300, L=5.03m)",RB-GB-T16,Top Continuous Transverse Header Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+65,GF Roof Beam (Z = +3662.4 mm),"RB2_Core_GridB (230x300, L=5.03m)",RB-GB-B16,Bottom Continuous Transverse Header Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+66,GF Roof Beam (Z = +3662.4 mm),"RB2_Core_GridB (230x300, L=5.03m)",RB-GB-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+67,GF Roof Beam (Z = +3662.4 mm),"RB2_Core_GridB (230x300, L=5.03m)",RB-GB-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,0.924,39.73,0.395,15.69
+68,GF Roof Beam (Z = +3662.4 mm),"RB2_Bedroom_Living (230x300, L=2.82m)",RB-BL-T16,Top Partition Divider Rebar (2#16mm) anchored into C5,C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,2,2,3.205,6.41,1.578,10.11
+69,GF Roof Beam (Z = +3662.4 mm),"RB2_Bedroom_Living (230x300, L=2.82m)",RB-BL-B16,Bottom Partition Divider Rebar (2#16mm) anchored into C5,U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,2,2,3.205,6.41,1.578,10.11
+70,GF Roof Beam (Z = +3662.4 mm),"RB2_Bedroom_Living (230x300, L=2.82m)",RB-BL-C12,"Bottom Curtailment Rebar (1#12mm, Central 0.75L)",Straight Bar,12,1,1,1,2.115,2.12,0.888,1.88
+71,GF Roof Beam (Z = +3662.4 mm),"RB2_Bedroom_Living (230x300, L=2.82m)",RB-BL-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,23,23,0.924,21.25,0.395,8.39
+72,GF Roof Beam (Z = +3662.4 mm),"RB2_Stair_East_Trimmer (300x300, L=0.99m)",RB-SET-V12,"Trimmer Longitudinal Rebar (4#12mm: 2 top, 2 bot) into C7",C-Shape Beam Bar (2x90° End Anchorage 250mm),12,1,4,4,1.376,5.50,0.888,4.89
+73,GF Roof Beam (Z = +3662.4 mm),"RB2_Stair_East_Trimmer (300x300, L=0.99m)",RB-SET-S8,2-Legged Shear Stirrups (300x300mm tie @ 100mm c/c),Square Stirrup + 135° Hooks (10d),8,1,9,9,1.064,9.58,0.395,3.78
+74,GF Roof Beam (Z = +3662.4 mm),"RB2_Stair_West_Trimmer (230x300, L=1.71m)",RB-SWT-V12,"Trimmer Longitudinal Rebar (4#12mm: 2 top, 2 bot)",C-Shape Beam Bar (2x90° End Anchorage 250mm),12,1,4,4,2.100,8.40,0.888,7.46
+75,GF Roof Beam (Z = +3662.4 mm),"RB2_Stair_West_Trimmer (230x300, L=1.71m)",RB-SWT-S8,2-Legged Shear Stirrups (230x300mm tie @ 125mm c/c),Rectangular Stirrup + 135° Hooks (10d),8,1,14,14,0.924,12.94,0.395,5.11
+76,GF Roof Beam (Z = +3048.0 mm),"Kitchen_Beam_North (230x228.6, L=2.10m)",KB-N-V12,"Monolithic Counter Beam Rebar (4#12mm: 2 top, 2 bot)",C-Shape Beam Bar (2x90° End Anchorage 250mm),12,1,4,4,2.482,9.93,0.888,8.82
+77,GF Roof Beam (Z = +3048.0 mm),"Kitchen_Beam_North (230x228.6, L=2.10m)",KB-N-S8,2-Legged Shear Stirrups (230x230mm tie @ 125mm c/c),Square Stirrup + 135° Hooks (10d),8,1,17,17,0.784,13.33,0.395,5.26
+78,Staircase Mid-Landing (Z = +2138.4 mm),"MLB_Staircase_Mid_Landing (230x300, L=1.98m)",MLB-ST-V16,"Waist Turnaround Support Rebar (4#16mm: 2 top, 2 bot)",C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,4,4,2.367,9.47,1.578,14.94
+79,Staircase Mid-Landing (Z = +2138.4 mm),"MLB_Staircase_Mid_Landing (230x300, L=1.98m)",MLB-ST-S8,2-Legged Shear Stirrups (230x300mm tie @ 125mm c/c),Rectangular Stirrup + 135° Hooks (10d),8,1,16,16,0.924,14.78,0.395,5.84
+80,FF Roof Beam (Z = +6835.4 mm),"FF_RB_LIVING_Primary (230x350, L=5.03m)",FF-LIV-T16,Top Continuous Primary Cross-Beam Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 300mm),16,1,3,3,5.515,16.54,1.578,26.11
+81,FF Roof Beam (Z = +6835.4 mm),"FF_RB_LIVING_Primary (230x350, L=5.03m)",FF-LIV-B16,Bottom Continuous Primary Cross-Beam Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 300mm),16,1,3,3,5.515,16.54,1.578,26.11
+82,FF Roof Beam (Z = +6835.4 mm),"FF_RB_LIVING_Primary (230x350, L=5.03m)",FF-LIV-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+83,FF Roof Beam (Z = +6835.4 mm),"FF_RB_LIVING_Primary (230x350, L=5.03m)",FF-LIV-S8,"2-Legged Shear Stirrups (230x350mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,1.024,44.03,0.395,17.39
+84,FF Roof Beam (Z = +6835.4 mm),"FF_RB_LIVING_Primary (230x350, L=5.03m)",FF-LIV-HG8,Hanger Stirrups (8mm @ 75mm c/c at FF Secondary Junction),Rectangular Stirrup + 135° Hooks (10d),8,1,3,3,1.024,3.07,0.395,1.21
+85,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_Rear_South (230x300, L=5.03m)",FF-RS-T16,Top Continuous Perimeter Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+86,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_Rear_South (230x300, L=5.03m)",FF-RS-B16,Bottom Continuous Perimeter Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+87,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_Rear_South (230x300, L=5.03m)",FF-RS-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+88,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_Rear_South (230x300, L=5.03m)",FF-RS-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,0.924,39.73,0.395,15.69
+89,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_Front_North (230x300, L=5.03m)",FF-FN-T16,Top Continuous Perimeter Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+90,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_Front_North (230x300, L=5.03m)",FF-FN-B16,Bottom Continuous Perimeter Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+91,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_Front_North (230x300, L=5.03m)",FF-FN-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+92,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_Front_North (230x300, L=5.03m)",FF-FN-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,0.924,39.73,0.395,15.69
+93,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",FF-FL-T16,"Top Continuous Boundary Rebar (3#16mm, C1-C4-C6 / C3-C5-C8)",C-Shape Beam Bar (2x90° End Anchorage 250mm),16,2,3,6,8.006,48.04,1.578,75.80
+94,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",FF-FL-B16,"Bottom Continuous Boundary Rebar (3#16mm, C1-C4-C6 / C3-C5-C8)",U-Shape Beam Bar (2x90° End Anchorage 250mm),16,2,3,6,8.006,48.04,1.578,75.80
+95,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",FF-FL-C12,"Bottom Curtailment Rebar (4#12mm, 2 per span)",Straight Bar,12,2,4,8,2.800,22.40,0.888,19.89
+96,FF Roof Beam (Z = +6835.4 mm),"FF_RB1_East & West Flanks (230x300, L=7.62m, 2 Nos)",FF-FL-S8,2-Legged Shear Stirrups (230x300mm across 2 spans),Rectangular Stirrup + 135° Hooks (10d),8,2,78,156,0.924,144.14,0.395,56.94
+97,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Core_GridB (230x300, L=5.03m)",FF-GB-T16,Top Continuous Transverse Header Rebar (3#16mm),C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+98,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Core_GridB (230x300, L=5.03m)",FF-GB-B16,Bottom Continuous Transverse Header Rebar (3#16mm),U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,3,3,5.415,16.25,1.578,25.63
+99,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Core_GridB (230x300, L=5.03m)",FF-GB-C12,"Bottom Curtailment Rebar (2#12mm, Central 0.75L)",Straight Bar,12,1,2,2,3.772,7.54,0.888,6.70
+100,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Core_GridB (230x300, L=5.03m)",FF-GB-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,43,43,0.924,39.73,0.395,15.69
+101,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Bedroom_Living (230x300, L=2.82m)",FF-BL-T16,Top Partition Divider Rebar (2#16mm) anchored into C5,C-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,2,2,3.205,6.41,1.578,10.11
+102,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Bedroom_Living (230x300, L=2.82m)",FF-BL-B16,Bottom Partition Divider Rebar (2#16mm) anchored into C5,U-Shape Beam Bar (2x90° End Anchorage 250mm),16,1,2,2,3.205,6.41,1.578,10.11
+103,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Bedroom_Living (230x300, L=2.82m)",FF-BL-C12,"Bottom Curtailment Rebar (1#12mm, Central 0.75L)",Straight Bar,12,1,1,1,2.115,2.12,0.888,1.88
+104,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Bedroom_Living (230x300, L=2.82m)",FF-BL-S8,"2-Legged Shear Stirrups (230x300mm, 100/150mm c/c)",Rectangular Stirrup + 135° Hooks (10d),8,1,23,23,0.924,21.25,0.395,8.39
+105,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Stair_East_Trimmer (300x300, L=0.99m)",FF-SET-V12,"Trimmer Longitudinal Rebar (4#12mm: 2 top, 2 bot) into C7",C-Shape Beam Bar (2x90° End Anchorage 250mm),12,1,4,4,1.376,5.50,0.888,4.89
+106,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Stair_East_Trimmer (300x300, L=0.99m)",FF-SET-S8,2-Legged Shear Stirrups (300x300mm tie @ 100mm c/c),Square Stirrup + 135° Hooks (10d),8,1,9,9,1.064,9.58,0.395,3.78
+107,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Stair_West_Trimmer (230x300, L=1.71m)",FF-SWT-V12,"Trimmer Longitudinal Rebar (4#12mm: 2 top, 2 bot)",C-Shape Beam Bar (2x90° End Anchorage 250mm),12,1,4,4,2.100,8.40,0.888,7.46
+108,FF Roof Beam (Z = +6835.4 mm),"FF_RB2_Stair_West_Trimmer (230x300, L=1.71m)",FF-SWT-S8,2-Legged Shear Stirrups (230x300mm tie @ 125mm c/c),Rectangular Stirrup + 135° Hooks (10d),8,1,14,14,0.924,12.94,0.395,5.11
+109,Terrace Tank Saddle (Z = +9260.4 mm),OHT_Saddle_Beams North & South (2 Nos),OHT-SAD-T16,Top Load Transfer Rebar (2#16mm) across C7-C8,C-Shape Beam Bar (2x90° End Anchorage 180mm),16,2,2,4,3.782,15.13,1.578,23.87
+110,Terrace Tank Saddle (Z = +9260.4 mm),OHT_Saddle_Beams North & South (2 Nos),OHT-SAD-B16,Bottom Load Transfer Rebar (2#16mm) across C7-C8,U-Shape Beam Bar (2x90° End Anchorage 180mm),16,2,2,4,3.782,15.13,1.578,23.87
+111,Terrace Tank Saddle (Z = +9260.4 mm),OHT_Saddle_Beams North & South (2 Nos),OHT-SAD-S8,2-Legged Heavy Shear Stirrups (@ 100mm c/c continuous),Square Stirrup + 135° Hooks (10d),8,2,36,72,0.784,56.45,0.395,22.30
+
+---,--- DIA-WISE PROCUREMENT SUMMARY (Fe500D) ---,,,,,,,,,,,,
+Bar Dia (mm),Unit Wt (kg/m),Net Length (m),Net Weight (kg),Procurement (+4%) Length (m),Procurement Weight (kg),Procurement Weight (MT),Commercial 12m Bars Required,Standard Bundle Size (Bars),Bundles Required,,,,
+8 mm,0.395,1650.08,651.78,1716.08,677.85,0.678,144,10,15,,,,
+10 mm,0.617,166.14,102.51,172.79,106.61,0.107,15,7,3,,,,
+12 mm,0.888,462.11,410.36,480.60,426.77,0.427,41,5,9,,,,
+16 mm,1.578,1211.37,1911.54,1259.82,1988.00,1.988,105,3,35,,,,
+
+GRAND TOTAL,,,3076.19 kg (3.076 MT),,3199.24 kg (3.199 MT),,305,,62,,,,

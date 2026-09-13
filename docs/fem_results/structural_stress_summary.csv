@@ -1,0 +1,5 @@
+Floor Level,Z Elevation Range (mm),Node Count,Element Count,Max Downward Deflection Uz (mm),Max Resultant Displacement |U| (mm),Max von Mises Stress (MPa),Avg von Mises Stress (MPa),Permissible Stress Limit M25 (MPa),Structural Integrity Check
+Substructure Pedestals (Base to Plinth Soffit),"[-1200.0, 614.4]",6231,1792,-5.5591,5.564,2.682,0.599,25.0 MPa (fck) / 8.5 MPa (sigma_cbc),PASS (Within IS 456 Limits)
+"Ground Floor (Plinth Beams, Columns C1-C8, Beams)","[614.4, 3962.4]",27881,10502,-5.5591,5.5697,3.575,0.603,25.0 MPa (fck) / 8.5 MPa (sigma_cbc),PASS (Within IS 456 Limits)
+"First Floor (FF Slab, Columns C1-C8, Roof Beams)","[3962.4, 7135.4]",36044,15037,-1.8115,1.8153,3.188,0.555,25.0 MPa (fck) / 8.5 MPa (sigma_cbc),PASS (Within IS 456 Limits)
+"Terrace & Rooftop (Terrace Slab, Mumty, OHT Saddle Beams)","[7135.4, 9490.4]",23588,11339,-1.8029,1.8033,3.068,0.524,25.0 MPa (fck) / 8.5 MPa (sigma_cbc),PASS (Within IS 456 Limits)

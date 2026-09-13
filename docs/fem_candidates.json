@@ -1,0 +1,7338 @@
+{
+  "Substructure_Foundation_Group": [
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_Bed_C1",
+      "label": "PCC Bed C1 - SE Corner (100mm)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 115562500.0,
+      "bb": [
+        0.0,
+        1075.0,
+        6545.0,
+        7620.0,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_Bed_C2",
+      "label": "PCC Bed C2 - SW Corner (100mm)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 115562500.0,
+      "bb": [
+        3954.2,
+        5029.2,
+        6545.0,
+        7620.0,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "Sump_PCC_Blinding_Bed",
+      "label": "Sump Raft PCC Blinding Bed (100mm M7.5)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 407272761.0,
+      "bb": [
+        0.0,
+        2018.1,
+        0.0,
+        2018.1,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "Septic_PCC_Blinding_Bed",
+      "label": "Septic Raft PCC Blinding Bed (100mm M7.5)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 284249385.0,
+      "bb": [
+        3620.7,
+        5029.2,
+        0.0,
+        2018.1,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_N8_N8_C1",
+      "label": "PCC_N8_N8_C1 pcc",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 244576000.0,
+      "bb": [
+        -650.0,
+        950.0,
+        6741.4,
+        8270.0,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_N8_N8_C_SP",
+      "label": "PCC_N8_N8_C_SP pcc",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 244576000.0,
+      "bb": [
+        1430.0,
+        3030.0,
+        6741.2,
+        8269.8,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_N8_N8_C2",
+      "label": "PCC_N8_N8_C2 pcc",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 244576000.0,
+      "bb": [
+        4150.6,
+        5679.2,
+        6741.4,
+        8341.4,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_N8_N8_C13",
+      "label": "PCC_N8_N8_C13 pcc",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 244576000.0,
+      "bb": [
+        -650.0,
+        878.6,
+        2397.8,
+        3997.8,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_N8_N8_C4",
+      "label": "PCC_N8_N8_C4 pcc",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 244576000.0,
+      "bb": [
+        4150.6,
+        5679.2,
+        2397.8,
+        3997.8,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_N8_N8_C9",
+      "label": "PCC_N8_N8_C9 pcc",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 244576000.0,
+      "bb": [
+        -650.0,
+        950.0,
+        -650.0,
+        878.6,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_N8_N8_C10",
+      "label": "PCC_N8_N8_C10 pcc",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 244576000.0,
+      "bb": [
+        914.5,
+        2514.5,
+        -650.0,
+        878.6,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/PCC Footing Blinding Beds (100mm M7.5)",
+      "name": "PCC_N8_N8_C12",
+      "label": "PCC_N8_N8_C12 pcc",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 244576000.0,
+      "bb": [
+        4150.6,
+        5750.6,
+        -650.0,
+        878.6,
+        -1600.0,
+        -1500.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_C1",
+      "label": "RCC Footing C1 - SE Corner (400mm)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 400000000.0,
+      "bb": [
+        0.0,
+        1000.0,
+        6620.0,
+        7620.0,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_C2",
+      "label": "RCC Footing C2 - SW Corner (400mm)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 400000000.0,
+      "bb": [
+        4029.2,
+        5029.2,
+        6620.0,
+        7620.0,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Sump_Raft_Foundation_Slab",
+      "label": "Sump Combined Raft Base Slab (300mm RCC M25)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 1132691283.0,
+      "bb": [
+        0.0,
+        1943.1,
+        0.0,
+        1943.1,
+        -1500.0,
+        -1200.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Septic_Raft_Foundation_Slab",
+      "label": "Septic Combined Raft Base Slab (300mm RCC M25)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 777337155.0,
+      "bb": [
+        3695.7,
+        5029.2,
+        0.0,
+        1943.1,
+        -1500.0,
+        -1200.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_N8_C1",
+      "label": "Footing_N8_C1 footing",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 857160000.0,
+      "bb": [
+        -600.0,
+        900.0,
+        6791.4,
+        8220.0,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_N8_C_SP",
+      "label": "Footing_N8_C_SP footing",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 857160000.0,
+      "bb": [
+        1480.0,
+        2980.0,
+        6791.2,
+        8219.8,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_N8_C2",
+      "label": "Footing_N8_C2 footing",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 857160000.0,
+      "bb": [
+        4200.6,
+        5629.2,
+        6791.4,
+        8291.4,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_N8_C13",
+      "label": "Footing_N8_C13 footing",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 857160000.0,
+      "bb": [
+        -600.0,
+        828.6,
+        2447.8,
+        3947.8,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_N8_C4",
+      "label": "Footing_N8_C4 footing",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 857160000.0,
+      "bb": [
+        4200.6,
+        5629.2,
+        2447.8,
+        3947.8,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_N8_C9",
+      "label": "Footing_N8_C9 footing",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 857160000.0,
+      "bb": [
+        -600.0,
+        900.0,
+        -600.0,
+        828.6,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_N8_C10",
+      "label": "Footing_N8_C10 footing",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 857160000.0,
+      "bb": [
+        964.5,
+        2464.5,
+        -600.0,
+        828.6,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Isolated Footings (400mm M25)",
+      "name": "Footing_N8_C12",
+      "label": "Footing_N8_C12 footing",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 857160000.0,
+      "bb": [
+        4200.6,
+        5700.6,
+        -600.0,
+        828.6,
+        -1500.0,
+        -1100.0
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Column Pedestals (Substructure Stubs)",
+      "name": "Pedestal_C9",
+      "label": "Pedestal C6 NE Front 300x230",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 124431552.0,
+      "bb": [
+        0.0,
+        300.0,
+        0.0,
+        228.6,
+        -1200.0,
+        614.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Column Pedestals (Substructure Stubs)",
+      "name": "Pedestal_C10",
+      "label": "Pedestal C7 N Stair 300x230",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 124431552.0,
+      "bb": [
+        1564.5,
+        1864.5,
+        0.0,
+        228.6,
+        -1200.0,
+        614.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Column Pedestals (Substructure Stubs)",
+      "name": "Pedestal_C12",
+      "label": "Pedestal C8 NW Mumty 300x230",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 124431552.0,
+      "bb": [
+        4800.6,
+        5100.6,
+        0.0,
+        228.6,
+        -1200.0,
+        614.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Column Pedestals (Substructure Stubs)",
+      "name": "Pedestal_C13",
+      "label": "Pedestal C4 MidE 230x300",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 124431552.0,
+      "bb": [
+        0.0,
+        228.6,
+        3047.8,
+        3347.8,
+        -1200.0,
+        614.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Column Pedestals (Substructure Stubs)",
+      "name": "Pedestal_C4",
+      "label": "Pedestal C5 MidW 230x300",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 124431552.0,
+      "bb": [
+        4800.6,
+        5029.2,
+        3047.8,
+        3347.8,
+        -1200.0,
+        614.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Column Pedestals (Substructure Stubs)",
+      "name": "Pedestal_C1",
+      "label": "Pedestal C1 SE Rear 300x230",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 124431552.0,
+      "bb": [
+        0.0,
+        300.0,
+        7391.4,
+        7620.0,
+        -1200.0,
+        614.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Column Pedestals (Substructure Stubs)",
+      "name": "Pedestal_C_SP",
+      "label": "Pedestal C2 S Spine 300x230",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 124431552.0,
+      "bb": [
+        2080.0,
+        2380.0,
+        7391.2,
+        7619.8,
+        -1200.0,
+        614.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/RCC Column Pedestals (Substructure Stubs)",
+      "name": "Pedestal_C2",
+      "label": "Pedestal C3 SW Rear 230x300",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 124431552.0,
+      "bb": [
+        4800.6,
+        5029.2,
+        7391.4,
+        7691.4,
+        -1200.0,
+        614.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/GF Plinth Beams (PB1 & PB2)",
+      "name": "PB1_Front_North",
+      "label": "PB1 Front North (Grid A)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 344902536.0,
+      "bb": [
+        0.0,
+        5029.2,
+        0.0,
+        228.6,
+        614.4,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/GF Plinth Beams (PB1 & PB2)",
+      "name": "PB1_Rear_South",
+      "label": "PB1 Rear South (Grid D)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 431128170.0,
+      "bb": [
+        0.0,
+        5029.2,
+        7391.4,
+        7620.0,
+        614.4,
+        989.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/GF Plinth Beams (PB1 & PB2)",
+      "name": "PB1_East_Flank",
+      "label": "PB1 East Flank (Grid 1)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 522579600.0,
+      "bb": [
+        0.0,
+        228.6,
+        0.0,
+        7620.0,
+        614.4,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/GF Plinth Beams (PB1 & PB2)",
+      "name": "PB1_West_Flank",
+      "label": "PB1 West Flank (Grid 4)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 522579600.0,
+      "bb": [
+        4800.6,
+        5029.2,
+        0.0,
+        7620.0,
+        614.4,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/GF Plinth Beams (PB1 & PB2)",
+      "name": "PB2_Core_GridB",
+      "label": "PB2 Core Front Divider (Grid B)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 344902536.0,
+      "bb": [
+        0.0,
+        5029.2,
+        1714.5,
+        1943.1,
+        614.4,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/GF Plinth Beams (PB1 & PB2)",
+      "name": "PB2_Stair_East",
+      "label": "PB2 Stair East Divider",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 154305000.0,
+      "bb": [
+        1564.5,
+        1864.5,
+        0.0,
+        1714.5,
+        614.4,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/GF Plinth Beams (PB1 & PB2)",
+      "name": "PB2_Stair_West",
+      "label": "PB2 Stair West Divider",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 117580410.0,
+      "bb": [
+        3695.7,
+        3924.3,
+        0.0,
+        1714.5,
+        614.4,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/GF Plinth Beams (PB1 & PB2)",
+      "name": "PB2_Bedroom_Living",
+      "label": "PB2 Bedroom-Living Divider",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 193354452.0,
+      "bb": [
+        1981.2,
+        4800.6,
+        4457.7,
+        4686.3,
+        614.4,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)/GF Plinth Beams (PB1 & PB2)",
+      "name": "PB_LIVING_Primary",
+      "label": "PB-LIVING Primary Plinth Beam C4-C5 230x300 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 344902536.0,
+      "bb": [
+        0.0,
+        5029.2,
+        3047.8,
+        3276.4,
+        614.4,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)",
+      "name": "Foundation",
+      "label": "Foundation",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 35042097657.6,
+      "bb": [
+        0.0,
+        5029.2,
+        0.0,
+        7620.0,
+        0.0,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)",
+      "name": "Sump_UG_Water_Tank",
+      "label": "Sump_UG_Water_Tank",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 4668381243.9,
+      "bb": [
+        228.6,
+        1714.5,
+        228.6,
+        1714.5,
+        -1200.0,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)",
+      "name": "Septic_Tank",
+      "label": "Septic_Tank",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 2753147913.0,
+      "bb": [
+        3924.3,
+        4800.6,
+        228.6,
+        1714.5,
+        -1200.0,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)",
+      "name": "Sump_Manhole_Cover",
+      "label": "Sump Inspection Manhole Cover (600x600 SS Airtight)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 10980000.0,
+      "bb": [
+        671.6,
+        1271.6,
+        671.6,
+        1271.6,
+        914.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)",
+      "name": "Septic_Manhole_Cover",
+      "label": "Septic Tank Inspection Manhole Cover (500x500 Airtight)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 7625000.0,
+      "bb": [
+        4112.4,
+        4612.4,
+        721.6,
+        1221.6,
+        914.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Substructure & Foundation (Ground to -1.6m)",
+      "name": "Septic_Inlet_Tee_Pipe",
+      "label": "Septic Tank 110mm UPVC Inlet Dip Pipe (IS 2470)",
+      "type": "Part::Cylinder",
+      "shape_type": "Solid",
+      "volume": 5701990.7,
+      "bb": [
+        4307.5,
+        4417.5,
+        545.4,
+        654.6,
+        314.4,
+        914.4
+      ]
+    }
+  ],
+  "Ground_Floor_Group": [
+    {
+      "group_path": "Ground Floor (Complete)/GF Site_and_Substructure",
+      "name": "Road_Level",
+      "label": "Road_Level",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 1699010795.5,
+      "bb": [
+        -1524.0,
+        10668.0,
+        -4572.0,
+        0.0,
+        0.0,
+        30.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Site_and_Substructure/Foundation Entrance Steps",
+      "name": "Steps_Road_To_Sitout",
+      "label": "Entrance Steps (Flamed Saddle-Grey Granite Treads)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 165600000.0,
+      "bb": [
+        285.0,
+        1665.0,
+        -1300.0,
+        0.0,
+        183.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Site_and_Substructure/Foundation Entrance Steps",
+      "name": "Entrance_Steps_White_Risers",
+      "label": "Entrance Steps Crisp Architectural White Risers",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 20638800.0,
+      "bb": [
+        300.0,
+        1650.0,
+        -1275.0,
+        -255.0,
+        30.5,
+        914.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Site_and_Substructure/Foundation Entrance Steps",
+      "name": "Entrance_Steps_LED_Glow",
+      "label": "Entrance Steps Concealed Warm LED Floating Glow",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 810000.0,
+      "bb": [
+        300.0,
+        1650.0,
+        -1295.0,
+        -280.0,
+        175.4,
+        914.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Site_and_Substructure",
+      "name": "Sitout_Compound_Wall_East",
+      "label": "Sitout East Compound Wall",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 182218888.8,
+      "bb": [
+        -15.0,
+        167.4,
+        228.6,
+        1714.5,
+        914.4,
+        1844.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Site_and_Substructure",
+      "name": "North_Arrow",
+      "label": "North_Arrow",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 5663369.3,
+      "bb": [
+        -152.4,
+        152.4,
+        -914.4,
+        457.2,
+        0.0,
+        30.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/Columns",
+      "name": "Col_SE_Rear_C1",
+      "label": "C1 SE Rear Kitchen 300x230 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        0.0,
+        300.0,
+        7391.4,
+        7620.0,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/Columns",
+      "name": "Col_S_Spine_C2",
+      "label": "C2 S Centre BedKit Spine 300x230",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        2080.0,
+        2380.0,
+        7391.2,
+        7619.8,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/Columns",
+      "name": "Col_SW_Rear_C3",
+      "label": "C3 SW Rear Bedroom 230x300 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        4800.6,
+        5029.2,
+        7391.4,
+        7691.4,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/Columns",
+      "name": "Col_MidE_C4",
+      "label": "C4 MidEast LivKit 230x300 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        0.0,
+        228.6,
+        3047.8,
+        3347.8,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/Columns",
+      "name": "Col_MidW_C5",
+      "label": "C5 MidWest LivBed 230x300 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        4800.6,
+        5029.2,
+        3047.8,
+        3347.8,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/Columns",
+      "name": "Col_NE_Front_C6",
+      "label": "C6 NE Front Sitout 300x230 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        0.0,
+        300.0,
+        0.0,
+        228.6,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/Columns",
+      "name": "Col_N_Stair_C7",
+      "label": "C7 N Stair Spine 300x230 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        1564.5,
+        1864.5,
+        0.0,
+        228.6,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/Columns",
+      "name": "Col_NW_Mumty_C8",
+      "label": "C8 NW Mumty OHT 300x230 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        4800.6,
+        5100.6,
+        0.0,
+        228.6,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns",
+      "name": "Sitout",
+      "label": "Sitout",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 101940647.7,
+      "bb": [
+        -0.0,
+        1828.8,
+        0.0,
+        1828.8,
+        914.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns",
+      "name": "Staircase",
+      "label": "Staircase",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 110435701.7,
+      "bb": [
+        1828.8,
+        3810.0,
+        0.0,
+        1828.8,
+        914.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "RB1_Front_North",
+      "label": "RB1 Front North (Grid A)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 344902536.0,
+      "bb": [
+        0.0,
+        5029.2,
+        0.0,
+        228.6,
+        3662.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "RB1_Rear_South",
+      "label": "RB1 Rear South (Grid D)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 431128170.0,
+      "bb": [
+        0.0,
+        5029.2,
+        7391.4,
+        7620.0,
+        3662.4,
+        4037.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "RB1_East_Flank",
+      "label": "RB1 East Flank (Grid 1)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 522579600.0,
+      "bb": [
+        0.0,
+        228.6,
+        0.0,
+        7620.0,
+        3662.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "RB1_West_Flank",
+      "label": "RB1 West Flank (Grid 4)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 522579600.0,
+      "bb": [
+        4800.6,
+        5029.2,
+        0.0,
+        7620.0,
+        3662.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "RB2_Core_GridB",
+      "label": "RB2 Core Header Beam (Grid B)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 344902536.0,
+      "bb": [
+        0.0,
+        5029.2,
+        1714.5,
+        1943.1,
+        3662.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "RB2_Stair_East_Trimmer",
+      "label": "RB2 Stair East Trimmer",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 89100000.0,
+      "bb": [
+        1564.5,
+        1864.5,
+        0.0,
+        990.0,
+        3662.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "RB2_Stair_West_Trimmer",
+      "label": "RB2 Stair West Trimmer",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 117580410.0,
+      "bb": [
+        3695.7,
+        3924.3,
+        0.0,
+        1714.5,
+        3662.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "RB2_Bedroom_Living",
+      "label": "RB2 Bedroom-Living Divider",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 193354452.0,
+      "bb": [
+        1981.2,
+        4800.6,
+        4457.7,
+        4686.3,
+        3662.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "Kitchen_Beam_North",
+      "label": "Kitchen_Beam_North",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 109506555.2,
+      "bb": [
+        0.0,
+        2095.5,
+        5067.3,
+        5295.9,
+        3048.0,
+        3276.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF Roof Slab Beams (RB1 & RB2)",
+      "name": "RB_LIVING_Primary",
+      "label": "RB-LIVING Primary CrossBeam C4-C5 230x350 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 402386292.0,
+      "bb": [
+        0.0,
+        5029.2,
+        3047.8,
+        3276.4,
+        3662.4,
+        4012.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "GF_Lintel_Main_Door",
+      "label": "GF Full-Bay RCC Lintel Beam - Main Entrance Door (Col C1-C2)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 50951511.0,
+      "bb": [
+        228.6,
+        1714.5,
+        1714.5,
+        1943.1,
+        3014.4,
+        3164.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "GF_Continuous_Lintel_East_Wall",
+      "label": "GF Continuous Full-Width RCC Lintel Band - East Wall (Col C1-C7)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 134999730.0,
+      "bb": [
+        0.0,
+        152.4,
+        1714.5,
+        7620.0,
+        3048.0,
+        3198.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "GF_Continuous_Sill_East_Wall",
+      "label": "GF Continuous Full-Width RCC Sill Band - East Wall (Col C1-C7)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 67499865.0,
+      "bb": [
+        0.0,
+        152.4,
+        1714.5,
+        7620.0,
+        1773.0,
+        1848.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "GF_Continuous_Lintel_Bedroom_Wall",
+      "label": "GF Continuous Full-Width RCC Lintel Band - Bedroom North Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 44128944.0,
+      "bb": [
+        1981.2,
+        4876.8,
+        4572.0,
+        4673.6,
+        3048.0,
+        3198.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "GF_Continuous_Lintel_Toilet_Door",
+      "label": "GF Continuous Full-Width RCC Lintel Band - Toilet North Door Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 18290286.0,
+      "bb": [
+        3810.0,
+        4876.8,
+        1714.5,
+        1828.8,
+        2964.4,
+        3114.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "GF_Continuous_Lintel_Toilet_Front",
+      "label": "GF Continuous Full-Width RCC Lintel Band - Toilet Front North Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 22645116.0,
+      "bb": [
+        3810.0,
+        4800.6,
+        0.0,
+        152.4,
+        3048.0,
+        3198.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "GF_Continuous_Sill_Toilet_Front",
+      "label": "GF Continuous Full-Width RCC Sill Band - Toilet Front North Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 11322558.0,
+      "bb": [
+        3810.0,
+        4800.6,
+        0.0,
+        152.4,
+        2373.0,
+        2448.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "GF_Continuous_Lintel_South_Wall",
+      "label": "GF Continuous Full-Width RCC Lintel Band - South Wall (Grid D)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 114967512.0,
+      "bb": [
+        0.0,
+        5029.2,
+        7467.6,
+        7620.0,
+        3048.0,
+        3198.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Structure_and_Columns/GF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "GF_Continuous_Lintel_West_Wall",
+      "label": "GF Continuous Full-Width RCC Lintel Band - West Wall (Grid 4)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 174193200.0,
+      "bb": [
+        4876.8,
+        5029.2,
+        0.0,
+        7620.0,
+        3048.0,
+        3198.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living_Room001",
+      "name": "Living_Room",
+      "label": "Living_Room",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 457317072.5,
+      "bb": [
+        0.0,
+        5029.2,
+        1828.8,
+        5181.6,
+        914.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living_Room001",
+      "name": "Living_Room_Wall_East",
+      "label": "Living_Room_Wall_East",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1281336649.9,
+      "bb": [
+        0.0,
+        152.4,
+        1714.5,
+        5181.6,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living_Room001",
+      "name": "Living_Room_Wall_West",
+      "label": "Living_Room_Wall_West",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1327352184.0,
+      "bb": [
+        4876.8,
+        5029.2,
+        1714.5,
+        4572.0,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living_Room001",
+      "name": "Wall_Stair_SE_SW",
+      "label": "Wall_Stair_SE_SW",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1221164009.3,
+      "bb": [
+        1943.1,
+        3695.7,
+        1714.5,
+        1943.1,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living_Room001",
+      "name": "Living_Room_Wall_Main_Door",
+      "label": "Living_Room_Wall_Main_Door",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 531271703.5,
+      "bb": [
+        228.6,
+        1714.5,
+        1714.5,
+        1943.1,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living_Room001",
+      "name": "Main_Door",
+      "label": "Main Door Single Leaf (5-Panel Teak)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 68304700.0,
+      "bb": [
+        515.5,
+        1427.5,
+        1729.5,
+        1769.5,
+        920.4,
+        2945.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living_Room001",
+      "name": "GF_Main_Door_Frame",
+      "label": "Main Door Teak Frame",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 33280000.0,
+      "bb": [
+        446.6,
+        1496.5,
+        1714.5,
+        1814.5,
+        914.4,
+        3014.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living_Room001",
+      "name": "GF_Main_Door_Handle",
+      "label": "Main Door Lever Handle (Chrome)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 81709.3,
+      "bb": [
+        1226.5,
+        1367.5,
+        1690.1,
+        1729.5,
+        1790.4,
+        2010.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room East 3-Split Window",
+      "name": "Living_Room_Window_East_Frame",
+      "label": "Living Room Window East Frame (3-Track)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 26313120.0,
+      "bb": [
+        26.2,
+        126.2,
+        2510.0,
+        4310.0,
+        1848.0,
+        3048.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room East 3-Split Window",
+      "name": "Living_Room_Window_East_Sashes",
+      "label": "Living Room Window East 3-Split Sashes",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 9606600.0,
+      "bb": [
+        38.2,
+        122.2,
+        2560.0,
+        4260.0,
+        1898.0,
+        2998.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room East 3-Split Window",
+      "name": "Living_Room_Window_East_Glass",
+      "label": "Living Room Window East Glazing",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 7956000.0,
+      "bb": [
+        46.7,
+        105.7,
+        2600.0,
+        4220.0,
+        1938.0,
+        2958.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room East 3-Split Window",
+      "name": "Living_Room_Window_East_Sill",
+      "label": "Living Room Window East Granite Sill",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 7157280.0,
+      "bb": [
+        -20.0,
+        172.4,
+        2480.0,
+        4340.0,
+        1828.0,
+        1848.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room East 3-Split Window",
+      "name": "Living_Room_Window_East_Grill",
+      "label": "Living Room Window East Safety Grill",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 773585.8,
+      "bb": [
+        24.2,
+        36.2,
+        2555.0,
+        4265.0,
+        2109.0,
+        2787.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room East 3-Split Window",
+      "name": "GF_East_Living_Window_Chajja",
+      "label": "GF Living Room East Window Chajja Slab (450mm)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 98136000.0,
+      "bb": [
+        -450.0,
+        152.4,
+        2360.0,
+        4460.0,
+        3018.0,
+        3123.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room",
+      "name": "Living_Room_Loft_East",
+      "label": "Living Room East Wall Utility Loft (RCC)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 140589000.0,
+      "bb": [
+        152.4,
+        752.4,
+        1943.1,
+        5067.3,
+        3048.0,
+        3123.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room West Wall TV Entertainment Unit & Wi-Fi Station",
+      "name": "TV_Floating_Console_Cabinet",
+      "label": "TV Wall-Mounted Floating Console Cabinet (Charcoal Slate & Teak)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 157968000.0,
+      "bb": [
+        4516.8,
+        4876.8,
+        2340.0,
+        4160.0,
+        1350.0,
+        1600.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room West Wall TV Entertainment Unit & Wi-Fi Station",
+      "name": "TV_Acoustic_Fluted_Wall_Panel",
+      "label": "TV Acoustic Fluted Wood Wall Feature Panel (Warm Teak)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 57852000.0,
+      "bb": [
+        4850.8,
+        4876.8,
+        2350.0,
+        4150.0,
+        1350.0,
+        2750.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room West Wall TV Entertainment Unit & Wi-Fi Station",
+      "name": "TV_Smart_Display_65in",
+      "label": "65-Inch Ultra-HD 4K Smart TV Display (Obsidian Black)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 30933320.0,
+      "bb": [
+        4820.0,
+        4856.8,
+        2525.0,
+        3975.0,
+        1750.0,
+        2570.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room West Wall TV Entertainment Unit & Wi-Fi Station",
+      "name": "TV_Soundbar_Speaker",
+      "label": "Smart TV Wireless Soundbar System (Charcoal Black)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 4485000.0,
+      "bb": [
+        4755.0,
+        4830.0,
+        2790.0,
+        3710.0,
+        1640.0,
+        1705.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Living_Room/Living Room West Wall TV Entertainment Unit & Wi-Fi Station",
+      "name": "WiFi_Router_Unit",
+      "label": "Wi-Fi 6 Dual-Band High-Speed Router & Optical Terminal (Black)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1281551.3,
+      "bb": [
+        4590.0,
+        4770.0,
+        2450.0,
+        2650.0,
+        1600.0,
+        1775.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom",
+      "name": "Bedroom_10x10",
+      "label": "Bedroom_10x10",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 283168465.9,
+      "bb": [
+        1981.2,
+        5029.2,
+        4572.0,
+        7620.0,
+        914.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom",
+      "name": "Bedroom_Loft_North",
+      "label": "Bedroom_Loft_North",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 139354560.0,
+      "bb": [
+        1981.2,
+        5029.2,
+        4673.5,
+        5283.1,
+        3048.0,
+        3123.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Bedroom_Walls",
+      "name": "Bedroom_Wall_South",
+      "label": "Bedroom_Wall_South",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1415842329.6,
+      "bb": [
+        1981.2,
+        5029.2,
+        7467.6,
+        7620.0,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Bedroom_Walls",
+      "name": "Bedroom_Wall_West",
+      "label": "Bedroom_Wall_West",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1415842329.6,
+      "bb": [
+        4876.8,
+        5029.2,
+        4572.0,
+        7620.0,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Bedroom_Walls",
+      "name": "Bedroom_Wall_North",
+      "label": "Bedroom_Wall_North",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 744943026.2,
+      "bb": [
+        1981.2,
+        5029.2,
+        4572.0,
+        4673.5,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Bedroom_Walls",
+      "name": "Bedroom_Wall_East",
+      "label": "Bedroom_Wall_East",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 942950991.5,
+      "bb": [
+        1981.2,
+        2082.7,
+        4572.0,
+        7620.0,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Bedroom_Wardrobe",
+      "name": "Wardrobe_Vertical_West",
+      "label": "Wardrobe_Vertical_West",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 130064256.0,
+      "bb": [
+        2897.1,
+        2997.1,
+        4673.5,
+        5283.1,
+        914.4,
+        3048.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Bedroom_Wardrobe",
+      "name": "Wardrobe_Shelf_1",
+      "label": "Wardrobe_Shelf_1",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 12411456.0,
+      "bb": [
+        2082.7,
+        2897.1,
+        4673.5,
+        5283.1,
+        1341.1,
+        1366.1
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Bedroom_Wardrobe",
+      "name": "Wardrobe_Shelf_2",
+      "label": "Wardrobe_Shelf_2",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 12411456.0,
+      "bb": [
+        2082.7,
+        2897.1,
+        4673.5,
+        5283.1,
+        1767.8,
+        1792.8
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Bedroom_Wardrobe",
+      "name": "Wardrobe_Shelf_3",
+      "label": "Wardrobe_Shelf_3",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 12411456.0,
+      "bb": [
+        2082.7,
+        2897.1,
+        4673.5,
+        5283.1,
+        2194.6,
+        2219.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Bedroom_Wardrobe",
+      "name": "Wardrobe_Shelf_4",
+      "label": "Wardrobe_Shelf_4",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 12411456.0,
+      "bb": [
+        2082.7,
+        2897.1,
+        4673.5,
+        5283.1,
+        2621.3,
+        2646.3
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Door D2 Bedroom (914x2134mm)",
+      "name": "Door_Bedroom_Frame",
+      "label": "Door D2 Teak Frame",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 30855513.6,
+      "bb": [
+        3657.6,
+        4572.0,
+        4572.0,
+        4673.6,
+        914.4,
+        3048.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Door D2 Bedroom (914x2134mm)",
+      "name": "Door_Bedroom_Leaf",
+      "label": "Door D2 Teak Leaf",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 62294305.9,
+      "bb": [
+        3765.5,
+        4525.0,
+        4635.5,
+        4942.9,
+        924.4,
+        2988.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom/Door D2 Bedroom (914x2134mm)",
+      "name": "Door_Bedroom_Handle",
+      "label": "Door D2 SS Lever Handle",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 78200.0,
+      "bb": [
+        3757.5,
+        3875.4,
+        4873.3,
+        4928.5,
+        1784.4,
+        1944.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom/Bedroom",
+      "name": "Bedroom_AC_Indoor_Unit",
+      "label": "Bedroom 1.5T Inverter Split AC Indoor Unit",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 56577600.0,
+      "bb": [
+        2082.7,
+        2307.7,
+        5750.0,
+        6600.0,
+        3400.0,
+        3700.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom",
+      "name": "Bedroom_Tubelight_Fixture",
+      "label": "Master Bedroom 4ft LED Batten Luminaire (South Wall)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2173400.0,
+      "bb": [
+        2900.0,
+        4100.0,
+        7425.0,
+        7467.6,
+        3190.0,
+        3235.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom",
+      "name": "Bedroom_Tubelight_Junction_Box",
+      "label": "Bedroom Tubelight Concealed Junction Box (White)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 176714.6,
+      "bb": [
+        3462.5,
+        3537.5,
+        7467.6,
+        7507.6,
+        3175.2,
+        3250.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen",
+      "name": "Kitchen_6x7",
+      "label": "Kitchen_6.5x8",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 147247602.3,
+      "bb": [
+        0.0,
+        1981.2,
+        5181.6,
+        7620.0,
+        914.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Walls",
+      "name": "Kitchen_Wall_South",
+      "label": "Kitchen_Wall_South",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 920297514.2,
+      "bb": [
+        0.0,
+        1981.2,
+        7467.6,
+        7620.0,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Walls",
+      "name": "Kitchen_Wall_East",
+      "label": "Kitchen_Wall_East",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 953247784.1,
+      "bb": [
+        0.0,
+        152.4,
+        5181.6,
+        7620.0,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Walls",
+      "name": "Kitchen_Wall_West",
+      "label": "Kitchen_Wall_West",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 809684832.2,
+      "bb": [
+        1866.9,
+        1981.2,
+        5295.9,
+        7620.0,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Breakfast_Counter",
+      "name": "Kitchen_Counter_Top",
+      "label": "Kitchen_Counter_Top",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 29732688.9,
+      "bb": [
+        152.4,
+        1219.2,
+        4876.8,
+        5486.4,
+        1935.5,
+        1981.2
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Breakfast_Counter",
+      "name": "Kitchen_Counter_Base",
+      "label": "Kitchen_Counter_Base",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 379445744.3,
+      "bb": [
+        152.4,
+        762.0,
+        4876.8,
+        5486.4,
+        914.4,
+        1935.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Breakfast_Counter",
+      "name": "Kitchen_Counter_Rack_1",
+      "label": "Kitchen_Counter_Rack_1",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 9290304.0,
+      "bb": [
+        152.4,
+        762.0,
+        4876.8,
+        5486.4,
+        1254.8,
+        1279.8
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Breakfast_Counter",
+      "name": "Kitchen_Counter_Rack_2",
+      "label": "Kitchen_Counter_Rack_2",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 9290304.0,
+      "bb": [
+        152.4,
+        762.0,
+        4876.8,
+        5486.4,
+        1595.1,
+        1620.1
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Main_Counter",
+      "name": "Kitchen_Slab_East",
+      "label": "Kitchen_Slab_East",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 48309580.8,
+      "bb": [
+        152.4,
+        762.0,
+        5486.4,
+        7467.6,
+        1737.6,
+        1777.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Main_Counter",
+      "name": "Kitchen_Slab_South",
+      "label": "Kitchen_Slab_South",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 10680192.0,
+      "bb": [
+        762.0,
+        1200.0,
+        6858.0,
+        7467.6,
+        1737.6,
+        1777.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Main_Counter",
+      "name": "Kitchen_Base_East",
+      "label": "Kitchen_Base_East",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 994211172.9,
+      "bb": [
+        152.4,
+        762.0,
+        5486.4,
+        7467.6,
+        914.4,
+        1737.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Main_Counter",
+      "name": "Kitchen_Base_South",
+      "label": "Kitchen_Base_South",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 219798351.4,
+      "bb": [
+        762.0,
+        1200.0,
+        6858.0,
+        7467.6,
+        914.4,
+        1737.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Main_Counter",
+      "name": "Kitchen_Stove",
+      "label": "Kitchen_Stove_Cooktop",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 9091704.5,
+      "bb": [
+        217.2,
+        697.2,
+        6040.8,
+        6760.8,
+        1777.6,
+        1817.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Main_Counter",
+      "name": "Kitchen_Sink",
+      "label": "Kitchen_Sink",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3571456.0,
+      "bb": [
+        270.0,
+        720.0,
+        6940.0,
+        7370.0,
+        1583.6,
+        1783.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Main_Counter",
+      "name": "Kitchen_Faucet",
+      "label": "GF Kitchen Sink Tap 2: OHT Domestic Water Faucet (High-Arch)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 169203.1,
+      "bb": [
+        193.0,
+        406.0,
+        7135.0,
+        7211.8,
+        1784.0,
+        2004.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen_Main_Counter",
+      "name": "Kitchen_Fridge",
+      "label": "Kitchen_Fridge",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 662080000.0,
+      "bb": [
+        1240.0,
+        1840.0,
+        6777.6,
+        7467.6,
+        914.4,
+        2564.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen",
+      "name": "Kitchen_Loft_South",
+      "label": "Kitchen_Loft_South",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 78386940.0,
+      "bb": [
+        152.4,
+        1866.9,
+        6858.0,
+        7467.6,
+        3048.0,
+        3123.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen",
+      "name": "Kitchen_Loft_West",
+      "label": "Kitchen_Loft_West",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 71419212.0,
+      "bb": [
+        1257.3,
+        1866.9,
+        5295.9,
+        6858.0,
+        3048.0,
+        3123.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen",
+      "name": "Kitchen_Exhaust_Fan",
+      "label": "Kitchen_Exhaust_Fan",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 8289508.5,
+      "bb": [
+        -25.0,
+        172.4,
+        6985.0,
+        7265.0,
+        2724.4,
+        3004.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen",
+      "name": "Kitchen_Wall_North_Drop",
+      "label": "Kitchen_Wall_North_Drop",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 793693.9,
+      "bb": [
+        250.0,
+        1866.9,
+        5169.2,
+        5194.0,
+        3607.5,
+        3632.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen Window (2-Slide UPVC)",
+      "name": "Kitchen_Window_Frame",
+      "label": "Kitchen Window Frame (UPVC 2-Track)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 13794300.0,
+      "bb": [
+        38.7,
+        113.7,
+        5943.6,
+        6858.0,
+        1828.8,
+        3048.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen Window (2-Slide UPVC)",
+      "name": "Kitchen_Window_Sill",
+      "label": "Kitchen Window Granite Sill",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 4443264.0,
+      "bb": [
+        -15.0,
+        167.4,
+        5913.6,
+        6888.0,
+        1808.8,
+        1833.8
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen Window (2-Slide UPVC)",
+      "name": "Kitchen_Window_Sashes",
+      "label": "Kitchen Window 2-Slide Sashes",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 7048320.0,
+      "bb": [
+        42.7,
+        109.7,
+        5988.6,
+        6813.0,
+        1877.8,
+        2999.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen Window (2-Slide UPVC)",
+      "name": "Kitchen_Window_Glass",
+      "label": "Kitchen Window Glazing",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3839750.4,
+      "bb": [
+        55.2,
+        97.2,
+        6020.6,
+        6781.0,
+        1909.8,
+        2967.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen Window (2-Slide UPVC)",
+      "name": "Kitchen_Window_Hardware",
+      "label": "Kitchen Window Crescent Lock",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 6443.9,
+      "bb": [
+        72.0,
+        82.0,
+        6385.8,
+        6415.8,
+        2426.4,
+        2450.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen Window (2-Slide UPVC)",
+      "name": "Kitchen_Window_Grill",
+      "label": "Kitchen Window Safety Grill",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 877824.0,
+      "bb": [
+        18.0,
+        30.0,
+        5943.6,
+        6858.0,
+        1828.8,
+        3048.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen/Kitchen/Kitchen Window (2-Slide UPVC)",
+      "name": "GF_East_Kitchen_Window_Chajja",
+      "label": "GF Kitchen East Window Chajja Slab (450mm)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 57061872.0,
+      "bb": [
+        -450.0,
+        152.4,
+        5793.6,
+        7008.0,
+        3018.0,
+        3123.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen",
+      "name": "Kitchen_Tubelight_Fixture",
+      "label": "Kitchen 4ft LED Tubelight Fixture (Above Window)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 2160000.0,
+      "bb": [
+        152.4,
+        192.4,
+        5800.8,
+        7000.8,
+        3157.5,
+        3202.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Kitchen",
+      "name": "Kitchen_Tubelight_Junction_Box",
+      "label": "Kitchen Tubelight Junction Box",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 171648.8,
+      "bb": [
+        117.4,
+        155.4,
+        6357.5,
+        6442.5,
+        3137.5,
+        3222.3
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Wall_West",
+      "label": "Toilet_Wall_West",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 796411310.4,
+      "bb": [
+        4876.8,
+        5029.2,
+        0.0,
+        1714.5,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Wall_Front",
+      "label": "Toilet_Wall_Front",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 511472931.8,
+      "bb": [
+        3810.0,
+        5029.2,
+        0.0,
+        152.4,
+        914.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Wall_East",
+      "label": "Toilet_Wall_East",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 445990333.8,
+      "bb": [
+        3810.0,
+        3924.3,
+        0.0,
+        1828.8,
+        914.4,
+        3048.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Wall_North",
+      "label": "Toilet_Wall_North",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 84424778.1,
+      "bb": [
+        3810.0,
+        4876.8,
+        1714.5,
+        1828.8,
+        914.4,
+        3048.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Ceiling_Slab",
+      "label": "Toilet_Ceiling_Slab_2.1m",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 178838352.0,
+      "bb": [
+        3810.0,
+        4876.8,
+        152.4,
+        1828.8,
+        3048.0,
+        3148.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Indian_WC",
+      "label": "Toilet_Indian_Pan_WC",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 27086054.6,
+      "bb": [
+        4170.0,
+        4876.8,
+        152.4,
+        940.0,
+        914.4,
+        2450.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Shower",
+      "label": "Toilet_Shower",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 797346.2,
+      "bb": [
+        3924.3,
+        4189.3,
+        1030.0,
+        1170.0,
+        1647.3,
+        2754.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Ventilator",
+      "label": "Toilet_Ventilator",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 17685821.1,
+      "bb": [
+        4050.0,
+        4650.0,
+        -12.0,
+        161.4,
+        2448.0,
+        3048.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Wall_East_Top",
+      "label": "Toilet Wall East (Top / Parapet)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 191138714.5,
+      "bb": [
+        3810.0,
+        3924.3,
+        0.0,
+        1828.8,
+        3048.0,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet/Door D4 Toilet (750x2050mm)",
+      "name": "Door_Toilet_Frame",
+      "label": "Door D4 UPVC Frame",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 27146250.0,
+      "bb": [
+        3900.0,
+        4650.0,
+        1714.5,
+        1828.8,
+        914.4,
+        2964.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet/Door D4 Toilet (750x2050mm)",
+      "name": "Door_Toilet_Leaf",
+      "label": "Door D4 FRP Leaf",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 44576000.0,
+      "bb": [
+        4020.0,
+        4614.8,
+        1749.5,
+        2051.7,
+        924.4,
+        2914.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet/Door D4 Toilet (750x2050mm)",
+      "name": "Door_Toilet_Handle",
+      "label": "Door D4 Privacy Handle",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 45584.5,
+      "bb": [
+        4033.0,
+        4084.2,
+        1464.6,
+        1509.0,
+        1838.4,
+        1890.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Plumbing_Pipes",
+      "label": "Toilet_Plumbing_Pipes",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 5601585.4,
+      "bb": [
+        4460.0,
+        4540.0,
+        510.3,
+        589.7,
+        -200.0,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "Toilet_Exhaust_Fan_Box",
+      "label": "Toilet Exhaust Fan Concealed Outlet Box (White)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 281250.0,
+      "bb": [
+        4412.5,
+        4487.5,
+        102.4,
+        152.4,
+        2700.0,
+        2775.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "GF_Toilet_Wet_Area_Sunken_Floor",
+      "label": "GF Toilet Sunken Wet Area Floor (-15cm / 764.4mm FFL)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 18292168.8,
+      "bb": [
+        3924.3,
+        4800.6,
+        980.0,
+        1680.0,
+        764.4,
+        794.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "GF_Toilet_Wet_Dry_Step_Riser",
+      "label": "GF Toilet Wet-Dry Step Riser (150mm Black Granite Drop)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 4739998.3,
+      "bb": [
+        3924.3,
+        4800.6,
+        950.0,
+        980.0,
+        764.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "GF_Toilet_Door_Threshold_Curb",
+      "label": "GF Toilet Door Granite Threshold Curb (150mm Splash Barrier)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5450998.1,
+      "bb": [
+        3924.3,
+        4800.6,
+        1680.0,
+        1714.5,
+        764.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet/Toilet",
+      "name": "GF_Toilet_Dry_Area_Floor",
+      "label": "GF Toilet Dry Area Floor Platform (FFL +914.4mm)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 12417080.3,
+      "bb": [
+        3924.3,
+        4800.6,
+        152.4,
+        950.0,
+        914.4,
+        944.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Toilet",
+      "name": "GF_Toilet_Ventilator_Chajja",
+      "label": "GF Toilet Ventilator Chajja Slab (350mm)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 33487500.0,
+      "bb": [
+        3925.0,
+        4775.0,
+        -350.0,
+        152.4,
+        3018.0,
+        3123.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Staircase (C-Shaped Dog-Legged)",
+      "name": "Stair_Flight_1",
+      "label": "Stair Flight 1 (Ascending W)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 185374552.2,
+      "bb": [
+        1714.5,
+        3060.0,
+        230.0,
+        950.0,
+        914.4,
+        2034.3
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Staircase (C-Shaped Dog-Legged)",
+      "name": "Stair_Mid_Landing",
+      "label": "Stair Mid Landing (180 Turn)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 334690242.4,
+      "bb": [
+        3060.0,
+        3810.0,
+        230.0,
+        1710.0,
+        1909.3,
+        2780.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Staircase (C-Shaped Dog-Legged)",
+      "name": "Stair_Flight_2",
+      "label": "Stair Flight 2 (Ascending E)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 205628016.2,
+      "bb": [
+        1714.5,
+        3060.0,
+        990.0,
+        1690.0,
+        2655.9,
+        3900.8
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Staircase (C-Shaped Dog-Legged)",
+      "name": "Stair_Railing_Flight_1",
+      "label": "Stair Railing Flight 1 (SS)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 8627337.5,
+      "bb": [
+        1790.0,
+        3080.0,
+        230.1,
+        279.9,
+        1101.0,
+        2954.3
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Staircase (C-Shaped Dog-Legged)",
+      "name": "Stair_Railing_Landing",
+      "label": "Stair Railing Landing (Front Side)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 7234874.9,
+      "bb": [
+        3040.0,
+        3810.0,
+        230.1,
+        279.9,
+        2034.3,
+        3332.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Staircase (C-Shaped Dog-Legged)",
+      "name": "Stair_Railing_Flight_2",
+      "label": "Stair Railing Flight 2 Inner Well (SS 304)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 9217468.7,
+      "bb": [
+        1694.5,
+        3080.0,
+        965.1,
+        1014.9,
+        2780.9,
+        4820.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Feet",
+      "label": "Washing Machine Feet",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 100531.0,
+      "bb": [
+        3190.0,
+        3770.0,
+        1100.1,
+        1679.9,
+        944.9,
+        964.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Body",
+      "label": "Washing Machine Body",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 298800000.0,
+      "bb": [
+        3180.0,
+        3780.0,
+        1090.0,
+        1690.0,
+        964.9,
+        1794.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Door_Ring",
+      "label": "Door Chrome Ring",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1374446.8,
+      "bb": [
+        3280.7,
+        3679.3,
+        1065.0,
+        1090.0,
+        1150.0,
+        1550.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Door_Glass",
+      "label": "Door Tinted Glass",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1060287.5,
+      "bb": [
+        3330.5,
+        3629.5,
+        1070.0,
+        1085.0,
+        1200.0,
+        1500.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Door_Handle",
+      "label": "Door Handle",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 32000.0,
+      "bb": [
+        3290.0,
+        3310.0,
+        1068.0,
+        1088.0,
+        1310.0,
+        1390.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Console_Panel",
+      "label": "Control Console",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 720000.0,
+      "bb": [
+        3180.0,
+        3780.0,
+        1075.0,
+        1090.0,
+        1714.9,
+        1794.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Program_Dial",
+      "label": "Program Selector Knob",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 29452.4,
+      "bb": [
+        3455.0,
+        3505.0,
+        1060.0,
+        1075.0,
+        1730.0,
+        1780.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_LED_Display",
+      "label": "Digital LED Display",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 36000.0,
+      "bb": [
+        3540.0,
+        3720.0,
+        1070.0,
+        1075.0,
+        1735.0,
+        1775.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Detergent_Drawer",
+      "label": "Detergent Drawer",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 51200.0,
+      "bb": [
+        3220.0,
+        3380.0,
+        1067.0,
+        1075.0,
+        1735.0,
+        1775.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Base_Kickplate",
+      "label": "Base Service Panel",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 384000.0,
+      "bb": [
+        3180.0,
+        3780.0,
+        1082.0,
+        1090.0,
+        964.9,
+        1044.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Filter_Cap",
+      "label": "Drain Filter Cap",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 7602.7,
+      "bb": [
+        3678.1,
+        3721.9,
+        1077.0,
+        1082.0,
+        982.9,
+        1026.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Washing Machine (Under Mid-Landing)",
+      "name": "WM_Inlet_Hose",
+      "label": "Inlet Supply Hose",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 25300.3,
+      "bb": [
+        3440.1,
+        3459.9,
+        1630.1,
+        1673.3,
+        1788.4,
+        1885.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Pedestal",
+      "label": "Pump Foundation Pedestal",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 15360000.0,
+      "bb": [
+        2600.0,
+        3080.0,
+        450.0,
+        770.0,
+        944.9,
+        1044.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Base_Plate",
+      "label": "Pump Bed Plate",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1760000.0,
+      "bb": [
+        2640.0,
+        3040.0,
+        500.0,
+        720.0,
+        1044.9,
+        1064.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Motor_Casing",
+      "label": "Motor Stator Body (1.0 HP)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 5447521.7,
+      "bb": [
+        2790.0,
+        3030.0,
+        525.5,
+        694.5,
+        1085.0,
+        1255.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Cooling_Fins",
+      "label": "Motor Cooling Fins",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 88320.0,
+      "bb": [
+        2795.0,
+        3025.0,
+        534.4,
+        685.6,
+        1090.4,
+        1249.6
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Terminal_Box",
+      "label": "Motor Terminal Box",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 288000.0,
+      "bb": [
+        2870.0,
+        2950.0,
+        570.0,
+        650.0,
+        1255.0,
+        1300.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Fan_Cowl",
+      "label": "Cooling Fan Cowl",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1056203.5,
+      "bb": [
+        3030.0,
+        3080.0,
+        528.0,
+        692.0,
+        1088.0,
+        1252.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Volute_Casing",
+      "label": "Centrifugal Pump Volute",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 4156327.1,
+      "bb": [
+        2670.0,
+        2790.0,
+        505.4,
+        714.6,
+        1065.0,
+        1275.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Suction_Nozzle",
+      "label": "Suction Flange",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 381703.5,
+      "bb": [
+        2610.0,
+        2670.0,
+        565.2,
+        654.8,
+        1125.0,
+        1215.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Delivery_Nozzle",
+      "label": "Delivery Flange",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 326725.6,
+      "bb": [
+        2680.2,
+        2760.0,
+        570.0,
+        650.0,
+        1275.0,
+        1340.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Suction_Pipe",
+      "label": "Sump Suction Pipe (1.25\")",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1613889.1,
+      "bb": [
+        1600.0,
+        2629.8,
+        590.1,
+        629.9,
+        830.1,
+        1152.2
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Brass_NRV",
+      "label": "Brass Check Valve (NRV)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 197040.7,
+      "bb": [
+        2692.0,
+        2748.0,
+        582.2,
+        637.8,
+        1340.0,
+        1420.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Control_Valve",
+      "label": "Delivery Control Valve",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 178537.3,
+      "bb": [
+        2694.0,
+        2746.0,
+        584.2,
+        700.0,
+        1420.0,
+        1500.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Delivery_Pipe",
+      "label": "Overhead Tank Delivery Pipe (1\")",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 40212.4,
+      "bb": [
+        2704.1,
+        2736.0,
+        594.0,
+        626.0,
+        1500.0,
+        1550.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Pump_Motor_Supply_Conduit",
+      "label": "Pump_Motor_Supply_Conduit (SB-UTIL to Pump Terminal)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 944761.0,
+      "bb": [
+        2450.0,
+        3097.5,
+        600.1,
+        1717.5,
+        950.0,
+        1950.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Sump_Internal_Suction_Pipe",
+      "label": "Sump Internal Suction Drop Pipe (1.25\" GI/UPVC)",
+      "type": "Part::Cylinder",
+      "shape_type": "Solid",
+      "volume": 2790835.1,
+      "bb": [
+        1579.0,
+        1621.0,
+        589.2,
+        630.8,
+        -1100.0,
+        914.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities/Sump Pump Motor (Under Stair Flight 1)",
+      "name": "Sump_Foot_Valve",
+      "label": "Sump Foot Valve & Strainer (Brass)",
+      "type": "Part::Cylinder",
+      "shape_type": "Solid",
+      "volume": 577267.7,
+      "bb": [
+        1565.2,
+        1635.0,
+        575.1,
+        644.9,
+        -1180.0,
+        -1030.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities",
+      "name": "Wall_Stair_North",
+      "label": "Staircase North Wall (Up to Mid-Landing)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 610582004.6,
+      "bb": [
+        1943.1,
+        3695.7,
+        0.0,
+        228.6,
+        914.4,
+        2438.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Staircase_and_Utilities",
+      "name": "MLB_Staircase_Mid_Landing",
+      "label": "MLB Stair Mid-Landing Beam",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 135870696.0,
+      "bb": [
+        1714.5,
+        3695.7,
+        1714.5,
+        1943.1,
+        2138.4,
+        2438.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Sitout Entrance Gate",
+      "name": "Sitout_Gate_Posts",
+      "label": "Gate Posts & Mounting Brackets (SS 304)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5340896.0,
+      "bb": [
+        210.0,
+        1734.5,
+        -2.0,
+        72.0,
+        944.9,
+        1959.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Sitout Entrance Gate",
+      "name": "Sitout_Gate_Hinges",
+      "label": "Gate Barrel Hinges (4 Nos Heavy Duty SS)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 115822.0,
+      "bb": [
+        268.0,
+        1678.1,
+        24.1,
+        45.9,
+        1089.9,
+        1799.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Sitout Entrance Gate",
+      "name": "Sitout_Gate_Leaf_Right",
+      "label": "Gate Leaf Right (SS 304 Frame & Tubes)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5734977.8,
+      "bb": [
+        293.6,
+        963.6,
+        17.5,
+        52.5,
+        994.9,
+        1894.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Sitout Entrance Gate",
+      "name": "Sitout_Gate_Leaf_Left",
+      "label": "Gate Leaf Left (SS 304 Frame & Tubes)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5734977.8,
+      "bb": [
+        978.6,
+        1648.6,
+        17.5,
+        52.5,
+        994.9,
+        1894.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Sitout Entrance Gate",
+      "name": "Sitout_Gate_Accent_Charcoal_Panels",
+      "label": "Gate Accent Charcoal Infill Panels",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2109600.0,
+      "bb": [
+        335.6,
+        1606.6,
+        29.0,
+        41.0,
+        1351.9,
+        1501.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Sitout Entrance Gate",
+      "name": "Sitout_Gate_Accent_SS_Slats",
+      "label": "Gate Accent Horizontal SS Slats",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 886032.0,
+      "bb": [
+        335.6,
+        1606.6,
+        26.0,
+        44.0,
+        1369.9,
+        1483.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Sitout Entrance Gate",
+      "name": "Sitout_Gate_Handles_and_Rebate",
+      "label": "Gate Handles, Rebate Strip & Stopper (SS 304)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 505044.8,
+      "bb": [
+        933.6,
+        1008.6,
+        -24.4,
+        107.9,
+        944.9,
+        1894.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Sitout Entrance Gate",
+      "name": "Sitout_Gate_Locking_Hardware",
+      "label": "Gate Locking Hardware (Aldrop & Tower Bolts - Brass)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 162345.1,
+      "bb": [
+        845.0,
+        1095.0,
+        -8.0,
+        68.9,
+        929.9,
+        1874.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Front Elevation Design Features",
+      "name": "GF_Main_Door_Architectural_Surround",
+      "label": "Main Door White Architectural Block Surround",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 11850000.0,
+      "bb": [
+        380.0,
+        1620.0,
+        1690.0,
+        1715.0,
+        914.4,
+        3184.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Front Elevation Design Features",
+      "name": "GF_Stair_Wall_Niche_Frame",
+      "label": "Staircase North Wall Niche Border Frame (White)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5600000.0,
+      "bb": [
+        2379.4,
+        3259.4,
+        -15.0,
+        25.0,
+        1460.0,
+        2080.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Front Elevation Design Features",
+      "name": "GF_Stair_Wall_Louvers",
+      "label": "Staircase North Wall Architectural Louvers (Charcoal)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 7700100.0,
+      "bb": [
+        2424.4,
+        3214.4,
+        -8.0,
+        20.0,
+        1505.0,
+        2035.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Front Elevation Design Features",
+      "name": "GF_Roofline_Fascia_Band",
+      "label": "Ground Floor Roofline Fascia Band (Charcoal)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 26613300.0,
+      "bb": [
+        -20.0,
+        5049.2,
+        -25.0,
+        10.0,
+        3937.4,
+        4087.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Front Elevation Design Features",
+      "name": "GF_Roofline_Drip_Cornice",
+      "label": "Ground Floor Roofline Drip Cornice (White)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 7633800.0,
+      "bb": [
+        -30.0,
+        5059.2,
+        -35.0,
+        15.0,
+        4087.4,
+        4117.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Front Elevation Design Features",
+      "name": "GF_Terrace_Front_Railing",
+      "label": "Terrace Front Safety Railing (SS 304)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 8119774.2,
+      "bb": [
+        20.0,
+        1920.0,
+        7.5,
+        42.5,
+        4087.4,
+        4987.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Sitout Entrance & East Side Portico Canopy Slab",
+      "name": "GF_Entrance_Canopy_Slab",
+      "label": "Sitout L-Shaped Canopy Slab (Front + East)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 217309500.0,
+      "bb": [
+        -450.0,
+        1714.5,
+        -600.0,
+        1943.1,
+        3962.4,
+        4062.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Sitout Entrance & East Side Portico Canopy Slab",
+      "name": "GF_Entrance_Canopy_Fascia",
+      "label": "Canopy Dark Slate Fascia Band (Front + East)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 16843450.0,
+      "bb": [
+        -475.0,
+        1714.5,
+        -625.0,
+        1943.1,
+        3947.4,
+        4077.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Sitout Entrance & East Side Portico Canopy Slab",
+      "name": "GF_Entrance_Canopy_Drip",
+      "label": "Canopy White Drip Cornice (Front + East)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 4158080.0,
+      "bb": [
+        -485.0,
+        1714.5,
+        -635.0,
+        1958.1,
+        4077.4,
+        4097.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Sitout Entrance & East Side Portico Canopy Slab",
+      "name": "GF_Canopy_Teak_Soffit",
+      "label": "Ground Floor Canopy Warm Teak Soffit",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 41164740.0,
+      "bb": [
+        -450.0,
+        3810.0,
+        -600.0,
+        1943.1,
+        3950.4,
+        3962.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Sitout Entrance & East Side Portico Canopy Slab",
+      "name": "GF_Canopy_LED_Bezels",
+      "label": "GF Canopy Recessed Spotlights White Bezels",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 80424.8,
+      "bb": [
+        -265.0,
+        3340.0,
+        -339.7,
+        1009.7,
+        3946.4,
+        3950.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Sitout Entrance & East Side Portico Canopy Slab",
+      "name": "GF_Canopy_LED_Glow",
+      "label": "GF Canopy Recessed 3000K LED Warm Glow Lenses",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 29556.1,
+      "bb": [
+        -253.0,
+        3328.0,
+        -327.8,
+        997.8,
+        3946.4,
+        3949.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Ground Floor Staircase North Rain Protection Canopy & Chajja",
+      "name": "GF_Stair_North_Canopy_Slab",
+      "label": "GF Stair North Canopy Slab (600mm Proj)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 125730000.0,
+      "bb": [
+        1714.5,
+        3810.0,
+        -600.0,
+        0.0,
+        3962.4,
+        4062.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Ground Floor Staircase North Rain Protection Canopy & Chajja",
+      "name": "GF_Stair_North_Canopy_Fascia",
+      "label": "GF Stair North Canopy Dark Fascia",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 8841625.0,
+      "bb": [
+        1714.5,
+        3835.0,
+        -625.0,
+        0.0,
+        3947.4,
+        4077.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Ground Floor Staircase North Rain Protection Canopy & Chajja",
+      "name": "GF_Stair_North_Canopy_Drip",
+      "label": "GF Stair North Canopy White Drip Cornice",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2188900.0,
+      "bb": [
+        1714.5,
+        3850.0,
+        -635.0,
+        10.0,
+        4077.4,
+        4097.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)",
+      "name": "Electrical_Slab_Fan_Boxes",
+      "label": "Slab Ceiling Fan Heavy-Duty Hook Boxes (Red)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1470265.4,
+      "bb": [
+        2454.6,
+        3540.0,
+        3197.8,
+        6129.6,
+        3962.4,
+        4027.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)",
+      "name": "Electrical_Slab_Light_Pots",
+      "label": "Slab Deep PVC Downlight & Pendant Pot Boxes (Blue)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5107051.6,
+      "bb": [
+        327.5,
+        4342.5,
+        814.8,
+        7142.2,
+        3962.4,
+        4022.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)",
+      "name": "Staircase_Wall_Light_Fixture",
+      "label": "Staircase_Wall_Light_Fixture",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1249000.0,
+      "bb": [
+        3745.0,
+        3810.0,
+        910.0,
+        1030.0,
+        4776.8,
+        4976.8
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)",
+      "name": "Living_Slab_Fan_Box",
+      "label": "Living Room Ceiling Fan Box (FB-1)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 936000.0,
+      "bb": [
+        2454.6,
+        2574.6,
+        3197.4,
+        3317.4,
+        3962.4,
+        4027.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)",
+      "name": "Living_Slab_Light_Pots",
+      "label": "Living Room Recessed Downlight Pots (DL-1 to DL-4)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1361880.4,
+      "bb": [
+        1157.5,
+        3842.5,
+        2457.8,
+        4042.2,
+        3962.4,
+        4022.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)",
+      "name": "Kitchen_Exhaust_Fan_Junction_Box",
+      "label": "Kitchen_Exhaust_Fan_Junction_Box",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 171648.8,
+      "bb": [
+        117.4,
+        155.4,
+        7237.5,
+        7322.5,
+        2821.9,
+        2906.7
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Ceiling Slab Conduit Networks",
+      "name": "Living_Slab_Conduit_Network",
+      "label": "Living Room Slab 25mm PVC Conduit Network (Orange)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 7634315.6,
+      "bb": [
+        200.0,
+        4844.0,
+        1912.6,
+        4750.0,
+        4007.5,
+        4032.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Ceiling Slab Conduit Networks",
+      "name": "Bedroom_Slab_Conduit_Network",
+      "label": "Bedroom_Slab_Conduit_Network",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 4250243.7,
+      "bb": [
+        2082.7,
+        4300.0,
+        4661.1,
+        7480.0,
+        4007.5,
+        4032.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Ceiling Slab Conduit Networks",
+      "name": "Electrical_Slab_Conduit_Network",
+      "label": "Slab 25mm Heavy-Duty PVC Conduit Piping Runs (Orange)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5143684.3,
+      "bb": [
+        150.1,
+        3810.0,
+        250.0,
+        7469.3,
+        932.5,
+        4032.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Ceiling Slab Conduit Networks",
+      "name": "Toilet_Electrical_Conduits",
+      "label": "Ground Floor Toilet Complete Electrical Conduit Network (Orange)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2228806.1,
+      "bb": [
+        3547.5,
+        4902.5,
+        147.6,
+        1982.4,
+        2189.4,
+        3092.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Ceiling Slab Conduit Networks",
+      "name": "GF_Canopy_Light_Pots",
+      "label": "GF Canopy Recessed Spotlight Pots (Blue)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2147231.5,
+      "bb": [
+        -267.5,
+        3342.5,
+        -342.2,
+        1012.2,
+        3950.4,
+        4045.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Ceiling Slab Conduit Networks",
+      "name": "GF_Canopy_Conduit_Network",
+      "label": "GF Canopy Spotlight 25mm PVC Conduit Network (Orange)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3253021.0,
+      "bb": [
+        -237.5,
+        3300.0,
+        -312.4,
+        1732.4,
+        4020.0,
+        4045.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Chased Wall Conduit Drops",
+      "name": "Living_Slab_Wall_Drops",
+      "label": "Living Room Chased Wall Conduit Drops (Emerald Green)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3936219.2,
+      "bb": [
+        187.5,
+        4856.5,
+        1912.6,
+        4987.4,
+        2140.0,
+        4020.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Chased Wall Conduit Drops",
+      "name": "Bedroom_Slab_Wall_Drops",
+      "label": "Bedroom_Slab_Wall_Drops",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2414461.2,
+      "bb": [
+        2070.2,
+        3337.5,
+        4661.1,
+        7474.9,
+        1689.4,
+        4020.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Chased Wall Conduit Drops",
+      "name": "Electrical_Slab_Wall_Drops",
+      "label": "GF_Electrical_Wall_Conduits_and_Drops",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5219019.9,
+      "bb": [
+        127.5,
+        3812.5,
+        957.6,
+        7494.9,
+        2020.0,
+        4776.8
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Chased Wall Conduit Drops",
+      "name": "Bedroom_Tubelight_Conduit_Drop",
+      "label": "Bedroom Tubelight Wall Drop & Slab Conduit (Orange)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 253086.7,
+      "bb": [
+        3490.0,
+        3510.0,
+        7457.7,
+        7477.5,
+        3214.4,
+        4020.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Chased Wall Conduit Drops",
+      "name": "Kitchen_Tubelight_Conduit_Drop",
+      "label": "Kitchen Tubelight Conduit Drop & Slab Run",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 545532.5,
+      "bb": [
+        142.4,
+        1050.8,
+        6315.0,
+        6410.0,
+        3180.0,
+        4029.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)/Ground Floor Electrical Pipelines (Complete Conduits & Drops)/GF Chased Wall Conduit Drops",
+      "name": "Kitchen_Exhaust_Fan_Conduit_Drop",
+      "label": "Kitchen_Exhaust_Fan_Conduit_Drop",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 649312.6,
+      "bb": [
+        142.4,
+        1052.0,
+        7090.2,
+        7290.0,
+        2864.4,
+        4029.9
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)",
+      "name": "Bedroom_Slab_Fan_Box",
+      "label": "Bedroom_Slab_Fan_Box",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 936000.0,
+      "bb": [
+        3445.0,
+        3565.0,
+        6036.0,
+        6156.0,
+        3962.4,
+        4027.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Electrical Slab Conduit & Ceiling Lighting Layout (Ground Floor)",
+      "name": "Toilet_Ceiling_Light_Pot",
+      "label": "Toilet Ceiling Moisture-Resistant Downlight Pot (Blue)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 340470.1,
+      "bb": [
+        4307.5,
+        4392.5,
+        957.7,
+        1042.3,
+        3048.0,
+        3108.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Ground Floor Modular Switchboards & Distribution Board",
+      "name": "Electrical_Switchboard_Plates",
+      "label": "Ground Floor Modular Switchboard Faceplates & MDB (White)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 10216680.0,
+      "bb": [
+        152.4,
+        4876.8,
+        1200.0,
+        7470.0,
+        1460.0,
+        3345.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Ground Floor Modular Switchboards & Distribution Board",
+      "name": "Electrical_Switchboard_Rocker_Switches",
+      "label": "Ground Floor Modular Rocker Switches & Sockets (Charcoal)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1418106.2,
+      "bb": [
+        160.4,
+        4867.9,
+        1210.0,
+        7471.0,
+        1470.0,
+        3320.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Ground Floor Modular Switchboards & Distribution Board",
+      "name": "Staircase_Switchboard_SB_STAIR1",
+      "label": "Master Outdoor & Staircase Switchboard SB-STAIR1 (6-Module Unified)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 260840.0,
+      "bb": [
+        1917.5,
+        2117.5,
+        1695.5,
+        1714.5,
+        2488.4,
+        2563.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Ground Floor Modular Switchboards & Distribution Board",
+      "name": "Staircase_Switchboard_SB_UTIL",
+      "label": "Under-Stair Utility Switchboard SB-UTIL (Washer + Pump Switch)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 271600.0,
+      "bb": [
+        2975.0,
+        3125.0,
+        1699.0,
+        1716.0,
+        1950.0,
+        2025.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Ground Floor Modular Switchboards & Distribution Board",
+      "name": "Living_Room_Switchboards",
+      "label": "Living Room Switchboards (East MDB Behind Door, SB-2, SB-3, SB-16 - Unified)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 10908235.0,
+      "bb": [
+        152.4,
+        4850.8,
+        1893.1,
+        5050.0,
+        1460.0,
+        3345.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/Ground Floor Modular Switchboards & Distribution Board",
+      "name": "Bedroom_AC_Switchboard",
+      "label": "Bedroom AC 20A DP Switch & Socket (South of AC)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 225000.0,
+      "bb": [
+        2082.7,
+        2107.7,
+        6940.0,
+        7060.0,
+        3262.5,
+        3337.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/CCTV Security Surveillance & ELV Network",
+      "name": "CCTV_Junction_Boxes",
+      "label": "CCTV IP66 Recessed Concealed Junction Boxes (White)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1520028.2,
+      "bb": [
+        -248.0,
+        2247.7,
+        -447.7,
+        2247.7,
+        3950.4,
+        8648.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/CCTV Security Surveillance & ELV Network",
+      "name": "CCTV_Cameras_3D",
+      "label": "CCTV 4MP IP Cameras with Swivel Mounts (Charcoal & White)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 949105.6,
+      "bb": [
+        -245.0,
+        2241.2,
+        -444.7,
+        2244.7,
+        3900.4,
+        8642.7
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/CCTV Security Surveillance & ELV Network",
+      "name": "CCTV_Camera_Lenses",
+      "label": "CCTV Infrared Filter Lens Faceplates (Glass Black)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 21991.1,
+      "bb": [
+        -212.9,
+        2196.6,
+        -440.1,
+        2193.1,
+        3903.4,
+        8601.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/CCTV Security Surveillance & ELV Network",
+      "name": "CCTV_NVR_Hub_Model",
+      "label": "CCTV 8-Channel 4K PoE NVR Central Hub (Black)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5538800.0,
+      "bb": [
+        220.0,
+        520.0,
+        1850.0,
+        2230.0,
+        3123.0,
+        3173.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/CCTV Security Surveillance & ELV Network",
+      "name": "CCTV_Conduit_Network",
+      "label": "CCTV, HDMI & Wi-Fi Rigid PVC Conduits (100% Concealed in Slabs & Wall Chases)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 9523947.6,
+      "bb": [
+        -209.9,
+        4865.0,
+        -410.0,
+        3289.9,
+        935.1,
+        8600.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/CCTV Security Surveillance & ELV Network",
+      "name": "CCTV_UPS_Power_Backup_Model",
+      "label": "CCTV & Home UPS 1.1kVA Inverter & 150Ah Tubular Battery",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 50366924.8,
+      "bb": [
+        220.0,
+        506.0,
+        2300.0,
+        3175.0,
+        3123.0,
+        3558.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/CCTV Security Surveillance & ELV Network",
+      "name": "Roof_to_TV_Service_Conduit",
+      "label": "Dish TV & Wi-Fi Fiber Continuous Vertical Riser Conduit (Roof to TV Unit)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 3514751.0,
+      "bb": [
+        4837.0,
+        4863.0,
+        3237.1,
+        3262.9,
+        1520.0,
+        8140.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "Bedroom_AC_Outdoor_Unit_Wall_Brackets",
+      "label": "GF Bedroom AC GI Cantilever Wall Brackets",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1926663.7,
+      "bb": [
+        -450.0,
+        6.0,
+        6100.0,
+        6700.0,
+        2923.0,
+        3173.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "Bedroom_AC_Outdoor_Unit_Damping_Pads",
+      "label": "GF Bedroom AC Vibration Damping Rubber Pads",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 200000.0,
+      "bb": [
+        -325.0,
+        -95.0,
+        6100.0,
+        6700.0,
+        3173.0,
+        3193.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "Bedroom_AC_Outdoor_Unit_Cabinet",
+      "label": "GF Bedroom AC Condensing Unit 1.5T (ODU)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 134701196.7,
+      "bb": [
+        -385.0,
+        -60.0,
+        6000.0,
+        6815.0,
+        3193.0,
+        3743.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "Bedroom_AC_Outdoor_Unit_Fan_Grille",
+      "label": "GF Bedroom AC Axial Fan Grille Ring",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 220539.8,
+      "bb": [
+        -378.0,
+        -360.0,
+        6100.2,
+        6499.8,
+        3268.0,
+        3667.4
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "Bedroom_AC_Outdoor_Unit_Refrigerant_Bundle",
+      "label": "GF Bedroom AC Insulated Copper Lines & Wall Sleeve",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 825695.0,
+      "bb": [
+        -264.8,
+        40.0,
+        6717.7,
+        6810.0,
+        3280.5,
+        3345.5
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "Bedroom_AC_Outdoor_Unit_Condensate_Drain",
+      "label": "GF Bedroom AC Condensate Gravity Drain Pipe",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 294524.3,
+      "bb": [
+        -32.5,
+        -7.5,
+        6767.6,
+        6792.4,
+        2688.0,
+        3288.0
+      ]
+    },
+    {
+      "group_path": "Ground Floor (Complete)/GF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "Bedroom_AC_Indoor_Refrigerant_Run",
+      "label": "GF Bedroom AC Refrigerant Run Over South Kitchen Loft (Concealed)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5406087.2,
+      "bb": [
+        0.0,
+        2082.7,
+        6153.0,
+        7022.0,
+        1853.0,
+        3472.0
+      ]
+    }
+  ],
+  "First_Floor_Group": [
+    {
+      "group_path": "First Floor (Complete)/FF Structural Columns",
+      "name": "FF_Col_SE_Rear_C1",
+      "label": "FF C1 SE Rear Kitchen 300x230 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        0.0,
+        300.0,
+        7391.4,
+        7620.0,
+        3962.4,
+        7010.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structural Columns",
+      "name": "FF_Col_S_Spine_C2",
+      "label": "FF C2 S Centre BedKit Spine 300x230",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        2080.0,
+        2380.0,
+        7391.2,
+        7619.8,
+        3962.4,
+        7010.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structural Columns",
+      "name": "FF_Col_SW_Rear_C3",
+      "label": "FF C3 SW Rear Bedroom 230x300 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        4800.6,
+        5029.2,
+        7391.4,
+        7691.4,
+        3962.4,
+        7010.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structural Columns",
+      "name": "FF_Col_MidE_C4",
+      "label": "FF C4 MidEast LivKit 230x300 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        0.0,
+        228.6,
+        3047.8,
+        3347.8,
+        3962.4,
+        7010.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structural Columns",
+      "name": "FF_Col_MidW_C5",
+      "label": "FF C5 MidWest LivBed 230x300 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        4800.6,
+        5029.2,
+        3047.8,
+        3347.8,
+        3962.4,
+        7010.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structural Columns",
+      "name": "FF_Col_NE_Front_C6",
+      "label": "FF C6 NE Front Sitout 300x230 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        0.0,
+        300.0,
+        0.0,
+        228.6,
+        3962.4,
+        7010.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structural Columns",
+      "name": "FF_Col_N_Stair_C7",
+      "label": "FF C7 N Stair Spine 300x230 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        1564.5,
+        1864.5,
+        0.0,
+        228.6,
+        3962.4,
+        7010.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structural Columns",
+      "name": "FF_Col_NW_Mumty_C8",
+      "label": "FF C8 NW Mumty OHT 300x230 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 209031840.0,
+      "bb": [
+        4800.6,
+        5100.6,
+        0.0,
+        228.6,
+        3962.4,
+        7010.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)",
+      "name": "FF_Bedroom_Wall_South",
+      "label": "FF Bedroom_Wall_South",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1415842329.6,
+      "bb": [
+        1981.2,
+        5029.2,
+        7467.6,
+        7620.0,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)",
+      "name": "FF_Bedroom_Wall_West",
+      "label": "FF Bedroom_Wall_West",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1415842329.6,
+      "bb": [
+        4876.8,
+        5029.2,
+        4572.0,
+        7620.0,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)",
+      "name": "FF_Bedroom_Wall_East",
+      "label": "FF Bedroom_Wall_East",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 942965856.0,
+      "bb": [
+        1981.2,
+        2082.7,
+        4572.0,
+        7620.0,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)",
+      "name": "FF_Bedroom_Wall_North",
+      "label": "FF Bedroom_Wall_North",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 744943026.2,
+      "bb": [
+        1981.2,
+        5029.2,
+        4572.0,
+        4673.5,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)",
+      "name": "FF_Bedroom_Loft_North",
+      "label": "FF Bedroom_Loft_North",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 139354560.0,
+      "bb": [
+        1981.2,
+        5029.2,
+        4673.5,
+        5283.1,
+        6221.0,
+        6296.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)",
+      "name": "FF_Bedroom_Wardrobe",
+      "label": "FF Bedroom_Wardrobe",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 179710080.0,
+      "bb": [
+        2082.7,
+        2997.1,
+        4673.5,
+        5283.1,
+        4087.4,
+        6221.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)/FF_Door D2 Bedroom (914x2134mm)",
+      "name": "FF_Door_Bedroom_Frame",
+      "label": "FF_Door D2 Teak Frame",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 30855513.6,
+      "bb": [
+        3657.6,
+        4572.0,
+        4572.0,
+        4673.6,
+        4087.4,
+        6221.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)/FF_Door D2 Bedroom (914x2134mm)",
+      "name": "FF_Door_Bedroom_Leaf",
+      "label": "FF_Door D2 Teak Leaf",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 62294305.9,
+      "bb": [
+        3765.5,
+        4525.0,
+        4635.5,
+        4942.9,
+        4097.4,
+        6161.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)/FF_Door D2 Bedroom (914x2134mm)",
+      "name": "FF_Door_Bedroom_Handle",
+      "label": "FF_Door D2 SS Lever Handle",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 78200.0,
+      "bb": [
+        3757.5,
+        3875.4,
+        4873.3,
+        4928.5,
+        4957.4,
+        5117.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)",
+      "name": "FF_Bedroom_Tubelight_Fixture",
+      "label": "FF Master Bedroom 4ft LED Batten Luminaire (South Wall)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2173400.0,
+      "bb": [
+        2900.0,
+        4100.0,
+        7425.0,
+        7467.6,
+        6363.0,
+        6408.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)",
+      "name": "FF_Bedroom_Tubelight_Junction_Box",
+      "label": "FF Bedroom Tubelight Concealed Junction Box (White)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 176714.6,
+      "bb": [
+        3462.5,
+        3537.5,
+        7467.6,
+        7507.6,
+        6348.2,
+        6423.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom (10x10)",
+      "name": "FF_Bedroom_AC_Indoor_Unit",
+      "label": "FF Bedroom 1.5T Inverter Split AC Indoor Unit",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 56577600.0,
+      "bb": [
+        2082.7,
+        2307.7,
+        5750.0,
+        6600.0,
+        6573.0,
+        6873.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Wall_South",
+      "label": "FF Kitchen_Wall_South",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 920297514.2,
+      "bb": [
+        0.0,
+        1981.2,
+        7467.6,
+        7620.0,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Wall_East",
+      "label": "FF Kitchen_Wall_East",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 953247784.1,
+      "bb": [
+        0.0,
+        152.4,
+        5181.6,
+        7620.0,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Wall_West",
+      "label": "FF Kitchen_Wall_West",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 809684832.2,
+      "bb": [
+        1866.9,
+        1981.2,
+        5295.9,
+        7620.0,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Wall_North_Drop",
+      "label": "FF Kitchen_Wall_North_Drop",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 793693.9,
+      "bb": [
+        250.0,
+        1866.9,
+        5169.2,
+        5194.0,
+        6780.5,
+        6805.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Breakfast_Counter",
+      "label": "FF Kitchen_Breakfast_Counter",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 427759041.3,
+      "bb": [
+        152.4,
+        1219.2,
+        4876.8,
+        5486.4,
+        4087.4,
+        5154.2
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Main_Counter",
+      "label": "FF Kitchen_Main_Counter",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1947868231.2,
+      "bb": [
+        152.4,
+        1840.0,
+        5486.4,
+        7467.6,
+        4087.4,
+        5737.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Loft_South",
+      "label": "FF Kitchen_Loft_South",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 78386940.0,
+      "bb": [
+        152.4,
+        1866.9,
+        6858.0,
+        7467.6,
+        6221.0,
+        6296.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Loft_West",
+      "label": "FF Kitchen_Loft_West",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 71419212.0,
+      "bb": [
+        1257.3,
+        1866.9,
+        5295.9,
+        6858.0,
+        6221.0,
+        6296.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Exhaust_Fan",
+      "label": "FF Kitchen_Exhaust_Fan",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 8289508.5,
+      "bb": [
+        -25.0,
+        172.4,
+        6985.0,
+        7265.0,
+        5897.4,
+        6177.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)/FF_Kitchen Window (2-Slide UPVC)",
+      "name": "FF_Kitchen_Window_Frame",
+      "label": "FF_Kitchen Window Frame (UPVC 2-Track)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 13794300.0,
+      "bb": [
+        38.7,
+        113.7,
+        5943.6,
+        6858.0,
+        5001.8,
+        6221.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)/FF_Kitchen Window (2-Slide UPVC)",
+      "name": "FF_Kitchen_Window_Sill",
+      "label": "FF_Kitchen Window Granite Sill",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 4443264.0,
+      "bb": [
+        -15.0,
+        167.4,
+        5913.6,
+        6888.0,
+        4981.8,
+        5006.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)/FF_Kitchen Window (2-Slide UPVC)",
+      "name": "FF_Kitchen_Window_Sashes",
+      "label": "FF_Kitchen Window 2-Slide Sashes",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 7048320.0,
+      "bb": [
+        42.7,
+        109.7,
+        5988.6,
+        6813.0,
+        5050.8,
+        6172.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)/FF_Kitchen Window (2-Slide UPVC)",
+      "name": "FF_Kitchen_Window_Glass",
+      "label": "FF_Kitchen Window Glazing",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3839750.4,
+      "bb": [
+        55.2,
+        97.2,
+        6020.6,
+        6781.0,
+        5082.8,
+        6140.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)/FF_Kitchen Window (2-Slide UPVC)",
+      "name": "FF_Kitchen_Window_Hardware",
+      "label": "FF_Kitchen Window Crescent Lock",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 6443.9,
+      "bb": [
+        72.0,
+        82.0,
+        6385.8,
+        6415.8,
+        5599.4,
+        5623.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)/FF_Kitchen Window (2-Slide UPVC)",
+      "name": "FF_Kitchen_Window_Grill",
+      "label": "FF_Kitchen Window Safety Grill",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 877824.0,
+      "bb": [
+        18.0,
+        30.0,
+        5943.6,
+        6858.0,
+        5001.8,
+        6221.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)/FF_Kitchen Window (2-Slide UPVC)",
+      "name": "FF_East_Kitchen_Window_Chajja",
+      "label": "FF Kitchen East Window Chajja Slab (450mm)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 57061872.0,
+      "bb": [
+        -450.0,
+        152.4,
+        5793.6,
+        7008.0,
+        6191.0,
+        6296.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Tubelight_Fixture",
+      "label": "FF Kitchen 4ft LED Tubelight Fixture (Above Window)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 2160000.0,
+      "bb": [
+        152.4,
+        192.4,
+        5800.8,
+        7000.8,
+        6330.5,
+        6375.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Kitchen (6x7)",
+      "name": "FF_Kitchen_Tubelight_Junction_Box",
+      "label": "FF Kitchen Tubelight Junction Box",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 171648.8,
+      "bb": [
+        117.4,
+        155.4,
+        6357.5,
+        6442.5,
+        6310.5,
+        6395.3
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Wall_West",
+      "label": "FF Toilet_Wall_West",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 796411310.4,
+      "bb": [
+        4876.8,
+        5029.2,
+        0.0,
+        1714.5,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Wall_Front",
+      "label": "FF Toilet_Wall_Front",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 566336931.8,
+      "bb": [
+        3810.0,
+        5029.2,
+        0.0,
+        152.4,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Wall_East",
+      "label": "FF Toilet_Wall_East",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 445990333.8,
+      "bb": [
+        3810.0,
+        3924.3,
+        0.0,
+        1828.8,
+        4087.4,
+        6221.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Wall_North",
+      "label": "FF Toilet_Wall_North",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 84424778.1,
+      "bb": [
+        3810.0,
+        4876.8,
+        1714.5,
+        1828.8,
+        4087.4,
+        6221.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Wall_East_Top",
+      "label": "FF Toilet_Wall_East_Top",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 191138714.5,
+      "bb": [
+        3810.0,
+        3924.3,
+        0.0,
+        1828.8,
+        6221.0,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Ceiling_Slab",
+      "label": "FF Toilet_Ceiling_Slab",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 178838352.0,
+      "bb": [
+        3810.0,
+        4876.8,
+        152.4,
+        1828.8,
+        6221.0,
+        6321.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Indian_WC",
+      "label": "FF Toilet_Indian_WC",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 27086054.6,
+      "bb": [
+        4170.0,
+        4876.8,
+        152.4,
+        940.0,
+        4087.4,
+        5623.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Shower",
+      "label": "FF Toilet_Shower",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 797346.2,
+      "bb": [
+        3924.3,
+        4189.3,
+        1030.0,
+        1170.0,
+        4820.3,
+        5927.9
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Ventilator",
+      "label": "FF Toilet_Ventilator",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 17685821.1,
+      "bb": [
+        4050.0,
+        4650.0,
+        -12.0,
+        161.4,
+        5621.0,
+        6221.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)/FF_Door D4 Toilet (750x2050mm)",
+      "name": "FF_Door_Toilet_Frame",
+      "label": "FF_Door D4 UPVC Frame",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 27146250.0,
+      "bb": [
+        3900.0,
+        4650.0,
+        1714.5,
+        1828.8,
+        4087.4,
+        6137.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)/FF_Door D4 Toilet (750x2050mm)",
+      "name": "FF_Door_Toilet_Leaf",
+      "label": "FF_Door D4 FRP Leaf",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 44576000.0,
+      "bb": [
+        4020.0,
+        4614.8,
+        1749.5,
+        2051.7,
+        4097.4,
+        6087.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)/FF_Door D4 Toilet (750x2050mm)",
+      "name": "FF_Door_Toilet_Handle",
+      "label": "FF_Door D4 Privacy Handle",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 45584.5,
+      "bb": [
+        4033.0,
+        4084.2,
+        1464.6,
+        1509.0,
+        5011.4,
+        5063.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Ventilator_Chajja",
+      "label": "FF Toilet Ventilator Chajja Slab (350mm)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 33487500.0,
+      "bb": [
+        3925.0,
+        4775.0,
+        -350.0,
+        152.4,
+        6191.0,
+        6296.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Exhaust_Fan_Box",
+      "label": "FF Toilet Exhaust Fan Concealed Box (White)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 281250.0,
+      "bb": [
+        4412.5,
+        4487.5,
+        102.4,
+        152.4,
+        5873.0,
+        5948.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Plumbing_Pipes",
+      "label": "FF_Toilet_Plumbing_Pipes",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3097710.6,
+      "bb": [
+        4465.0,
+        4862.5,
+        495.4,
+        1260.0,
+        3887.4,
+        6187.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Dry_Area_Floor",
+      "label": "FF Toilet Dry Area Floor Platform (FFL +4087.4mm)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 12525356.1,
+      "bb": [
+        3924.3,
+        4800.6,
+        152.4,
+        950.0,
+        4087.4,
+        4117.9
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Wet_Area_Sunken_Floor",
+      "label": "FF Toilet Sunken Wet Area Floor (-15cm / 3937.4mm FFL)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 18292168.8,
+      "bb": [
+        3924.3,
+        4800.6,
+        980.0,
+        1680.0,
+        3937.4,
+        3967.9
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Wet_Dry_Step_Riser",
+      "label": "FF Toilet Wet-Dry Step Riser (150mm Black Granite Drop)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 4744638.7,
+      "bb": [
+        3924.3,
+        4800.6,
+        950.0,
+        980.0,
+        3937.4,
+        4117.9
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Toilet (4x6)",
+      "name": "FF_Toilet_Door_Threshold_Curb",
+      "label": "FF Toilet Door Granite Threshold Curb (150mm Splash Barrier)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 5456334.5,
+      "bb": [
+        3924.3,
+        4800.6,
+        1680.0,
+        1714.5,
+        3937.4,
+        4117.9
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room (16x9)",
+      "name": "FF_Living_Room_Wall_East",
+      "label": "FF Living_Room_Wall_East",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1281336649.9,
+      "bb": [
+        0.0,
+        152.4,
+        1714.5,
+        5181.6,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room (16x9)",
+      "name": "FF_Living_Room_Wall_West",
+      "label": "FF Living_Room_Wall_West",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1327352184.0,
+      "bb": [
+        4876.8,
+        5029.2,
+        1714.5,
+        4572.0,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room (16x9)",
+      "name": "FF_Living_Room_Wall_Main_Door",
+      "label": "FF Living_Room_Wall_Main_Door",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 555274703.5,
+      "bb": [
+        228.6,
+        1714.5,
+        1714.5,
+        1943.1,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room (16x9)",
+      "name": "FF_Wall_Stair_SE_SW",
+      "label": "FF Wall_Stair_SE_SW",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1221164009.3,
+      "bb": [
+        1943.1,
+        3695.7,
+        1714.5,
+        1943.1,
+        4087.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room (16x9)",
+      "name": "FF_Living_Room_Loft_East",
+      "label": "FF Living Room East Wall Utility Loft (RCC)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 140589000.0,
+      "bb": [
+        152.4,
+        752.4,
+        1943.1,
+        5067.3,
+        6221.0,
+        6296.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Balcony_Vertical_Fin",
+      "label": "Balcony Vertical Architectural Fin",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 194012902.3,
+      "bb": [
+        0.0,
+        228.6,
+        0.0,
+        228.6,
+        4087.4,
+        7800.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Balcony_Fascia_Band",
+      "label": "Balcony Modern Fascia Band",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 54979200.0,
+      "bb": [
+        228.6,
+        1714.5,
+        0.0,
+        80.0,
+        4087.4,
+        4587.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Balcony_Railing",
+      "label": "Balcony Stainless Steel Railing",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 15485086.9,
+      "bb": [
+        15.2,
+        1714.5,
+        15.2,
+        1714.5,
+        4087.4,
+        5062.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Roofline_Fascia_Band",
+      "label": "Roofline Modern Fascia Band",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 87439500.0,
+      "bb": [
+        0.0,
+        1943.1,
+        0.0,
+        150.0,
+        6985.4,
+        7285.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Balcony_Teak_Soffit",
+      "label": "First Floor Canopy Warm Teak Soffit",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 33496740.0,
+      "bb": [
+        -450.0,
+        3810.0,
+        -450.0,
+        1943.1,
+        7123.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Balcony_LED_Bezels",
+      "label": "FF Canopy Recessed Spotlights White Bezels",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 80424.8,
+      "bb": [
+        -265.0,
+        3340.0,
+        -264.7,
+        1009.7,
+        7119.4,
+        7123.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Balcony_LED_Glow",
+      "label": "FF Canopy Recessed 3000K LED Warm Glow Lenses",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 29556.1,
+      "bb": [
+        -253.0,
+        3328.0,
+        -252.8,
+        997.8,
+        7119.4,
+        7122.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Balcony_Planter_Trough",
+      "label": "Balcony Modern Planter Box (Dark Charcoal)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 24860040.0,
+      "bb": [
+        228.6,
+        1714.5,
+        -180.0,
+        0.0,
+        4087.4,
+        4407.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Balcony_Planter_Rim",
+      "label": "Balcony Planter Drip Rim (Architectural White)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2069875.0,
+      "bb": [
+        218.6,
+        1724.5,
+        -200.0,
+        0.0,
+        4402.4,
+        4427.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Balcony & Elevation Features",
+      "name": "FF_Balcony_Planter_Foliage",
+      "label": "Balcony Cascading Greenery & Trailing Foliage",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 12978740.3,
+      "bb": [
+        210.1,
+        1734.1,
+        -229.2,
+        -90.8,
+        4232.4,
+        4462.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Main Entrance Door & Surround",
+      "name": "FF_Main_Door_Frame",
+      "label": "FF Main Door Teak Frame",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 32955000.0,
+      "bb": [
+        500.0,
+        1500.0,
+        1714.5,
+        1814.5,
+        4087.4,
+        6187.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Main Entrance Door & Surround",
+      "name": "FF_Main_Door_Leaves",
+      "label": "FF Main Door Single Leaf (5-Panel Teak)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 64604700.0,
+      "bb": [
+        569.0,
+        1431.0,
+        1729.5,
+        1769.5,
+        4093.4,
+        6118.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Main Entrance Door & Surround",
+      "name": "FF_Main_Door_Handles",
+      "label": "FF Main Door Lever Handle (Chrome)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 81709.3,
+      "bb": [
+        1226.5,
+        1367.5,
+        1690.1,
+        1729.5,
+        4963.4,
+        5183.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Main Entrance Door & Surround",
+      "name": "FF_Main_Door_Architectural_Surround",
+      "label": "Door White Architectural Surround",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 11850000.0,
+      "bb": [
+        380.0,
+        1620.0,
+        1690.0,
+        1715.0,
+        4087.4,
+        6357.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room East 3-Split Window",
+      "name": "FF_Window_East_Frame",
+      "label": "Window East UPVC 3-Track Frame",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 26190000.0,
+      "bb": [
+        26.2,
+        126.2,
+        2510.0,
+        4310.0,
+        5001.8,
+        6201.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room East 3-Split Window",
+      "name": "FF_Window_East_Sashes",
+      "label": "Window East 3 Sliding Sashes",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 8553600.0,
+      "bb": [
+        35.0,
+        107.0,
+        2555.0,
+        4255.0,
+        5051.8,
+        6151.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room East 3-Split Window",
+      "name": "FF_Window_East_Glass",
+      "label": "Window East Glazing",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 8188500.0,
+      "bb": [
+        43.0,
+        98.0,
+        2590.0,
+        4220.0,
+        5086.8,
+        6116.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room East 3-Split Window",
+      "name": "FF_Window_East_Sill",
+      "label": "Window East Black Granite Sill",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 7157280.0,
+      "bb": [
+        -20.0,
+        172.4,
+        2480.0,
+        4340.0,
+        4981.8,
+        5001.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room East 3-Split Window",
+      "name": "FF_Window_East_Grill",
+      "label": "Window East Safety Grill",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 796205.2,
+      "bb": [
+        70.2,
+        82.2,
+        2530.0,
+        4290.0,
+        5245.8,
+        6007.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Living Room East 3-Split Window",
+      "name": "FF_East_Living_Window_Chajja",
+      "label": "FF Living Room East Window Chajja Slab (450mm)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 98136000.0,
+      "bb": [
+        -450.0,
+        152.4,
+        2360.0,
+        4460.0,
+        6191.0,
+        6296.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Staircase to Terrace",
+      "name": "FF_Stair_Flight_1",
+      "label": "FF Stair Flight 1 (Ascending East-West)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 185374552.2,
+      "bb": [
+        1714.5,
+        3060.0,
+        230.0,
+        950.0,
+        4087.4,
+        5207.3
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Staircase to Terrace",
+      "name": "FF_Stair_Mid_Landing",
+      "label": "FF Stair Mid-Landing Slab",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 334690242.4,
+      "bb": [
+        3060.0,
+        3810.0,
+        230.0,
+        1710.0,
+        5082.3,
+        5953.9
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Staircase to Terrace",
+      "name": "FF_Stair_Flight_2",
+      "label": "FF Stair Flight 2 (Ascending West-East)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 205628016.2,
+      "bb": [
+        1714.5,
+        3060.0,
+        990.0,
+        1690.0,
+        5828.9,
+        7073.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Staircase to Terrace",
+      "name": "FF_Stair_Railing_Flight_1",
+      "label": "FF Stair SS Handrail",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 8627337.5,
+      "bb": [
+        1790.0,
+        3080.0,
+        230.1,
+        279.9,
+        4274.1,
+        6127.3
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Staircase to Terrace",
+      "name": "FF_MLB_Staircase_Mid_Landing",
+      "label": "FF MLB Stair Mid-Landing Beam",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 135870696.0,
+      "bb": [
+        1714.5,
+        3695.7,
+        1714.5,
+        1943.1,
+        5186.4,
+        5486.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Staircase to Terrace",
+      "name": "FF_Stair_Railing_Landing",
+      "label": "FF Stair Railing Landing (SS 304)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 7234874.9,
+      "bb": [
+        3040.0,
+        3810.0,
+        230.1,
+        279.9,
+        5207.3,
+        6505.6
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Staircase to Terrace",
+      "name": "FF_Stair_Railing_Flight_2",
+      "label": "FF Stair Railing Flight 2 Inner Well (SS 304)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 9217468.7,
+      "bb": [
+        1694.5,
+        3080.0,
+        965.1,
+        1014.9,
+        5953.9,
+        7993.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Staircase to Terrace",
+      "name": "FF_Stair_Void_Guardrail",
+      "label": "FF Stair Void Return Guardrail (SS 304)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5015658.1,
+      "bb": [
+        1689.6,
+        1739.4,
+        210.0,
+        1010.0,
+        4087.4,
+        5012.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Roof & Terrace Slab",
+      "name": "Terrace_Roof_Slab",
+      "label": "Terrace Roof Slab (125mm RCC)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 4341221156.2,
+      "bb": [
+        0.0,
+        5029.2,
+        0.0,
+        7620.0,
+        7135.4,
+        7260.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Roof & Terrace Slab/Terrace Parapet Wall & Coping (1.0m)",
+      "name": "Terrace_Parapet_Wall",
+      "label": "Terrace Parapet Wall (1000mm Masonry)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3443218920.0,
+      "bb": [
+        0.0,
+        5029.2,
+        0.0,
+        7620.0,
+        7260.4,
+        8260.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Roof & Terrace Slab/Terrace Parapet Wall & Coping (1.0m)",
+      "name": "Terrace_Parapet_Coping",
+      "label": "Terrace Parapet Coping (Precast Tile)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 206324496.0,
+      "bb": [
+        -15.0,
+        5044.2,
+        -15.0,
+        7635.0,
+        8260.4,
+        8310.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF Roof Slab Beams (FF_RB1 & FF_RB2)",
+      "name": "FF_RB1_Front_North",
+      "label": "FF RB1 Front North (Grid A)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 344902536.0,
+      "bb": [
+        0.0,
+        5029.2,
+        0.0,
+        228.6,
+        6835.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF Roof Slab Beams (FF_RB1 & FF_RB2)",
+      "name": "FF_RB1_Rear_South",
+      "label": "FF RB1 Rear South (Grid D)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 344902536.0,
+      "bb": [
+        0.0,
+        5029.2,
+        7391.4,
+        7620.0,
+        6835.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF Roof Slab Beams (FF_RB1 & FF_RB2)",
+      "name": "FF_RB1_East_Flank",
+      "label": "FF RB1 East Flank (Grid 1)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 522579600.0,
+      "bb": [
+        0.0,
+        228.6,
+        0.0,
+        7620.0,
+        6835.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF Roof Slab Beams (FF_RB1 & FF_RB2)",
+      "name": "FF_RB1_West_Flank",
+      "label": "FF RB1 West Flank (Grid 4)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 522579600.0,
+      "bb": [
+        4800.6,
+        5029.2,
+        0.0,
+        7620.0,
+        6835.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF Roof Slab Beams (FF_RB1 & FF_RB2)",
+      "name": "FF_RB2_Core_GridB",
+      "label": "FF RB2 Core Header Beam (Grid B)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 344902536.0,
+      "bb": [
+        0.0,
+        5029.2,
+        1714.5,
+        1943.1,
+        6835.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF Roof Slab Beams (FF_RB1 & FF_RB2)",
+      "name": "FF_RB2_Stair_East_Trimmer",
+      "label": "FF RB2 Stair East Trimmer",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 89100000.0,
+      "bb": [
+        1564.5,
+        1864.5,
+        0.0,
+        990.0,
+        6835.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF Roof Slab Beams (FF_RB1 & FF_RB2)",
+      "name": "FF_RB2_Stair_West_Trimmer",
+      "label": "FF RB2 Stair West Trimmer",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 117580410.0,
+      "bb": [
+        3695.7,
+        3924.3,
+        0.0,
+        1714.5,
+        6835.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF Roof Slab Beams (FF_RB1 & FF_RB2)",
+      "name": "FF_RB2_Bedroom_Living",
+      "label": "FF RB2 Bedroom-Living Divider",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 193354452.0,
+      "bb": [
+        1981.2,
+        4800.6,
+        4457.7,
+        4686.3,
+        6835.4,
+        7135.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF Roof Slab Beams (FF_RB1 & FF_RB2)",
+      "name": "FF_RB_LIVING_Primary",
+      "label": "FF RB-LIVING Primary CrossBeam 230x350 M25",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 402386292.0,
+      "bb": [
+        0.0,
+        5029.2,
+        3047.8,
+        3276.4,
+        6835.4,
+        7185.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Lintel_Main_Door",
+      "label": "FF Full-Bay RCC Lintel Beam - Main Entrance Door (Col C1-C2)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 50951511.0,
+      "bb": [
+        228.6,
+        1714.5,
+        1714.5,
+        1943.1,
+        6187.4,
+        6337.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Continuous_Lintel_East_Wall",
+      "label": "FF Continuous Full-Width RCC Lintel Band - East Wall (Col C1-C7)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 134999730.0,
+      "bb": [
+        0.0,
+        152.4,
+        1714.5,
+        7620.0,
+        6201.8,
+        6351.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Continuous_Sill_East_Wall",
+      "label": "FF Continuous Full-Width RCC Sill Band - East Wall (Col C1-C7)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 67499865.0,
+      "bb": [
+        0.0,
+        152.4,
+        1714.5,
+        7620.0,
+        4926.8,
+        5001.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Continuous_Lintel_Balcony_Wall",
+      "label": "FF Continuous Full-Width RCC Lintel Band - Balcony Front Wall (Col C2-C3)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 60096654.0,
+      "bb": [
+        1943.1,
+        3695.7,
+        1714.5,
+        1943.1,
+        6251.8,
+        6401.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Continuous_Lintel_Bedroom_Wall",
+      "label": "FF Continuous Full-Width RCC Lintel Band - Bedroom North Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 44128944.0,
+      "bb": [
+        1981.2,
+        4876.8,
+        4572.0,
+        4673.6,
+        6221.0,
+        6371.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Continuous_Lintel_Toilet_Door",
+      "label": "FF Continuous Full-Width RCC Lintel Band - Toilet North Door Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 18290286.0,
+      "bb": [
+        3810.0,
+        4876.8,
+        1714.5,
+        1828.8,
+        6137.4,
+        6287.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Continuous_Lintel_Toilet_Front",
+      "label": "FF Continuous Full-Width RCC Lintel Band - Toilet Front North Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 22645116.0,
+      "bb": [
+        3810.0,
+        4800.6,
+        0.0,
+        152.4,
+        6221.0,
+        6371.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Continuous_Sill_Toilet_Front",
+      "label": "FF Continuous Full-Width RCC Sill Band - Toilet Front North Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 11322558.0,
+      "bb": [
+        3810.0,
+        4800.6,
+        0.0,
+        152.4,
+        5546.0,
+        5621.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Continuous_Lintel_South_Wall",
+      "label": "FF Continuous Full-Width RCC Lintel Band - South Wall (Grid D)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 114967512.0,
+      "bb": [
+        0.0,
+        5029.2,
+        7467.6,
+        7620.0,
+        6201.8,
+        6351.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Structure and Columns/FF RCC Lintel & Sill Beams (IS 4326)",
+      "name": "FF_Continuous_Lintel_West_Wall",
+      "label": "FF Continuous Full-Width RCC Lintel Band - West Wall (Grid 4)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 174193200.0,
+      "bb": [
+        4876.8,
+        5029.2,
+        0.0,
+        7620.0,
+        6201.8,
+        6351.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/First Floor Balcony (Palkani) Rain Protection Canopy Slab",
+      "name": "FF_Balcony_Canopy_Slab",
+      "label": "Balcony L-Shaped Canopy Slab (Front + East)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 243911250.0,
+      "bb": [
+        -450.0,
+        1943.1,
+        -450.0,
+        1943.1,
+        7135.4,
+        7260.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/First Floor Balcony (Palkani) Rain Protection Canopy Slab",
+      "name": "FF_Balcony_Canopy_Fascia",
+      "label": "Balcony Dark Slate Fascia Band (Front + East)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 22130900.0,
+      "bb": [
+        -475.0,
+        1968.1,
+        -475.0,
+        1943.1,
+        7120.4,
+        7275.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/First Floor Balcony (Palkani) Rain Protection Canopy Slab",
+      "name": "FF_Balcony_Canopy_Drip",
+      "label": "Balcony White Drip Cornice (Front + East)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3880960.0,
+      "bb": [
+        -485.0,
+        1978.1,
+        -485.0,
+        1943.1,
+        7275.4,
+        7295.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/First Floor Balcony (Palkani) Rain Protection Canopy Slab",
+      "name": "FF_Balcony_Canopy_Curb",
+      "label": "Balcony Top Weather Curb (Charcoal)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 28357200.0,
+      "bb": [
+        -450.0,
+        1943.1,
+        -450.0,
+        1943.1,
+        7260.4,
+        7360.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/First Floor Staircase North Rain Protection Canopy & Chajja",
+      "name": "FF_Stair_North_Canopy_Slab",
+      "label": "FF Stair North Canopy Slab (450mm Proj)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 117871875.0,
+      "bb": [
+        1714.5,
+        3810.0,
+        -450.0,
+        0.0,
+        7135.4,
+        7260.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/First Floor Staircase North Rain Protection Canopy & Chajja",
+      "name": "FF_Stair_North_Canopy_Fascia",
+      "label": "FF Stair North Canopy Dark Fascia",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 9960687.5,
+      "bb": [
+        1714.5,
+        3835.0,
+        -475.0,
+        0.0,
+        7120.4,
+        7275.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/First Floor Staircase North Rain Protection Canopy & Chajja",
+      "name": "FF_Stair_North_Canopy_Drip",
+      "label": "FF Stair North Canopy White Drip Cornice",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 1728400.0,
+      "bb": [
+        1709.5,
+        3870.0,
+        -485.0,
+        -445.0,
+        7275.4,
+        7295.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/First Floor Staircase North Rain Protection Canopy & Chajja",
+      "name": "FF_Stair_North_Canopy_Curb",
+      "label": "FF Stair Canopy Rooftop Weather Curb",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 12573000.0,
+      "bb": [
+        1714.5,
+        3810.0,
+        -450.0,
+        -390.0,
+        7260.4,
+        7360.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/Front Facade Architectural Feature Enhancements",
+      "name": "GF_Tower_Groove_Slats",
+      "label": "GF West Tower Dark Charcoal Feature Slats",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 53767680.0,
+      "bb": [
+        3810.0,
+        5029.2,
+        -20.0,
+        0.0,
+        914.4,
+        3934.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/Front Facade Architectural Feature Enhancements",
+      "name": "GF_Tower_Groove_Reveals",
+      "label": "GF West Tower White Groove Reveals",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 6720960.0,
+      "bb": [
+        3810.0,
+        5029.2,
+        -12.0,
+        0.0,
+        1034.4,
+        3959.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/Front Facade Architectural Feature Enhancements",
+      "name": "FF_Tower_Groove_Slats",
+      "label": "FF West Tower Dark Charcoal Feature Slats",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 53767680.0,
+      "bb": [
+        3810.0,
+        5029.2,
+        -20.0,
+        0.0,
+        4087.4,
+        7107.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/Front Facade Architectural Feature Enhancements",
+      "name": "FF_Tower_Groove_Reveals",
+      "label": "FF West Tower White Groove Reveals",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 6720960.0,
+      "bb": [
+        3810.0,
+        5029.2,
+        -12.0,
+        0.0,
+        4207.4,
+        7132.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/Front Facade Architectural Feature Enhancements",
+      "name": "Terrace_Pergola_Trellis_Beams",
+      "label": "Rooftop Modern Cantilevered Pergola Trellis Crown",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 45933750.0,
+      "bb": [
+        150.0,
+        1635.0,
+        -600.0,
+        400.0,
+        8260.4,
+        8410.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout",
+      "name": "FF_Electrical_Slab_Fan_Boxes",
+      "label": "FF Slab Ceiling Fan Heavy-Duty Hook Boxes (Red)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1470265.4,
+      "bb": [
+        2454.6,
+        3540.0,
+        3197.8,
+        6129.6,
+        7135.4,
+        7200.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout",
+      "name": "FF_Electrical_Slab_Light_Pots",
+      "label": "FF Slab Deep PVC Downlight & Pendant Pot Boxes (Blue)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5107051.6,
+      "bb": [
+        327.5,
+        4342.5,
+        814.8,
+        7142.2,
+        7135.4,
+        7195.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout",
+      "name": "FF_Staircase_Wall_Light_Fixture",
+      "label": "FF_Staircase_Wall_Light_Fixture",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1249000.0,
+      "bb": [
+        3745.0,
+        3810.0,
+        910.0,
+        1030.0,
+        8750.8,
+        8950.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout",
+      "name": "FF_Kitchen_Exhaust_Fan_Junction_Box",
+      "label": "FF_Kitchen_Exhaust_Fan_Junction_Box",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 171648.8,
+      "bb": [
+        117.4,
+        155.4,
+        7237.5,
+        7322.5,
+        5994.9,
+        6079.7
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Ceiling Slab Conduit Networks",
+      "name": "FF_Living_Slab_Conduit_Network",
+      "label": "FF_Living_Slab_Conduit_Network",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 7634315.6,
+      "bb": [
+        200.0,
+        4844.0,
+        1912.6,
+        4750.0,
+        7180.5,
+        7205.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Ceiling Slab Conduit Networks",
+      "name": "FF_Bedroom_Slab_Conduit_Network",
+      "label": "FF_Bedroom_Slab_Conduit_Network",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 4250243.7,
+      "bb": [
+        2082.7,
+        4300.0,
+        4661.1,
+        7480.0,
+        7180.5,
+        7205.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Ceiling Slab Conduit Networks",
+      "name": "FF_Electrical_Slab_Conduit_Network",
+      "label": "FF Slab 25mm Heavy-Duty PVC Conduit Piping Runs (Orange)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3563774.4,
+      "bb": [
+        150.1,
+        2100.0,
+        857.0,
+        7469.3,
+        7180.5,
+        7205.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Ceiling Slab Conduit Networks",
+      "name": "FF_Toilet_Electrical_Conduits",
+      "label": "First Floor Toilet Complete Electrical Conduit Network (Orange)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2228806.1,
+      "bb": [
+        3547.5,
+        4902.5,
+        147.6,
+        1982.4,
+        5362.4,
+        6265.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Ceiling Slab Conduit Networks",
+      "name": "FF_Balcony_Light_Pots",
+      "label": "FF Balcony Recessed Spotlight Pots (Blue)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1863506.4,
+      "bb": [
+        -267.5,
+        3342.5,
+        -267.2,
+        1012.2,
+        7123.4,
+        7205.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Ceiling Slab Conduit Networks",
+      "name": "FF_Balcony_Conduit_Network",
+      "label": "FF Balcony Spotlight 25mm PVC Conduit Network (Orange)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 3216205.5,
+      "bb": [
+        -237.5,
+        3300.0,
+        -237.4,
+        1732.4,
+        7180.5,
+        7205.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Chased Wall Conduit Drops",
+      "name": "FF_Living_Slab_Wall_Drops",
+      "label": "FF_Living_Slab_Wall_Drops",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 4058937.7,
+      "bb": [
+        187.5,
+        4856.5,
+        1912.6,
+        4987.4,
+        5313.0,
+        7193.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Chased Wall Conduit Drops",
+      "name": "FF_Bedroom_Slab_Wall_Drops",
+      "label": "FF_Bedroom_Slab_Wall_Drops",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2414461.2,
+      "bb": [
+        2070.2,
+        3337.5,
+        4661.1,
+        7474.9,
+        4862.4,
+        7193.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Chased Wall Conduit Drops",
+      "name": "FF_Electrical_Slab_Wall_Drops",
+      "label": "FF_Electrical_Wall_Conduits_and_Drops",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 4691821.4,
+      "bb": [
+        127.5,
+        3812.5,
+        957.6,
+        7494.9,
+        5224.9,
+        8750.8
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Chased Wall Conduit Drops",
+      "name": "FF_Bedroom_Tubelight_Conduit_Drop",
+      "label": "FF Bedroom Tubelight Wall Drop & Slab Conduit (Orange)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 253086.7,
+      "bb": [
+        3490.0,
+        3510.0,
+        7457.7,
+        7477.5,
+        6387.4,
+        7193.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Chased Wall Conduit Drops",
+      "name": "FF_Kitchen_Tubelight_Conduit_Drop",
+      "label": "FF Kitchen Tubelight Conduit Drop & Slab Run",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 545532.5,
+      "bb": [
+        142.4,
+        1050.8,
+        6315.0,
+        6410.0,
+        6353.0,
+        7202.9
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout/First Floor Electrical Pipelines (Complete Conduits & Drops)/FF Chased Wall Conduit Drops",
+      "name": "FF_Kitchen_Exhaust_Fan_Conduit_Drop",
+      "label": "FF_Kitchen_Exhaust_Fan_Conduit_Drop",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 649312.6,
+      "bb": [
+        142.4,
+        1052.0,
+        7090.2,
+        7290.0,
+        6037.4,
+        7202.9
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout",
+      "name": "FF_Living_Slab_Fan_Box",
+      "label": "FF_Living_Slab_Fan_Box",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 936000.0,
+      "bb": [
+        2454.6,
+        2574.6,
+        3197.4,
+        3317.4,
+        7135.4,
+        7200.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout",
+      "name": "FF_Living_Slab_Light_Pots",
+      "label": "FF_Living_Slab_Light_Pots",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1373613.5,
+      "bb": [
+        1157.5,
+        3842.5,
+        2457.6,
+        4042.5,
+        7135.4,
+        7195.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout",
+      "name": "FF_Bedroom_Slab_Fan_Box",
+      "label": "FF_Bedroom_Slab_Fan_Box",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 936161.6,
+      "bb": [
+        3445.0,
+        3565.0,
+        6036.0,
+        6156.0,
+        7135.4,
+        7200.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Electrical Slab Conduit & Ceiling Lighting Layout",
+      "name": "FF_Toilet_Ceiling_Light_Pot",
+      "label": "FF Toilet Ceiling Downlight Pot (Blue)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 340470.1,
+      "bb": [
+        4307.5,
+        4392.5,
+        957.7,
+        1042.3,
+        6221.0,
+        6281.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Modular Switchboards & Independent EB Distribution Board",
+      "name": "FF_EB_Service_Mains_Riser",
+      "label": "FF Dedicated EB 32mm Armored Mains Riser (Ground Meter to FF MDB)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 3758249.6,
+      "bb": [
+        1584.0,
+        1616.0,
+        1927.2,
+        1959.0,
+        914.4,
+        5587.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Modular Switchboards & Independent EB Distribution Board",
+      "name": "FF_Electrical_Switchboard_Plates",
+      "label": "FF Modular Switchboard Plates & Independent MDB Enclosure (White)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 11300280.0,
+      "bb": [
+        152.4,
+        4876.8,
+        1200.0,
+        7470.0,
+        4633.0,
+        6518.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Modular Switchboards & Independent EB Distribution Board",
+      "name": "FF_Electrical_Switchboard_Rocker_Switches",
+      "label": "FF Modular Rocker Switches, Sockets & MCB Toggles (Charcoal)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1418106.2,
+      "bb": [
+        160.4,
+        4867.9,
+        1210.0,
+        7471.0,
+        4643.0,
+        6493.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Modular Switchboards & Independent EB Distribution Board",
+      "name": "FF_UPS_Power_Backup_Model",
+      "label": "FF Home UPS 1.1kVA Pure Sine Wave Inverter & 150Ah Tubular Battery",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 50573924.8,
+      "bb": [
+        220.0,
+        506.0,
+        2300.0,
+        3175.0,
+        6296.0,
+        6731.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Modular Switchboards & Independent EB Distribution Board",
+      "name": "FF_UPS_Conduit_Pipeline",
+      "label": "FF UPS 20mm Rigid PVC Dedicated Feeder & Backup Conduit",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 196977.9,
+      "bb": [
+        190.0,
+        210.0,
+        2240.1,
+        2259.9,
+        5723.0,
+        6350.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Modular Switchboards & Independent EB Distribution Board",
+      "name": "FF_Staircase_Switchboard_SB_STAIR1",
+      "label": "FF Master Balcony & Staircase Switchboard SB-STAIR1 (6-Module Unified)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 260840.0,
+      "bb": [
+        1917.5,
+        2117.5,
+        1695.5,
+        1714.5,
+        5536.4,
+        5611.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Modular Switchboards & Independent EB Distribution Board",
+      "name": "FF_Bedroom_AC_Switchboard",
+      "label": "FF Bedroom AC 20A DP Switch & Socket (South of AC)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 225000.0,
+      "bb": [
+        2082.7,
+        2107.7,
+        6940.0,
+        7060.0,
+        6435.5,
+        6510.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "FF_Bedroom_AC_Outdoor_Unit_Wall_Brackets",
+      "label": "FF Bedroom AC GI Cantilever Wall Brackets",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1926663.7,
+      "bb": [
+        -450.0,
+        6.0,
+        6100.0,
+        6700.0,
+        6096.0,
+        6346.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "FF_Bedroom_AC_Outdoor_Unit_Damping_Pads",
+      "label": "FF Bedroom AC Vibration Damping Rubber Pads",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 200000.0,
+      "bb": [
+        -325.0,
+        -95.0,
+        6100.0,
+        6700.0,
+        6346.0,
+        6366.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "FF_Bedroom_AC_Outdoor_Unit_Cabinet",
+      "label": "FF Bedroom AC Condensing Unit 1.5T (ODU)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 134701196.7,
+      "bb": [
+        -385.0,
+        -60.0,
+        6000.0,
+        6815.0,
+        6366.0,
+        6916.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "FF_Bedroom_AC_Outdoor_Unit_Fan_Grille",
+      "label": "FF Bedroom AC Axial Fan Grille Ring",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 220539.8,
+      "bb": [
+        -378.0,
+        -360.0,
+        6100.2,
+        6499.8,
+        6441.0,
+        6840.4
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "FF_Bedroom_AC_Outdoor_Unit_Refrigerant_Bundle",
+      "label": "FF Bedroom AC Insulated Copper Lines & Wall Sleeve",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 825695.0,
+      "bb": [
+        -264.8,
+        40.0,
+        6717.7,
+        6810.0,
+        6453.5,
+        6518.5
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "FF_Bedroom_AC_Outdoor_Unit_Condensate_Drain",
+      "label": "FF Bedroom AC Condensate Gravity Drain Pipe",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 294524.3,
+      "bb": [
+        -32.5,
+        -7.5,
+        6767.6,
+        6792.4,
+        5861.0,
+        6461.0
+      ]
+    },
+    {
+      "group_path": "First Floor (Complete)/FF Bedroom AC Split AC Outdoor Unit (ODU)",
+      "name": "FF_Bedroom_AC_Indoor_Refrigerant_Run",
+      "label": "FF Bedroom AC Refrigerant Run Over South Kitchen Loft (Concealed)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 4983163.2,
+      "bb": [
+        0.0,
+        2082.7,
+        6153.0,
+        7022.0,
+        5026.0,
+        6645.0
+      ]
+    }
+  ],
+  "Master_Rooftop_Terrace_Group": [
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Headroom_Walls",
+      "label": "Headroom Weatherproof Walls (2.2m)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2073316656.0,
+      "bb": [
+        1714.5,
+        3810.0,
+        0.0,
+        1866.9,
+        7260.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Headroom_Roof_Slab",
+      "label": "Headroom Monolithic RCC Roof Slab (125mm)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 571459118.8,
+      "bb": [
+        1634.5,
+        3890.0,
+        -80.0,
+        1946.9,
+        9460.4,
+        9585.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Headroom_Roof_Coping",
+      "label": "Headroom Roof Weather Curb",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 80971800.0,
+      "bb": [
+        1634.5,
+        3890.0,
+        -80.0,
+        1946.9,
+        9585.4,
+        9735.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Headroom_Window_Frame",
+      "label": "Headroom Front Feature Window Frame",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 10314000.0,
+      "bb": [
+        2362.2,
+        3162.2,
+        40.0,
+        100.0,
+        7760.4,
+        8960.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Headroom_Window_Glass",
+      "label": "Headroom Frosted Glass Panel",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 4728600.0,
+      "bb": [
+        2407.2,
+        3117.2,
+        67.0,
+        73.0,
+        7805.4,
+        8915.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Headroom_Door_Frame",
+      "label": "Headroom Terrace Exit Door Frame",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 43251120.0,
+      "bb": [
+        1714.5,
+        1866.9,
+        950.0,
+        1800.0,
+        7260.4,
+        9260.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Headroom_Door_Leaf",
+      "label": "Headroom Weatherproof Door Leaf",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 55584000.0,
+      "bb": [
+        1769.5,
+        1809.5,
+        1015.0,
+        1735.0,
+        7265.4,
+        9195.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Headroom_Accent_Fins",
+      "label": "Headroom Architectural Accent Fins",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2520000.0,
+      "bb": [
+        1720.0,
+        1880.0,
+        20.0,
+        80.0,
+        9735.4,
+        10085.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Lintel & Sill Beams",
+      "name": "Headroom_Continuous_Lintel_Door_Wall",
+      "label": "Headroom Continuous Full-Width RCC Lintel Band - Door West Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 42677334.0,
+      "bb": [
+        1714.5,
+        1866.9,
+        0.0,
+        1866.9,
+        9260.4,
+        9410.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Lintel & Sill Beams",
+      "name": "Headroom_Continuous_Lintel_Front_Wall",
+      "label": "Headroom Continuous Full-Width RCC Lintel Band - Front North Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 47903130.0,
+      "bb": [
+        1714.5,
+        3810.0,
+        0.0,
+        152.4,
+        8960.4,
+        9110.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Lintel & Sill Beams",
+      "name": "Headroom_Continuous_Sill_Front_Wall",
+      "label": "Headroom Continuous Full-Width RCC Sill Band - Front North Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 23951565.0,
+      "bb": [
+        1714.5,
+        3810.0,
+        0.0,
+        152.4,
+        7685.4,
+        7760.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Lintel & Sill Beams",
+      "name": "Headroom_Continuous_Lintel_East_Wall",
+      "label": "Headroom Continuous Full-Width RCC Lintel Band - East Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 42677334.0,
+      "bb": [
+        3657.6,
+        3810.0,
+        0.0,
+        1866.9,
+        8960.4,
+        9110.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Lintel & Sill Beams",
+      "name": "Headroom_Continuous_Lintel_South_Wall",
+      "label": "Headroom Continuous Full-Width RCC Lintel Band - South Wall",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 47903130.0,
+      "bb": [
+        1714.5,
+        3810.0,
+        1714.5,
+        1866.9,
+        8960.4,
+        9110.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Structural Columns (4 Posts)",
+      "name": "Headroom_Col_NE",
+      "label": "Headroom Col NE (Col C2 Extension)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 121499757.0,
+      "bb": [
+        1714.5,
+        1943.1,
+        0.0,
+        228.6,
+        7135.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Structural Columns (4 Posts)",
+      "name": "Headroom_Col_NW",
+      "label": "Headroom Col NW (Col C3 Extension)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 121499757.0,
+      "bb": [
+        3695.7,
+        3924.3,
+        0.0,
+        228.6,
+        7135.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Structural Columns (4 Posts)",
+      "name": "Headroom_Col_SE",
+      "label": "Headroom Col SE (Col C8 Extension)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 121499757.0,
+      "bb": [
+        1714.5,
+        1943.1,
+        1714.5,
+        1943.1,
+        7135.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Structural Columns (4 Posts)",
+      "name": "Headroom_Col_SW",
+      "label": "Headroom Col SW (Col C9 Extension)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 121499757.0,
+      "bb": [
+        3695.7,
+        3924.3,
+        1714.5,
+        1943.1,
+        7135.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Structural Columns (4 Posts)",
+      "name": "Mumty_Col_C7",
+      "label": "Mumty Vertical Column C7 (300x230 M25)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 159448500.0,
+      "bb": [
+        1564.5,
+        1864.5,
+        0.0,
+        228.6,
+        7135.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom RCC Structural Columns (4 Posts)",
+      "name": "Mumty_Col_C8",
+      "label": "Mumty Vertical Column C8 (300x230 M25)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 159448500.0,
+      "bb": [
+        4800.6,
+        5100.6,
+        0.0,
+        228.6,
+        7135.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom Roof Beams (RB1 Enclosure)",
+      "name": "Headroom_RB_Front_North",
+      "label": "Headroom RB Front North (Grid A)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 101032056.0,
+      "bb": [
+        1714.5,
+        3924.3,
+        0.0,
+        228.6,
+        9260.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom Roof Beams (RB1 Enclosure)",
+      "name": "Headroom_RB_Rear_South",
+      "label": "Headroom RB Rear South (Grid B)",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 101032056.0,
+      "bb": [
+        1714.5,
+        3924.3,
+        1714.5,
+        1943.1,
+        9260.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom Roof Beams (RB1 Enclosure)",
+      "name": "Headroom_RB_East_Flank",
+      "label": "Headroom RB East Flank",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 67935348.0,
+      "bb": [
+        1714.5,
+        1943.1,
+        228.6,
+        1714.5,
+        9260.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab/Headroom Roof Beams (RB1 Enclosure)",
+      "name": "Headroom_RB_West_Flank",
+      "label": "Headroom RB West Flank",
+      "type": "Part::Box",
+      "shape_type": "Solid",
+      "volume": 67935348.0,
+      "bb": [
+        3695.7,
+        3924.3,
+        228.6,
+        1714.5,
+        9260.4,
+        9460.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Terrace_Stair_Void_Guardrail",
+      "label": "Rooftop Terrace Stair Void Guardrail (SS 304)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5015658.1,
+      "bb": [
+        1689.6,
+        1739.4,
+        210.0,
+        1010.0,
+        7260.4,
+        8185.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Terrace_Wall_Light_Fixture",
+      "label": "Rooftop Terrace Weatherproof LED Wall Luminaire (South Headroom Wall)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 2236000.0,
+      "bb": [
+        3080.0,
+        3220.0,
+        1866.9,
+        1951.9,
+        8675.0,
+        8925.0
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Terrace_Entrance_Switchboard_SB_TERRACE",
+      "label": "Terrace Entrance Switchboard SB-TERRACE (Inside Mumty Doorway)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 140400.0,
+      "bb": [
+        1955.0,
+        2085.0,
+        1702.5,
+        1714.5,
+        8415.0,
+        8505.0
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Terrace_Entrance_Switchboard_Switches",
+      "label": "SB-TERRACE Rocker Switches & 16A Outdoor Socket (Charcoal)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 18000.0,
+      "bb": [
+        1975.0,
+        2070.0,
+        1697.5,
+        1703.5,
+        8440.0,
+        8480.0
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Terrace_Wall_Light_Conduit",
+      "label": "Terrace Wall Light Outgoing Switched Feed Conduit (20mm Orange PVC)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 503748.1,
+      "bb": [
+        2008.0,
+        3161.9,
+        1727.5,
+        1866.9,
+        8500.0,
+        8812.0
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Terrace_Entrance_Switchboard_Backbox",
+      "label": "SB-TERRACE Concealed Metal Flush Backbox (Modular 4M Enclosure)",
+      "type": "Part::Feature",
+      "shape_type": "Solid",
+      "volume": 480000.0,
+      "bb": [
+        1960.0,
+        2080.0,
+        1714.5,
+        1764.5,
+        8420.0,
+        8500.0
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Staircase Headroom (Mumty) Tower & Roof Slab",
+      "name": "Terrace_Switchboard_Power_Supply_Conduit",
+      "label": "Terrace SB-TERRACE Power Supply Mains Riser Conduit (20mm Orange PVC)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 424806.2,
+      "bb": [
+        2007.0,
+        2033.0,
+        1726.6,
+        1752.4,
+        7135.4,
+        8420.0
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Roof & First Floor Slab",
+      "name": "Roof_Slab",
+      "label": "Roof_Slab (Ground Floor / First Floor Floor)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 4339911468.8,
+      "bb": [
+        0.0,
+        5029.2,
+        0.0,
+        7620.0,
+        3962.4,
+        4087.4
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Rooftop DTH Dish TV Antenna & Fiber Entry Cowl",
+      "name": "Terrace_Dish_TV_Antenna",
+      "label": "Rooftop DTH Satellite Dish TV Antenna & Ku-Band LNB (Tata Play / Airtel)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 5071658.3,
+      "bb": [
+        4451.8,
+        5064.0,
+        2985.9,
+        3554.8,
+        8310.4,
+        8887.3
+      ]
+    },
+    {
+      "group_path": "Rooftop & Terrace (Complete)/Rooftop DTH Dish TV Antenna & Fiber Entry Cowl",
+      "name": "Terrace_Telecom_Service_Cowl",
+      "label": "Rooftop Weatherproof Telecom & Fiber Cable Entry Cowl (IP65 White)",
+      "type": "Part::Feature",
+      "shape_type": "Compound",
+      "volume": 1212945.1,
+      "bb": [
+        4806.8,
+        4876.8,
+        3190.0,
+        3310.0,
+        8080.0,
+        8280.0
+      ]
+    }
+  ]
+}

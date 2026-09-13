@@ -3,40 +3,35 @@
 > [!IMPORTANT]
 > **Active Frame Optimization (Refer to Section 75):** The model's RCC structural frame has been updated from the initial 14 slender ($230 \times 230\text{ mm}$) columns to an optimized **8-column ($230 \times 300\text{ mm}$ / $9" \times 12"$) frame layout** with a continuous primary living cross-beam (`RB_LIVING_Primary`), making the entire Living Hall completely column-free. Detailed engineering schedules and centroid coordinates for the active 8-column system are documented in [Section 75](#75-rcc-structural-optimization-8-column-frame-layout-primary-living-hall-cross-beam--substructure-sync).
 
-The building was originally structured on a **14-column Reinforced Concrete (RCC) frame** designed for seismic resistance and two-storey vertical load transmission.
+The building structure is an optimized **8-column Reinforced Concrete (RCC) monolithic space frame ($230 \times 300\text{ mm}$ / $9" \times 12"$)** in M25 concrete with Fe500D rebar, designed for seismic resistance, complete column-free living space, and two-storey vertical load transmission (IS 456 & IS 13920 compliant).
 
 ```
-       X = 0               X = 1714.5        X = 3695.7    X = 5029.2
-Y=7620 [C1: Col_SE]----------------------------------------[C2: Col_SW]   (Rear Wall)
-       |                                                   |
-       |                   BEDROOM (10x10)                 |
-Y=5181 [C3: Col_Mid_E]-------------------------------------[C4: Col_Mid_W]  (Bed/Living)
-       |                                                   |
-       |                   LIVING ROOM (16x9)              |
-Y=1714 [C5: Col_East_Sitout]-[C6: Col_Stair_SE]--[C7: Col_Stair_SW]-[C8: Col_W_Toilet]
-       |                      |                  |         |
-       |      SITOUT (6x6)    |  STAIRCASE (6x7) |         |  TOILET (4x6)
-Y=0    [C9: Col_NE]-----------[C10: Col_N_Stair]-[C11: Col_N_Toilet]-[C12: Col_NW] (Front)
+       X = 0 mm                           X = 2230 mm                        X = 4915 mm
+Y=7506 [C1: Col_SE_Rear_C1]--------------[C2: Col_S_Spine_C2]----------------[C3: Col_SW_Rear_C3]  (Rear Wall)
+       |                                                                     |
+       |                              BEDROOM & KITCHEN                      |
+Y=3198 [C4: Col_MidE_C4]=====================================================[C5: Col_MidW_C5]     (RB_LIVING_Primary)
+       |                                                                     |
+       |                         COLUMN-FREE LIVING HALL (16x10)             |
+       |                                                                     |
+       |            SITOUT                STAIRCASE BAY                      |  TOILET
+Y=114  [C6: Col_NE_Front_C6]-------------[C7: Col_N_Stair_C7]----------------[C8: Col_NW_Mumty_C8] (Front Road)
 ```
 
-### 5.1 Structural Column Schedule
+### 5.1 Active 8-Column Structural Schedule ($230 \times 300\text{ mm}$)
 
-| Col ID  | FreeCAD Object Name         | X Coordinate (mm)           | Y Coordinate (mm)           | Cross Section                                   | Vertical Span (Z)                    |
-| :------ | :-------------------------- | :-------------------------- | :-------------------------- | :---------------------------------------------- | :----------------------------------- |
-| **C1**  | `Col_SE_Corner`             | $0.0 \rightarrow 228.6$     | $7391.4 \rightarrow 7620.0$ | $228.6 \times 228.6\text{ mm}$ ($9" \times 9"$) | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C2**  | `Col_SW_Corner`             | $4800.6 \rightarrow 5029.2$ | $7391.4 \rightarrow 7620.0$ | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C3**  | `Col_Bed_East_Mid`          | $0.0 \rightarrow 228.6$     | $5181.6 \rightarrow 5410.2$ | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C4**  | `Col_Bed_West_Mid`          | $4800.6 \rightarrow 5029.2$ | $5181.6 \rightarrow 5410.2$ | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C5**  | `Col_East_Sitout`           | $0.0 \rightarrow 228.6$     | $1714.5 \rightarrow 1943.1$ | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C6**  | `Col_Stair_SE`              | $1714.5 \rightarrow 1943.1$ | $1714.5 \rightarrow 1943.1$ | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C7**  | `Col_Stair_SW`              | $3695.7 \rightarrow 3924.3$ | $1714.5 \rightarrow 1943.1$ | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C8**  | `Col_Toilet_West`           | $4800.6 \rightarrow 5029.2$ | $1714.5 \rightarrow 1943.1$ | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C9**  | `Col_NE_Corner` (White Fin) | $0.0 \rightarrow 228.6$     | $0.0 \rightarrow 228.6$     | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C10** | `Col_N_Stair_Sitout`        | $1714.5 \rightarrow 1943.1$ | $0.0 \rightarrow 228.6$     | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C11** | `Col_N_Toilet_Stair`        | $3695.7 \rightarrow 3924.3$ | $0.0 \rightarrow 228.6$     | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C12** | `Col_NW_Corner`             | $4800.6 \rightarrow 5029.2$ | $0.0 \rightarrow 228.6$     | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C13** | `Col_Kitchen_Mid_E`         | $0.0 \rightarrow 228.6$     | $3467.1 \rightarrow 3695.7$ | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
-| **C14** | `Col_Kitchen_Mid_W`         | $1943.1 \rightarrow 2171.7$ | $5181.6 \rightarrow 5410.2$ | $228.6 \times 228.6\text{ mm}$                  | $914.4 \rightarrow 3962.4\text{ mm}$ |
+| Column ID | FreeCAD Object Name (GF) | FreeCAD Object Name (FF) | Grid / Functional Anchor | Model Centroid $(X, Y)$ (mm) | Section $(L \times W)$ (mm) | Vertical Span $Z$ (mm) |
+| :--- | :--- | :--- | :--- | :---: | :---: | :---: |
+| **C1** | `Col_SE_Rear_C1` | `FF_Col_SE_Rear_C1` | SE Corner (Kitchen rear outer) | $(150.0, 7505.7)$ | $300 \times 228.6$ | $+914.4 \to +3962.4$ |
+| **C2** | `Col_S_Spine_C2` | `FF_Col_S_Spine_C2` | S Center (Bed/Kitchen wall spine) | $(2230.0, 7505.5)$ | $300 \times 228.6$ | $+914.4 \to +3962.4$ |
+| **C3** | `Col_SW_Rear_C3` | `FF_Col_SW_Rear_C3` | SW Corner (Master Bed outer) | $(4914.9, 7541.4)$ | $228.6 \times 300$ | $+914.4 \to +3962.4$ |
+| **C4** | `Col_MidE_C4` | `FF_Col_MidE_C4` | Mid-East (Living/Kit divider) | $(114.3, 3197.8)$ | $228.6 \times 300$ | $+914.4 \to +3962.4$ |
+| **C5** | `Col_MidW_C5` | `FF_Col_MidW_C5` | Mid-West (Living/Bed divider) | $(4914.9, 3197.8)$ | $228.6 \times 300$ | $+914.4 \to +3962.4$ |
+| **C6** | `Col_NE_Front_C6` | `FF_Col_NE_Front_C6` | NE Corner (Sitout front porch) | $(150.0, 114.3)$ | $300 \times 228.6$ | $+914.4 \to +3962.4$ |
+| **C7** | `Col_N_Stair_C7` | `FF_Col_N_Stair_C7` | N Center (Stair spine divider) | $(1714.5, 114.3)$ | $300 \times 228.6$ | $+914.4 \to +3962.4$ |
+| **C8** | `Col_NW_Mumty_C8` | `FF_Col_NW_Mumty_C8` | NW Corner (Toilet outer / Mumty) | $(4950.6, 114.3)$ | $300 \times 228.6$ | $+914.4 \to +3962.4$ |
+
+*Note: Columns C7 and C8 extend upward through the rooftop terrace to $Z = +9460.4\text{ mm}$ (`Mumty_Col_C7`, `Mumty_Col_C8`) carrying dual $230 \times 230\text{ mm}$ OHT saddle beams supporting the 1,000 L overhead water tank. Full optimization details documented in [Section 75](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/docs/77_75_rcc_structural_optimization.md).*
 
 ### 5.2 Structural Beams Network (21 Beams Modeled in 3D)
 
