@@ -26,8 +26,11 @@ def run_analysis():
     App.ParamGet("User parameter:BaseApp/Preferences/Mod/Fem/Ccx").SetString("ccxBinaryPath", ccx_exe)
     App.ParamGet("User parameter:BaseApp/Preferences/Mod/Fem/Gmsh").SetString("gmshBinaryPath", gmsh_exe)
 
-    # 1. Primary RCC Load-Bearing Members (65 items)
+    # 1. Primary RCC Load-Bearing Members (72 items including 8 Footings)
     member_names = [
+        # Substructure Footings (8)
+        "Footing_N8_C1", "Footing_N8_C_SP", "Footing_N8_C2", "Footing_N8_C13",
+        "Footing_N8_C4", "Footing_N8_C12", "Sump_Raft_Foundation_Slab", "Septic_Raft_Foundation_Slab",
         # Substructure Pedestals (8)
         "Pedestal_C1", "Pedestal_C_SP", "Pedestal_C2", "Pedestal_C13",
         "Pedestal_C4", "Pedestal_C9", "Pedestal_C10", "Pedestal_C12",
@@ -50,8 +53,8 @@ def run_analysis():
         "FF_RB2_Core_GridB", "FF_RB2_Stair_East_Trimmer", "FF_RB2_Stair_West_Trimmer", "FF_RB2_Bedroom_Living", "FF_RB_LIVING_Primary",
         # Terrace Slab (1)
         "Terrace_Roof_Slab",
-        # Rooftop Mumty & OHT Frame (12)
-        "Mumty_Col_C7", "Mumty_Col_C8",
+        # Rooftop Mumty & OHT Frame (11)
+        "Mumty_Col_C7",
         "Headroom_Col_NE", "Headroom_Col_NW", "Headroom_Col_SE", "Headroom_Col_SW",
         "Headroom_RB_Front_North", "Headroom_RB_Rear_South", "Headroom_RB_East_Flank", "Headroom_RB_West_Flank",
         "OHT_Saddle_Beam_North", "OHT_Saddle_Beam_South"
@@ -67,7 +70,7 @@ def run_analysis():
     # Clean up previous analysis objects if existing
     old_fem_objs = [
         "FemAnalysis", "CalculiX_Solver", "MechanicalMaterial",
-        "ConstraintFixed_Pedestals", "ConstraintSelfWeight",
+        "ConstraintFixed_Footings", "ConstraintFixed_Pedestals", "ConstraintSelfWeight",
         "ConstraintPressure_FF_Slab", "ConstraintPressure_GF_Plinth",
         "ConstraintPressure_Terrace_Slab", "ConstraintForce_OHT",
         "FEMMeshGmsh", "CalculiX_static_results", "CCX_Results",
@@ -79,7 +82,7 @@ def run_analysis():
     doc.recompute()
 
     # Fuse into single continuous manifold solid
-    print("Fusing primary RCC members...")
+    print(f"Fusing {len(shapes)} primary RCC structural members...")
     fused_shape = shapes[0]
     for s in shapes[1:]:
         fused_shape = fused_shape.fuse(s)
@@ -104,20 +107,20 @@ def run_analysis():
         bb = f.BoundBox
         if abs(bb.ZMax - bb.ZMin) < 1e-2:
             z = bb.ZMax
-            if abs(z - (-1200.0)) < 1e-1:
+            if abs(z - (-1600.0)) < 1.0:
                 fixed_faces.append(fn)
-            elif abs(z - 4087.4) < 1e-1:
+            elif abs(z - 4087.4) < 1.0:
                 ff_slab_faces.append(fn)
             elif 900.0 <= z <= 1000.0:
                 gf_plinth_faces.append(fn)
-            elif abs(z - 7260.4) < 1e-1:
+            elif abs(z - 7260.4) < 1.0:
                 terrace_faces.append(fn)
-            elif abs(z - 9490.4) < 1e-1:
+            elif abs(z - 9490.4) < 1.0:
                 oht_faces.append(fn)
 
-    print(f"Detected: {len(fixed_faces)} pedestal bases, {len(ff_slab_faces)} FF slab face, {len(gf_plinth_faces)} GF plinth faces, {len(terrace_faces)} terrace face, {len(oht_faces)} OHT faces.")
+    print(f"Detected: {len(fixed_faces)} footing bases, {len(ff_slab_faces)} FF slab face, {len(gf_plinth_faces)} GF plinth faces, {len(terrace_faces)} terrace face, {len(oht_faces)} OHT faces.")
     if len(fixed_faces) != 8:
-        raise RuntimeError(f"Expected 8 fixed pedestal base faces at Z=-1200mm, found {len(fixed_faces)}")
+        raise RuntimeError(f"Expected 8 fixed footing base faces at Z=-1600mm, found {len(fixed_faces)}")
 
     # 2. FEM Analysis Container
     analysis = ObjectsFem.makeAnalysis(doc, "FemAnalysis")
@@ -139,9 +142,9 @@ def run_analysis():
     material.Material = mat
     analysis.addObject(material)
 
-    # 5. Fixed Boundary Conditions at 8 Pedestals
-    fixed = ObjectsFem.makeConstraintFixed(doc, "ConstraintFixed_Pedestals")
-    fixed.Label = "Fixed_Base_C1_C8_Pedestals"
+    # 5. Fixed Boundary Conditions at 8 Footing Bases (Z = -1600 mm)
+    fixed = ObjectsFem.makeConstraintFixed(doc, "ConstraintFixed_Footings")
+    fixed.Label = "Fixed_Base_8_Footing_Pads"
     fixed.References = [(fused_obj, fixed_faces)]
     analysis.addObject(fixed)
 
@@ -262,7 +265,7 @@ def run_analysis():
 
     # Classify nodes and elements by floor elevation Z
     levels = {
-        "Substructure (Foundation Pedestals)": {"z_min": -1200.0, "z_max": 614.4, "disps": [], "stresses": []},
+        "Substructure (Foundation Footings & Pedestals)": {"z_min": -1600.0, "z_max": 614.4, "disps": [], "stresses": []},
         "Ground Floor (Plinth Beams, Columns C1-C8, Beams)": {"z_min": 614.4, "z_max": 4087.4, "disps": [], "stresses": []},
         "First Floor (FF Slab, FF Columns C1-C8, Roof Beams)": {"z_min": 3962.4, "z_max": 7260.4, "disps": [], "stresses": []},
         "Terrace & Rooftop (Terrace Slab, Mumty, OHT Saddle Beams)": {"z_min": 7135.4, "z_max": 9490.4, "disps": [], "stresses": []}
@@ -346,6 +349,27 @@ def run_analysis():
     if sub1 not in master_grp.Group:
         master_grp.addObject(sub1)
 
+    # Parse reaction force from .dat
+    fz_reaction_n = 0.0
+    if dat_dst.exists():
+        with open(dat_dst, "r", encoding="utf-8") as df:
+            lines = df.readlines()
+            for i, line in enumerate(lines):
+                if "total force" in line.lower() and i + 2 < len(lines):
+                    parts = lines[i+2].split()
+                    if len(parts) >= 3:
+                        try:
+                            fz_reaction_n = float(parts[2])
+                        except Exception:
+                            pass
+
+    fz_reaction_kn = round(fz_reaction_n / 1000.0, 2)
+    # Total applied gravity load: Self weight + Live loads
+    self_weight_kn = round((fused_shape.Volume / 1e9) * 2500.0 * 9.81 / 1000.0, 2)
+    live_loads_kn = 68.48 + 17.16 + 51.77 + 11.0 # FF, GF, Terrace, OHT
+    total_applied_kn = round(self_weight_kn + live_loads_kn, 2)
+    equilibrium_pct = round((fz_reaction_kn / total_applied_kn) * 100.0, 2) if total_applied_kn > 0 else 0.0
+
     doc.recompute()
     doc.save()
     t1 = time.time()
@@ -356,6 +380,10 @@ def run_analysis():
         "node_count": node_count,
         "element_count": elem_count,
         "fused_solid_volume_m3": round(fused_shape.Volume / 1e9, 3),
+        "self_weight_kn": self_weight_kn,
+        "total_applied_kn": total_applied_kn,
+        "fz_reaction_kn": fz_reaction_kn,
+        "equilibrium_pct": equilibrium_pct,
         "global_max_downward_uz_mm": round(global_min_uz, 4),
         "global_max_displacement_mm": round(global_max_u, 4),
         "global_max_von_mises_mpa": round(global_max_vm, 3),
@@ -368,3 +396,4 @@ def run_analysis():
 if __name__ == "__main__":
     res = run_analysis()
     print(res)
+

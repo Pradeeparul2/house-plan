@@ -80,3 +80,5 @@
 | **73. OHT Kitchen Sink Down-Take Pipeline Re-Routing: Headroom Weather Curb to Col NE (Zero Window Obstruction)** | `docs/75_73_oht_kitchen_sink_down_take_.md` | Section details |
 | **74. Rooftop Terrace Weatherproof Wall Luminaire & Entrance Switchboard (SB-TERRACE)** | `docs/76_74_rooftop_terrace_weatherproo.md` | Section details |
 | **75. RCC Structural Optimization: 8-Column Frame Layout, Primary Living Hall Cross-Beam & Substructure Sync** | `docs/77_75_rcc_structural_optimization.md` | Section details |
+| **76. Ground Floor AAC Block Wall Schedule & Specifications** | `docs/02_ground_floor.md` | Parametric AAC masonry wall ledger, clearances, aperture cutouts & material takeoffs |
+| **77. First Floor AAC Block Wall Schedule & Specifications** | `docs/03_first_floor.md` | First floor parametric AAC masonry wall ledger, 1:1 parity & material takeoffs |

@@ -37,9 +37,17 @@
    - **Dimensions:** $1200\text{ mm}$ (L) $\times 1200\text{ mm}$ (W) $\times 1800\text{ mm}$ (D).
    - **Effective Volume:** $2.59\text{ m}^3$ ($\approx 2,592\text{ Liters}$).
    - **Design:** Twin-chamber anaerobic baffle tank with top inspection cover.
-3. **Primary Entrance Steps (`Steps_Road_To_Sitout`)**:
-   - **Dimensions:** Width = $1350\text{ mm}$ ($X \in [300.0, 1650.0\text{ mm}]$), Projection = $1275\text{ mm}$ ($Y \in [-1275.0, 0.0\text{ mm}]$).
-   - **Step Geometry:** 6 uniform risers of $152.4\text{ mm}$ ($6"$) each; treads of $255\text{ mm}$ ($10"$).
-   - **Finish:** Heavy-duty anti-skid terracotta-red flamed granite / clay paving tiles.
+
+### 4.3 Substructure Foundation Coordination & Plinth Ring Flush Alignment
+
+1. **Monolithic Stepped Raft Interface (Column C8 & Septic Tank)**:
+   - **Footing C8 (`Footing_N8_C12`):** $X \in [3695.7, 5029.2\text{ mm}]$, $Y \in [0.0, 1200.0\text{ mm}]$, $Z \in [-1600.0, -1200.0\text{ mm}]$ ($400\text{ mm}$ thick RCC).
+   - **Septic Tank Raft (`Septic_Raft_Foundation_Slab`):** $X \in [3695.7, 5029.2\text{ mm}]$, $Y \in [1200.0, 1943.1\text{ mm}]$, $Z \in [-1600.0, -1200.0\text{ mm}]$ ($400\text{ mm}$ thick RCC).
+   - **Coordination Status:** Aligned along the exact same X-span ($1333.5\text{ mm}$ width) forming a continuous, monolithic stepped raft entity from $Y = 0.0$ to $Y = 1943.1\text{ mm}$ with $0.00\text{ mm}$ lateral mismatch.
+   - **PCC Blinding Bed:** Aligned continuous bed $X \in [3645.7, 5029.2\text{ mm}]$, $Z \in [-1700.0, -1600.0\text{ mm}]$.
+
+2. **Plinth Beam Network Flush Alignment (`PB1_Rear_South`)**:
+   - Standardized to $300\text{ mm}$ depth ($Z \in [614.4, 914.4\text{ mm}]$).
+   - Top face sits exactly flush with FFL datum $Z = +914.4\text{ mm}$ ($+3'\text{-}0"$), matching `PB1_Front_North`, `PB1_East_Flank`, and `PB1_West_Flank` with $0.00\text{ mm}$ floor ridge.
 
 ---

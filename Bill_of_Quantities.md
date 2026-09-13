@@ -43,25 +43,25 @@
 
 | Item | Description | Unit | Qty | Rate (₹) | Amount (₹) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| 1.2.1 | PCC M7.5 blinding bed (100 mm thick) under 8 column footings ($1.60 \times 1.528\text{ m}$ each) | m³ | 1.96 | 5,500 | 10,780 |
-| 1.2.2 | PCC M10 bed (100 mm thick) under Underground Sump ($1.8 \times 1.2\text{ m}$) | m³ | 0.22 | 5,500 | 1,210 |
-| 1.2.3 | PCC M10 bed (100 mm thick) under Septic Tank ($1.2 \times 1.2\text{ m}$) | m³ | 0.14 | 5,500 | 770 |
-| | | | | **Sub-Total 1.2** | **₹12,760** |
+| 1.2.1 | PCC M7.5 blinding bed (100 mm thick) under 6 eccentric footings + Front combined raft + Septic raft extension (zero boundary encroachments) | m³ | 1.54 | 5,500 | 8,470 |
+| | | | | **Sub-Total 1.2** | **₹8,470** |
 
-### 1.3 Isolated Column Footings & Pedestals — M25 RCC (8 Nos.)
+### 1.3 Eccentric Column Footings, Front Combined Raft & Pedestals — M25 RCC (8 Columns)
 
-> **8 Standardized Footings:** $1500 \times 1428\text{ mm}$ plan, $400\text{ mm}$ deep pad (`Footing_N8_C1` to `Footing_N8_C12`).  
-> **8 Column Pedestals:** $230 \times 300\text{ mm}$ stub from footing top ($Z = -1200\text{ mm}$) to plinth level ($Z = +614.4\text{ mm}$, $H = 1814.4\text{ mm}$).  
+> **6 Eccentric Footings:** $1200 \times 1200\text{ mm}$ (C1, C3, C8), $1400 \times 1200\text{ mm}$ (C2), and $1200 \times 1400\text{ mm}$ (C4, C5), $400\text{ mm}$ deep pads flush with exterior plot faces.  
+> **1 Front Bay Combined Raft (`Footing_Combined_Front_C6_C7`):** $1943.1 \times 1943.1 \times 400\text{ mm}$ RCC raft slab unifying columns C6, C7, and the 3,888 L sump pit excavation with zero boundary/pit clashes.  
+> **1 Septic Bay Raft Extension:** $1333.5 \times 743.1 \times 400\text{ mm}$ RCC mat under Septic Tank.  
+> **8 Column Pedestals:** $230 \times 300\text{ mm}$ stubs from footing top ($Z = -1200\text{ mm}$) to plinth level ($Z = +614.4\text{ mm}$, $H = 1814.4\text{ mm}$); corner stubs flush within boundary.  
 > **Fe500D rebar:** 12 mm & 10 mm @ 150 mm c/c bi-directional mats + 16/12 mm vertical starter dowels + 8 mm confinement ties.
 
 | Item | Description | Unit | Qty | Rate (₹) | Amount (₹) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| 1.3.1 | M25 RCC for 8 footing pads ($1.50 \times 1.428 \times 0.40\text{ m}$ each, $V = 6.857\text{ m}^3$) | m³ | 6.86 | 8,500 | 58,310 |
+| 1.3.1 | M25 RCC for 6 eccentric footing pads + Front combined raft + Septic raft ($400\text{ mm}$ deep, total $V = 5.65\text{ m}^3$) | m³ | 5.65 | 8,500 | 48,025 |
 | 1.3.2 | M25 RCC for 8 column pedestals ($0.23 \times 0.30 \times 1.8144\text{ m}$ each, $V = 0.995\text{ m}^3$) | m³ | 1.00 | 8,500 | 8,500 |
-| 1.3.3 | Fe500D TMT rebar in footings + pedestals (mats + starter dowels + ties per BBS) | kg | 566 | 72 | 40,752 |
-| 1.3.4 | Shuttering and centering for footing pad vertical edges ($18.74\text{ m}^2$) and 8 pedestals ($15.35\text{ m}^2$) | m² | 34.1 | 380 | 12,958 |
-| 1.3.5 | Waterproofing admixture in footing concrete (integral type, Dr. Fixit Pidiproof) | kg | 55 | 85 | 4,675 |
-| | | | | **Sub-Total 1.3** | **₹1,25,195** |
+| 1.3.3 | Fe500D TMT rebar in footings + pedestals (mats + starter dowels + ties per BBS) | kg | 480 | 72 | 34,560 |
+| 1.3.4 | Shuttering and centering for footing pad vertical edges ($16.2\text{ m}^2$) and 8 pedestals ($15.35\text{ m}^2$) | m² | 31.6 | 380 | 12,008 |
+| 1.3.5 | Waterproofing admixture in footing concrete (integral type, Dr. Fixit Pidiproof) | kg | 45 | 85 | 3,825 |
+| | | | | **Sub-Total 1.3** | **₹1,06,918** |
 
 ### 1.4 Underground Sump Water Tank
 

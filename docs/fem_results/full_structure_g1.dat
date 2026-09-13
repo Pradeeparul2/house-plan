@@ -5,6 +5,6 @@
                                 INCREMENT     1
 
 
- total force (fx,fy,fz) for set CONSTRAINTFIXED_PEDESTALS and time  0.1000000E+01
+ total force (fx,fy,fz) for set CONSTRAINTFIXED_FOOTINGS and time  0.1000000E+01
 
-        2.497472E-08 -5.733483E-07  6.917825E+05
+       -9.792912E-08  1.116160E-06  8.104086E+05

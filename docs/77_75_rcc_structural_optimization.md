@@ -131,45 +131,47 @@ To achieve 100% monolithic frame alignment with columns `C1` through `C8`, all s
    - `PB2_Stair_East`, `RB2_Stair_East_Trimmer`, `FF_RB2_Stair_East_Trimmer`: Position shifted to $X = 1564.5\text{ mm}$ with length $300.0\text{ mm}$, perfectly matching Column C7 width.
 2. **Seismic Ring Bands Aligned:**
    - `GF_Continuous_Lintel_Toilet_Front`, `GF_Continuous_Sill_Toilet_Front`, `FF_Continuous_Lintel_Toilet_Front`, `FF_Continuous_Sill_Toilet_Front`: Length trimmed from $1066.8\text{ mm}$ to $990.6\text{ mm}$, ensuring clean flush termination at Column C8 ($X = 4800.6\text{ mm}$) without any external overhang.
-3. **Rooftop Mumty Pillars & OHT Saddle Beams:**
-   - Added `Mumty_Col_C7` ($300 \times 228.6\text{ mm}$, $H = 2325\text{ mm}$) and `Mumty_Col_C8` ($300 \times 228.6\text{ mm}$, $H = 2325\text{ mm}$) extending columns C7 and C8 vertically from terrace slab ($Z = 7135.4\text{ mm}$) up to the Mumty roof slab beam soffit ($Z = 9460.4\text{ mm}$).
-   - Added two $230 \times 230\text{ mm}$ RCC saddle beams in M25 concrete (`OHT_Saddle_Beam_North` and `OHT_Saddle_Beam_South`) spanning $3536.1\text{ mm}$ between columns C7 and C8 beneath the $1,000\text{ L}$ OHT pedestal to transmit water storage gravity loads directly into the main foundation via axial compression.
+3. **Rooftop Mumty Pillars & OHT Saddle Beams Rectification:**
+   - **Pruning Overextended Column C8:** Column C8 terminates flush at the First Floor terrace slab soffit ($Z = +7135.4\text{ mm}$), identical to perimeter columns C1–C6. The rogue freestanding cantilever post (`Mumty_Col_C8`) above the parapet was eliminated per IS 456 / IS 13920.
+   - **Reconciling Mumty Column C7:** Column C7 vertical extension (`Mumty_Col_C7`, $230 \times 230\text{ mm}$) is aligned flush with the Mumty East frame post (`Headroom_Col_NE`) at $X = 1714.5\text{ mm}, Y = 0.0\text{ mm}, Z \in [7135.4, 9460.4\text{ mm}]$.
+   - **Trimmed OHT Saddle Beams:** Dual $230 \times 230\text{ mm}$ RCC saddle beams (`OHT_Saddle_Beam_North` and `OHT_Saddle_Beam_South`) in M25 concrete trimmed to length $2209.8\text{ mm}$ spanning $X \in [1714.5, 3924.3\text{ mm}]$. The beams bear squarely atop Mumty corner posts `Headroom_Col_NE` and `Headroom_Col_NW` directly below the 1,000 L OHT pedestal plinth with zero external overhang past the Mumty west wall.
 
 ---
 
 ### 75.9 Full-Structure FEM Linear Static Analysis & CalculiX Load Test (IS 456 & IS 875 Compliance)
 
-A full-structure finite element simulation was conducted directly on the fused monolithic primary RCC frame ($V = 22.169\text{ m}^3$, 65 load-bearing solids) in [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) using FreeCAD FEM & CalculiX (`ccx` static analysis).
+A full-structure finite element simulation was re-executed directly on the refactored monolithic primary RCC frame ($V = 27.431\text{ m}^3$, 72 load-bearing solids including 8 boundary-contained footings) in [`HomeConstruction.FCStd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.FCStd) using FreeCAD FEM & CalculiX (`ccx` static analysis) incorporating the newly optimized, boundary-contained foundation and superstructure geometry.
 
 #### A. Finite Element Mesh & Parameters
 
+- **Structural Scope (72 Monolithic Solids):** 8 Footings/Rafts, 8 Pedestals, 9 Plinth Beams, 8 GF Columns, 9 GF Roof Beams, 1 GF Roof/FF Floor Slab (`Roof_Slab`), 8 FF Columns, 9 FF Roof Beams, 1 Terrace Slab (`Terrace_Roof_Slab`), and 11 Rooftop Mumty & OHT saddle frame members.
 - **Material Properties (M25 Concrete):** Young's modulus $E = 25,000\text{ MPa}$, Poisson's ratio $\nu = 0.18$, Density $\rho = 2,500\text{ kg/m}^3$.
 - **Mesher:** Gmsh 3D quadratic 10-node tetrahedrals (`C3D10`), characteristic element length $h \in [150, 200]\text{ mm}$.
-- **Mesh Discretization:** 80,432 nodes, 38,668 solid elements, 240,504 degrees of freedom.
-- **Boundary Conditions:** Fixed base supports ($U_x = U_y = U_z = 0$) at the 8 column pedestal bottom faces ($Z = -1200.0\text{ mm}$, footprint area $8 \times 68,580\text{ mm}^2 = 0.5486\text{ m}^2$).
+- **Boundary Conditions:** Fixed base supports ($U_x = U_y = U_z = 0$) applied to the 8 foundation footing bottom bearing faces at base excavation level ($Z = -1600.0\text{ mm}$, footprint area strictly inside $X \in [0, 5029.2], Y \in [0, 7619.8]$).
 - **Applied Gravity & Live Loads (IS 875 Part 2):**
-  - Self-weight: $g = -9.81\text{ m/s}^2$ ($Z$-axis), total concrete weight = $543.69\text{ kN}$.
+  - Self-weight: $g = -9.81\text{ m/s}^2$ ($Z$-axis), total concrete self-weight = $672.75\text{ kN}$.
   - Ground Floor Plinth Live Load: $2.0\text{ kN/m}^2$ uniform pressure across plinth beam top faces ($17.16\text{ kN}$).
   - First Floor Slab Live Load: $2.0\text{ kN/m}^2$ uniform pressure across $34.24\text{ m}^2$ floor area ($68.48\text{ kN}$).
   - Terrace Slab Live Load: $1.5\text{ kN/m}^2$ uniform pressure across $34.51\text{ m}^2$ area ($51.77\text{ kN}$).
-  - Overhead Water Tank (OHT): $11.0\text{ kN}$ downward point load applied directly to OHT saddle beams above C7/C8.
-  - **Total Applied Vertical Gravity Load:** $692.10\text{ kN}$.
-  - **Total Substructure Vertical Reaction ($F_z$):** $691.78\text{ kN}$ (CalculiX static equilibrium agreement: $99.95\%$).
+  - Overhead Water Tank (OHT): $11.0\text{ kN}$ downward load applied directly across the trimmed $2209.8\text{ mm}$ saddle beams above Mumty posts.
+  - **Total Applied Vertical Gravity Load:** $821.16\text{ kN}$.
+  - **Total Substructure Vertical Reaction ($F_z$):** $810.41\text{ kN}$ (CalculiX static equilibrium agreement: **$98.69\%$**).
 
 #### B. Floor-by-Floor Stress & Deflection Summary Table
 
-| Floor Level                              | Elevation Range $Z$ (mm) | Node Count | Element Count | Max Downward Deflection $U_z$ (mm) | Max Resultant Disp $ | U                  | $ (mm)             | Max von Mises Stress (MPa)                                 | Avg von Mises Stress (MPa) | Permissible Stress Limit (IS 456) | Safety Status |
-| :--------------------------------------- | :----------------------- | :--------- | :------------ | :--------------------------------- | :------------------- | :----------------- | :----------------- | :--------------------------------------------------------- | :------------------------- | --------------------------------- | ------------- |
-| **Substructure Pedestals**               | $[-1200.0, +614.4]$      | 6,231      | 1,792         | $-5.559\text{ mm}$                 | $5.564\text{ mm}$    | $2.682\text{ MPa}$ | $0.599\text{ MPa}$ | $\sigma_{cbc} = 8.5\text{ MPa}$ / $f_{ck} = 25\text{ MPa}$ | **PASS**                   |
-| **Ground Floor (PB, C1–C8, RB)**         | $[+614.4, +3962.4]$      | 27,881     | 10,502        | $-5.559\text{ mm}$                 | $5.570\text{ mm}$    | $3.575\text{ MPa}$ | $0.603\text{ MPa}$ | $\sigma_{cbc} = 8.5\text{ MPa}$ / $f_{ck} = 25\text{ MPa}$ | **PASS**                   |
-| **First Floor (Slab, C1–C8, RB)**        | $[+3962.4, +7135.4]$     | 36,044     | 15,037        | $-1.812\text{ mm}$                 | $1.815\text{ mm}$    | $3.188\text{ MPa}$ | $0.555\text{ MPa}$ | $\sigma_{cbc} = 8.5\text{ MPa}$ / $f_{ck} = 25\text{ MPa}$ | **PASS**                   |
-| **Terrace & Rooftop (Slab, Mumty, OHT)** | $[+7135.4, +9490.4]$     | 23,588     | 11,339        | $-1.803\text{ mm}$                 | $1.803\text{ mm}$    | $3.068\text{ MPa}$ | $0.524\text{ MPa}$ | $\sigma_{cbc} = 8.5\text{ MPa}$ / $f_{ck} = 25\text{ MPa}$ | **PASS**                   |
+| Floor Level | Elevation Range $Z$ (mm) | Node Count | Element Count | Max Downward Deflection $U_z$ (mm) | Max Resultant Disp $\|U\|$ (mm) | Max von Mises Stress (MPa) | Avg von Mises Stress (MPa) | Permissible Stress Limit (IS 456) | Safety Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Substructure (Footings & Pedestals)** | $[-1600.0, +614.4]$ | 16,378 | 6,994 | $-5.519\text{ mm}$ | $5.524\text{ mm}$ | $3.564\text{ MPa}$ | $0.549\text{ MPa}$ | $\sigma_{cbc} = 8.5\text{ MPa}$ / $f_{ck} = 25\text{ MPa}$ | **PASS** |
+| **Ground Floor (PB, C1–C8, RB)** | $[+614.4, +4087.4]$ | 40,302 | 19,380 | $-5.519\text{ mm}$ | $5.529\text{ mm}$ | $3.381\text{ MPa}$ | $0.506\text{ MPa}$ | $\sigma_{cbc} = 8.5\text{ MPa}$ / $f_{ck} = 25\text{ MPa}$ | **PASS** |
+| **First Floor (Slab, C1–C8, RB)** | $[+3962.4, +7260.4]$ | 47,602 | 23,313 | $-1.817\text{ mm}$ | $1.820\text{ mm}$ | $3.077\text{ MPa}$ | $0.476\text{ MPa}$ | $\sigma_{cbc} = 8.5\text{ MPa}$ / $f_{ck} = 25\text{ MPa}$ | **PASS** |
+| **Terrace & Rooftop (Slab, Mumty, OHT)** | $[+7135.4, +9490.4]$ | 21,641 | 10,406 | $-1.809\text{ mm}$ | $1.810\text{ mm}$ | $3.391\text{ MPa}$ | $0.468\text{ MPa}$ | $\sigma_{cbc} = 8.5\text{ MPa}$ / $f_{ck} = 25\text{ MPa}$ | **PASS** |
 
 #### C. Engineering Compliance Verdict
 
-1. **Deflection Limits (IS 456 Cl. 23.2):** Max permissible deflection across the critical $5.029\text{ m}$ living room span is $\text{Span}/250 = 20.12\text{ mm}$. The observed maximum downward deflection is $5.559\text{ mm}$, well within the permissible threshold ($27.6\%$ of allowance).
-2. **Stress Concentrations (IS 456 Cl. 34.4):** The global peak von Mises stress across re-entrant column-beam intersections is $5.347\text{ MPa}$, safely below the permissible direct compressive stress in bending ($\sigma_{cbc} = 8.5\text{ MPa}$) and compressive strength ($f_{ck} = 25.0\text{ MPa}$).
-3. **Artifact Persistence:**
+1. **Deflection Limits (IS 456 Cl. 23.2):** Max permissible deflection across the critical $5.029\text{ m}$ living room span is $\text{Span}/250 = 20.12\text{ mm}$. The observed maximum downward deflection is $5.519\text{ mm}$, well within the permissible threshold ($27.4\%$ of allowance).
+2. **Stress Concentrations (IS 456 Cl. 34.4):** Peak von Mises stress in the critical superstructure zones is $3.381\text{ MPa}$ (and $3.564\text{ MPa}$ at footing necks), safely below the permissible direct compressive bending stress ($\sigma_{cbc} = 8.5\text{ MPa}$) and characteristic compressive strength ($f_{ck} = 25.0\text{ MPa}$).
+3. **Equilibrium & Support Stability:** Total vertical reaction of $810.41\text{ kN}$ matches applied gravity loads within $1.31\%$, with horizontal reactions resolving to zero ($\Sigma F_x \approx 0, \Sigma F_y \approx 0$).
+4. **Artifact Persistence:**
    - Solver Input Deck: [`docs/fem_results/full_structure_g1.inp`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/docs/fem_results/full_structure_g1.inp)
    - Raw Results Deck: [`docs/fem_results/full_structure_g1.frd`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/docs/fem_results/full_structure_g1.frd)
    - Reaction Forces Deck: [`docs/fem_results/full_structure_g1.dat`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/docs/fem_results/full_structure_g1.dat)
