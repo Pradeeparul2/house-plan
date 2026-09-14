@@ -35,15 +35,16 @@ All masonry solids on the Ground Floor assembly of `HomeConstruction.FCStd` have
 | `Kitchen_Wall_East` | GF | Outer Envelope (East Boundary) | $200.0\text{ mm}$ | $2438.4\text{ mm}$ | $2748.0\text{ mm}$ | $1.127\text{ m}^3$ | Flush with East plot boundary ($X = 0.0\text{ mm}$); cutouts for W2 & Exhaust; soffit flush |
 | `Living_Room_Wall_East` | GF | Outer Envelope (East Boundary) | $200.0\text{ mm}$ | $3467.1\text{ mm}$ | $2748.0\text{ mm}$ | $1.612\text{ m}^3$ | Flush with East plot boundary ($X = 0.0\text{ mm}$); cutout for W1 ($1200 \times 1200\text{ mm}$ at $Y \in [3510, 4710\text{ mm}]$); clear of Col C4; soffit flush |
 | `Toilet_Wall_Front` | GF | Outer Envelope (North Facade) | $200.0\text{ mm}$ | $1219.2\text{ mm}$ | $2748.0\text{ mm}$ | $0.605\text{ m}^3$ | Flush with North front facade ($Y = 0.0\text{ mm}$); cutout for V1; soffit flush |
-| `Wall_Stair_North` | GF | Outer Envelope (North Facade) | $200.0\text{ mm}$ | $2095.5\text{ mm}$ | $1065.6\text{ mm}$ | $0.447\text{ m}^3$ | Flush with North facade ($Y \in [0, 200]$), anchors into C7 and Toilet corner ($Z \le 1980\text{ mm}$) |
+| `Wall_Stair_North` | GF | North Facade / Staircase Spandrel | **$100.0\text{ mm}$** (4″) | $2095.5\text{ mm}$ | **$1370.4\text{ mm}$** (+1 ft) | **$0.287\text{ m}^3$** | Flush with North boundary grid ($Y \in [0.0, 100.0\text{ mm}]$); anchors into C7 ($X = 1714.5$) and Toilet front ($X = 3810.0$); top datum $Z = 2284.8\text{ mm}$ fully backs niche frame; $+100\text{ mm}$ stair clearance |
 | `Sitout_Compound_Wall_East` | GF | Outer Compound Wall (Sitout East) | $200.0\text{ mm}$ | $1485.9\text{ mm}$ | $930.0\text{ mm}$ | $0.276\text{ m}^3$ | Flush with East plot boundary ($X = 0.0\text{ mm}$) |
 | `Bedroom_Wall_North` | GF | Inner Partition (Living / Bed) | $100.0\text{ mm}$ | $3048.0\text{ mm}$ | $2748.0\text{ mm}$ | $0.661\text{ m}^3$ | Aligned at $Y \in [4526.0, 4626.0]$; cutout for D2 ($914 \times 2134\text{ mm}$); soffit flush |
 | `Bedroom_Wall_East` | GF | Inner Partition (Bed / Kit Spine) | $100.0\text{ mm}$ | $3048.0\text{ mm}$ | $2748.0\text{ mm}$ | $0.838\text{ m}^3$ | Aligned at $X \in [1935.2, 2035.2]$; single structural divider for Bedroom & open Kitchen; soffit flush |
-| `Living_Room_Wall_Main_Door` | GF | Inner Partition (Sitout / Living) | $100.0\text{ mm}$ | $1514.5\text{ mm}$ | $2748.0\text{ mm}$ | $0.217\text{ m}^3$ | Aligned at $Y \in [1714.5, 1814.5]$; ties flush to East wall & Stair wall; D1 cutout; soffit flush |
-| `Wall_Stair_SE_SW` | GF | Inner Partition (Stair / Living) | $100.0\text{ mm}$ | $2057.2\text{ mm}$ | $2748.0\text{ mm}$ | $0.565\text{ m}^3$ | Aligned with Main Door wall line ($Y \in [1714.5, 1814.5]$); spans $X \in [1714.5, 3771.7]$; soffit flush |
+| `Living_Room_Wall_Main_Door` | GF | Inner Partition (Sitout / Living) | **$200.0\text{ mm}$** (8″) | $1514.5\text{ mm}$ | $2748.0\text{ mm}$ | **$0.391\text{ m}^3$** | Aligned at $Y \in [1614.5, 1814.5]$; absorbs into Sitout interface preserving 3230mm Living Room depth; ties flush to Sitout return wall & Stair wall; 220mm full-depth D1 cutout; soffit flush |
+| `Wall_Stair_SE_SW` | GF | Inner Partition (Stair / Living) | **$200.0\text{ mm}$** (8″) | $2057.2\text{ mm}$ | $2748.0\text{ mm}$ | **$1.131\text{ m}^3$** | Aligned at $Y \in [1714.5, 1914.5]$; North face collinear with `Toilet_Wall_North` along $Y = 1714.5$; spans $X \in [1714.5, 3771.7]$; 100% flight & landing clearance preserved; resting on PB2 beam; soffit flush |
 | `Toilet_Wall_North` | GF | Inner Partition (Toilet North Door) | $100.0\text{ mm}$ | $1057.5\text{ mm}$ | $2133.6\text{ mm}$ | $0.068\text{ m}^3$ | Aligned to exact same $Y$-datum ($Y \in [1714.5, 1814.5]$); cutout for D4 ($750 \times 2100\text{ mm}$) |
 | `Toilet_Wall_East` | GF | Inner Partition (Toilet / Stair Lower) | $100.0\text{ mm}$ | $1814.5\text{ mm}$ | $2133.6\text{ mm}$ | $0.387\text{ m}^3$ | Aligned at $X \in [3771.7, 3871.7]$, $Y \in [0.0, 1814.5]$; clean $90^\circ$ flush corner |
 | `Toilet_Wall_East_Top` | GF | Inner Partition (Toilet / Stair Upper) | $100.0\text{ mm}$ | $1814.5\text{ mm}$ | $614.4\text{ mm}$ | $0.111\text{ m}^3$ | Parapet tier above door lintel capping toilet enclosure ($Z \in [3048.0, 3662.4\text{ mm}]$) |
+| `Kitchen_Wall_North_Drop` | GF | Lintel Spandrel / Drop Wall (Breakfast Counter) | **$100.0\text{ mm}$** (4″) | $1066.8\text{ mm}$ | **$614.4\text{ mm}$** | **$0.066\text{ m}^3$** | Positioned directly above `Kitchen_Breakfast_Counter` centered at $Y = 5181.6\text{ mm}$ ($Y \in [5131.6, 5231.6\text{ mm}]$); spans $X \in [152.4, 1219.2\text{ mm}]$ matching breakfast counter length; top datum $Z = 3662.4\text{ mm}$; leaves clear $1066.8\text{ mm}$ servery aperture AFFL ($Z \in [1981.2, 3048.0\text{ mm}]$) |
 
 ---
 
@@ -63,23 +64,39 @@ All masonry solids on the Ground Floor assembly of `HomeConstruction.FCStd` have
 
 ### 4.1 AAC Masonry Volume & Block Counts
 
-- **Total Ground Floor AAC Masonry Volume:** **$15.190\text{ m}^3$**
+- **Total Ground Floor AAC Masonry Volume:** **$15.256\text{ m}^3$**
 - **Outer Envelope ($200\text{ mm}$ Thick):**
   - Net Masonry Volume: $12.038\text{ m}^3$
   - Standard Block Section: $600 \times 200 \times 200\text{ mm}$ ($0.024\text{ m}^3$/unit)
   - Net Block Count: $502\text{ blocks}$
   - Gross Block Requirement (+5% cutting/wastage): **$527\text{ blocks}$**
-- **Inner Partitions ($100\text{ mm}$ Thick):**
-  - Net Masonry Volume: $3.152\text{ m}^3$
+- **Inner Partitions & Spandrels ($100\text{ mm}$ Thick):**
+  - Net Masonry Volume: $3.218\text{ m}^3$ (includes $0.066\text{ m}^3$ for `Kitchen_Wall_North_Drop` spandrel wall)
   - Standard Block Section: $600 \times 200 \times 100\text{ mm}$ ($0.012\text{ m}^3$/unit)
-  - Net Block Count: $263\text{ blocks}$
-  - Gross Block Requirement (+5% cutting/wastage): **$276\text{ blocks}$**
+  - Net Block Count: $269\text{ blocks}$
+  - Gross Block Requirement (+5% cutting/wastage): **$282\text{ blocks}$**
 
 ### 4.2 Mortar & Consumables
 - **Joint Type:** Thin-Bed Polymer AAC Block Jointing Adhesive ($3\text{ to }4\text{ mm}$ joint thickness).
 - **Consumption Rate:** $65\text{ kg per m}^3$ of AAC masonry.
-- **Adhesive Mortar Requirement:** $15.190 \times 65 = 987\text{ kg}$ (**25 bags of 40 kg each**).
+- **Adhesive Mortar Requirement:** $15.256 \times 65 = 992\text{ kg}$ (**25 bags of 40 kg each**).
 - **RCC Seismic Bands (GF):** Continuous lintel and sill tie bands ($200\text{ mm}$ and $100\text{ mm}$ wide) integrated at $Z = 1848\text{ mm}$ (Sill) and $Z = 3048\text{ mm}$ (Lintel).
+
+### 4.3 Kitchen/Living Interface & Overhead Structural Coordination
+- **GF Continuous RCC Lintel Beam (`GF_Continuous_Lintel_Kitchen_Living`):** Dedicated $100\text{ mm}$ wide $\times 150\text{ mm}$ deep RCC lintel tie beam ($1782.8 \times 100.0 \times 150.0\text{ mm}$) per IS 4326, integrated directly into group `GF_Lintel_and_Sill_Beams`.
+  * **Placement & Bounds:** Base `(152.4, 5131.6, 3048.0) mm`, spanning $X \in [152.4, 1935.2\text{ mm}]$, $Y \in [5131.6, 5231.6\text{ mm}]$, $Z \in [3048.0, 3198.0\text{ mm}]$.
+  * **Structural Interconnection:** Ties the East Wall lintel band (`GF_Continuous_Lintel_East_Wall` at $X = 152.4\text{ mm}$) continuously across the kitchen/living boundary directly into the Bedroom/Kitchen wall lintel band (`GF_Continuous_Lintel_Bedroom_Kitchen_Wall` at $X = 1935.2\text{ mm}$) with $0.0000\text{ mm}$ air gap.
+- **Kitchen/Living Spandrel Drop Wall Above Lintel Beam (`Kitchen_Wall_North_Drop` / `Kitchen_Living_Spandrel_Drop_Wall`):** Dedicated 4″ ($100\text{ mm}$) AAC masonry spandrel bulkhead solid ($1782.8 \times 100.0 \times 464.4\text{ mm}$) positioned directly **above** the RCC lintel beam.
+  * **Placement & Bounds:** Base `(152.4, 5131.6, 3198.0) mm`, spanning $X \in [152.4, 1935.2\text{ mm}]$, $Y \in [5131.6, 5231.6\text{ mm}]$, $Z \in [3198.0, 3662.4\text{ mm}]$ ($H = 464.4\text{ mm}$).
+  * **Junctions:** Sits flush on the top surface of `GF_Continuous_Lintel_Kitchen_Living` ($Z = 3198.0\text{ mm}$), terminates flush against the ceiling slab soffit ($Z = 3662.4\text{ mm}$), and attaches flush to the west face of `Bedroom_Wall_East` ($X = 1935.20\text{ mm}$) with $0.0000\text{ mm}$ tolerance.
+- **Clear Openings Below Lintel Beam:**
+  * **Open Servery Aperture:** Clear vertical opening of $1066.8\text{ mm}$ (3′ 6″) between breakfast counter top ($Z = 1981.2\text{ mm}$) and lintel soffit ($Z = 3048.0\text{ mm}$) over $X \in [152.4, 1219.2\text{ mm}]$.
+  * **Walk-in Corridor Headroom:** Beside the counter, the walk-in circulation passage ($X \in [1219.2, 1935.2\text{ mm}]$) provides an unobstructed clear head height of $2133.6\text{ mm}$ (7′ 0″ AFFL) underneath the lintel beam soffit.
+- **Kitchen & Living Room Loft Slabs Attached to Lintel & Spandrel Assembly:**
+  * **`Living_Room_Loft_East`:** $600.0 \times 3188.5 \times 75.0\text{ mm}$ RCC utility loft at $Z \in [3048.0, 3123.0\text{ mm}]$, extending south from $Y = 1943.1\text{ mm}$ to attach flush with **$0.0000\text{ mm}$ air gap** to the north face of the lintel beam and spandrel drop wall ($Y = 5131.60\text{ mm}$).
+  * **`Kitchen_Loft_West`:** $677.9 \times 1626.4 \times 75.0\text{ mm}$ RCC storage loft at $Z \in [3048.0, 3123.0\text{ mm}]$, extending north from $Y = 6858.0\text{ mm}$ down to $Y = 5231.60\text{ mm}$, attaching flush with **$0.0000\text{ mm}$ air gap** to the south face of the lintel beam and spandrel drop wall ($Y = 5231.60\text{ mm}$) and embedded flush into `Bedroom_Wall_East` ($X = 1935.20\text{ mm}$).
+  * **`Kitchen_Loft_South`:** $1782.8 \times 609.6 \times 75.0\text{ mm}$ RCC loft spanning across the south kitchen wall from $X = 152.4\text{ mm}$ to $X = 1935.2\text{ mm}$, embedded flush into `Bedroom_Wall_East`.
+  * **First Floor Equivalents:** Counterparts `FF_Living_Room_Loft_East`, `FF_Kitchen_Loft_West`, and `FF_Kitchen_Loft_South` at $Z \in [6221.0, 6296.0\text{ mm}]$ identically aligned for complete structural consistency.
 
 ---
 
@@ -98,9 +115,15 @@ All masonry solids on the Ground Floor assembly of `HomeConstruction.FCStd` have
 * Where conduits pass across perimeter roof beams (`RB1_Rear_South`, `RB1_East_Flank`, `RB1_West_Flank`, `RB2_Core_GridB`), pre-cast heavy-duty $\varnothing 25\text{ mm}$ PVC pipe sleeves must be secured in the middle third depth ($Z \approx 3812\text{ to }3841\text{ mm}$, neutral axis) prior to beam concrete casting.
 * No field core drilling through cured RCC beams is permitted without structural engineer sign-off.
 
-### 5.4 Modular Switchbox Flush Wall Snapping (Zero-Gap Schedule)
+### 5.4 Modular Switchbox Flush Wall Snapping & Height Calibration
 All Ground Floor modular switchboard back-boxes and faceplates (`SB-1` to `SB-16`, `DB_GF`) are locked flush to their target host wall finished plaster faces:
-* **Outer Envelope Walls ($200\text{ mm}$):** East wall switchboards (`SB-14`, `SB-16 Loft`, `DB_GF`) flush on $X = 200.0\text{ mm}$; South wall switchboards (`SB-10`, `SB-15`) flush on $Y = 7420.0\text{ mm}$; West wall switchboards (`SB-3`, `SB-16 TV`, `SB-12`) flush on $X = 4829.2\text{ mm}$.
+* **Outer Envelope Walls ($200\text{ mm}$):** East wall switchboards (`SB-14`, `SB-16 Loft`, `DB_GF`) flush on $X = 200.0\text{ mm}$; South wall switchboards (`SB-10` at $X = 2630.0\text{ mm}$ [$\mathbf{150.0\text{ mm}}$ clear of C2], `SB-15`) flush on $Y = 7420.0\text{ mm}$; West wall switchboards (`SB-3`, `SB-16 TV`, `SB-12`) flush on $X = 4829.2\text{ mm}$.
 * **Inner Partition Walls ($100\text{ mm}$):** Stair/entry wall switchboards (`SB-2`, `SB-4`) flush on South face $Y = 1814.5\text{ mm}$; Bed partition (`SB-9`) flush on South face $Y = 4626.0\text{ mm}$; Kitchen aisle spine (`SB-13`) flush on East face $X = 1935.2\text{ mm}$; Bedroom AC switchboard flush on West face $X = 2035.2\text{ mm}$.
+* **Mounting Heights (AFFL):** General switchboards at $+1200\text{ mm}$; Bedside `SB-10` calibrated at $+650.0\text{ mm}$; Kitchen counter `SB-14` calibrated at $+1000.0\text{ mm}$ ($+150\text{ mm}$ above granite counter); Distribution Board `DB_GF` center at $+1435.6\text{ mm}$.
 * **Air Gap & Punch-Through:** $0.0\text{ mm}$ tolerance across all assemblies with zero through-wall penetration.
+
+### 5.5 Circular Deep PVC Ceiling Junction Boxes (`GF_Circular_Deep_Junction_Boxes`)
+* **Specification:** Heavy-duty circular deep PVC junction boxes ($65\text{ mm}\text{ OD} \times 60\text{ mm}\text{ depth}$) embedded directly in the $125\text{ mm}$ ceiling slab casting ($Z \in [3962.4, 4022.4\text{ mm}]$).
+* **Placement Nodes:** 17 strategic locations covering multi-way conduit intersections (Living Room spine, Foyer distributor, Bedroom loop, Kitchen header) and the top of every vertical wall chase.
+* **Cover & Clearances:** Soffit flush at $Z = 3962.4\text{ mm}$; top concrete cover $\ge 62.5\text{ mm}$; $0\text{ mm}$ clash with downstand beam reinforcement cages (`RB_LIVING_Primary`).
 

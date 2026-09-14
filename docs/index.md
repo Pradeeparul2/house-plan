@@ -82,3 +82,4 @@
 | **75. RCC Structural Optimization: 8-Column Frame Layout, Primary Living Hall Cross-Beam & Substructure Sync** | `docs/77_75_rcc_structural_optimization.md` | Section details |
 | **76. Ground Floor AAC Block Wall Schedule & Specifications** | `docs/02_ground_floor.md` | Parametric AAC masonry wall ledger, clearances, aperture cutouts & material takeoffs |
 | **77. First Floor AAC Block Wall Schedule & Specifications** | `docs/03_first_floor.md` | First floor parametric AAC masonry wall ledger, 1:1 parity & material takeoffs |
+| **78. Pre-Drafting Model Health & Specification Readiness Audit** | `docs/78_pre_drafting_audit.md` | Pre-drafting health audit, discrepancy matrix, 2D sheet readiness scorecard & automated fix validation |
