@@ -91,18 +91,15 @@ def remodel_first_floor(doc=None, save_on_complete=True):
         report["architectural_updates"].append("FF_Wall_Stair_SE_SW: 200mm thickness (Y: 1714.5..1914.5), collinear along Y=1714.5")
         print("  [OK] FF_Wall_Stair_SE_SW updated to 200mm thickness (Y: 1714.5..1914.5).")
 
-    # 2.3 Add FF_Wall_Stair_North to complete 1:1 stairwell enclosure
+    # 2.3 Remove FF_Wall_Stair_North as per user request
     wall_stair_north = doc.getObject("FF_Wall_Stair_North")
-    if not wall_stair_north:
-        wall_stair_north = doc.addObject("Part::Feature", "FF_Wall_Stair_North")
-        wall_stair_north.Label = "FF Staircase North Wall (Up to Mid-Landing)"
+    if wall_stair_north:
         stair_grp = doc.getObject("FF_Staircase_Group")
-        if stair_grp:
-            stair_grp.addObject(wall_stair_north)
-        report["added_elements"].append("FF_Wall_Stair_North")
-    wall_stair_north.Shape = Part.makeBox(2095.5, 100.0, 1370.4, App.Vector(1714.5, 0.0, 4087.4))
-    report["architectural_updates"].append("FF_Wall_Stair_North: 2095.5x100x1370.4mm (X: 1714.5..3810, Y: 0..100, Z: 4087.4..5457.8)")
-    print("  [OK] FF_Wall_Stair_North created/updated (2095.5x100x1370.4mm).")
+        if stair_grp and wall_stair_north in stair_grp.Group:
+            stair_grp.removeObject(wall_stair_north)
+        doc.removeObject("FF_Wall_Stair_North")
+        report["removed_elements"].append("FF_Wall_Stair_North")
+        print("  [OK] FF_Wall_Stair_North removed.")
 
     # 2.4 Rebuild FF_Kitchen_Wall_North_Drop to full specification
     wall_drop = doc.getObject("FF_Kitchen_Wall_North_Drop")
@@ -294,7 +291,7 @@ def remodel_first_floor(doc=None, save_on_complete=True):
         "FF_Living_Room_Wall_East", "FF_Toilet_Wall_Front", "FF_Bedroom_Wall_North",
         "FF_Bedroom_Wall_East", "FF_Living_Room_Wall_Main_Door", "FF_Wall_Stair_SE_SW",
         "FF_Toilet_Wall_North", "FF_Toilet_Wall_East", "FF_Toilet_Wall_East_Top",
-        "FF_Kitchen_Wall_North_Drop", "FF_Wall_Stair_North"
+        "FF_Kitchen_Wall_North_Drop"
     ]
     max_z = max(doc.getObject(w).Shape.BoundBox.ZMax for w in ff_walls)
     report["validation"]["max_ff_wall_z"] = round(max_z, 2)
@@ -316,7 +313,7 @@ def remodel_first_floor(doc=None, save_on_complete=True):
             exec(cache_script.read_text(encoding="utf-8"), ns)
             affected = [
                 "FF_RB1_Rear_South", "FF_RB2_Stair_East_Trimmer", "FF_Living_Room_Wall_Main_Door",
-                "FF_Wall_Stair_SE_SW", "FF_Wall_Stair_North", "FF_Kitchen_Wall_North_Drop",
+                "FF_Wall_Stair_SE_SW", "FF_Kitchen_Wall_North_Drop",
                 "FF_Toilet_Wall_East_Top", "FF_Lintel_Main_Door", "FF_Continuous_Lintel_Balcony_Wall",
                 "FF_Main_Door_Architectural_Surround", "FF_Main_Door_Frame", "FF_Main_Door_Leaves",
                 "FF_Main_Door_Handles", "FF_Electrical_Switchboard_Plates", "FF_Electrical_Switchboard_Rocker_Switches"

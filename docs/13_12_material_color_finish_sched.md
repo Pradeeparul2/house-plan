@@ -36,4 +36,33 @@
 | **Telecom Terminal Cowl White**    | `#F8FAFC` | `(0.96, 0.96, 0.98)` | IP65 weatherproof entry cowl box on inner West parapet wall face.                |
 | **Telecom Conduit Electric Blue**  | `#0A84E3` | `(0.04, 0.52, 0.89)` | 25mm Heavy-Gauge Rigid PVC Multi-Storey Riser Pipeline (Rooftop to TV Unit).    |
 
+
+
+### 12.1 Contemporary Three-Tone Exterior Facade Palette (Mystic Dream, White & Oracle)
+
+Sampled directly from user design specification (`references/paint referance 2.PNG`) and applied to the 3D BIM Model (`HomeConstruction.FCStd` across 135 architectural elements):
+
+| Shade Name | Hex Code | RGB Vector (0-1) | Architectural Elements in 3D Model | Count |
+| :--- | :--- | :--- | :--- | :--- |
+| **White** | `#E8E5E6` | `(0.910, 0.898, 0.902)` | Primary living masonry walls, columns C1-C8, GF & FF sitout/balcony front walls, window quoin surrounds, GF terrace parapet, entrance steps, planter coping rim | 57 |
+| **Oracle** | `#A4ADBA` | `(0.643, 0.678, 0.729)` | Staircase tower masonry walls, Mumty headroom volume, rooftop water tank enclosure, rear staircase exterior | 18 |
+| **Mystic Dream** | `#33495B` | `(0.200, 0.286, 0.357)` | Facade perimeter portal frame, horizontal canopy & balcony fascia bands, pergola trellis beams, vertical fin, exterior staircase louvers, drip cornices, balcony planter trough | 30 |
+| **Natural Teak** | `#9E6B38` | `(0.620, 0.420, 0.220)` | Main entrance double door & frames, First floor balcony door & frames, canopy wood soffit panels | 12 |
+| **Marine Steel SS 304** | `#D1D6DB` | `(0.820, 0.840, 0.860)` | Staircase handrails, terrace parapet safety railings, sitout safety gate structure | 10 |
+| **Dark Charcoal / Joinery**| `#2E2E33` | `(0.180, 0.180, 0.200)` | Window frames, glazing sashes, hardware latches, utility fixtures | 9 |
+| **Emerald Foliage & Soil**| `#2D7A42` / Soil | `(0.176, 0.478, 0.259)` | Balcony decorative planting shrubbery canopy, cascading trailing ivy tendrils, dark earth loam bed | 2 |
+
+---
+
+### 12.2 First Floor Balcony Plant Decoration Bay Specifications
+
+Integrated directly in front of `FF_Balcony_Fascia_Band` (`Balcony Modern Fascia Band`):
+
+| Component Member | FreeCAD Object Name | Geometric Dimensions | Material / Color Finish |
+| :--- | :--- | :--- | :--- |
+| **Planter Bay Trough** | `FF_Balcony_Planter_Trough` | $1485.9 \times 200.0 \times 320.0\text{ mm}$ ($X \in [228.6, 1714.5]$, $Y \in [-200.0, 0.0]$, $Z \in [4087.4, 4407.4]$) | **Mystic Dream** (`#33495B`) with dual horizontal architectural flute reveals |
+| **Coping Drip Rim** | `FF_Balcony_Planter_Rim` | $1505.9 \times 215.0 \times 25.0\text{ mm}$ ($X \in [218.6, 1724.5]$, $Y \in [-215.0, 0.0]$, $Z \in [4392.4, 4417.4]$) | **Architectural White** (`#E8E5E6`) with $15\text{ mm}$ drip edge overhang |
+| **Soil Substrate** | `FF_Balcony_Planter_Soil` | $1435.9 \times 165.0 \times 265.0\text{ mm}$ ($X \in [253.6, 1689.5]$, $Y \in [-175.0, -10.0]$, $Z \in [4112.4, 4377.4]$) | **Dark Earth Loam** (`(0.24, 0.18, 0.12)`) |
+| **Foliage & Cascading Ivy**| `FF_Balcony_Planter_Foliage` | Canopy $Z \in [4377.4, 4515.0\text{ mm}]$, 14 cascading tendrils hanging down front to $Z = 4130.0\text{ mm}$ | **Emerald Leaf Green** (`#2D7A42`, `(0.176, 0.478, 0.259)`) |
+
 ---
