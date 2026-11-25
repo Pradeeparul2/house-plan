@@ -4833,3 +4833,78 @@ To eliminate severe plot envelope boundary encroachments (previously spilling up
 4. **Substructure Coordination:** Monolithic stepped raft interface ($0.0\text{ mm}$ gap/overlap) between `Footing_N8_C12` and `Septic_Raft_Foundation_Slab` confirmed, and C6–C7 unified strip raft `Sump_Raft_Foundation_Slab` verified.
 5. **MEP Services & Containment:** Modular switchboards flush-snapped ($0.0\text{ mm}$ air gap), column clearances $\ge 150.0\text{ mm}$, circular deep junction pot boxes contained within the $125\text{ mm}$ slab core, and 0 ghost conduits confirmed.
 6. **2D TechDraw Readiness:** All 12 production drawing sheets certified **READY (PASS)**.
+
+---
+
+## 77. Phased 5-Way Orientation 3D Walkthrough Animation in Blender
+
+> [!NOTE]
+> **Digital Twin Discipline:** 3D Architectural & Structural Walkthrough Verification  
+> **Source Model File:** [`HomeConstruction.blend`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/HomeConstruction.blend)  
+> **Automation Script:** [`blender_scripts/generate_5side_tour.py`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/blender_scripts/generate_5side_tour.py)  
+> **Draft Video Output:** [`renders/walkthrough_verification_draft.mp4`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/renders/walkthrough_verification_draft.mp4)  
+> **Master Video Output:** `renders/walkthrough_production_master.mp4` (Phase 2 Post-Approval)
+
+### 77.1 Architectural Checkpoints & Datum Coordinates (Offset Room Centers)
+To fix cramped viewing distances and eliminate near-wall framing, the 6 spatial checkpoints were offset by $0.6\text{ m}$ to $1.2\text{ m}$ away from walls and door frames into room centers with an ultra-wide $18\text{ mm}$ architectural lens:
+
+| Checkpoint | Station Name | World Position $(X, Y, Z)$ (m) | Offset Staging Strategy | Key Elements Inspected |
+| :---: | :--- | :---: | :--- | :--- |
+| **CP 1** | `Main_Gate` | `(2.50, -2.20, 1.55)` | Pulled back on road approach | Main Gate, Boundary Wall, Front Steps, Compound Landscaping |
+| **CP 2** | `Sitout_Entrance` | `(0.60, 0.40, 2.46)` | Pulled back toward porch threshold | Main Teak Door, Safety Grill, Column C6/C7, Entrance Canopy |
+| **CP 3** | `Living_Entrance` | `(2.50, 2.60, 2.46)` | Centered in clear-span living hall | Living Hall, TV console, fluted wood panel, ceiling drops |
+| **CP 4** | `Kitchen_Entrance` | `(2.00, 3.80, 2.46)` | Living room side of threshold | Modular Kitchen Bar, Sink, Counter Slabs, Overhead Lintel Loft |
+| **CP 5** | `Bedroom_Entrance` | `(3.20, 3.80, 2.46)` | Backed off into corridor threshold | Teak Door D2, AC Indoor Unit Provision, Wardrobe Bay |
+| **CP 6** | `Toilet_Entrance` | `(3.80, 2.20, 2.46)` | Circulation vestibule outside 750mm door | Door D4, 15 cm Sunken Shower Wet Area, Plumbing Duct Chase |
+
+---
+
+### 77.2 Realistic Procedural PBR Texturing & Surface Detail
+Procedural node-based PBR materials were implemented in [`blender_scripts/assign_materials.py`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/blender_scripts/assign_materials.py) and applied across all 456 scene mesh elements:
+1. **`Mat_Wall_Base` (Warm Plaster):** Base `#EDEAE5` with procedural Voronoi/Noise stippled bump (scale: 50.0, strength: 0.08), Roughness: 0.85, Metallic: 0.0.
+2. **`Mat_Wall_Charcoal` (Slate Bands):** Matte dark charcoal slate `#1E2024` with fine directional micro-groove bump (strength: 0.12), Roughness: 0.70.
+3. **`Mat_Teak_Wood` (Joinery & Doors):** Rich natural teak `#5A2E14` with procedural wave wood grain bump, Roughness: 0.38.
+4. **`Mat_Floor_Tile` (Flooring):** Vitrified tile `#E6E3DE` with procedural $600 \times 600\text{ mm}$ joint grid, Roughness: 0.20, Specular IOR: 0.5.
+5. **`Mat_Granite_Polished` (Counters & Sills):** Dark polished granite `#111112` with micro-mineral flecks, Roughness: 0.15, Specular IOR: 0.5.
+6. **`Mat_SS_304` (Railings & Metals):** Brushed marine SS 304 `#CFD2D6`, Metallic: 0.95, Roughness: 0.18.
+7. **`Mat_Concrete_Structural` (Ceiling Soffits & Beams):** Smooth light grey plaster soffit `#E0E0DE`, Roughness: 0.90.
+8. **`Mat_Glass` (Glazing):** Transmission: 1.0, Roughness: 0.05, IOR: 1.52.
+
+---
+
+### 77.3 Ambient Lighting Enhancement
+- **Interior Downlights:** Warm $3000\text{ K}$ point downlights added in the center of Living ($35\text{ W}$), Kitchen ($25\text{ W}$), Bedroom ($30\text{ W}$), Toilet ($20\text{ W}$), and Sitout ($25\text{ W}$) to clearly expose interior corners, door reveals, and beam soffits.
+- **Exterior Sun & Sky:** Directional daylight sun ($2.2\text{ W/m}^2$, $45^\circ$ altitude) and ambient sky fill ($0.85\text{ bounce}$) for realistic daylight through windows.
+
+---
+
+### 77.4 5-Way Cardinal Survey Rotation Matrix
+At each of the 6 checkpoints, camera translation halts and executes a panoramic 5-direction inspection loop:
+1. **East View:** Azimuth Yaw = $90^\circ$ (Pitch $= 0^\circ$ horizontal, Euler `(90°, 0°, -90°)`)
+2. **West View:** Azimuth Yaw = $270^\circ$ (Pitch $= 0^\circ$ horizontal, Euler `(90°, 0°, +90°)`)
+3. **North View:** Azimuth Yaw = $0^\circ$ (Pitch $= 0^\circ$ horizontal, Euler `(90°, 0°, 0°)`)
+4. **South View:** Azimuth Yaw = $180^\circ$ (Pitch $= 0^\circ$ horizontal, Euler `(90°, 0°, 180°)`)
+5. **Up View (Ceiling & Beams):** Pitch $= +80^\circ$ upward (Euler `(170°, 0°, 0°)`) - Inspects beam soffits, ceiling conduits, junction pot boxes, and slab panels.
+
+---
+
+### 77.5 Two-Phase Export Pipeline & Render Results
+
+* **Phase 1: Draft Verification Render (Completed)**
+  - **Engine:** Blender EEVEE (Hardware Rasterization)
+  - **Lens:** $18.0\text{ mm}$ Ultra-Wide Architectural Lens ($\sim 90^\circ - 100^\circ$ FOV)
+  - **Resolution:** 720p Draft ($640 \times 360$, $50\%$ scale of $1280 \times 720$)
+  - **Frame Rate:** $24\text{ fps}$
+  - **Total Frames:** $586\text{ frames}$ ($24.4\text{ seconds}$)
+  - **Container & Codec:** FFMPEG / MPEG-4 (H.264), CRF 28 (Low constant rate factor)
+  - **File Size:** $262.2\text{ KB}$
+  - **Output File:** [`renders/walkthrough_verification_draft.mp4`](file:///c:/Users/prade/OneDrive/Desktop/home%20plan/renders/walkthrough_verification_draft.mp4)
+
+* **Phase 2: Master Production Render (Configured & Ready)**
+  - **Engine:** Cycles (Adaptive Sampling, 128 samples, OpenImageDenoise)
+  - **Resolution:** Full HD ($1920 \times 1080$, $100\%$ scale)
+  - **Frame Rate:** $30\text{ fps}$
+  - **Container & Codec:** FFMPEG / MPEG-4 (H.264), CRF 18 (Perceptually Lossless High Profile)
+  - **Target Output File:** `renders/walkthrough_production_master.mp4`
+
+
